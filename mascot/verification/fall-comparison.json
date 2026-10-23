@@ -1,0 +1,16 @@
+{
+  "reference_bounds": [
+    35,
+    78,
+    529,
+    661
+  ],
+  "actual_bounds": [
+    32,
+    76,
+    531,
+    662
+  ],
+  "normalized_mean_absolute_error": 0.0015500722569924293,
+  "normalized_bounds_error": 0.0055248618784530384
+}

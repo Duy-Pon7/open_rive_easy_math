@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mascot · Chạy và té</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px 16px; background: #eae8e2; color: #282a26; font: 15px system-ui, sans-serif; display: grid; place-items: center; min-height: 100vh; }
+  main { text-align: center; max-width: 100%; }
+  h1 { font-size: 20px; margin: 0 0 18px; }
+  canvas { display: block; width: min(407px, 88vw); height: auto; aspect-ratio: 3 / 4; background: #fff; border-radius: 24px; box-shadow: 0 20px 70px #0001; }
+  .controls { display: flex; gap: 14px; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 20px; }
+  button { border: 0; border-radius: 8px; background: #343b32; color: #fff; padding: 9px 16px; font: inherit; cursor: pointer; min-width: 110px; }
+  #fall { background: #337ed8; }
+  label { display: flex; align-items: center; gap: 8px; }
+  input { width: 115px; accent-color: #343b32; }
+  p { color: #697065; font-size: 13px; margin: 20px 0 0; }
+</style>
+<main>
+  <h1>Mascot · Chạy và té</h1>
+  <canvas id="canvas" width="814" height="1086" aria-label="Nhân vật bò chạy, vấp té và làm rớt bóng nước"></canvas>
+  <div class="controls">
+    <button id="fall" type="button">Té · Rớt bóng</button>
+    <button id="run" type="button">Chạy lại</button>
+    <button id="toggle" type="button">Tạm dừng</button>
+    <label>Khung hình <input id="scrub" type="range" min="0" max="1.5" step="0.01" value="0"></label>
+  </div>
+  <p id="status" aria-live="polite">Đang chạy · Bấm “Té” để làm rớt bóng nước</p>
+</main>
+<script src="runtime/rive.js"></script>
+<script>
+  rive.RuntimeLoader.setWasmUrl('runtime/rive.wasm');
+  var playing = true;
+  var currentAnimation = 'Run';
+  var falling;
+  var r = new rive.Rive({
+    src: 'mascot_run_fall.riv', canvas: document.getElementById('canvas'),
+    autoplay: true, stateMachines: 'Run Controller', autoBind: true,
+    layout: new rive.Layout({ fit: rive.Fit.Contain }),
+    onLoad: () => { falling = r.viewModelInstance.boolean('isFalling'); window.ready = true; }
+  });
+  const button = document.getElementById('toggle');
+  const status = document.getElementById('status');
+  function resumeController() {
+    const viewModel = r.viewModelInstance;
+    r.stop(); r.play('Run Controller'); playing = true;
+    r.bindViewModelInstance(viewModel);
+    falling = viewModel.boolean('isFalling');
+    button.textContent = 'Tạm dừng';
+  }
+  document.getElementById('fall').onclick = () => {
+    falling.value = false;
+    resumeController();
+    falling.value = true;
+    currentAnimation = 'Fall';
+    status.textContent = 'Vấp té → Bóng rơi → Nước bắn tung tóe';
+  };
+  document.getElementById('run').onclick = () => {
+    falling.value = false;
+    resumeController();
+    currentAnimation = 'Run';
+    status.textContent = 'Đang chạy · Bấm “Té” để làm rớt bóng nước';
+  };
+  button.onclick = () => {
+    playing = !playing;
+    if (playing) {
+      r.play('Run Controller');
+      r.bindViewModelInstance(r.viewModelInstance);
+    } else {
+      r.pause();
+    }
+    button.textContent = playing ? 'Tạm dừng' : 'Chạy';
+  };
+  document.getElementById('scrub').oninput = (event) => {
+    r.stop(); r.play(currentAnimation); r.pause();
+    playing = false; button.textContent = 'Chạy';
+    r.scrub(currentAnimation, +event.target.value);
+  };
+</script>
+</html>

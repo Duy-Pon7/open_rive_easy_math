@@ -1,0 +1,12 @@
+{
+  "states": [
+    "Fall",
+    "Fall",
+    "Run"
+  ],
+  "replay": true,
+  "reset": true,
+  "pause_resume": true,
+  "errors": [],
+  "transparent_corner": true
+}

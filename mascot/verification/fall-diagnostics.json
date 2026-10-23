@@ -1,0 +1,22 @@
+{
+  "project": "Mascot - Run and Fall",
+  "id": "rMJxzt1_oO6E",
+  "valid": true,
+  "fileVersion": "7.4",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 1906,
+    "timelines": 2,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": [
+    {
+      "code": "limited-viewmodel",
+      "severity": "info",
+      "title": "ViewModel has limited editing support",
+      "message": "Data binding is preserved; inspect the Data panel to review editable properties."
+    }
+  ]
+}
