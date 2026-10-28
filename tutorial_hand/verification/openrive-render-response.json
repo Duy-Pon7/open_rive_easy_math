@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error: oI.resolve is not a function. (In 'oI.resolve(\"@rive-app/canvas-advanced\")', 'oI.resolve' is undefined)"
+      }
+    ],
+    "isError": true
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

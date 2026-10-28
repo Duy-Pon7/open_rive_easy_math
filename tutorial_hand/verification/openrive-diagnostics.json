@@ -1,0 +1,15 @@
+{
+  "project": "Tutorial Hand - Press Hold Release",
+  "id": "BZzxL2obe75B",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 3689,
+    "timelines": 4,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

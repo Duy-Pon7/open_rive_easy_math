@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bàn tay hướng dẫn</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef4f8;color:#15354b;font:16px system-ui}main{display:flex;align-items:center;justify-content:center;gap:56px;min-height:100vh;padding:32px}.stage{background:white;border-radius:28px;padding:28px;box-shadow:0 12px 48px #16364a0d}canvas{display:block;width:227px;height:368px}section{max-width:390px}h1{font-size:30px;margin:0 0 16px}p{line-height:1.7;color:#4b6474}button{font:inherit;border:0;padding:14px 22px;border-radius:12px;background:#126e77;color:white;cursor:pointer;touch-action:none;user-select:none}button:active{background:#0a4d55}button.secondary{background:#dbe8ed;color:#15354b;margin-left:8px}#status{margin-top:24px;font-weight:600}ol{padding-left:22px;line-height:2;color:#4b6474}@media(max-width:650px){main{flex-direction:column;gap:24px;padding:24px}}
+</style>
+<main><div class="stage"><canvas id="scene" width="227" height="368" aria-label="Bàn tay nhấn và nhấc ngón trỏ"></canvas></div><section>
+<h1>Bàn tay hướng dẫn</h1><p>Nhấn và giữ nút để ngón trỏ nhấn xuống. Thả nút để ngón trỏ nhấc lên.</p>
+<button id="press">Nhấn và giữ</button><button class="secondary" id="demo">Chạy mẫu</button>
+<ol><li>Ngón trỏ nhấn xuống</li><li>Giữ ở tư thế nhấn</li><li>Ngón trỏ nhấc lên</li></ol><div id="status" role="status">Đang tải…</div>
+</section></main>
+<script type="module">
+import Rive from './runtime/canvas_advanced.mjs';
+try{
+const rive=await Rive({locateFile:n=>new URL('./runtime/'+(n.includes('fallback')?'rive_fallback.wasm':'rive.wasm'),location.href).href});
+const file=await rive.load(new Uint8Array(await(await fetch('./tutorial_hand.riv')).arrayBuffer()),undefined,false);
+const canvas=document.getElementById('scene'),renderer=rive.makeRenderer(canvas),status=document.getElementById('status');
+let board,machine,input,events=[],auto=true,last=0,timer;
+function step(dt){machine.advanceAndApply(dt);board.advance(dt);for(let i=0;i<machine.stateChangedCount();i++){const name=machine.stateChangedNameByIndex(i);events.push(name);status.textContent=({idle:'Sẵn sàng',press_down:'Ngón trỏ nhấn xuống',hold:'Đang giữ ở tư thế nhấn',release_up:'Ngón trỏ nhấc lên'})[name]??name;}}
+function draw(){canvas.getContext('2d').clearRect(0,0,227,368);renderer.beginFrame();renderer.save();renderer.align(rive.Fit.contain,rive.Alignment.center,{minX:0,minY:0,maxX:227,maxY:368},board.bounds);board.draw(renderer);renderer.restore();renderer.flush();rive.resolveAnimationFrame();return canvas.toDataURL('image/png');}
+function fresh(){clearTimeout(timer);machine?.delete();board?.delete();board=file.artboardByName('Tutorial Hand');machine=new rive.StateMachineInstance(board.stateMachineByName('TutorialHand'),board);input=machine.input(0).asBool();events=[];step(0);}
+function advance(t){for(let i=0;i<Math.round(t*120);i++)step(1/120);}
+function set(value){input.value=Boolean(value);}
+fresh();
+window.hand={fresh:()=>{auto=false;fresh();return {input:input.name,value:input.value};},set,advance,draw,events:()=>events.slice(),clearEvents:()=>{events=[];},snapshot:()=>({image:draw(),events:events.slice()}),pose:(name,t)=>{auto=false;fresh();const anim=new rive.LinearAnimationInstance(board.animationByName(name),board);anim.time=t;anim.apply(1);board.advance(0);const image=draw();anim.delete();return image;}};
+const press=document.getElementById('press');
+press.onpointerdown=e=>{clearTimeout(timer);press.setPointerCapture(e.pointerId);set(true);};
+press.onpointerup=press.onpointercancel=()=>set(false);
+press.onkeydown=e=>{if(e.code==='Space'||e.code==='Enter'){e.preventDefault();clearTimeout(timer);set(true);}};
+press.onkeyup=e=>{if(e.code==='Space'||e.code==='Enter'){e.preventDefault();set(false);}};
+window.addEventListener('blur',()=>{clearTimeout(timer);set(false);});
+document.getElementById('demo').onclick=()=>{clearTimeout(timer);set(true);timer=setTimeout(()=>set(false),1400);};
+function tick(now){if(auto){step(last?Math.min((now-last)/1000,.05):0);draw();}last=now;requestAnimationFrame(tick);}requestAnimationFrame(tick);window.ready=true;
+}catch(e){window.failure=String(e);document.getElementById('status').textContent=String(e);console.error(e);}
+</script></html>

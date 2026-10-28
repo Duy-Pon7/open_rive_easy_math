@@ -1,0 +1,81 @@
+[
+  {
+    "test": "input_contract",
+    "passed": true,
+    "contract": {
+      "input": "is_pressed",
+      "value": false
+    }
+  },
+  {
+    "test": "press_reaches_hold",
+    "passed": true,
+    "events": [
+      "idle",
+      "press_down",
+      "hold"
+    ]
+  },
+  {
+    "test": "hold_stays_exactly_still_8_seconds",
+    "passed": true
+  },
+  {
+    "test": "release_returns_original_pose",
+    "passed": true,
+    "events": [
+      "idle",
+      "press_down",
+      "hold",
+      "release_up",
+      "idle"
+    ]
+  },
+  {
+    "test": "visibly_distinct_press_hold_release",
+    "passed": true
+  },
+  {
+    "test": "release_during_press_returns_idle",
+    "passed": true,
+    "events": [
+      "idle",
+      "press_down",
+      "release_up",
+      "idle"
+    ]
+  },
+  {
+    "test": "repress_during_release_reaches_hold",
+    "passed": true,
+    "events": [
+      "idle",
+      "press_down",
+      "hold",
+      "release_up",
+      "press_down",
+      "hold"
+    ]
+  },
+  {
+    "test": "20_repeated_cycles_restore_idle",
+    "passed": true
+  },
+  {
+    "test": "timeline_boundary_press_down",
+    "passed": true
+  },
+  {
+    "test": "timeline_boundary_hold",
+    "passed": true
+  },
+  {
+    "test": "timeline_boundary_release_up",
+    "passed": true
+  },
+  {
+    "test": "idle_preserves_original_svg",
+    "passed": true,
+    "mean_rgb_error": 0.010945380833812168
+  }
+]

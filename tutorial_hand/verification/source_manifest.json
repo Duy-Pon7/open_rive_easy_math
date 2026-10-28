@@ -1,0 +1,10 @@
+{
+  "source_sha256": "17fd850a24b94eb653a625172431b45518a0e077100463a885bf5ec3558fa53a",
+  "native_vectors": true,
+  "canvas": [
+    227,
+    368
+  ],
+  "press_seconds": 0.2,
+  "release_seconds": 0.26666666666666666
+}
