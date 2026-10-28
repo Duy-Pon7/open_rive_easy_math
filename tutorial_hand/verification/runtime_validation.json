@@ -8,6 +8,10 @@
     }
   },
   {
+    "test": "press_still_moving_after_300ms",
+    "passed": true
+  },
+  {
     "test": "press_reaches_hold",
     "passed": true,
     "events": [
@@ -17,7 +21,25 @@
     ]
   },
   {
+    "test": "palm_and_other_fingers_stationary",
+    "passed": true,
+    "mean_rgb_error": 0.0007613714510266234
+  },
+  {
+    "test": "round_fingertip_preserved_on_press",
+    "passed": true
+  },
+  {
+    "test": "shallower_14px_press",
+    "passed": true,
+    "depth_px": 14
+  },
+  {
     "test": "hold_stays_exactly_still_8_seconds",
+    "passed": true
+  },
+  {
+    "test": "release_still_moving_after_200ms",
     "passed": true
   },
   {
@@ -74,8 +96,33 @@
     "passed": true
   },
   {
+    "test": "palm_stationary_at_mid_press",
+    "passed": true
+  },
+  {
+    "test": "round_fingertip_preserved_at_mid_press",
+    "passed": true
+  },
+  {
+    "test": "release_lifts_2px_before_settling",
+    "passed": true,
+    "lift_px": 2
+  },
+  {
+    "test": "release_lift_preserves_round_tip",
+    "passed": true
+  },
+  {
+    "test": "palm_stationary_during_release_lift",
+    "passed": true
+  },
+  {
+    "test": "release_settles_exactly_at_rest",
+    "passed": true
+  },
+  {
     "test": "idle_preserves_original_svg",
     "passed": true,
-    "mean_rgb_error": 0.010945380833812168
+    "mean_rgb_error": 0.01598373074143999
   }
 ]

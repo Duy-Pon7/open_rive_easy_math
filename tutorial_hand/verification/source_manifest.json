@@ -3,8 +3,23 @@
   "native_vectors": true,
   "canvas": [
     227,
-    368
+    252
   ],
-  "press_seconds": 0.2,
-  "release_seconds": 0.26666666666666666
+  "source_crop": [
+    0,
+    90,
+    227,
+    342
+  ],
+  "press_seconds": 0.6,
+  "release_seconds": 0.6,
+  "fingertip_translation_y": 14,
+  "release_lift_px": 2,
+  "palm_stationary": true,
+  "fingertip_handles_unchanged": true,
+  "animated_vertex_indices": [
+    6,
+    7,
+    8
+  ]
 }

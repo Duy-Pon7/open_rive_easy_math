@@ -1,0 +1,55 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"saved\": true,\n  \"operations\": [\n    {\n      \"index\": 0,\n      \"op\": \"set_properties\",\n      \"object\": \"SCPxOUWzWL\",\n      \"updated\": [\n        \"height\"\n      ]\n    },\n    {\n      \"index\": 1,\n      \"op\": \"set_properties\",\n      \"object\": \"-dQaL41-ap\",\n      \"updated\": [\n        \"y\"\n      ]\n    },\n    {\n      \"index\": 2,\n      \"op\": \"add_keyframes\",\n      \"count\": 2\n    },\n    {\n      \"index\": 3,\n      \"op\": \"add_keyframes\",\n      \"count\": 5\n    },\n    {\n      \"index\": 4,\n      \"op\": \"add_keyframes\",\n      \"count\": 2\n    },\n    {\n      \"index\": 5,\n      \"op\": \"add_keyframes\",\n      \"count\": 5\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "saved": true,
+        "operations": [
+          {
+            "index": 0,
+            "op": "set_properties",
+            "object": "SCPxOUWzWL",
+            "updated": [
+              "height"
+            ]
+          },
+          {
+            "index": 1,
+            "op": "set_properties",
+            "object": "-dQaL41-ap",
+            "updated": [
+              "y"
+            ]
+          },
+          {
+            "index": 2,
+            "op": "add_keyframes",
+            "count": 2
+          },
+          {
+            "index": 3,
+            "op": "add_keyframes",
+            "count": 5
+          },
+          {
+            "index": 4,
+            "op": "add_keyframes",
+            "count": 2
+          },
+          {
+            "index": 5,
+            "op": "add_keyframes",
+            "count": 5
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

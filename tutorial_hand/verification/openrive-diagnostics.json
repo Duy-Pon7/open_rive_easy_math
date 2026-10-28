@@ -6,7 +6,7 @@
   "roundTripsByteIdentically": true,
   "counts": {
     "artboards": 1,
-    "objects": 3689,
+    "objects": 427,
     "timelines": 4,
     "stateMachines": 1,
     "assets": 0

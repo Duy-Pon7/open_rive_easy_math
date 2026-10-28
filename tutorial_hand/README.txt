@@ -1,17 +1,23 @@
 BÀN TAY HƯỚNG DẪN — NHẤN / GIỮ / NHẤC
 
 File: tutorial_hand.riv
-Artboard: Tutorial Hand (227 × 368, nền trong suốt)
+Artboard: Tutorial Hand (227 × 252, nền trong suốt)
 State machine: TutorialHand
 Input: is_pressed — Bool, mặc định false
 
 is_pressed = true:
-  press_down (0,20 giây) → hold (giữ nguyên đến khi thả)
+  press_down (0,60 giây) → hold (giữ nguyên đến khi thả)
 is_pressed = false:
-  release_up (0,267 giây) → idle (tư thế SVG gốc)
+  release_up (0,60 giây) → idle (tư thế SVG gốc)
 
 Có thể thả khi đang nhấn xuống và nhấn lại khi đang nhấc lên.
-Toàn bộ là vector; giữ màu và khung SVG gốc. tutorial_hand.svg không bị sửa.
+Toàn bộ là vector; giữ màu SVG gốc, cắt khoảng trống trên/dưới.
+Chừa đủ biên cho chuyển động nhấn xuống. tutorial_hand.svg không bị sửa.
+Chỉ đầu ngón trỏ hạ theo trục Y 14 px (giảm một nửa độ nhấn). Bề ngang, đường cong tròn và các
+tay nắm Bézier của đầu ngón được giữ nguyên. Hai cạnh thẳng ngắn lại khi
+nhấn; lòng bàn tay, cổ tay và các ngón còn lại đứng yên.
+Khi thả, ngón trỏ nhấc nhẹ cao hơn tư thế nghỉ 2 px, rồi hạ mềm về đúng
+tư thế ban đầu trong tổng 0,60 giây. Biên trên chừa đủ cho nhịp nhấc này.
 
 OpenRive: http://127.0.0.1:52107/editor/BZzxL2obe75B
 Demo: http://127.0.0.1:8772/preview.html

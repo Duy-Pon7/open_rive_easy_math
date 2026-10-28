@@ -1,0 +1,1911 @@
+{
+  "meta": {
+    "id": "BZzxL2obe75B",
+    "name": "Tutorial Hand - Press Hold Release",
+    "ownerId": "6KB98oZyu4",
+    "createdAt": 1793158149544,
+    "updatedAt": 1793159258656,
+    "artboards": 1,
+    "animations": 4,
+    "stateMachines": 1
+  },
+  "doc": {
+    "header": {
+      "major": 7,
+      "minor": 3,
+      "fileId": 0,
+      "toc": [
+        [
+          160,
+          0
+        ],
+        [
+          196,
+          0
+        ],
+        [
+          236,
+          0
+        ],
+        [
+          494,
+          0
+        ],
+        [
+          536,
+          0
+        ],
+        [
+          613,
+          0
+        ],
+        [
+          614,
+          0
+        ],
+        [
+          615,
+          0
+        ],
+        [
+          616,
+          0
+        ],
+        [
+          617,
+          0
+        ],
+        [
+          618,
+          0
+        ],
+        [
+          619,
+          0
+        ],
+        [
+          620,
+          0
+        ],
+        [
+          625,
+          0
+        ],
+        [
+          626,
+          0
+        ]
+      ],
+      "usedKeys": [
+        236,
+        196,
+        7,
+        8,
+        494,
+        4,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        625,
+        626,
+        5,
+        32,
+        84,
+        85,
+        86,
+        87,
+        24,
+        25,
+        37,
+        57,
+        59,
+        55,
+        51,
+        53,
+        68,
+        67,
+        70,
+        138,
+        151,
+        149,
+        536,
+        152,
+        155,
+        158,
+        156,
+        160
+      ]
+    },
+    "top": [
+      {
+        "id": "7Ast619JVH",
+        "type": "Backboard",
+        "props": {}
+      }
+    ],
+    "artboards": [
+      {
+        "id": "SCPxOUWzWL",
+        "artboard": {
+          "id": "SCPxOUWzWL",
+          "type": "Artboard",
+          "props": {
+            "defaultStateMachineId": "5uIpQ-rZax",
+            "clip": true,
+            "width": 227,
+            "height": 249,
+            "styleId": "AEy7tLya6X",
+            "name": "Tutorial Hand"
+          },
+          "ui": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "objects": [
+          {
+            "id": "AEy7tLya6X",
+            "type": "LayoutComponentStyle",
+            "props": {
+              "marginLeftUnitsValue": 1,
+              "marginRightUnitsValue": 1,
+              "marginTopUnitsValue": 1,
+              "marginBottomUnitsValue": 1,
+              "paddingLeftUnitsValue": 1,
+              "paddingRightUnitsValue": 1,
+              "paddingTopUnitsValue": 1,
+              "paddingBottomUnitsValue": 1,
+              "gapHorizontalUnitsValue": 1,
+              "gapVerticalUnitsValue": 1,
+              "name": "Original SVG canvas",
+              "parentId": "SCPxOUWzWL"
+            }
+          },
+          {
+            "id": "-dQaL41-ap",
+            "type": "Node",
+            "props": {
+              "name": "Hand",
+              "parentId": "SCPxOUWzWL",
+              "y": -93
+            }
+          },
+          {
+            "id": "U6XddGtB98",
+            "type": "Shape",
+            "props": {
+              "name": "Finger crease 4",
+              "parentId": "-dQaL41-ap"
+            }
+          },
+          {
+            "id": "xVAYxrJgQ4",
+            "type": "PointsPath",
+            "props": {
+              "isClosed": true,
+              "parentId": "U6XddGtB98"
+            }
+          },
+          {
+            "id": "wr4m3CGhZO",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.8106534481048584,
+              "inDistance": 0.5682684183120728,
+              "outRotation": 1.3328430652618408,
+              "outDistance": 8.2854642868042,
+              "x": 187.5330047607422,
+              "y": 168.86500549316406,
+              "parentId": "xVAYxrJgQ4"
+            }
+          },
+          {
+            "id": "Wmt-GgAVNB",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.1578885316848755,
+              "inDistance": 8.288591384887695,
+              "outRotation": 1.9829022884368896,
+              "outDistance": 0.564238429069519,
+              "x": 185.4239959716797,
+              "y": 193.09100341796875,
+              "parentId": "xVAYxrJgQ4"
+            }
+          },
+          {
+            "id": "Ryt1UTS2yK",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 1.9786841869354248,
+              "inDistance": 0.5697411894798279,
+              "outRotation": -1.157889485359192,
+              "outDistance": 8.535323143005371,
+              "x": 186.18800354003906,
+              "y": 193.53700256347656,
+              "parentId": "xVAYxrJgQ4"
+            }
+          },
+          {
+            "id": "Bn2xC5QuRg",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 1.3332880735397339,
+              "inDistance": 8.538704872131348,
+              "outRotation": -1.8106534481048584,
+              "outDistance": 0.5682684183120728,
+              "x": 188.38900756835938,
+              "y": 168.6320037841797,
+              "parentId": "xVAYxrJgQ4"
+            }
+          },
+          {
+            "id": "wvSrFJnWzS",
+            "type": "Fill",
+            "props": {
+              "parentId": "U6XddGtB98"
+            }
+          },
+          {
+            "id": "uEB2nxZmyw",
+            "type": "SolidColor",
+            "props": {
+              "colorValue": 4290802218,
+              "parentId": "wvSrFJnWzS"
+            }
+          },
+          {
+            "id": "kdq7ol5qbg",
+            "type": "Shape",
+            "props": {
+              "name": "Finger crease 3",
+              "parentId": "-dQaL41-ap"
+            }
+          },
+          {
+            "id": "A_EWY5wuUs",
+            "type": "PointsPath",
+            "props": {
+              "isClosed": true,
+              "parentId": "kdq7ol5qbg"
+            }
+          },
+          {
+            "id": "CtDo6ZoI2t",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.4826858043670654,
+              "inDistance": 0.5682041645050049,
+              "outRotation": 1.6635526418685913,
+              "outDistance": 7.255188465118408,
+              "x": 160.97900390625,
+              "y": 162.77999877929688,
+              "parentId": "A_EWY5wuUs"
+            }
+          },
+          {
+            "id": "YoFVgRDvOF",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.4780399799346924,
+              "inDistance": 7.255188465118408,
+              "outRotation": 1.6589068174362183,
+              "outDistance": 0.5682041645050049,
+              "x": 158.97000122070312,
+              "y": 184.45899963378906,
+              "parentId": "A_EWY5wuUs"
+            }
+          },
+          {
+            "id": "6pkpLMkQHH",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 1.6571534872055054,
+              "inDistance": 0.568117082118988,
+              "outRotation": -1.4780399799346924,
+              "outDistance": 7.255188465118408,
+              "x": 159.85400390625,
+              "y": 184.45899963378906,
+              "parentId": "A_EWY5wuUs"
+            }
+          },
+          {
+            "id": "HdSgDuCCHk",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 1.6636898517608643,
+              "inDistance": 7.2552809715271,
+              "outRotation": -1.4844392538070679,
+              "outDistance": 0.568117082118988,
+              "x": 161.86399841308594,
+              "y": 162.77999877929688,
+              "parentId": "A_EWY5wuUs"
+            }
+          },
+          {
+            "id": "8iHPmLITkp",
+            "type": "Fill",
+            "props": {
+              "parentId": "kdq7ol5qbg"
+            }
+          },
+          {
+            "id": "oUFU1tt3dY",
+            "type": "SolidColor",
+            "props": {
+              "colorValue": 4290802218,
+              "parentId": "8iHPmLITkp"
+            }
+          },
+          {
+            "id": "YYB9ytnkfv",
+            "type": "Shape",
+            "props": {
+              "name": "Finger crease 2",
+              "parentId": "-dQaL41-ap"
+            }
+          },
+          {
+            "id": "Lb0FxyMrM7",
+            "type": "PointsPath",
+            "props": {
+              "isClosed": true,
+              "parentId": "YYB9ytnkfv"
+            }
+          },
+          {
+            "id": "BHySV1u4yF",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.5952242612838745,
+              "inDistance": 0.5731710195541382,
+              "outRotation": 1.5496186017990112,
+              "outDistance": 5.336196422576904,
+              "x": 129.88299560546875,
+              "y": 168.74000549316406,
+              "parentId": "Lb0FxyMrM7"
+            }
+          },
+          {
+            "id": "wuAavxvN_p",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.5921614170074463,
+              "inDistance": 5.336217880249023,
+              "outRotation": 1.546066403388977,
+              "outDistance": 0.5661731362342834,
+              "x": 130.21600341796875,
+              "y": 184.75100708007812,
+              "parentId": "Lb0FxyMrM7"
+            }
+          },
+          {
+            "id": "XyUpcY9Lsm",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 1.5463683605194092,
+              "inDistance": 0.5731710195541382,
+              "outRotation": -1.5919740200042725,
+              "outDistance": 5.336196422576904,
+              "x": 131.10000610351562,
+              "y": 184.75100708007812,
+              "parentId": "Lb0FxyMrM7"
+            }
+          },
+          {
+            "id": "oAzX6dWSNL",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 1.5494312047958374,
+              "inDistance": 5.336217880249023,
+              "outRotation": -1.5955262184143066,
+              "outDistance": 0.5661731362342834,
+              "x": 130.76699829101562,
+              "y": 168.74000549316406,
+              "parentId": "Lb0FxyMrM7"
+            }
+          },
+          {
+            "id": "WXQQdEBRhB",
+            "type": "Fill",
+            "props": {
+              "parentId": "YYB9ytnkfv"
+            }
+          },
+          {
+            "id": "wDefSJUngc",
+            "type": "SolidColor",
+            "props": {
+              "colorValue": 4290802218,
+              "parentId": "WXQQdEBRhB"
+            }
+          },
+          {
+            "id": "8SlHAcNK85",
+            "type": "Shape",
+            "props": {
+              "name": "Finger crease 1",
+              "parentId": "-dQaL41-ap"
+            }
+          },
+          {
+            "id": "vD3SoCOd4n",
+            "type": "PointsPath",
+            "props": {
+              "isClosed": true,
+              "parentId": "8SlHAcNK85"
+            }
+          },
+          {
+            "id": "gUEu7M_72Q",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -2.034130096435547,
+              "inDistance": 0.5701079368591309,
+              "outRotation": 1.1014306545257568,
+              "outDistance": 2.221212148666382,
+              "x": 98.93509674072266,
+              "y": 209.8780059814453,
+              "parentId": "vD3SoCOd4n"
+            }
+          },
+          {
+            "id": "wZRCDvvUUd",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -2.0398807525634766,
+              "inDistance": 2.220895528793335,
+              "outRotation": 1.1071487665176392,
+              "outDistance": 0.570197343826294,
+              "x": 101.95600128173828,
+              "y": 215.8280029296875,
+              "parentId": "vD3SoCOd4n"
+            }
+          },
+          {
+            "id": "bbtABMj1O_",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 1.1071487665176392,
+              "inDistance": 0.570197343826294,
+              "outRotation": -2.0398807525634766,
+              "outDistance": 2.220895528793335,
+              "x": 102.72000122070312,
+              "y": 215.3820037841797,
+              "parentId": "vD3SoCOd4n"
+            }
+          },
+          {
+            "id": "W4w78aeszt",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 1.1013906002044678,
+              "inDistance": 2.221257209777832,
+              "outRotation": -2.0347583293914795,
+              "outDistance": 0.569168746471405,
+              "x": 99.69920349121094,
+              "y": 209.4320068359375,
+              "parentId": "vD3SoCOd4n"
+            }
+          },
+          {
+            "id": "CfKDoO1u8Z",
+            "type": "Fill",
+            "props": {
+              "parentId": "8SlHAcNK85"
+            }
+          },
+          {
+            "id": "p_gacFagNE",
+            "type": "SolidColor",
+            "props": {
+              "colorValue": 4290802218,
+              "parentId": "CfKDoO1u8Z"
+            }
+          },
+          {
+            "id": "URxhTos-hg",
+            "type": "Shape",
+            "props": {
+              "name": "Hand silhouette",
+              "parentId": "-dQaL41-ap"
+            }
+          },
+          {
+            "id": "fZSznlgMWP",
+            "type": "PointsPath",
+            "props": {
+              "isClosed": true,
+              "parentId": "URxhTos-hg"
+            }
+          },
+          {
+            "id": "CHwbLUSwRt",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "x": 100.08200073242188,
+              "y": 340.77899169921875,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "BYRhpezSM-",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 2.1340959072113037,
+              "inDistance": 15.899507522583008,
+              "outRotation": 2.4175868034362793,
+              "outDistance": 5.543554306030273,
+              "x": 111.4020004272461,
+              "y": 274.27099609375,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "7BrKIR3JhN",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 0.9807726740837097,
+              "inDistance": 1.9075069427490234,
+              "outRotation": -2.1590373516082764,
+              "outDistance": 9.42280387878418,
+              "x": 73.61260223388672,
+              "y": 226.7239990234375,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "FHh6o8rwsD",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": 2.1453957557678223,
+              "inDistance": 11.14354133605957,
+              "outRotation": -0.9966328740119934,
+              "outDistance": 15.580357551574707,
+              "x": 66.11969757080078,
+              "y": 195.7270050048828,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "e61YFyq1jD",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -2.3431200981140137,
+              "inDistance": 4.937936782836914,
+              "outRotation": 0.7986139059066772,
+              "outDistance": 4.938652992248535,
+              "x": 88.14540100097656,
+              "y": 195.7270050048828,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "C8nAjuJvnM",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "x": 99.3740005493164,
+              "y": 209.8780059814453,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "OrIpax4ZUD",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "x": 98.66639709472656,
+              "y": 107.28500366210938,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "4lbaHv7I1k",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -3.036712169647217,
+              "inDistance": 13.5172758102417,
+              "outRotation": 0.10487306863069534,
+              "outDistance": 13.517265319824219,
+              "x": 113.5250015258789,
+              "y": 94.55660247802734,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "lPYC56t3uj",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "x": 127.67500305175781,
+              "y": 108.70700073242188,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "tFy41FJk6o",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "x": 130.50599670410156,
+              "y": 169.55499267578125,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "-eLYHOX4Kl",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -3.006042003631592,
+              "inDistance": 15.710107803344727,
+              "x": 148.19400024414062,
+              "y": 153.99000549316406,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "8LP2OLR5BK",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.9757734537124634,
+              "inDistance": 10.776713371276855,
+              "x": 160.92999267578125,
+              "y": 163.89500427246094,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "7tbhgv6RYK",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.8925626277923584,
+              "inDistance": 20.13643455505371,
+              "x": 188.5240020751953,
+              "y": 171.67799377441406,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "n9x0OsjrsT",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.8817880153656006,
+              "inDistance": 20.810256958007812,
+              "outRotation": 1.2597898244857788,
+              "outDistance": 20.80930519104004,
+              "x": 212.5800018310547,
+              "y": 180.16900634765625,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "GdnCxSWvp9",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -0.9760420918464661,
+              "inDistance": 29.043100357055664,
+              "x": 200.552001953125,
+              "y": 271.4410095214844,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "IerQEyFs29",
+            "type": "CubicDetachedVertex",
+            "props": {
+              "inRotation": -1.362382173538208,
+              "inDistance": 19.525527954101562,
+              "x": 206.01400756835938,
+              "y": 340.77899169921875,
+              "parentId": "fZSznlgMWP"
+            }
+          },
+          {
+            "id": "OiALp-noZt",
+            "type": "Fill",
+            "props": {
+              "parentId": "URxhTos-hg"
+            }
+          },
+          {
+            "id": "7_8GsWzbU-",
+            "type": "SolidColor",
+            "props": {
+              "colorValue": 4294822275,
+              "parentId": "OiALp-noZt"
+            }
+          }
+        ],
+        "animations": [
+          {
+            "id": "sqFMS5SVlN",
+            "type": "LinearAnimation",
+            "props": {
+              "duration": 1,
+              "loopValue": 1,
+              "name": "idle",
+              "fps": 60,
+              "speed": 1
+            },
+            "children": [
+              {
+                "id": "finger-idle-0",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "-dQaL41-ap"
+                },
+                "children": [
+                  {
+                    "id": "finger-idle-0-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 14
+                    },
+                    "children": [
+                      {
+                        "id": "finger-idle-0-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": -93,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-idle-0-1",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 1,
+                          "value": -93,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-idle-1",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "OrIpax4ZUD"
+                },
+                "children": [
+                  {
+                    "id": "finger-idle-1-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-idle-1-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 107.28500366210938,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-idle-1-1",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 1,
+                          "value": 107.28500366210938,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-idle-2",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "4lbaHv7I1k"
+                },
+                "children": [
+                  {
+                    "id": "finger-idle-2-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-idle-2-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 94.55660247802734,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-idle-2-1",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 1,
+                          "value": 94.55660247802734,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-idle-3",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "lPYC56t3uj"
+                },
+                "children": [
+                  {
+                    "id": "finger-idle-3-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-idle-3-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 108.70700073242188,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-idle-3-1",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 1,
+                          "value": 108.70700073242188,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "3eCl204K3p",
+            "type": "LinearAnimation",
+            "props": {
+              "duration": 36,
+              "name": "press_down",
+              "fps": 60,
+              "speed": 1
+            },
+            "children": [
+              {
+                "id": "finger-press_down-0",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "-dQaL41-ap"
+                },
+                "children": [
+                  {
+                    "id": "finger-press_down-0-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 14
+                    },
+                    "children": [
+                      {
+                        "id": "finger-press_down-0-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-0-6",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 6,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-0-12",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 12,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-0-18",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 18,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-0-24",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 24,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-0-30",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 30,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-0-36",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 36,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-press_down-1",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "OrIpax4ZUD"
+                },
+                "children": [
+                  {
+                    "id": "finger-press_down-1-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-press_down-1-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 107.28500366210938,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-1-6",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 6,
+                          "value": 109.35907773618345,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-1-12",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 12,
+                          "value": 114.54426292136863,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-1-18",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 18,
+                          "value": 121.28500366210938,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-1-24",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 24,
+                          "value": 128.0257444028501,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-1-30",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 30,
+                          "value": 133.2109295880353,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-1-36",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 36,
+                          "value": 135.28500366210938,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-press_down-2",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "4lbaHv7I1k"
+                },
+                "children": [
+                  {
+                    "id": "finger-press_down-2-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-press_down-2-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 94.55660247802734,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-2-6",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 6,
+                          "value": 96.63067655210142,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-2-12",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 12,
+                          "value": 101.8158617372866,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-2-18",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 18,
+                          "value": 108.55660247802734,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-2-24",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 24,
+                          "value": 115.29734321876808,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-2-30",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 30,
+                          "value": 120.48252840395327,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-2-36",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 36,
+                          "value": 122.55660247802734,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-press_down-3",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "lPYC56t3uj"
+                },
+                "children": [
+                  {
+                    "id": "finger-press_down-3-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-press_down-3-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 108.70700073242188,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-3-6",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 6,
+                          "value": 110.78107480649595,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-3-12",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 12,
+                          "value": 115.96625999168113,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-3-18",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 18,
+                          "value": 122.70700073242188,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-3-24",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 24,
+                          "value": 129.4477414731626,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-3-30",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 30,
+                          "value": 134.6329266583478,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-press_down-3-36",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 36,
+                          "value": 136.70700073242188,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r5mVpiIOk4",
+            "type": "LinearAnimation",
+            "props": {
+              "loopValue": 1,
+              "name": "hold",
+              "duration": 60,
+              "fps": 60,
+              "speed": 1
+            },
+            "children": [
+              {
+                "id": "finger-hold-0",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "-dQaL41-ap"
+                },
+                "children": [
+                  {
+                    "id": "finger-hold-0-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 14
+                    },
+                    "children": [
+                      {
+                        "id": "finger-hold-0-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": -93,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-hold-0-60",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 60,
+                          "value": -93,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-hold-1",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "OrIpax4ZUD"
+                },
+                "children": [
+                  {
+                    "id": "finger-hold-1-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-hold-1-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 135.28500366210938,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-hold-1-60",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 60,
+                          "value": 135.28500366210938,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-hold-2",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "4lbaHv7I1k"
+                },
+                "children": [
+                  {
+                    "id": "finger-hold-2-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-hold-2-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 122.55660247802734,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-hold-2-60",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 60,
+                          "value": 122.55660247802734,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-hold-3",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "lPYC56t3uj"
+                },
+                "children": [
+                  {
+                    "id": "finger-hold-3-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-hold-3-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 136.70700073242188,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-hold-3-60",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 60,
+                          "value": 136.70700073242188,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "boqOOcKa0a",
+            "type": "LinearAnimation",
+            "props": {
+              "duration": 36,
+              "name": "release_up",
+              "fps": 60,
+              "speed": 1
+            },
+            "children": [
+              {
+                "id": "finger-release_up-0",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "-dQaL41-ap"
+                },
+                "children": [
+                  {
+                    "id": "finger-release_up-0-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 14
+                    },
+                    "children": [
+                      {
+                        "id": "finger-release_up-0-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-0-6",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 6,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-0-12",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 12,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-0-18",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 18,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-0-24",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 24,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-0-30",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 30,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-0-36",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 36,
+                          "value": -93.0,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-release_up-1",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "OrIpax4ZUD"
+                },
+                "children": [
+                  {
+                    "id": "finger-release_up-1-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-release_up-1-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 135.28500366210938,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-1-6",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 6,
+                          "value": 133.2109295880353,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-1-12",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 12,
+                          "value": 128.0257444028501,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-1-18",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 18,
+                          "value": 121.28500366210938,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-1-24",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 24,
+                          "value": 114.54426292136864,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-1-30",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 30,
+                          "value": 109.35907773618345,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-1-36",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 36,
+                          "value": 107.28500366210938,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-release_up-2",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "4lbaHv7I1k"
+                },
+                "children": [
+                  {
+                    "id": "finger-release_up-2-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-release_up-2-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 122.55660247802734,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-2-6",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 6,
+                          "value": 120.48252840395327,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-2-12",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 12,
+                          "value": 115.29734321876808,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-2-18",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 18,
+                          "value": 108.55660247802734,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-2-24",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 24,
+                          "value": 101.81586173728661,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-2-30",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 30,
+                          "value": 96.63067655210142,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-2-36",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 36,
+                          "value": 94.55660247802734,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "finger-release_up-3",
+                "type": "KeyedObject",
+                "props": {
+                  "objectId": "lPYC56t3uj"
+                },
+                "children": [
+                  {
+                    "id": "finger-release_up-3-y",
+                    "type": "KeyedProperty",
+                    "props": {
+                      "propertyKey": 25
+                    },
+                    "children": [
+                      {
+                        "id": "finger-release_up-3-0",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 0,
+                          "value": 136.70700073242188,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-3-6",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 6,
+                          "value": 134.6329266583478,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-3-12",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 12,
+                          "value": 129.4477414731626,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-3-18",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 18,
+                          "value": 122.70700073242188,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-3-24",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 24,
+                          "value": 115.96625999168114,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-3-30",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 30,
+                          "value": 110.78107480649595,
+                          "interpolationType": 1
+                        }
+                      },
+                      {
+                        "id": "finger-release_up-3-36",
+                        "type": "KeyFrameDouble",
+                        "props": {
+                          "frame": 36,
+                          "value": 108.70700073242188,
+                          "interpolationType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "stateMachines": [
+          {
+            "id": "5uIpQ-rZax",
+            "type": "StateMachine",
+            "props": {
+              "name": "TutorialHand"
+            },
+            "children": [
+              {
+                "id": "a7dlL8apVe",
+                "type": "StateMachineBool",
+                "props": {
+                  "name": "is_pressed"
+                }
+              },
+              {
+                "id": "O28rPwN3Rk",
+                "type": "StateMachineLayer",
+                "props": {
+                  "name": "Finger gesture"
+                },
+                "children": [
+                  {
+                    "id": "HWXwuZfuzN",
+                    "type": "AnyState",
+                    "props": {}
+                  },
+                  {
+                    "id": "oq-jufmkuL",
+                    "type": "ExitState",
+                    "props": {}
+                  },
+                  {
+                    "id": "k932I-soRb",
+                    "type": "EntryState",
+                    "props": {},
+                    "children": [
+                      {
+                        "id": "FgEmaYTrl2",
+                        "type": "StateTransition",
+                        "props": {
+                          "stateToId": "qhLRcQmSKO"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "qhLRcQmSKO",
+                    "type": "AnimationState",
+                    "props": {
+                      "animationId": "sqFMS5SVlN",
+                      "flags": 2
+                    },
+                    "children": [
+                      {
+                        "id": "ScjDs_31OE",
+                        "type": "StateTransition",
+                        "props": {
+                          "stateToId": "m9A6ya0NQg",
+                          "flags": 32
+                        },
+                        "children": [
+                          {
+                            "id": "TGSOoNrY6d",
+                            "type": "TransitionBoolCondition",
+                            "props": {
+                              "inputId": "a7dlL8apVe"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "m9A6ya0NQg",
+                    "type": "AnimationState",
+                    "props": {
+                      "animationId": "3eCl204K3p",
+                      "flags": 2
+                    },
+                    "children": [
+                      {
+                        "id": "XZOAU-eO0s",
+                        "type": "StateTransition",
+                        "props": {
+                          "stateToId": "F3cIhsf7p9",
+                          "flags": 32,
+                          "duration": 60
+                        },
+                        "children": [
+                          {
+                            "id": "Vt-OIrSxpv",
+                            "type": "TransitionBoolCondition",
+                            "props": {
+                              "opValue": 1,
+                              "inputId": "a7dlL8apVe"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "IL3LQWu7bu",
+                        "type": "StateTransition",
+                        "props": {
+                          "stateToId": "iXFT7u6uAf",
+                          "flags": 44,
+                          "exitTime": 100
+                        },
+                        "children": [
+                          {
+                            "id": "Be5ZhzxFmh",
+                            "type": "TransitionBoolCondition",
+                            "props": {
+                              "inputId": "a7dlL8apVe"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "iXFT7u6uAf",
+                    "type": "AnimationState",
+                    "props": {
+                      "animationId": "r5mVpiIOk4",
+                      "flags": 2
+                    },
+                    "children": [
+                      {
+                        "id": "dEKLIQ9bca",
+                        "type": "StateTransition",
+                        "props": {
+                          "stateToId": "F3cIhsf7p9",
+                          "flags": 32
+                        },
+                        "children": [
+                          {
+                            "id": "C9atNxUoYW",
+                            "type": "TransitionBoolCondition",
+                            "props": {
+                              "opValue": 1,
+                              "inputId": "a7dlL8apVe"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "F3cIhsf7p9",
+                    "type": "AnimationState",
+                    "props": {
+                      "animationId": "boqOOcKa0a",
+                      "flags": 2
+                    },
+                    "children": [
+                      {
+                        "id": "X6B6zff7Cw",
+                        "type": "StateTransition",
+                        "props": {
+                          "stateToId": "m9A6ya0NQg",
+                          "flags": 32,
+                          "duration": 60
+                        },
+                        "children": [
+                          {
+                            "id": "iF6w9IgrRf",
+                            "type": "TransitionBoolCondition",
+                            "props": {
+                              "inputId": "a7dlL8apVe"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "-vP0my6DPL",
+                        "type": "StateTransition",
+                        "props": {
+                          "stateToId": "qhLRcQmSKO",
+                          "flags": 44,
+                          "exitTime": 100
+                        },
+                        "children": [
+                          {
+                            "id": "dvmIVdDKk8",
+                            "type": "TransitionBoolCondition",
+                            "props": {
+                              "opValue": 1,
+                              "inputId": "a7dlL8apVe"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
