@@ -109,9 +109,8 @@ def build():
     run = ET.parse(ROOT / 'run.svg').getroot()
     source = list(parse_path(run[23].attrib['d']))
     body = source[:5] + [
-        CubicBezier(source[4].end, 866+875j, 813+823j, 840+762j),
-        CubicBezier(840+762j, 856+699j, 912+650j, 966.427+653.198j),
-        Line(966.427+653.198j, source[0].start)]
+        CubicBezier(source[4].end, 850+823j, 826+790j, source[8].end),
+        source[9], source[10]]
     operations.append(vector('Airborne Water Balloon', body, '#4299FD', 'Released Balloon', (930, 750)))
     for i in [24, 25, 32]:
         operations.append(vector('balloon_detail_%02d' % i, list(parse_path(run[i].attrib['d'])),

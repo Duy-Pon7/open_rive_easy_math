@@ -25,6 +25,13 @@
       }
     },
     {
+      "id": "2DTmKA6ZUd",
+      "type": "ViewModelPropertyNumber",
+      "props": {
+        "name": "balloonColor"
+      }
+    },
+    {
       "id": "l8X8_Z9417",
       "type": "ViewModelInstance",
       "props": {
@@ -38,6 +45,14 @@
       "props": {
         "viewModelPropertyId": 0,
         "propertyValue": false
+      }
+    },
+    {
+      "id": "ldqdjRtpSi",
+      "type": "ViewModelInstanceNumber",
+      "props": {
+        "viewModelPropertyId": 1,
+        "propertyValue": 0
       }
     }
   ],
@@ -416,7 +431,7 @@
             "inRotation": -2.6019482718540257,
             "inDistance": 7.080149715931154,
             "outRotation": 1.663353744925038,
-            "outDistance": 2.910457867758955
+            "outDistance": 2.9104578677589545
           }
         },
         {
@@ -467,8 +482,8 @@
             "y": 90.808,
             "inRotation": 0.45257976144320045,
             "inDistance": 18.223728542754362,
-            "outRotation": 2.118853449556702,
-            "outDistance": 40.05912190750067
+            "outRotation": -2.6916631633791646,
+            "outDistance": 40.947151891187744
           }
         },
         {
@@ -476,12 +491,12 @@
           "type": "CubicDetachedVertex",
           "props": {
             "parentId": "ypmPwDeH2J",
-            "x": -90,
-            "y": 12,
-            "inRotation": 1.9874985875342952,
-            "inDistance": 66.70832032063167,
-            "outRotation": -1.3220863377013738,
-            "outDistance": 65
+            "x": -86.356,
+            "y": -3.142,
+            "inRotation": 1.9590157598207467,
+            "inDistance": 46.61054494425055,
+            "outRotation": -1.3146187789346926,
+            "outDistance": 54.577090953989114
           }
         },
         {
@@ -491,8 +506,8 @@
             "parentId": "ypmPwDeH2J",
             "x": 36.427,
             "y": -96.802,
-            "inRotation": -3.0829025312779796,
-            "inDistance": 54.52087245266715,
+            "inRotation": -3.06520748579617,
+            "inDistance": 56.12565841930053,
             "outRotation": 0,
             "outDistance": 0
           }
@@ -13840,7 +13855,7 @@
           "type": "CubicDetachedVertex",
           "props": {
             "parentId": "BnGiFFuhwL",
-            "x": 29.302,
+            "x": 14.302,
             "y": 107.375,
             "inRotation": 0.28788299047143445,
             "inDistance": 8.44243057418893,
@@ -13853,7 +13868,7 @@
           "type": "CubicDetachedVertex",
           "props": {
             "parentId": "BnGiFFuhwL",
-            "x": 8.656,
+            "x": -36.344,
             "y": 101.16,
             "inRotation": -0.004247547271084822,
             "inDistance": 1.6480148664378,
@@ -13866,7 +13881,7 @@
           "type": "CubicDetachedVertex",
           "props": {
             "parentId": "BnGiFFuhwL",
-            "x": 6.846,
+            "x": -38.154,
             "y": 100.46,
             "inRotation": 0,
             "inDistance": 0,
@@ -13879,7 +13894,7 @@
           "type": "CubicDetachedVertex",
           "props": {
             "parentId": "BnGiFFuhwL",
-            "x": -2.986,
+            "x": -32.986,
             "y": -59.407,
             "inRotation": 1.989955482905435,
             "inDistance": 54.08944300877945,
@@ -17182,6 +17197,186 @@
             "x2": 0.58,
             "y2": 1
           }
+        },
+        {
+          "id": "IB98GQCSiX",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "eyQ5DrrOkM",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "5EN5m2xfw8",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "Afz6oHoFGS",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "-LnKsW9HiQ",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "JxLZdsG9cY",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "pCM1SNBcHx",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "IZ1MMUC7B8",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "v_0Nhvot94",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "A6Z7kyklZ7",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "jlOmVMm3zS",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "lTjPChWrk2",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "5o08efVq6g",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "T6svac01HU",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "7W2cR8S3Hv",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "s4r9f2RYQ6",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "MXnA6wO6kj",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "id": "UppEZvQ4X7",
+          "type": "CubicEaseInterpolator",
+          "props": {
+            "x1": 0.42,
+            "y1": 0,
+            "x2": 0.58,
+            "y2": 1
+          }
         }
       ],
       "animations": [
@@ -17656,7 +17851,7 @@
                       "props": {
                         "frame": 0,
                         "interpolationType": 2,
-                        "value": 1,
+                        "value": 0.925,
                         "interpolatorId": "JA7MJ57tck"
                       }
                     },
@@ -17667,7 +17862,7 @@
                         "frame": 6,
                         "interpolationType": 2,
                         "interpolatorId": "iwZSebmYpL",
-                        "value": 1
+                        "value": 0.86
                       }
                     },
                     {
@@ -17677,7 +17872,7 @@
                         "frame": 12,
                         "interpolationType": 2,
                         "interpolatorId": "Z856XSzRuN",
-                        "value": 1.02
+                        "value": 0.83
                       }
                     },
                     {
@@ -17687,7 +17882,7 @@
                         "frame": 18,
                         "interpolationType": 2,
                         "interpolatorId": "hztVSfNFKw",
-                        "value": 1.04
+                        "value": 0.91
                       }
                     },
                     {
@@ -17697,7 +17892,7 @@
                         "frame": 24,
                         "interpolationType": 2,
                         "interpolatorId": "oQfWOU_e6e",
-                        "value": 1.02
+                        "value": 0.85
                       }
                     },
                     {
@@ -17707,7 +17902,7 @@
                         "frame": 30,
                         "interpolationType": 2,
                         "interpolatorId": "jJ26jR4hDI",
-                        "value": 1
+                        "value": 0.875
                       }
                     },
                     {
@@ -17717,7 +17912,165 @@
                         "frame": 36,
                         "interpolationType": 2,
                         "interpolatorId": "pX09L3_JUd",
-                        "value": 1
+                        "value": 0.925
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "BfMkhDsRaO",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 16
+                  },
+                  "children": [
+                    {
+                      "id": "oeSgl8d4nz",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 2,
+                        "value": 0.86,
+                        "interpolatorId": "IB98GQCSiX"
+                      }
+                    },
+                    {
+                      "id": "_I7fqHB_u4",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 6,
+                        "interpolationType": 2,
+                        "interpolatorId": "eyQ5DrrOkM",
+                        "value": 0.81
+                      }
+                    },
+                    {
+                      "id": "Dl5QwVXUY0",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 12,
+                        "interpolationType": 2,
+                        "interpolatorId": "5EN5m2xfw8",
+                        "value": 0.77
+                      }
+                    },
+                    {
+                      "id": "Uxu4umfY1m",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 18,
+                        "interpolationType": 2,
+                        "interpolatorId": "Afz6oHoFGS",
+                        "value": 0.81
+                      }
+                    },
+                    {
+                      "id": "G08wQUahaR",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 24,
+                        "interpolationType": 2,
+                        "interpolatorId": "-LnKsW9HiQ",
+                        "value": 0.775
+                      }
+                    },
+                    {
+                      "id": "wENzpr45QV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 30,
+                        "interpolationType": 2,
+                        "interpolatorId": "JxLZdsG9cY",
+                        "value": 0.825
+                      }
+                    },
+                    {
+                      "id": "A5DdcFoiAL",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 36,
+                        "interpolationType": 2,
+                        "interpolatorId": "pCM1SNBcHx",
+                        "value": 0.86
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "T-jcTOmett",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 14
+                  },
+                  "children": [
+                    {
+                      "id": "38GAuvCVSx",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 2,
+                        "value": 10,
+                        "interpolatorId": "IZ1MMUC7B8"
+                      }
+                    },
+                    {
+                      "id": "oOGI8Wt7r6",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 6,
+                        "interpolationType": 2,
+                        "interpolatorId": "v_0Nhvot94",
+                        "value": 5
+                      }
+                    },
+                    {
+                      "id": "7tmV70mpgA",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 12,
+                        "interpolationType": 2,
+                        "interpolatorId": "A6Z7kyklZ7",
+                        "value": 6
+                      }
+                    },
+                    {
+                      "id": "1dmDl-yApH",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 18,
+                        "interpolationType": 2,
+                        "interpolatorId": "jlOmVMm3zS",
+                        "value": 15
+                      }
+                    },
+                    {
+                      "id": "S2Zxxv8wyu",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 24,
+                        "interpolationType": 2,
+                        "interpolatorId": "lTjPChWrk2",
+                        "value": 6
+                      }
+                    },
+                    {
+                      "id": "AYSJhjIhTa",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 30,
+                        "interpolationType": 2,
+                        "interpolatorId": "5o08efVq6g",
+                        "value": 5
+                      }
+                    },
+                    {
+                      "id": "885rk4ytam",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 36,
+                        "interpolationType": 2,
+                        "interpolatorId": "T6svac01HU",
+                        "value": 10
                       }
                     }
                   ]
@@ -18594,7 +18947,7 @@
                       "props": {
                         "frame": 0,
                         "interpolationType": 2,
-                        "value": 1,
+                        "value": 0.925,
                         "interpolatorId": "SAtoK1i4ky"
                       }
                     },
@@ -18605,7 +18958,65 @@
                         "frame": 10,
                         "interpolationType": 2,
                         "interpolatorId": "311-r94kYj",
-                        "value": 1
+                        "value": 0.925
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "VdQOfszN1o",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 16
+                  },
+                  "children": [
+                    {
+                      "id": "sW3yWEuDpv",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 2,
+                        "value": 0.86,
+                        "interpolatorId": "7W2cR8S3Hv"
+                      }
+                    },
+                    {
+                      "id": "QT_jbhiHka",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 10,
+                        "interpolationType": 2,
+                        "interpolatorId": "s4r9f2RYQ6",
+                        "value": 0.86
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "yL7yyhnGes",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 14
+                  },
+                  "children": [
+                    {
+                      "id": "NiObaRQcqK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 2,
+                        "value": 10,
+                        "interpolatorId": "MXnA6wO6kj"
+                      }
+                    },
+                    {
+                      "id": "CQTMrD0BR_",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 10,
+                        "interpolationType": 2,
+                        "interpolatorId": "UppEZvQ4X7",
+                        "value": 10
                       }
                     }
                   ]
@@ -20846,6 +21257,2229 @@
               ]
             }
           ]
+        },
+        {
+          "id": "tuQwUBUpO_",
+          "type": "LinearAnimation",
+          "props": {
+            "name": "Balloon Blue",
+            "fps": 60,
+            "duration": 60,
+            "loopValue": 1,
+            "speed": 1
+          },
+          "children": [
+            {
+              "id": "0kEQqno4UN",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "Gn0YpTFUmI"
+              },
+              "children": [
+                {
+                  "id": "R67urayPHC",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "kJj6nyFcr-",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4282554877
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VOwiWh-1A3",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "CvEeG1l6Yr"
+              },
+              "children": [
+                {
+                  "id": "hKjtBxyUgt",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "V7ydwdeXa_",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4290829308
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P8t6uymJTr",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "I1k2XQ1O0l"
+              },
+              "children": [
+                {
+                  "id": "B8NR5EZZH2",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "NWdLJYTAOk",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4281167549
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "_eOekuE6lC",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "CywL2c-D3q"
+              },
+              "children": [
+                {
+                  "id": "M5HnDZuRyY",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "_JKI3RrBuK",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4282554877
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Dvuw-oov-g",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "noGq8jLO0r"
+              },
+              "children": [
+                {
+                  "id": "XUIM3oQR8H",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "KQqq_OUTBA",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d_cr5QmD6H",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "_66-lkET-V"
+              },
+              "children": [
+                {
+                  "id": "ot5DrInxjF",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "Kbh5VLHfDK",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "8qC5kUJohd",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "KAPYEZlenR"
+              },
+              "children": [
+                {
+                  "id": "5R2J2r0YPC",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "AmD7nhDdWd",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "e_KNtfmT40",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "9Ep1r53vZ4"
+              },
+              "children": [
+                {
+                  "id": "JZd_RYfb3L",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "WuaJAz8Tl6",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "XwA5WTJIeW",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "WtMaYG6rZM"
+              },
+              "children": [
+                {
+                  "id": "7AuBrEyd40",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "Feb9Gu604w",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "XUT-3k-FXM",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "P-w8U0JEeG"
+              },
+              "children": [
+                {
+                  "id": "HRkqqrkPg9",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "u8gzImSOSS",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4281964030
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "l5yFBDE0dE",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "h-Av3BlGxo"
+              },
+              "children": [
+                {
+                  "id": "8p1MbL4PTF",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "1P-Jh0DH9S",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Me4eO5qcr2",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "mmsTO9s9LF"
+              },
+              "children": [
+                {
+                  "id": "KPJ6vaXwkn",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "jtnsRAoEwF",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "DbzZENaOHn",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "ctYnwM65aw"
+              },
+              "children": [
+                {
+                  "id": "GgBrQEqeuH",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "rb_rOR8sfL",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "EPnfTC5Qgb",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "dwz1IT6G4Y"
+              },
+              "children": [
+                {
+                  "id": "fC8wVxkMHQ",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "_NTsBzJetB",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4290896125
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "RbAKfr5BdU",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "zTF2AeNmgb"
+              },
+              "children": [
+                {
+                  "id": "lLScWISn_q",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "q_KmrcQaCZ",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "GCEo8lXFrI",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "qW4QjbPVcr"
+              },
+              "children": [
+                {
+                  "id": "FihMZboKem",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "T6ZENW8Ol5",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4279398100
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "840arGg0nI",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "Y9XHZaClu2"
+              },
+              "children": [
+                {
+                  "id": "8URyBA8K_N",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "qfD34wgYdF",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4279398100
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eon3TbJDbc",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "NSqKtmgZQh"
+              },
+              "children": [
+                {
+                  "id": "Iz-Unab2XA",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "33XC1DdtdG",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4281964030
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0DlrEIm-H2",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "zCsBOHDfRk"
+              },
+              "children": [
+                {
+                  "id": "2FJll1kYgh",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "t7nnXoc55b",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Z-wFriHKV_",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "9T_k3snysF"
+              },
+              "children": [
+                {
+                  "id": "I4HTJ3Snjf",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "cSMJzTFOJJ",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4279398100
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bdSKgja7BV",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "QnoBLHFW4C"
+              },
+              "children": [
+                {
+                  "id": "Gi_4RzPmwy",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "XEz81fTzmc",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4281964030
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "qXLgvmFO6y",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "eHV3ejxmRV"
+              },
+              "children": [
+                {
+                  "id": "pWEdVuvvuX",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "m_qNT9h2LQ",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4284922109
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "27VcubDaa6",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "2YRmTrwy5f"
+              },
+              "children": [
+                {
+                  "id": "m5xQBDGpns",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "R-eMeee_xA",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4282554877
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "M6N3M3DLin",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "pMsg27vpe6"
+              },
+              "children": [
+                {
+                  "id": "p7Y8h_b6Br",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "jbXs8FVdg_",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4290829308
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "u518tWa1nJ",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "BIA5MSiNl9"
+              },
+              "children": [
+                {
+                  "id": "ZxF60jkDWg",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "rbYP7ViKSy",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4281167549
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wK4imxHb-i",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "4We9TSseUA"
+              },
+              "children": [
+                {
+                  "id": "teN5cTMpeI",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "Z-yiNoaht_",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4282554877
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "E1CjxmF1IK",
+          "type": "LinearAnimation",
+          "props": {
+            "name": "Balloon Yellow",
+            "fps": 60,
+            "duration": 60,
+            "loopValue": 1,
+            "speed": 1
+          },
+          "children": [
+            {
+              "id": "V777db0UBs",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "Gn0YpTFUmI"
+              },
+              "children": [
+                {
+                  "id": "qTrpKTsYk2",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "TlBZWeDWVX",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294495812
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cqyOL1uHxU",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "CvEeG1l6Yr"
+              },
+              "children": [
+                {
+                  "id": "-6jWZLoyzG",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "pBb-wRRSpl",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294963384
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mcMtGgwroT",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "I1k2XQ1O0l"
+              },
+              "children": [
+                {
+                  "id": "4eQxP3KWsA",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "iytn_W126Y",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4290416672
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "r-7x5q8HjX",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "CywL2c-D3q"
+              },
+              "children": [
+                {
+                  "id": "4QQKCYXLEl",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "JobMyRq9GB",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294495812
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "-j8N9e49ow",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "noGq8jLO0r"
+              },
+              "children": [
+                {
+                  "id": "x78zDcoXzr",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "vKJIhi5upS",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HcjtucTfy3",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "_66-lkET-V"
+              },
+              "children": [
+                {
+                  "id": "qPbi13gRNk",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "SWwiJUtOMK",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ScjJfJ8PYO",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "KAPYEZlenR"
+              },
+              "children": [
+                {
+                  "id": "a39KY9f42W",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "dStBCcm17i",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "18BbPT4hIq",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "9Ep1r53vZ4"
+              },
+              "children": [
+                {
+                  "id": "N19zdbGpRZ",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "O88shmeNs-",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBxj38tkiH",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "WtMaYG6rZM"
+              },
+              "children": [
+                {
+                  "id": "_m3W5_oycy",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "0-k5yK1mAg",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tSlf8AWSUy",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "P-w8U0JEeG"
+              },
+              "children": [
+                {
+                  "id": "mLObpmbxxe",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "CenPH76hAo",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294230067
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ZJ0d8dfZgm",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "h-Av3BlGxo"
+              },
+              "children": [
+                {
+                  "id": "f9eIQhX23A",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "JUMvLTFUdb",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "O6dSEN3qyw",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "mmsTO9s9LF"
+              },
+              "children": [
+                {
+                  "id": "CBDDnDrD2E",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "jUqb62SSqd",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5gunGRDZzi",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "ctYnwM65aw"
+              },
+              "children": [
+                {
+                  "id": "7BvV3VjSBe",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "9Rvp-xP0KD",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "BL3nb9mwqg",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "dwz1IT6G4Y"
+              },
+              "children": [
+                {
+                  "id": "lckrWF99j1",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "5jR63meeK1",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294964166
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "8VdtdFpeBS",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "zTF2AeNmgb"
+              },
+              "children": [
+                {
+                  "id": "zGGzGzvxkH",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "5PLO7kSZVz",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "HFmbHS9gwc",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "qW4QjbPVcr"
+              },
+              "children": [
+                {
+                  "id": "Qr3X2B5HCl",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "ht9mJFzCWY",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4291466266
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "SHi-_pk_ba",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "Y9XHZaClu2"
+              },
+              "children": [
+                {
+                  "id": "xC7MHIPAUl",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "sc1wTtIlcm",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4291466266
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bCkcDrhfgh",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "NSqKtmgZQh"
+              },
+              "children": [
+                {
+                  "id": "nxMrLLihE7",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "Uw2jIXtpkt",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294230067
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "S5GMunJUnC",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "zCsBOHDfRk"
+              },
+              "children": [
+                {
+                  "id": "_NOawgrW7O",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "w9UUGMVmvg",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "w6HxpasHnF",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "9T_k3snysF"
+              },
+              "children": [
+                {
+                  "id": "GnmjtyOIRX",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "a0C4rmwxSo",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4291466266
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nwF7whgHCX",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "QnoBLHFW4C"
+              },
+              "children": [
+                {
+                  "id": "2cpLD1eC24",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "WblwIJTXiY",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294230067
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5x4BRt1pmS",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "eHV3ejxmRV"
+              },
+              "children": [
+                {
+                  "id": "kcudF0rSCN",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "ulvbmOqoO0",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294957419
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "NU8TIHwpmE",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "2YRmTrwy5f"
+              },
+              "children": [
+                {
+                  "id": "nlnskfH4KN",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "HIcxdaDWWQ",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294495812
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "SVlfZCdjsm",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "pMsg27vpe6"
+              },
+              "children": [
+                {
+                  "id": "CFyozGRyEZ",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "cO_XRmiCxQ",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294963384
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "9fPx0sW5rj",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "BIA5MSiNl9"
+              },
+              "children": [
+                {
+                  "id": "QlE7KqLJQf",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "d2gNzi6yVd",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4290416672
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Bw4yy778Yl",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "4We9TSseUA"
+              },
+              "children": [
+                {
+                  "id": "dTRQC54goB",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "icA3ZZKb6R",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294495812
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9w2BJ90rLk",
+          "type": "LinearAnimation",
+          "props": {
+            "name": "Balloon Pink",
+            "fps": 60,
+            "duration": 60,
+            "loopValue": 1,
+            "speed": 1
+          },
+          "children": [
+            {
+              "id": "haB3BbGW42",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "Gn0YpTFUmI"
+              },
+              "children": [
+                {
+                  "id": "h33hrkX1FN",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "tcDfyrJ1Jk",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294081199
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "30iwun41R8",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "CvEeG1l6Yr"
+              },
+              "children": [
+                {
+                  "id": "k9kAmNevpK",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "nQhIzyzq6n",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294956520
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "oHS_j0Xa8U",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "I1k2XQ1O0l"
+              },
+              "children": [
+                {
+                  "id": "XcJrdZujYm",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "utfbgmCsFz",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4290397820
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "f9jsZAGm9z",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "CywL2c-D3q"
+              },
+              "children": [
+                {
+                  "id": "rdLUiQm130",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "_grnPl21ob",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294081199
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "p8vmlPdJse",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "noGq8jLO0r"
+              },
+              "children": [
+                {
+                  "id": "qwBvHNSqUO",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "qECh1ypN5W",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tjuKh0Ho7F",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "_66-lkET-V"
+              },
+              "children": [
+                {
+                  "id": "z_pUrEeI1z",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "-AGfSzX9B2",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "xFsoIUABD0",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "KAPYEZlenR"
+              },
+              "children": [
+                {
+                  "id": "hxSg8qjff2",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "zzx7ZrAvcY",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5YurC1JdVA",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "9Ep1r53vZ4"
+              },
+              "children": [
+                {
+                  "id": "otbhMdH5py",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "1Hd8CQPkD8",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bhcmOSJczQ",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "WtMaYG6rZM"
+              },
+              "children": [
+                {
+                  "id": "kZMnmi7p_O",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "8xJNog0aC-",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "QiBwZ_yuGe",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "P-w8U0JEeG"
+              },
+              "children": [
+                {
+                  "id": "FA0Wu9qy8q",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "wb5ghKxwc-",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4293881255
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cev6zLaXfK",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "h-Av3BlGxo"
+              },
+              "children": [
+                {
+                  "id": "M-1uudRoU1",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "NXHRdlZyA4",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "QgDAIgr_Y_",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "mmsTO9s9LF"
+              },
+              "children": [
+                {
+                  "id": "9ggjgdWf36",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "RzRCQbyemN",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "_33GPHzx91",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "ctYnwM65aw"
+              },
+              "children": [
+                {
+                  "id": "DJmE3hpybe",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "kwTg4tTDwN",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "DzpCHlQnDG",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "dwz1IT6G4Y"
+              },
+              "children": [
+                {
+                  "id": "ES8z-WoDB6",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "4A_9vy33mj",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294959343
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "99wpourky2",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "zTF2AeNmgb"
+              },
+              "children": [
+                {
+                  "id": "IjwB0Pnlxl",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "XNiZ_LFK1l",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "xd8DA-LC1C",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "qW4QjbPVcr"
+              },
+              "children": [
+                {
+                  "id": "ovzNy7qFST",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "d0VWSW5iKl",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4291509888
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ubkWVbuAGa",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "Y9XHZaClu2"
+              },
+              "children": [
+                {
+                  "id": "enhoRIAYQw",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "LlUxZdMThN",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4291509888
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "QdzF6YUe6M",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "NSqKtmgZQh"
+              },
+              "children": [
+                {
+                  "id": "_0o8WJQXyI",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "rRUh4TySla",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4293881255
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kYxJjuBWGv",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "zCsBOHDfRk"
+              },
+              "children": [
+                {
+                  "id": "7mkHmVnfj9",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "NBlpvHu8m-",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zWfxWkGyp7",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "9T_k3snysF"
+              },
+              "children": [
+                {
+                  "id": "qwR8dR3A40",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "qI6hF9gcxL",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4291509888
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "a3MQtLir5U",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "QnoBLHFW4C"
+              },
+              "children": [
+                {
+                  "id": "AIzGask5XQ",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "kWmuA-vhqk",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4293881255
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "BPQ10L44Fu",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "eHV3ejxmRV"
+              },
+              "children": [
+                {
+                  "id": "hgLl942zKZ",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "G4X9vQ6WOR",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294943692
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "13DeUq3RC2",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "2YRmTrwy5f"
+              },
+              "children": [
+                {
+                  "id": "bGM0tpX_r8",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "hMjY5XPXXh",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294081199
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "by8RRmRYkx",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "pMsg27vpe6"
+              },
+              "children": [
+                {
+                  "id": "nWbr4UOPJr",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "5fBUAvjhKY",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294956520
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "M7Lp_X6o40",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "BIA5MSiNl9"
+              },
+              "children": [
+                {
+                  "id": "59gDEUjBdM",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "lgbayz0Jlf",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4290397820
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "txVko7dvh6",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "4We9TSseUA"
+              },
+              "children": [
+                {
+                  "id": "5uzwwUbeXz",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 37
+                  },
+                  "children": [
+                    {
+                      "id": "WeOnAt9-l6",
+                      "type": "KeyFrameColor",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 0,
+                        "value": 4294081199
+                      },
+                      "ui": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "stateMachines": [
@@ -20992,6 +23626,466 @@
                               "type": "TransitionValueBooleanComparator",
                               "props": {
                                 "value": false
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "xFL5PwGtHB",
+              "type": "StateMachineLayer",
+              "props": {
+                "name": "Balloon Color"
+              },
+              "children": [
+                {
+                  "id": "GKCGNjOMYt",
+                  "type": "EntryState",
+                  "props": {},
+                  "children": [
+                    {
+                      "id": "CFo6Wgi6yR",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "3Tg7Mp0LjY",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "2aOC19YbUJ",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "CNi8HSb8uS",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "04MKMxx9XL",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "0FMXvWVlje",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "6Gj8WBBodu",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 0
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "T9U44mvQ6P",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "yUwMTZmL5X",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "7L0MtFex2J",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "NpwZSoaaYp",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "1LiXlf9-Fx",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "qgZatRVAaj",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "E3WNrLN5q9",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 1
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Rtn-5_Gz4s",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "mdsyOhsHlg",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "bAyiM4I0kL",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "0SWDIEew8K",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "u02fWOglEB",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "nS1gnOnoze",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "z7pjExBigh",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 2
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "uj9vQNpm77",
+                  "type": "AnyState",
+                  "props": {},
+                  "children": []
+                },
+                {
+                  "id": "FR1V5FwWEG",
+                  "type": "ExitState",
+                  "props": {},
+                  "children": []
+                },
+                {
+                  "id": "3Tg7Mp0LjY",
+                  "type": "AnimationState",
+                  "props": {
+                    "animationId": "tuQwUBUpO_"
+                  },
+                  "children": [
+                    {
+                      "id": "ZaFn3grjV8",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "yUwMTZmL5X",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "Rtp-EzCVnr",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "PjlLF4M9mO",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "hBQyjBCA0O",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "Xt_Vz8XUhO",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "a7sMvfjaSb",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 1
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "93tKlZGSWN",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "mdsyOhsHlg",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "e1vCUtItmu",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "0E-FWxthPX",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "0JXZCW5VK4",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "fg08ry1VHN",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "K8cq6AOsvg",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 2
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "yUwMTZmL5X",
+                  "type": "AnimationState",
+                  "props": {
+                    "animationId": "E1CjxmF1IK"
+                  },
+                  "children": [
+                    {
+                      "id": "R8Kt1C_SIV",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "3Tg7Mp0LjY",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "DyDIBxOWPo",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "mQR8gF9NRS",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "uKIr7rzsRe",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "0kMrsJxLKT",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "2J0eBjqVAs",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 0
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "9cilmYQ2_W",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "mdsyOhsHlg",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "3SNNjg_fhX",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "qq7rJEUpiw",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "vjDpbuqxub",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "gv2EXSUmC1",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "Xs2bnTuTKo",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 2
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "mdsyOhsHlg",
+                  "type": "AnimationState",
+                  "props": {
+                    "animationId": "9w2BJ90rLk"
+                  },
+                  "children": [
+                    {
+                      "id": "4IlQv0jCT9",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "3Tg7Mp0LjY",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "VuQkQTuNDK",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "Auzv5QM0zT",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "C56XmVdmXh",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "SoohYOZ4xQ",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "JDtXZEa1g_",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 0
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6Q0MTJVrr",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "yUwMTZmL5X",
+                        "duration": 0,
+                        "flags": 0
+                      },
+                      "children": [
+                        {
+                          "id": "u6GG8frCqf",
+                          "type": "TransitionViewModelCondition",
+                          "props": {},
+                          "children": [
+                            {
+                              "id": "5ZFLCBRQhX",
+                              "type": "BindablePropertyNumber",
+                              "props": {}
+                            },
+                            {
+                              "id": "OoHslVInPz",
+                              "type": "DataBindContext",
+                              "props": {
+                                "propertyKey": 636,
+                                "sourcePathIds": {
+                                  "$bytes": "AAE="
+                                }
+                              }
+                            },
+                            {
+                              "id": "6tIJASS-i8",
+                              "type": "TransitionPropertyViewModelComparator",
+                              "props": {}
+                            },
+                            {
+                              "id": "3ueIme5uoU",
+                              "type": "TransitionValueNumberComparator",
+                              "props": {
+                                "value": 1
                               }
                             }
                           ]

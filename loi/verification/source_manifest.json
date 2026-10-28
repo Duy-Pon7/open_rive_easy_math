@@ -1,0 +1,25 @@
+{
+  "source": "loi.svg",
+  "source_sha256": "4e80a73727607feee2e677d07074b4d1e87555647e8554e760a35a9d36b80d30",
+  "svg_canvas": [
+    642,
+    1259
+  ],
+  "mouth_bounds": [
+    270,
+    395,
+    367,
+    466
+  ],
+  "head_pivot": [
+    320,
+    515
+  ],
+  "mouth_vertex_count": 5,
+  "objects": 5045,
+  "native_vectors": true,
+  "raster_assets": 0,
+  "svg_paths_preserved_except_mouth": true,
+  "svg_masks_preserved": true,
+  "original_gradients_preserved": true
+}

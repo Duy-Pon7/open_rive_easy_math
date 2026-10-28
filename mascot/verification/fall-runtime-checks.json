@@ -1,8 +1,7 @@
 {
   "states": [
-    "Fall",
-    "Fall",
-    "Run"
+    "Run",
+    "Balloon Blue"
   ],
   "replay": true,
   "reset": true,

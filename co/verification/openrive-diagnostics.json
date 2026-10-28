@@ -1,0 +1,15 @@
+{
+  "project": "Co - Vietnamese Lip Sync",
+  "id": "FUEaUv95xrDx",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 4407,
+    "timelines": 19,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

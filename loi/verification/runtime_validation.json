@@ -1,0 +1,314 @@
+{
+  "checks": [
+    {
+      "test": "runtime_load_and_contract",
+      "status": "PASS",
+      "inputs": [
+        "viseme_id",
+        "is_talking",
+        "blink",
+        "reset",
+        "head_only"
+      ],
+      "runtime": "@rive-app/canvas-advanced 2.45.0"
+    },
+    {
+      "test": "head_only_hides_body_preserves_head",
+      "status": "PASS"
+    },
+    {
+      "test": "head_only_false_restores_body",
+      "status": "PASS",
+      "changed_pixels": 0
+    },
+    {
+      "test": "head_only_preserves_talking_and_blink",
+      "status": "PASS"
+    },
+    {
+      "test": "source_design_match",
+      "status": "PASS",
+      "mean_absolute_rgb_error": 0.03247232594066233,
+      "alpha_bounds": [
+        [
+          0,
+          0,
+          642,
+          1259
+        ],
+        [
+          0,
+          0,
+          642,
+          1259
+        ]
+      ]
+    },
+    {
+      "test": "input_00_REST",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_01_MBP",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_MBP",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_02_A_OPEN",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_A_OPEN",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_03_E_I_WIDE",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_E_I_WIDE",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_04_O_ROUND",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_O_ROUND",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_05_U_ROUND",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_U_ROUND",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_06_CENTRAL",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_CENTRAL",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_07_FV",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_FV",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_08_DENTAL",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_DENTAL",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_09_NARROW",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_NARROW",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_10_MID_OPEN",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_MID_OPEN",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "input_11_WIDE_TALK",
+      "status": "PASS",
+      "states": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_WIDE_TALK",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "test": "12_distinct_mouths",
+      "status": "PASS",
+      "distinct": 12
+    },
+    {
+      "test": "eyes_hair_body_unchanged_by_viseme",
+      "status": "PASS",
+      "max_changed_pixels_outside_mouth": 0,
+      "max_channel_difference_outside_mouth": 0,
+      "note": "Allow at most 4 edge rasterization pixels on the 808278-pixel canvas; mouth pixels checked exactly."
+    },
+    {
+      "test": "all_132_direct_transitions",
+      "status": "PASS",
+      "pairs": 132,
+      "failed": []
+    },
+    {
+      "test": "0_to_11_to_0_sweep",
+      "status": "PASS"
+    },
+    {
+      "test": "stop_returns_rest",
+      "status": "PASS",
+      "events": [
+        "mouth_rest",
+        "head_rest"
+      ]
+    },
+    {
+      "test": "native_reset_latches_rest",
+      "status": "PASS",
+      "events": [
+        "mouth_rest"
+      ]
+    },
+    {
+      "test": "resume_after_reset",
+      "status": "PASS"
+    },
+    {
+      "test": "invalid_id_-1_rests",
+      "status": "PASS",
+      "events": [
+        "mouth_rest"
+      ]
+    },
+    {
+      "test": "invalid_id_12_rests",
+      "status": "PASS",
+      "events": [
+        "mouth_rest"
+      ]
+    },
+    {
+      "test": "invalid_id_2.5_rests",
+      "status": "PASS",
+      "events": [
+        "mouth_rest"
+      ]
+    },
+    {
+      "test": "blink_independent_of_mouth",
+      "status": "PASS",
+      "changed_eye_pixels": 7130,
+      "events": [
+        "mouth_rest",
+        "head_rest",
+        "eyes_open",
+        "idle_loop",
+        "show_full_body",
+        "viseme_A_OPEN",
+        "talk_micro_motion",
+        "blink_once"
+      ]
+    },
+    {
+      "test": "blink_returns_open",
+      "status": "PASS"
+    },
+    {
+      "test": "interpolated_transition_frames",
+      "status": "PASS",
+      "distinct_samples": 6
+    },
+    {
+      "test": "vietnamese_sentence_demo",
+      "status": "PASS",
+      "events": 50
+    }
+  ],
+  "failures": 0,
+  "flutter_runtime": {
+    "status": "NOT TESTED",
+    "reason": "Run the separate Flutter test project."
+  },
+  "openrive_diagnostics": {
+    "project": "Loi - Vietnamese Lip Sync",
+    "id": "l_gOik8sJvRq",
+    "valid": true,
+    "fileVersion": "7.3",
+    "roundTripsByteIdentically": true,
+    "counts": {
+      "artboards": 1,
+      "objects": 4398,
+      "timelines": 19,
+      "stateMachines": 1,
+      "assets": 0
+    },
+    "diagnostics": []
+  }
+}

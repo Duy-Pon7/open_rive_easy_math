@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "color": 0,
+      "palette": "Blue",
+      "phase": "Held",
+      "exact_color_pixels": 13107
+    },
+    {
+      "color": 0,
+      "palette": "Blue",
+      "phase": "Falling",
+      "exact_color_pixels": 15140
+    },
+    {
+      "color": 0,
+      "palette": "Blue",
+      "phase": "Splash",
+      "exact_color_pixels": 16972
+    },
+    {
+      "color": 1,
+      "palette": "Yellow",
+      "phase": "Held",
+      "exact_color_pixels": 13096
+    },
+    {
+      "color": 1,
+      "palette": "Yellow",
+      "phase": "Falling",
+      "exact_color_pixels": 15106
+    },
+    {
+      "color": 1,
+      "palette": "Yellow",
+      "phase": "Splash",
+      "exact_color_pixels": 17157
+    },
+    {
+      "color": 2,
+      "palette": "Pink",
+      "phase": "Held",
+      "exact_color_pixels": 13101
+    },
+    {
+      "color": 2,
+      "palette": "Pink",
+      "phase": "Falling",
+      "exact_color_pixels": 15094
+    },
+    {
+      "color": 2,
+      "palette": "Pink",
+      "phase": "Splash",
+      "exact_color_pixels": 17142
+    }
+  ],
+  "live_recolor_after_impact": true,
+  "persists_after_reset": true,
+  "errors": []
+}

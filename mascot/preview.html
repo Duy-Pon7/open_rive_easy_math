@@ -12,6 +12,13 @@
   .controls { display: flex; gap: 14px; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 20px; }
   button { border: 0; border-radius: 8px; background: #343b32; color: #fff; padding: 9px 16px; font: inherit; cursor: pointer; min-width: 110px; }
   #fall { background: #337ed8; }
+  .colors { display: flex; justify-content: center; gap: 8px; border: 0; padding: 0; margin: 18px 0 0; }
+  .colors legend { width: 100%; margin-bottom: 10px; color: #697065; font-size: 13px; }
+  .colors button { min-width: 90px; color: #292a26; border: 2px solid transparent; padding: 7px 10px; }
+  .colors button[aria-pressed="true"] { border-color: #343b32; box-shadow: 0 0 0 2px #fff inset; }
+  .colors button[data-color="0"] { background: #88bfff; }
+  .colors button[data-color="1"] { background: #ffdc72; }
+  .colors button[data-color="2"] { background: #ffb5d5; }
   label { display: flex; align-items: center; gap: 8px; }
   input { width: 115px; accent-color: #343b32; }
   p { color: #697065; font-size: 13px; margin: 20px 0 0; }
@@ -19,6 +26,12 @@
 <main>
   <h1>Mascot · Chạy và té</h1>
   <canvas id="canvas" width="814" height="1086" aria-label="Nhân vật bò chạy, vấp té và làm rớt bóng nước"></canvas>
+  <fieldset class="colors">
+    <legend>Màu bóng và nước</legend>
+    <button type="button" data-color="0" aria-pressed="true">0 · Xanh</button>
+    <button type="button" data-color="1" aria-pressed="false">1 · Vàng</button>
+    <button type="button" data-color="2" aria-pressed="false">2 · Hồng</button>
+  </fieldset>
   <div class="controls">
     <button id="fall" type="button">Té · Rớt bóng</button>
     <button id="run" type="button">Chạy lại</button>
@@ -33,11 +46,16 @@
   var playing = true;
   var currentAnimation = 'Run';
   var falling;
+  var balloonColor;
   var r = new rive.Rive({
     src: 'mascot_run_fall.riv', canvas: document.getElementById('canvas'),
     autoplay: true, stateMachines: 'Run Controller', autoBind: true,
     layout: new rive.Layout({ fit: rive.Fit.Contain }),
-    onLoad: () => { falling = r.viewModelInstance.boolean('isFalling'); window.ready = true; }
+    onLoad: () => {
+      falling = r.viewModelInstance.boolean('isFalling');
+      balloonColor = r.viewModelInstance.number('balloonColor');
+      window.ready = true;
+    }
   });
   const button = document.getElementById('toggle');
   const status = document.getElementById('status');
@@ -48,6 +66,16 @@
     falling = viewModel.boolean('isFalling');
     button.textContent = 'Tạm dừng';
   }
+  document.querySelectorAll('[data-color]').forEach(option => {
+    option.onclick = () => {
+      if (!window.ready) return;
+      balloonColor.value = Number(option.dataset.color);
+      document.querySelectorAll('[data-color]').forEach(item => {
+        item.setAttribute('aria-pressed', String(item === option));
+      });
+      if (!playing) resumeController();
+    };
+  });
   document.getElementById('fall').onclick = () => {
     falling.value = false;
     resumeController();
@@ -72,9 +100,11 @@
     button.textContent = playing ? 'Tạm dừng' : 'Chạy';
   };
   document.getElementById('scrub').oninput = (event) => {
-    r.stop(); r.play(currentAnimation); r.pause();
+    const palette = 'Balloon ' + ['Blue','Yellow','Pink'][balloonColor.value];
+    r.stop(); r.play([currentAnimation,palette]); r.pause();
     playing = false; button.textContent = 'Chạy';
     r.scrub(currentAnimation, +event.target.value);
+    r.scrub(palette,0);
   };
 </script>
 </html>

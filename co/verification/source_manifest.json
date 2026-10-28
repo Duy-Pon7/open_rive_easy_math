@@ -1,0 +1,25 @@
+{
+  "source": "CO.svg",
+  "source_sha256": "6fcdbd7fa3094d07edfd01e979f7a7f644426f925eecca6eab500c60c6407b0a",
+  "svg_canvas": [
+    745,
+    1287
+  ],
+  "mouth_bounds": [
+    327,
+    390,
+    422,
+    451
+  ],
+  "head_pivot": [
+    377,
+    478
+  ],
+  "mouth_vertex_count": 5,
+  "objects": 5054,
+  "native_vectors": true,
+  "raster_assets": 0,
+  "svg_paths_preserved_except_mouth": true,
+  "svg_masks_preserved": true,
+  "original_gradients_preserved": true
+}

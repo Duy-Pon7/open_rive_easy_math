@@ -1,0 +1,29 @@
+{
+  "Blue": {
+    "#4299fd": "#4299FD",
+    "#2d6ebd": "#2D6EBD",
+    "#c0dbfc": "#C0DBFC",
+    "#66b8fd": "#66B8FD",
+    "#3995fe": "#3995FE",
+    "#126ed4": "#126ED4",
+    "#c1e0fd": "#C1E0FD"
+  },
+  "Yellow": {
+    "#4299fd": "#F8CE44",
+    "#2d6ebd": "#BA9020",
+    "#c0dbfc": "#FFF0B8",
+    "#66b8fd": "#FFD96B",
+    "#3995fe": "#F4C033",
+    "#126ed4": "#CA941A",
+    "#c1e0fd": "#FFF3C6"
+  },
+  "Pink": {
+    "#4299fd": "#F27AAF",
+    "#2d6ebd": "#BA467C",
+    "#c0dbfc": "#FFD5E8",
+    "#66b8fd": "#FFA3CC",
+    "#3995fe": "#EF6DA7",
+    "#126ed4": "#CB3E80",
+    "#c1e0fd": "#FFE0EF"
+  }
+}

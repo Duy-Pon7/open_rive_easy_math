@@ -1,0 +1,85 @@
+[
+  {
+    "id": 0,
+    "events": [
+      "mouth_rest",
+      "head_rest",
+      "eyes_open",
+      "idle_loop",
+      "show_full_body",
+      "talk_micro_motion"
+    ]
+  },
+  {
+    "id": 1,
+    "events": [
+      "viseme_MBP"
+    ]
+  },
+  {
+    "id": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ]
+  },
+  {
+    "id": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ]
+  },
+  {
+    "id": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ]
+  },
+  {
+    "id": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ]
+  },
+  {
+    "id": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ]
+  },
+  {
+    "id": 7,
+    "events": [
+      "viseme_FV"
+    ]
+  },
+  {
+    "id": 8,
+    "events": [
+      "viseme_DENTAL"
+    ]
+  },
+  {
+    "id": 9,
+    "events": [
+      "viseme_NARROW"
+    ]
+  },
+  {
+    "id": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ]
+  },
+  {
+    "id": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ]
+  },
+  {
+    "id": 0,
+    "events": [
+      "mouth_rest"
+    ]
+  }
+]

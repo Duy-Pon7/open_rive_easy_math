@@ -1,0 +1,15 @@
+{
+  "project": "Loi - Vietnamese Lip Sync",
+  "id": "l_gOik8sJvRq",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 4398,
+    "timelines": 19,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

@@ -1,0 +1,405 @@
+{
+  "rows": [
+    {
+      "word": "Xin",
+      "id": 9,
+      "ms": 110,
+      "events": [
+        "viseme_NARROW",
+        "talk_micro_motion"
+      ]
+    },
+    {
+      "word": "Xin",
+      "id": 3,
+      "ms": 110,
+      "events": [
+        "viseme_E_I_WIDE"
+      ]
+    },
+    {
+      "word": "Xin",
+      "id": 8,
+      "ms": 110,
+      "events": [
+        "viseme_DENTAL"
+      ]
+    },
+    {
+      "word": "chào",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "chào",
+      "id": 2,
+      "ms": 110,
+      "events": [
+        "viseme_A_OPEN"
+      ]
+    },
+    {
+      "word": "chào",
+      "id": 4,
+      "ms": 110,
+      "events": [
+        "viseme_O_ROUND"
+      ]
+    },
+    {
+      "word": "các",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "các",
+      "id": 2,
+      "ms": 110,
+      "events": [
+        "viseme_A_OPEN"
+      ]
+    },
+    {
+      "word": "các",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "em",
+      "id": 3,
+      "ms": 110,
+      "events": [
+        "viseme_E_I_WIDE"
+      ]
+    },
+    {
+      "word": "em",
+      "id": 1,
+      "ms": 110,
+      "events": [
+        "viseme_MBP"
+      ]
+    },
+    {
+      "word": "!",
+      "id": 0,
+      "ms": 260,
+      "events": [
+        "mouth_rest"
+      ]
+    },
+    {
+      "word": "Hôm",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "Hôm",
+      "id": 4,
+      "ms": 110,
+      "events": [
+        "viseme_O_ROUND"
+      ]
+    },
+    {
+      "word": "Hôm",
+      "id": 1,
+      "ms": 110,
+      "events": [
+        "viseme_MBP"
+      ]
+    },
+    {
+      "word": "nay",
+      "id": 8,
+      "ms": 110,
+      "events": [
+        "viseme_DENTAL"
+      ]
+    },
+    {
+      "word": "nay",
+      "id": 2,
+      "ms": 110,
+      "events": [
+        "viseme_A_OPEN"
+      ]
+    },
+    {
+      "word": "nay",
+      "id": 3,
+      "ms": 110,
+      "events": [
+        "viseme_E_I_WIDE"
+      ]
+    },
+    {
+      "word": "chúng",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "chúng",
+      "id": 5,
+      "ms": 110,
+      "events": [
+        "viseme_U_ROUND"
+      ]
+    },
+    {
+      "word": "chúng",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "ta",
+      "id": 8,
+      "ms": 110,
+      "events": [
+        "viseme_DENTAL"
+      ]
+    },
+    {
+      "word": "ta",
+      "id": 2,
+      "ms": 110,
+      "events": [
+        "viseme_A_OPEN"
+      ]
+    },
+    {
+      "word": "cùng",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "cùng",
+      "id": 5,
+      "ms": 110,
+      "events": [
+        "viseme_U_ROUND"
+      ]
+    },
+    {
+      "word": "cùng",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "học",
+      "id": 10,
+      "ms": 110,
+      "events": []
+    },
+    {
+      "word": "học",
+      "id": 4,
+      "ms": 110,
+      "events": [
+        "viseme_O_ROUND"
+      ]
+    },
+    {
+      "word": "học",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "toán",
+      "id": 8,
+      "ms": 110,
+      "events": [
+        "viseme_DENTAL"
+      ]
+    },
+    {
+      "word": "toán",
+      "id": 4,
+      "ms": 110,
+      "events": [
+        "viseme_O_ROUND"
+      ]
+    },
+    {
+      "word": "toán",
+      "id": 2,
+      "ms": 110,
+      "events": [
+        "viseme_A_OPEN"
+      ]
+    },
+    {
+      "word": "toán",
+      "id": 8,
+      "ms": 110,
+      "events": [
+        "viseme_DENTAL"
+      ]
+    },
+    {
+      "word": "nhé",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "nhé",
+      "id": 3,
+      "ms": 110,
+      "events": [
+        "viseme_E_I_WIDE"
+      ]
+    },
+    {
+      "word": ".",
+      "id": 0,
+      "ms": 260,
+      "events": [
+        "mouth_rest"
+      ]
+    },
+    {
+      "word": "Một",
+      "id": 1,
+      "ms": 110,
+      "events": [
+        "viseme_MBP"
+      ]
+    },
+    {
+      "word": "Một",
+      "id": 4,
+      "ms": 110,
+      "events": [
+        "viseme_O_ROUND"
+      ]
+    },
+    {
+      "word": "Một",
+      "id": 8,
+      "ms": 110,
+      "events": [
+        "viseme_DENTAL"
+      ]
+    },
+    {
+      "word": "hai",
+      "id": 10,
+      "ms": 110,
+      "events": [
+        "viseme_MID_OPEN"
+      ]
+    },
+    {
+      "word": "hai",
+      "id": 2,
+      "ms": 110,
+      "events": [
+        "viseme_A_OPEN"
+      ]
+    },
+    {
+      "word": "hai",
+      "id": 3,
+      "ms": 110,
+      "events": [
+        "viseme_E_I_WIDE"
+      ]
+    },
+    {
+      "word": "ba",
+      "id": 1,
+      "ms": 110,
+      "events": [
+        "viseme_MBP"
+      ]
+    },
+    {
+      "word": "ba",
+      "id": 2,
+      "ms": 110,
+      "events": [
+        "viseme_A_OPEN"
+      ]
+    },
+    {
+      "word": "bốn",
+      "id": 1,
+      "ms": 110,
+      "events": [
+        "viseme_MBP"
+      ]
+    },
+    {
+      "word": "bốn",
+      "id": 4,
+      "ms": 110,
+      "events": [
+        "viseme_O_ROUND"
+      ]
+    },
+    {
+      "word": "bốn",
+      "id": 8,
+      "ms": 110,
+      "events": [
+        "viseme_DENTAL"
+      ]
+    },
+    {
+      "word": "năm",
+      "id": 8,
+      "ms": 110,
+      "events": []
+    },
+    {
+      "word": "năm",
+      "id": 2,
+      "ms": 110,
+      "events": [
+        "viseme_A_OPEN"
+      ]
+    },
+    {
+      "word": "năm",
+      "id": 1,
+      "ms": 110,
+      "events": [
+        "viseme_MBP"
+      ]
+    }
+  ],
+  "final": {
+    "id": 0,
+    "talking": false
+  }
+}
