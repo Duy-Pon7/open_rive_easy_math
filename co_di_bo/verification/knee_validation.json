@@ -1,0 +1,78 @@
+[
+  {
+    "test": "left_leg_keeps_segment_lengths",
+    "passed": true,
+    "thigh_range": [
+      103.9999999999999,
+      104.0000000000001
+    ],
+    "shin_range": [
+      102.99999999999987,
+      103.00000000000009
+    ]
+  },
+  {
+    "test": "left_knee_bends_and_extends",
+    "passed": true,
+    "flexion_range_degrees": [
+      15.618423634576288,
+      62.37710545022493
+    ]
+  },
+  {
+    "test": "right_leg_keeps_segment_lengths",
+    "passed": true,
+    "thigh_range": [
+      103.9999999999999,
+      104.00000000000009
+    ],
+    "shin_range": [
+      102.9999999999999,
+      103.0000000000001
+    ]
+  },
+  {
+    "test": "right_knee_bends_and_extends",
+    "passed": true,
+    "flexion_range_degrees": [
+      25.492439526617318,
+      65.6966067306595
+    ]
+  },
+  {
+    "test": "knees_alternate_during_swing",
+    "passed": true
+  },
+  {
+    "test": "knee_deformation_visible_in_exported_frames",
+    "passed": true,
+    "mean_rgb_changes": [
+      4.0622419533851275,
+      26.78916759156493,
+      4.215849056603774,
+      17.161198668146504
+    ]
+  },
+  {
+    "test": "cuffs_remain_joined_to_ankles",
+    "passed": true,
+    "transparent_samples": 0,
+    "minimum_alpha": 219
+  },
+  {
+    "test": "valid_pose_False_False",
+    "passed": true
+  },
+  {
+    "test": "valid_pose_False_True",
+    "passed": true
+  },
+  {
+    "test": "valid_pose_True_False",
+    "passed": true
+  },
+  {
+    "test": "valid_pose_True_True",
+    "passed": true
+  }
+]

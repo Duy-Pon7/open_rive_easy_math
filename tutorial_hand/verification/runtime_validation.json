@@ -8,6 +8,10 @@
     }
   },
   {
+    "test": "paintColor_input_matches_water_streak",
+    "passed": true
+  },
+  {
     "test": "press_still_moving_after_300ms",
     "passed": true
   },
@@ -16,6 +20,7 @@
     "passed": true,
     "events": [
       "idle",
+      "Paint_Color_Blue",
       "press_down",
       "hold"
     ]
@@ -23,7 +28,7 @@
   {
     "test": "palm_and_other_fingers_stationary",
     "passed": true,
-    "mean_rgb_error": 0.0007613714510266234
+    "mean_rgb_error": 0.000757090087614861
   },
   {
     "test": "round_fingertip_preserved_on_press",
@@ -39,19 +44,46 @@
     "passed": true
   },
   {
+    "test": "touch_color_hidden_at_idle",
+    "passed": true
+  },
+  {
+    "test": "touch_color_visible_during_hold",
+    "passed": true,
+    "colored_pixels": 324
+  },
+  {
+    "test": "only_small_circle_remains_at_hold",
+    "passed": true
+  },
+  {
+    "test": "touch_circle_fits_canvas",
+    "passed": true
+  },
+  {
     "test": "release_still_moving_after_200ms",
     "passed": true
+  },
+  {
+    "test": "touch_color_shrinks_during_release",
+    "passed": true,
+    "colored_pixels": 0
   },
   {
     "test": "release_returns_original_pose",
     "passed": true,
     "events": [
       "idle",
+      "Paint_Color_Blue",
       "press_down",
       "hold",
       "release_up",
       "idle"
     ]
+  },
+  {
+    "test": "touch_color_gone_after_release",
+    "passed": true
   },
   {
     "test": "visibly_distinct_press_hold_release",
@@ -62,8 +94,8 @@
     "passed": true,
     "events": [
       "idle",
+      "Paint_Color_Blue",
       "press_down",
-      "release_up",
       "idle"
     ]
   },
@@ -72,6 +104,7 @@
     "passed": true,
     "events": [
       "idle",
+      "Paint_Color_Blue",
       "press_down",
       "hold",
       "release_up",
@@ -94,6 +127,11 @@
   {
     "test": "timeline_boundary_release_up",
     "passed": true
+  },
+  {
+    "test": "circle_visible_before_shrinking_behind_lifted_finger",
+    "passed": true,
+    "colored_pixels": 196
   },
   {
     "test": "palm_stationary_at_mid_press",
@@ -121,8 +159,99 @@
     "passed": true
   },
   {
+    "test": "no_circle_before_contact_0",
+    "passed": true
+  },
+  {
+    "test": "no_circle_before_contact_0.15",
+    "passed": true
+  },
+  {
+    "test": "no_circle_before_contact_0.3",
+    "passed": true
+  },
+  {
+    "test": "no_circle_before_contact_0.45",
+    "passed": true
+  },
+  {
+    "test": "no_circle_before_contact_0.6",
+    "passed": true
+  },
+  {
+    "test": "finger_reaches_pressed_position_before_feedback",
+    "passed": true
+  },
+  {
+    "test": "cancel_before_contact_never_flashes",
+    "passed": true,
+    "events": [
+      "idle"
+    ]
+  },
+  {
+    "test": "two_circles_visible_during_press",
+    "passed": true
+  },
+  {
+    "test": "outer_circle_disappears_before_hold",
+    "passed": true
+  },
+  {
+    "test": "pulse_fits_canvas",
+    "passed": true
+  },
+  {
+    "test": "paintColor_0",
+    "passed": true,
+    "color": "#0EA5E9",
+    "events": []
+  },
+  {
+    "test": "paintColor_1",
+    "passed": true,
+    "color": "#FAC965",
+    "events": [
+      "Paint_Color_Yellow"
+    ]
+  },
+  {
+    "test": "paintColor_2",
+    "passed": true,
+    "color": "#EC4899",
+    "events": [
+      "Paint_Color_Pink"
+    ]
+  },
+  {
+    "test": "paintColor_0",
+    "passed": true,
+    "color": "#0EA5E9",
+    "events": [
+      "Paint_Color_Blue"
+    ]
+  },
+  {
+    "test": "paintColor_-1",
+    "passed": true,
+    "color": "#0EA5E9",
+    "events": []
+  },
+  {
+    "test": "paintColor_3",
+    "passed": true,
+    "color": "#0EA5E9",
+    "events": []
+  },
+  {
+    "test": "paintColor_0.5",
+    "passed": true,
+    "color": "#0EA5E9",
+    "events": []
+  },
+  {
     "test": "idle_preserves_original_svg",
     "passed": true,
-    "mean_rgb_error": 0.01598373074143999
+    "mean_rgb_error": 0.014973606493839695
   }
 ]

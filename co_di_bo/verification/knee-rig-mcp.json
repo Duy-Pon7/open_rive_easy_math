@@ -1,0 +1,47 @@
+{
+  "saved": true,
+  "operations": [
+    {
+      "index": 0,
+      "op": "add_group",
+      "id": "VuSkQviqcM",
+      "name": "LegJoints"
+    },
+    {
+      "index": 1,
+      "op": "add_group",
+      "id": "pKU970_ket",
+      "name": "LeftHipJoint"
+    },
+    {
+      "index": 2,
+      "op": "add_group",
+      "id": "hIvljTz2-F",
+      "name": "LeftKneeJoint"
+    },
+    {
+      "index": 3,
+      "op": "add_group",
+      "id": "6dpEEAneXV",
+      "name": "LeftAnkleJoint"
+    },
+    {
+      "index": 4,
+      "op": "add_group",
+      "id": "cCQGNXmnb_",
+      "name": "RightHipJoint"
+    },
+    {
+      "index": 5,
+      "op": "add_group",
+      "id": "XI_mBFTLTA",
+      "name": "RightKneeJoint"
+    },
+    {
+      "index": 6,
+      "op": "add_group",
+      "id": "tPh18ytQyh",
+      "name": "RightAnkleJoint"
+    }
+  ]
+}

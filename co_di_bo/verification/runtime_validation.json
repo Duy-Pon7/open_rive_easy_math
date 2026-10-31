@@ -1,0 +1,92 @@
+[
+  {
+    "test": "default_walk_controller",
+    "passed": true
+  },
+  {
+    "test": "original_svg_fidelity",
+    "passed": true,
+    "mean_rgb_error": 0.15986102865184598,
+    "alpha_bounds": [
+      [
+        69,
+        48,
+        388,
+        818
+      ],
+      [
+        69,
+        48,
+        388,
+        818
+      ]
+    ]
+  },
+  {
+    "test": "continuous_walk",
+    "passed": true,
+    "distinct_frames": 72
+  },
+  {
+    "test": "no_clipping",
+    "passed": true
+  },
+  {
+    "test": "seamless_1_2_second_loop",
+    "passed": true,
+    "mean_rgb_error": 3.298370604921169e-05
+  },
+  {
+    "test": "stop_restores_exact_idle",
+    "passed": true
+  },
+  {
+    "test": "resume_walk",
+    "passed": true
+  },
+  {
+    "test": "rapid_toggle_returns_to_idle",
+    "passed": true
+  },
+  {
+    "test": "left_arm_articulates",
+    "passed": true,
+    "max_mean_rgb_change": 33.15537037037037
+  },
+  {
+    "test": "right_arm_articulates",
+    "passed": true,
+    "max_mean_rgb_change": 35.43851851851852
+  },
+  {
+    "test": "legs_articulates",
+    "passed": true,
+    "max_mean_rgb_change": 63.368348765432096
+  },
+  {
+    "test": "feet_alternate_lift_and_plant",
+    "passed": true,
+    "left_soles": [
+      818,
+      790
+    ],
+    "right_soles": [
+      776,
+      804
+    ]
+  },
+  {
+    "test": "stance_foot_stays_at_original_ground",
+    "passed": true,
+    "ground": [
+      818,
+      804
+    ]
+  },
+  {
+    "test": "wrists_stay_connected",
+    "passed": true,
+    "transparent_samples": 0,
+    "minimum_alpha": 59
+  }
+]

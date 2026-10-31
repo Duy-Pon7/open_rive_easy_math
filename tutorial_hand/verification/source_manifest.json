@@ -3,15 +3,16 @@
   "native_vectors": true,
   "canvas": [
     227,
-    252
+    269
   ],
   "source_crop": [
     0,
-    90,
+    73,
     227,
     342
   ],
-  "press_seconds": 0.6,
+  "press_seconds": 1.0,
+  "contact_seconds": 0.6,
   "release_seconds": 0.6,
   "fingertip_translation_y": 14,
   "release_lift_px": 2,

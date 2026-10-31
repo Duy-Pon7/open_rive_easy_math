@@ -1,0 +1,24 @@
+{
+  "before": {
+    "missing_seam_samples": {
+      "dorsal": 288,
+      "ventral": 364
+    },
+    "minimum_alpha": {
+      "dorsal": 5,
+      "ventral": 0
+    },
+    "poses": 17
+  },
+  "after": {
+    "missing_seam_samples": {
+      "dorsal": 0,
+      "ventral": 0
+    },
+    "minimum_alpha": {
+      "dorsal": 255,
+      "ventral": 255
+    },
+    "poses": 17
+  }
+}

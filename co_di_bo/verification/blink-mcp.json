@@ -1,0 +1,165 @@
+{
+  "saved": true,
+  "operations": [
+    {
+      "index": 0,
+      "op": "add_group",
+      "id": "ESQfB9KIi4",
+      "name": "LeftEyeOpen"
+    },
+    {
+      "index": 1,
+      "op": "add_group",
+      "id": "43hrpIEgTu",
+      "name": "LeftEyeOpenCoordinates"
+    },
+    {
+      "index": 2,
+      "op": "add_group",
+      "id": "c-VfAFVSBy",
+      "name": "RightEyeOpen"
+    },
+    {
+      "index": 3,
+      "op": "add_group",
+      "id": "GF8t9JEj-x",
+      "name": "RightEyeOpenCoordinates"
+    },
+    {
+      "index": 4,
+      "op": "add_group",
+      "id": "SXRzub2E4X",
+      "name": "ClosedEyes"
+    },
+    {
+      "index": 5,
+      "op": "set_properties",
+      "object": "ClosedEyes",
+      "updated": [
+        "opacity"
+      ]
+    },
+    {
+      "index": 6,
+      "op": "add_path",
+      "id": "b99ocYunhS",
+      "name": "LeftClosedLid",
+      "pathId": "tukA_mURkX"
+    },
+    {
+      "index": 7,
+      "op": "set_properties",
+      "object": "LeftClosedLid",
+      "updated": [
+        "opacity"
+      ]
+    },
+    {
+      "index": 8,
+      "op": "add_path",
+      "id": "QVrX7WcD05",
+      "name": "RightClosedLid",
+      "pathId": "dj09LWRphY"
+    },
+    {
+      "index": 9,
+      "op": "set_properties",
+      "object": "RightClosedLid",
+      "updated": [
+        "opacity"
+      ]
+    },
+    {
+      "index": 10,
+      "op": "add_path",
+      "id": "STXcyReUM6",
+      "name": "LeftLidCrease",
+      "pathId": "CAF8P-BBAd"
+    },
+    {
+      "index": 11,
+      "op": "set_properties",
+      "object": "LeftLidCrease",
+      "updated": [
+        "opacity"
+      ]
+    },
+    {
+      "index": 12,
+      "op": "add_path",
+      "id": "m3RXFylTK7",
+      "name": "RightLidCrease",
+      "pathId": "9RXrWT9URO"
+    },
+    {
+      "index": 13,
+      "op": "set_properties",
+      "object": "RightLidCrease",
+      "updated": [
+        "opacity"
+      ]
+    },
+    {
+      "index": 14,
+      "op": "add_timeline",
+      "id": "1DjAAhrL6q",
+      "name": "blink_auto"
+    },
+    {
+      "index": 15,
+      "op": "add_keyframes",
+      "count": 11
+    },
+    {
+      "index": 16,
+      "op": "add_keyframes",
+      "count": 9
+    },
+    {
+      "index": 17,
+      "op": "add_keyframes",
+      "count": 11
+    },
+    {
+      "index": 18,
+      "op": "add_keyframes",
+      "count": 9
+    },
+    {
+      "index": 19,
+      "op": "add_keyframes",
+      "count": 11
+    },
+    {
+      "index": 20,
+      "op": "add_timeline",
+      "id": "gu0ee9DhZN",
+      "name": "blink_once"
+    },
+    {
+      "index": 21,
+      "op": "add_keyframes",
+      "count": 8
+    },
+    {
+      "index": 22,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 23,
+      "op": "add_keyframes",
+      "count": 8
+    },
+    {
+      "index": 24,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 25,
+      "op": "add_keyframes",
+      "count": 8
+    }
+  ]
+}

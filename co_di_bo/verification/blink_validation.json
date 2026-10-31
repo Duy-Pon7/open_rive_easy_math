@@ -1,0 +1,58 @@
+[
+  {
+    "test": "closed_eyes_hide_white_and_pupils",
+    "passed": true,
+    "eyes": [
+      {
+        "white": 0,
+        "dark": 92
+      },
+      {
+        "white": 0,
+        "dark": 73
+      }
+    ]
+  },
+  {
+    "test": "closed_lids_curve_down_like_reference",
+    "passed": true,
+    "center_and_edge_y": [
+      [
+        232.9090909090909,
+        222.11764705882354
+      ],
+      [
+        226.75,
+        219.92857142857142
+      ]
+    ]
+  },
+  {
+    "test": "manual_blink_reopens_to_original",
+    "passed": true
+  },
+  {
+    "test": "automatic_blink_while_standing",
+    "passed": true
+  },
+  {
+    "test": "automatic_blink_reopens",
+    "passed": true
+  },
+  {
+    "test": "blink_does_not_restart_or_change_walking",
+    "passed": true,
+    "body_mean_rgb_error": 0.0,
+    "events": [
+      "blink_once"
+    ]
+  },
+  {
+    "test": "automatic_blink_while_walking",
+    "passed": true
+  },
+  {
+    "test": "repeat_manual_blink",
+    "passed": true
+  }
+]

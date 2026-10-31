@@ -1,0 +1,15 @@
+{
+  "project": "Fish - Swim",
+  "id": "R5U470UtzJo0",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 2557,
+    "timelines": 2,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

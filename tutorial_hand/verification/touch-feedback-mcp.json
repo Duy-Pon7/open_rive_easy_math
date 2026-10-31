@@ -1,0 +1,47 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"saved\": true,\n  \"operations\": [\n    {\n      \"index\": 0,\n      \"op\": \"add_group\",\n      \"id\": \"r37F0LOFIq\",\n      \"name\": \"Touch Feedback\"\n    },\n    {\n      \"index\": 1,\n      \"op\": \"add_shape\",\n      \"id\": \"NQH8nF8Y-9\",\n      \"name\": \"Touch Inner\"\n    },\n    {\n      \"index\": 2,\n      \"op\": \"add_shape\",\n      \"id\": \"r0y3_SXP8p\",\n      \"name\": \"Touch Outer\"\n    },\n    {\n      \"index\": 3,\n      \"op\": \"set_properties\",\n      \"object\": \"Touch Feedback\",\n      \"updated\": [\n        \"opacity\",\n        \"scaleX\",\n        \"scaleY\"\n      ]\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "saved": true,
+        "operations": [
+          {
+            "index": 0,
+            "op": "add_group",
+            "id": "r37F0LOFIq",
+            "name": "Touch Feedback"
+          },
+          {
+            "index": 1,
+            "op": "add_shape",
+            "id": "NQH8nF8Y-9",
+            "name": "Touch Inner"
+          },
+          {
+            "index": 2,
+            "op": "add_shape",
+            "id": "r0y3_SXP8p",
+            "name": "Touch Outer"
+          },
+          {
+            "index": 3,
+            "op": "set_properties",
+            "object": "Touch Feedback",
+            "updated": [
+              "opacity",
+              "scaleX",
+              "scaleY"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

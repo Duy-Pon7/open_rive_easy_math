@@ -1,0 +1,23 @@
+{
+  "reference": "water_streak\\water_streak.riv",
+  "sha256": "b258f81052b69b99a5502f3774fe821203534d4834f64312f84fb199b1d3123d",
+  "matches_source_build": true,
+  "input": "paintColor",
+  "colors": [
+    {
+      "id": 0,
+      "name": "Blue",
+      "hex": "#0EA5E9"
+    },
+    {
+      "id": 1,
+      "name": "Yellow",
+      "hex": "#FAC965"
+    },
+    {
+      "id": 2,
+      "name": "Pink",
+      "hex": "#EC4899"
+    }
+  ]
+}

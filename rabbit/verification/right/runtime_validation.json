@@ -1,0 +1,46 @@
+[
+  {
+    "test": "svg_is_horizontal_reflection",
+    "passed": true,
+    "mean_rgb_error": 0.0005553345268881374,
+    "canvas": [
+      914,
+      880
+    ]
+  },
+  {
+    "test": "controller_inputs_preserved",
+    "passed": true
+  },
+  {
+    "test": "right_riv_matches_right_svg",
+    "passed": true,
+    "mean_rgb_error": 0.0009153902261123268
+  },
+  {
+    "test": "all_85_frames_match_mirrored_original",
+    "passed": true,
+    "max_mean_rgb_error": 0.0011047012797559843,
+    "frames": 85
+  },
+  {
+    "test": "state_timing_preserved",
+    "passed": true,
+    "events": [
+      "idle",
+      "jump"
+    ]
+  },
+  {
+    "test": "no_clipping",
+    "passed": true
+  },
+  {
+    "test": "returns_to_idle",
+    "passed": true
+  },
+  {
+    "test": "reset_during_jump",
+    "passed": true
+  }
+]

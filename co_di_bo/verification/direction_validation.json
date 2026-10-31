@@ -1,0 +1,95 @@
+[
+  {
+    "test": "idle_left_matches_reflected_original",
+    "passed": true,
+    "events": [
+      "idle_left",
+      "blink_auto"
+    ]
+  },
+  {
+    "test": "all_73_walk_frames_are_mirrored",
+    "passed": true,
+    "max_mean_rgb_error": 0.027429878211592044
+  },
+  {
+    "test": "all_original_motion_keyframes_preserved",
+    "passed": true
+  },
+  {
+    "test": "left_walk_not_clipped",
+    "passed": true
+  },
+  {
+    "test": "input_routes_to_idle",
+    "passed": true,
+    "events": [
+      "idle",
+      "blink_auto"
+    ]
+  },
+  {
+    "test": "input_routes_to_walk",
+    "passed": true,
+    "events": [
+      "walk",
+      "blink_auto"
+    ]
+  },
+  {
+    "test": "input_routes_to_idle_left",
+    "passed": true,
+    "events": [
+      "idle_left",
+      "blink_auto"
+    ]
+  },
+  {
+    "test": "input_routes_to_walk_left",
+    "passed": true,
+    "events": [
+      "walk_left",
+      "blink_auto"
+    ]
+  },
+  {
+    "test": "left_walk_stops_to_exact_idle",
+    "passed": true
+  },
+  {
+    "test": "left_walk_resumes",
+    "passed": true
+  },
+  {
+    "test": "switch_direction_False_False",
+    "passed": true
+  },
+  {
+    "test": "switch_direction_False_True",
+    "passed": true
+  },
+  {
+    "test": "switch_direction_True_False",
+    "passed": true
+  },
+  {
+    "test": "switch_direction_True_True",
+    "passed": true
+  },
+  {
+    "test": "manual_blink_and_lid_creases_mirror_left",
+    "passed": true
+  },
+  {
+    "test": "automatic_blink_in_left_idle",
+    "passed": true
+  },
+  {
+    "test": "automatic_blink_in_left_walk",
+    "passed": true
+  },
+  {
+    "test": "rapid_switch_keeps_valid_left_idle",
+    "passed": true
+  }
+]

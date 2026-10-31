@@ -1,13 +1,13 @@
 {
   "id": "BZzxL2obe75B",
   "name": "Tutorial Hand - Press Hold Release",
-  "editor": "http://127.0.0.1:52107/editor/BZzxL2obe75B",
+  "editor": "http://127.0.0.1:56267/editor/BZzxL2obe75B",
   "artboards": [
     {
       "id": "SCPxOUWzWL",
       "name": "Tutorial Hand",
       "width": 227,
-      "height": 252,
+      "height": 269,
       "events": [],
       "children": [
         {
@@ -15,7 +15,7 @@
           "type": "Node",
           "name": "Hand",
           "x": 0,
-          "y": -90,
+          "y": -73,
           "children": [
             {
               "id": "U6XddGtB98",
@@ -300,6 +300,63 @@
               ]
             }
           ]
+        },
+        {
+          "id": "r37F0LOFIq",
+          "type": "Node",
+          "name": "Touch Feedback",
+          "x": 113.5,
+          "y": 48.5,
+          "children": [
+            {
+              "id": "NQH8nF8Y-9",
+              "type": "Shape",
+              "name": "Touch Inner",
+              "x": 0,
+              "y": 0,
+              "scale": [
+                0,
+                0
+              ],
+              "opacity": 0,
+              "fill": "#0ea5e9",
+              "children": [
+                {
+                  "id": "Qf5dJXf6NY",
+                  "type": "Ellipse",
+                  "name": "Ellipse Path",
+                  "x": 0,
+                  "y": 0,
+                  "width": 44,
+                  "height": 44
+                }
+              ]
+            },
+            {
+              "id": "r0y3_SXP8p",
+              "type": "Shape",
+              "name": "Touch Outer",
+              "x": 0,
+              "y": 0,
+              "scale": [
+                0,
+                0
+              ],
+              "opacity": 0,
+              "fill": "#0ea5e9",
+              "children": [
+                {
+                  "id": "qk3XzflYaW",
+                  "type": "Ellipse",
+                  "name": "Ellipse Path",
+                  "x": 0,
+                  "y": 0,
+                  "width": 68,
+                  "height": 68
+                }
+              ]
+            }
+          ]
         }
       ],
       "timelines": [
@@ -313,20 +370,32 @@
             "Hand.y",
             "CubicDetachedVertex.y",
             "CubicDetachedVertex.y",
-            "CubicDetachedVertex.y"
+            "CubicDetachedVertex.y",
+            "Touch Inner.scaleX",
+            "Touch Inner.scaleY",
+            "Touch Inner.opacity",
+            "Touch Outer.scaleX",
+            "Touch Outer.scaleY",
+            "Touch Outer.opacity"
           ]
         },
         {
           "id": "3eCl204K3p",
           "name": "press_down",
           "fps": 60,
-          "durationSeconds": 0.6,
-          "loop": "oneShot",
+          "durationSeconds": 1,
+          "loop": "loop",
           "keyed": [
             "Hand.y",
             "CubicDetachedVertex.y",
             "CubicDetachedVertex.y",
-            "CubicDetachedVertex.y"
+            "CubicDetachedVertex.y",
+            "Touch Inner.scaleX",
+            "Touch Inner.scaleY",
+            "Touch Inner.opacity",
+            "Touch Outer.scaleX",
+            "Touch Outer.scaleY",
+            "Touch Outer.opacity"
           ]
         },
         {
@@ -339,7 +408,13 @@
             "Hand.y",
             "CubicDetachedVertex.y",
             "CubicDetachedVertex.y",
-            "CubicDetachedVertex.y"
+            "CubicDetachedVertex.y",
+            "Touch Inner.scaleX",
+            "Touch Inner.scaleY",
+            "Touch Inner.opacity",
+            "Touch Outer.scaleX",
+            "Touch Outer.scaleY",
+            "Touch Outer.opacity"
           ]
         },
         {
@@ -352,7 +427,46 @@
             "Hand.y",
             "CubicDetachedVertex.y",
             "CubicDetachedVertex.y",
-            "CubicDetachedVertex.y"
+            "CubicDetachedVertex.y",
+            "Touch Inner.scaleX",
+            "Touch Inner.scaleY",
+            "Touch Inner.opacity",
+            "Touch Outer.scaleX",
+            "Touch Outer.scaleY",
+            "Touch Outer.opacity"
+          ]
+        },
+        {
+          "id": "touch-color-0-anim",
+          "name": "Paint_Color_Blue",
+          "fps": 60,
+          "durationSeconds": 0.02,
+          "loop": "oneShot",
+          "keyed": [
+            "Touch Inner.fill",
+            "Touch Outer.fill"
+          ]
+        },
+        {
+          "id": "touch-color-1-anim",
+          "name": "Paint_Color_Yellow",
+          "fps": 60,
+          "durationSeconds": 0.02,
+          "loop": "oneShot",
+          "keyed": [
+            "Touch Inner.fill",
+            "Touch Outer.fill"
+          ]
+        },
+        {
+          "id": "touch-color-2-anim",
+          "name": "Paint_Color_Pink",
+          "fps": 60,
+          "durationSeconds": 0.02,
+          "loop": "oneShot",
+          "keyed": [
+            "Touch Inner.fill",
+            "Touch Outer.fill"
           ]
         }
       ],
@@ -366,6 +480,11 @@
               "id": "a7dlL8apVe",
               "name": "is_pressed",
               "type": "bool"
+            },
+            {
+              "id": "touch-paint-color-input",
+              "name": "paintColor",
+              "type": "number"
             }
           ],
           "layers": [
@@ -403,6 +522,7 @@
                   "timeline": "press_down",
                   "transitionsTo": [
                     "F3cIhsf7p9",
+                    "qhLRcQmSKO",
                     "iXFT7u6uAf"
                   ]
                 },
@@ -421,6 +541,57 @@
                   "transitionsTo": [
                     "m9A6ya0NQg",
                     "qhLRcQmSKO"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Paint color selection",
+              "states": [
+                {
+                  "id": "touch-color-any",
+                  "type": "AnyState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "touch-color-exit",
+                  "type": "ExitState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "touch-color-entry",
+                  "type": "EntryState",
+                  "transitionsTo": [
+                    "touch-color-1-state",
+                    "touch-color-2-state",
+                    "touch-color-0-state"
+                  ]
+                },
+                {
+                  "id": "touch-color-0-state",
+                  "type": "AnimationState",
+                  "timeline": "Paint_Color_Blue",
+                  "transitionsTo": [
+                    "touch-color-1-state",
+                    "touch-color-2-state"
+                  ]
+                },
+                {
+                  "id": "touch-color-1-state",
+                  "type": "AnimationState",
+                  "timeline": "Paint_Color_Yellow",
+                  "transitionsTo": [
+                    "touch-color-2-state",
+                    "touch-color-0-state"
+                  ]
+                },
+                {
+                  "id": "touch-color-2-state",
+                  "type": "AnimationState",
+                  "timeline": "Paint_Color_Pink",
+                  "transitionsTo": [
+                    "touch-color-1-state",
+                    "touch-color-0-state"
                   ]
                 }
               ]

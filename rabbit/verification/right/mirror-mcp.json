@@ -1,0 +1,16 @@
+{
+  "saved": true,
+  "operations": [
+    {
+      "index": 0,
+      "op": "set_properties",
+      "object": "N56IJ3U_5T",
+      "updated": [
+        "x",
+        "y",
+        "scaleX",
+        "scaleY"
+      ]
+    }
+  ]
+}

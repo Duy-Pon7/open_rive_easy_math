@@ -1,0 +1,15 @@
+{
+  "source_sha256": "655c0140806bdc712b4642597c657cbf141c01672ea768e32454621d318aeed4",
+  "canvas": [
+    914,
+    1100
+  ],
+  "source_offset": [
+    0,
+    220
+  ],
+  "native_vectors": true,
+  "svg_masks_preserved": 3,
+  "jump_seconds": 1.4,
+  "note": "Native source mirrors the animation keys authored through OpenRive MCP."
+}

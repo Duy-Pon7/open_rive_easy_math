@@ -1,0 +1,37 @@
+{
+  "source_sha256": "67a86fba3c94db223e88ff34f5a66504da8758ebce1de9090343b29551315f22",
+  "native_vectors": true,
+  "canvas": [
+    489,
+    868
+  ],
+  "walk_seconds": 1.2,
+  "step_count_per_cycle": 2,
+  "cloth_morph_hz": 30,
+  "counts": {
+    "paths": 222,
+    "gradients": 2,
+    "morph_properties": 1232
+  },
+  "leg_rig": "two-segment hip/knee/ankle IK, constant lengths 104/103 px",
+  "swing_lift_px": 28,
+  "stride_px": 32,
+  "input": {
+    "is_walking": true,
+    "blink": "Trigger",
+    "facing_left": false
+  },
+  "direction_states": [
+    "idle",
+    "walk",
+    "idle_left",
+    "walk_left"
+  ],
+  "auto_blink_seconds": 5,
+  "blink_seconds": 0.3,
+  "closed_eye_details": [
+    "curved dark lash",
+    "subtle upper lid crease"
+  ],
+  "joints": "Shared continuous deformation across sleeve/hand and trouser/ankle boundaries."
+}

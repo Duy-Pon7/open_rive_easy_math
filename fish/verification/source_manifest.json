@@ -1,0 +1,18 @@
+{
+  "source_sha256": "a28176086a2dbfa11cd06baba5446b2cd0580968eedd0af4fc19e5bc77fdd490",
+  "native_vectors": true,
+  "svg_paths_preserved": 27,
+  "canvas": [
+    1570,
+    1001
+  ],
+  "swim_loop_seconds": 2.0,
+  "tail_beat_seconds": 1.0,
+  "fin_roots_inset_px": {
+    "dorsal": 12,
+    "ventral": 20
+  },
+  "input": {
+    "is_swimming": true
+  }
+}

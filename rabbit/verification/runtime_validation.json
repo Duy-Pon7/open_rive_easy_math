@@ -1,0 +1,71 @@
+[
+  {
+    "test": "runtime_load_and_inputs",
+    "passed": true,
+    "inputs": [
+      "jump",
+      "reset"
+    ]
+  },
+  {
+    "test": "original_svg_fidelity",
+    "passed": true,
+    "rgb_error": 0.0007595650155825211,
+    "alpha_bounds": [
+      [
+        193,
+        299,
+        832,
+        1045
+      ],
+      [
+        192,
+        299,
+        832,
+        1045
+      ]
+    ]
+  },
+  {
+    "test": "jump_trigger_enters_jump",
+    "passed": true,
+    "events": [
+      "idle",
+      "jump"
+    ]
+  },
+  {
+    "test": "flight_has_clear_lift",
+    "passed": true,
+    "foot_height_range": [
+      857,
+      1047
+    ]
+  },
+  {
+    "test": "no_clipping_during_jump",
+    "passed": true,
+    "extents": [
+      154,
+      112,
+      865,
+      1047
+    ]
+  },
+  {
+    "test": "one_shot_returns_to_exact_idle",
+    "passed": true
+  },
+  {
+    "test": "jump_can_fire_again",
+    "passed": true
+  },
+  {
+    "test": "reset_mid_jump_returns_to_idle",
+    "passed": true
+  },
+  {
+    "test": "midair_trigger_does_not_queue_or_restart",
+    "passed": true
+  }
+]

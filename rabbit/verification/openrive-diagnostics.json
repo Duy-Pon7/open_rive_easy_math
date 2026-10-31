@@ -1,0 +1,15 @@
+{
+  "project": "Rabbit - Jump",
+  "id": "uUxU5oeYnn-p",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 1120,
+    "timelines": 2,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

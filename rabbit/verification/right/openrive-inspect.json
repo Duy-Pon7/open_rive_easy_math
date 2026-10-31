@@ -1,0 +1,1264 @@
+{
+  "id": "ERz3ldwED9KS",
+  "name": "Rabbit - Jump Right",
+  "editor": "http://127.0.0.1:49612/editor/ERz3ldwED9KS",
+  "artboards": [
+    {
+      "id": "-Y0USMINMh",
+      "name": "Rabbit",
+      "width": 914,
+      "height": 1100,
+      "events": [],
+      "children": [
+        {
+          "id": "N56IJ3U_5T",
+          "type": "Node",
+          "name": "FacingRight",
+          "x": 914,
+          "y": 0,
+          "scale": [
+            -1,
+            1
+          ],
+          "children": [
+            {
+              "id": "WSAXRYsd2W",
+              "type": "Node",
+              "name": "RabbitRoot",
+              "x": 520,
+              "y": 1044,
+              "children": [
+                {
+                  "id": "MMudFm4hNJ",
+                  "type": "Node",
+                  "name": "SVGCoordinates",
+                  "x": -520,
+                  "y": -824,
+                  "children": [
+                    {
+                      "id": "kCMbTmvMAI",
+                      "type": "Node",
+                      "name": "Head",
+                      "x": 377,
+                      "y": 465,
+                      "children": [
+                        {
+                          "id": "EjrlcYE3yi",
+                          "type": "Node",
+                          "name": "HeadCoordinates",
+                          "x": -377,
+                          "y": -465,
+                          "children": [
+                            {
+                              "id": "cgYq5zjnXK",
+                              "type": "Shape",
+                              "name": "Cheek contour",
+                              "x": 0,
+                              "y": 0,
+                              "fill": "#f8bac7",
+                              "children": [
+                                {
+                                  "id": "sc4gQlfvwR",
+                                  "type": "PointsPath",
+                                  "x": 0,
+                                  "y": 0,
+                                  "vertices": [
+                                    {
+                                      "id": "BIkBFDXUIV",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 324.6300048828125,
+                                      "y": 542.3150024414062
+                                    },
+                                    {
+                                      "id": "M4oVgRwoL6",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 419.54998779296875,
+                                      "y": 505.8890075683594
+                                    },
+                                    {
+                                      "id": "2_DhAnzU_g",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 451.6090087890625,
+                                      "y": 470.6759948730469
+                                    },
+                                    {
+                                      "id": "jFFDuAekOi",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 449.447998046875,
+                                      "y": 469.3580017089844
+                                    },
+                                    {
+                                      "id": "QA-Mzg3th2",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 370.1549987792969,
+                                      "y": 529.6110229492188
+                                    },
+                                    {
+                                      "id": "n7vekTapGw",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 324.6300048828125,
+                                      "y": 539.6790161132812
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "4cX6mdlTbQ",
+                              "type": "Node",
+                              "name": "Eye",
+                              "x": 321,
+                              "y": 381,
+                              "children": [
+                                {
+                                  "id": "x_qGibjxqv",
+                                  "type": "Node",
+                                  "name": "EyeCoordinates",
+                                  "x": -321,
+                                  "y": -381,
+                                  "children": [
+                                    {
+                                      "id": "z3I716R_ZT",
+                                      "type": "Node",
+                                      "name": "Pupil",
+                                      "x": 0,
+                                      "y": 0,
+                                      "children": [
+                                        {
+                                          "id": "CMlD2izX9e",
+                                          "type": "Shape",
+                                          "name": "Pupil clip",
+                                          "x": 0,
+                                          "y": 0,
+                                          "children": [
+                                            {
+                                              "id": "5uAmDl8o4p",
+                                              "type": "PointsPath",
+                                              "x": 0,
+                                              "y": 0,
+                                              "vertices": [
+                                                {
+                                                  "id": "jCQ4LUIhht",
+                                                  "type": "CubicDetachedVertex",
+                                                  "x": 321.05999755859375,
+                                                  "y": 407.69500732421875
+                                                },
+                                                {
+                                                  "id": "FyYiW1BRQ3",
+                                                  "type": "CubicDetachedVertex",
+                                                  "x": 346.1839904785156,
+                                                  "y": 381.3380126953125
+                                                },
+                                                {
+                                                  "id": "2MefBqjYlb",
+                                                  "type": "CubicDetachedVertex",
+                                                  "x": 321.05999755859375,
+                                                  "y": 354.9800109863281
+                                                },
+                                                {
+                                                  "id": "je57Mt3EST",
+                                                  "type": "CubicDetachedVertex",
+                                                  "x": 295.9360046386719,
+                                                  "y": 381.3380126953125
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "9olAfewDxp",
+                                          "type": "Shape",
+                                          "name": "Pupil 0",
+                                          "x": 0,
+                                          "y": 0,
+                                          "fill": "#000000",
+                                          "children": [
+                                            {
+                                              "id": "6uaCZpIvFh",
+                                              "type": "PointsPath",
+                                              "x": 0,
+                                              "y": 0,
+                                              "vertices": [
+                                                {
+                                                  "id": "k6cETcbUTX",
+                                                  "type": "CubicDetachedVertex",
+                                                  "x": 320.9570007324219,
+                                                  "y": 399.1579895019531
+                                                },
+                                                {
+                                                  "id": "OTJXhT9VJ6",
+                                                  "type": "CubicDetachedVertex",
+                                                  "x": 304.02301025390625,
+                                                  "y": 381.3940124511719
+                                                },
+                                                {
+                                                  "id": "KIQBhTWnOz",
+                                                  "type": "CubicDetachedVertex",
+                                                  "x": 320.9570007324219,
+                                                  "y": 363.6289978027344
+                                                },
+                                                {
+                                                  "id": "oBiR3qwbKf",
+                                                  "type": "CubicDetachedVertex",
+                                                  "x": 337.8909912109375,
+                                                  "y": 381.3940124511719
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "Z4SmbkuhI1",
+                                      "type": "Shape",
+                                      "name": "Eye white",
+                                      "x": 0,
+                                      "y": 0,
+                                      "fill": "#ffffff",
+                                      "children": [
+                                        {
+                                          "id": "VeuTrP8KP0",
+                                          "type": "PointsPath",
+                                          "x": 0,
+                                          "y": 0,
+                                          "vertices": [
+                                            {
+                                              "id": "xVsCwB5FZY",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 321.05999755859375,
+                                              "y": 407.69500732421875
+                                            },
+                                            {
+                                              "id": "BztfR5TaS2",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 346.1839904785156,
+                                              "y": 381.3380126953125
+                                            },
+                                            {
+                                              "id": "OZDmkWUVw2",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 321.05999755859375,
+                                              "y": 354.9800109863281
+                                            },
+                                            {
+                                              "id": "zmAgVviK3z",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 295.9360046386719,
+                                              "y": 381.3380126953125
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "E7TMBUkuR5",
+                              "type": "Node",
+                              "name": "FrontEar",
+                              "x": 421,
+                              "y": 322,
+                              "children": [
+                                {
+                                  "id": "qmw2Yg71mS",
+                                  "type": "Node",
+                                  "name": "FrontEarCoordinates",
+                                  "x": -421,
+                                  "y": -322,
+                                  "children": [
+                                    {
+                                      "id": "yL63JZ5_Mt",
+                                      "type": "Shape",
+                                      "name": "Inner front ear",
+                                      "x": 0,
+                                      "y": 0,
+                                      "fill": "#f8bac7",
+                                      "children": [
+                                        {
+                                          "id": "6sJiJD9M4y",
+                                          "type": "PointsPath",
+                                          "x": 0,
+                                          "y": 0,
+                                          "vertices": [
+                                            {
+                                              "id": "4Tkq8otCOr",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 500.010986328125,
+                                              "y": 259.14898681640625
+                                            },
+                                            {
+                                              "id": "K7c0jyT7vC",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 524.6389770507812,
+                                              "y": 166.84100341796875
+                                            },
+                                            {
+                                              "id": "ohTzDI7y-W",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 451.18701171875,
+                                              "y": 223.85400390625
+                                            },
+                                            {
+                                              "id": "_KYpQZEX8i",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 426.5589904785156,
+                                              "y": 316.1610107421875
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "VrLbdvAiNA",
+                                      "type": "Shape",
+                                      "name": "Front ear silhouette",
+                                      "x": 0,
+                                      "y": 0,
+                                      "fill": "#f4edf0",
+                                      "children": [
+                                        {
+                                          "id": "pCEV6yGGxh",
+                                          "type": "PointsPath",
+                                          "x": 0,
+                                          "y": 0,
+                                          "vertices": [
+                                            {
+                                              "id": "o7x8pK0jcT",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 417.9930114746094,
+                                              "y": 246.22900390625
+                                            },
+                                            {
+                                              "id": "ghObjYa-hk",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 470.65399169921875,
+                                              "y": 170.26800537109375
+                                            },
+                                            {
+                                              "id": "Va_5Jbv8lc",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 543.06201171875,
+                                              "y": 128.83399963378906
+                                            },
+                                            {
+                                              "id": "jZgyqtMg5-",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 543.06201171875,
+                                              "y": 227.04100036621094
+                                            },
+                                            {
+                                              "id": "Zj4m28yOzh",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 437.7409973144531,
+                                              "y": 349.8659973144531
+                                            },
+                                            {
+                                              "id": "YQhF6ni5yH",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 395.02899169921875,
+                                              "y": 316.8139953613281
+                                            },
+                                            {
+                                              "id": "Bp4IPKvpYT",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 417.9930114746094,
+                                              "y": 246.28199768066406
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "Ps714zNDeO",
+                              "type": "Node",
+                              "name": "Muzzle and nose",
+                              "x": 0,
+                              "y": 0,
+                              "children": [
+                                {
+                                  "id": "T1wRnh6B5N",
+                                  "type": "Shape",
+                                  "name": "Muzzle and nose clip",
+                                  "x": 0,
+                                  "y": 0,
+                                  "children": [
+                                    {
+                                      "id": "xYqdGxGBD6",
+                                      "type": "PointsPath",
+                                      "x": 0,
+                                      "y": 0,
+                                      "vertices": [
+                                        {
+                                          "id": "9JkgnhJs8O",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 212.27000427246094,
+                                          "y": 398.9880065917969
+                                        },
+                                        {
+                                          "id": "YxldIy7nQd",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 215.93800354003906,
+                                          "y": 385.7569885253906
+                                        },
+                                        {
+                                          "id": "k0ikQ8TImS",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 230.3090057373047,
+                                          "y": 354.12799072265625
+                                        },
+                                        {
+                                          "id": "fWWrZClIcn",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 308.34600830078125,
+                                          "y": 291.39801025390625
+                                        },
+                                        {
+                                          "id": "IgA7ApQWeV",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 473.4639892578125,
+                                          "y": 381.5400085449219
+                                        },
+                                        {
+                                          "id": "lK2_zlPftr",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 469.9960021972656,
+                                          "y": 448.1709899902344
+                                        },
+                                        {
+                                          "id": "PBZHBLJ48F",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 406.7829895019531,
+                                          "y": 518.5449829101562
+                                        },
+                                        {
+                                          "id": "t_hFDnsNyp",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 300.0039978027344,
+                                          "y": 538.6290283203125
+                                        },
+                                        {
+                                          "id": "CunVhWkYBA",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 220.0590057373047,
+                                          "y": 497.3009948730469
+                                        },
+                                        {
+                                          "id": "8UxaN9U5QO",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 196.64300537109375,
+                                          "y": 423.5530090332031
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "yDXZv-RYo0",
+                                  "type": "Shape",
+                                  "name": "Muzzle and nose 1",
+                                  "x": 0,
+                                  "y": 0,
+                                  "fill": "#f8bac7",
+                                  "children": [
+                                    {
+                                      "id": "EfCqSnnpKJ",
+                                      "type": "PointsPath",
+                                      "x": 0,
+                                      "y": 0,
+                                      "vertices": [
+                                        {
+                                          "id": "Kdfb-KJg4d",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 184.17799377441406,
+                                          "y": 440.15399169921875
+                                        },
+                                        {
+                                          "id": "D27vSg3vQ9",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 199.8560028076172,
+                                          "y": 455.0199890136719
+                                        },
+                                        {
+                                          "id": "fueFWvIjcp",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 221.00999450683594,
+                                          "y": 439.25799560546875
+                                        },
+                                        {
+                                          "id": "dq28aRWmIn",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 211.26199340820312,
+                                          "y": 423.3380126953125
+                                        },
+                                        {
+                                          "id": "jLHyzA-USs",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 185.18299865722656,
+                                          "y": 424.2340087890625
+                                        },
+                                        {
+                                          "id": "WEY0WjMR9P",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 184.17799377441406,
+                                          "y": 440.2070007324219
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "KBbZr4qHv2",
+                                  "type": "Shape",
+                                  "name": "Muzzle and nose 0",
+                                  "x": 0,
+                                  "y": 0,
+                                  "fill": "#ffffff",
+                                  "children": [
+                                    {
+                                      "id": "K2QBrpTdv-",
+                                      "type": "PointsPath",
+                                      "x": 0,
+                                      "y": 0,
+                                      "vertices": [
+                                        {
+                                          "id": "LhcQPp_wUl",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 218.19400024414062,
+                                          "y": 573.3690185546875
+                                        },
+                                        {
+                                          "id": "MBT5mXexM3",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 288.5920104980469,
+                                          "y": 484.7560119628906
+                                        },
+                                        {
+                                          "id": "1ijLvAEPSd",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 218.19400024414062,
+                                          "y": 396.14300537109375
+                                        },
+                                        {
+                                          "id": "9bjw6OYNWd",
+                                          "type": "CubicDetachedVertex",
+                                          "x": 147.7949981689453,
+                                          "y": 484.7560119628906
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "KWxW4968m_",
+                              "type": "Shape",
+                              "name": "Head silhouette",
+                              "x": 0,
+                              "y": 0,
+                              "fill": "#f4edf0",
+                              "children": [
+                                {
+                                  "id": "1_VJxyL1J7",
+                                  "type": "PointsPath",
+                                  "x": 0,
+                                  "y": 0,
+                                  "vertices": [
+                                    {
+                                      "id": "BkMFOYmxjm",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 212.27000427246094,
+                                      "y": 398.9880065917969
+                                    },
+                                    {
+                                      "id": "w5q7RBejBL",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 215.93800354003906,
+                                      "y": 385.7569885253906
+                                    },
+                                    {
+                                      "id": "OnKAGUHsHA",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 230.3090057373047,
+                                      "y": 354.12799072265625
+                                    },
+                                    {
+                                      "id": "t0rzgD27oB",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 308.34600830078125,
+                                      "y": 291.39801025390625
+                                    },
+                                    {
+                                      "id": "8k0eNRve35",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 473.4639892578125,
+                                      "y": 381.5400085449219
+                                    },
+                                    {
+                                      "id": "_oyk4zXZDC",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 469.9960021972656,
+                                      "y": 448.1709899902344
+                                    },
+                                    {
+                                      "id": "olaq8uh8__",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 406.7829895019531,
+                                      "y": 518.5449829101562
+                                    },
+                                    {
+                                      "id": "0N7JOwF_yX",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 300.0039978027344,
+                                      "y": 538.6290283203125
+                                    },
+                                    {
+                                      "id": "XGfVHjvlyo",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 220.0590057373047,
+                                      "y": 497.3009948730469
+                                    },
+                                    {
+                                      "id": "3o6yMyV9yK",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 196.64300537109375,
+                                      "y": 423.5530090332031
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "jeSlt7FixF",
+                              "type": "Node",
+                              "name": "RearEar",
+                              "x": 382,
+                              "y": 312,
+                              "children": [
+                                {
+                                  "id": "pN2srcvDnD",
+                                  "type": "Node",
+                                  "name": "RearEarCoordinates",
+                                  "x": -382,
+                                  "y": -312,
+                                  "children": [
+                                    {
+                                      "id": "7IidfuJtgv",
+                                      "type": "Shape",
+                                      "name": "Rear ear silhouette",
+                                      "x": 0,
+                                      "y": 0,
+                                      "fill": "#f4dce7",
+                                      "children": [
+                                        {
+                                          "id": "rTHodgrVkL",
+                                          "type": "PointsPath",
+                                          "x": 0,
+                                          "y": 0,
+                                          "vertices": [
+                                            {
+                                              "id": "rMqxu1Cgsx",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 365.3320007324219,
+                                              "y": 322.1839904785156
+                                            },
+                                            {
+                                              "id": "KBrpDrvdRZ",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 352.1669921875,
+                                              "y": 239.3159942626953
+                                            },
+                                            {
+                                              "id": "cvAFjoEv_P",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 398.2449951171875,
+                                              "y": 108.11000061035156
+                                            },
+                                            {
+                                              "id": "E-YWGcoZtx",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 437.7409973144531,
+                                              "y": 80.48739624023438
+                                            },
+                                            {
+                                              "id": "qEzra1BpZ_",
+                                              "type": "CubicDetachedVertex",
+                                              "x": 450.906005859375,
+                                              "y": 190.9770050048828
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "mW3MSFXN0E",
+                      "type": "Node",
+                      "name": "Body",
+                      "x": 0,
+                      "y": 0,
+                      "children": [
+                        {
+                          "id": "WSqtNMdDs_",
+                          "type": "Node",
+                          "name": "Leg contours",
+                          "x": 0,
+                          "y": 0,
+                          "children": [
+                            {
+                              "id": "UCOpBuWgBr",
+                              "type": "Shape",
+                              "name": "Leg contours clip",
+                              "x": 0,
+                              "y": 0,
+                              "children": [
+                                {
+                                  "id": "q8tGLi4F2m",
+                                  "type": "PointsPath",
+                                  "x": 0,
+                                  "y": 0,
+                                  "vertices": [
+                                    {
+                                      "id": "TfSTva494f",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 324.3380126953125,
+                                      "y": 535.625
+                                    },
+                                    {
+                                      "id": "4K28ZNQdEa",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 360.8009948730469,
+                                      "y": 683.3309936523438
+                                    },
+                                    {
+                                      "id": "L4MU5BwI3Y",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 346.21600341796875,
+                                      "y": 764.5650024414062
+                                    },
+                                    {
+                                      "id": "OxAMDUheEH",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 309.75201416015625,
+                                      "y": 801.4650268554688
+                                    },
+                                    {
+                                      "id": "YZnGiFqLxq",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 375.4389953613281,
+                                      "y": 823.60498046875
+                                    },
+                                    {
+                                      "id": "j1i-W8ZIs7",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 419.24700927734375,
+                                      "y": 801.4650268554688
+                                    },
+                                    {
+                                      "id": "sy0kML3mko",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 455.7099914550781,
+                                      "y": 734.9920043945312
+                                    },
+                                    {
+                                      "id": "cm7vPnqvkw",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 499.5190124511719,
+                                      "y": 764.5120239257812
+                                    },
+                                    {
+                                      "id": "zBB6sFvc2m",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 463.05499267578125,
+                                      "y": 801.4119873046875
+                                    },
+                                    {
+                                      "id": "2DBUunFMxn",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 477.1199951171875,
+                                      "y": 824.39599609375
+                                    },
+                                    {
+                                      "id": "rP9XuucLsX",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 665.3759765625,
+                                      "y": 824.39599609375
+                                    },
+                                    {
+                                      "id": "l0x34gayqm",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 762.2130126953125,
+                                      "y": 661.0859985351562
+                                    },
+                                    {
+                                      "id": "ZIoUyGUEEe",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 477.5889892578125,
+                                      "y": 446.906005859375
+                                    },
+                                    {
+                                      "id": "gHBhHsixhU",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 346.21600341796875,
+                                      "y": 306.5799865722656
+                                    },
+                                    {
+                                      "id": "-25kGkParT",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 324.3380126953125,
+                                      "y": 535.52001953125
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "NpOPG3zBzg",
+                              "type": "Shape",
+                              "name": "Leg contours 2",
+                              "x": 0,
+                              "y": 0,
+                              "fill": "#f8bac7",
+                              "children": [
+                                {
+                                  "id": "YZFiPfbq71",
+                                  "type": "PointsPath",
+                                  "x": 0,
+                                  "y": 0,
+                                  "vertices": [
+                                    {
+                                      "id": "w6hsiPcYJj",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 579.4829711914062,
+                                      "y": 754.2739868164062
+                                    },
+                                    {
+                                      "id": "a5VZfbNeTg",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 487.8550109863281,
+                                      "y": 767.927001953125
+                                    },
+                                    {
+                                      "id": "aArz7UNz1L",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 489.1570129394531,
+                                      "y": 770.1929931640625
+                                    },
+                                    {
+                                      "id": "KJ-ikQji7s",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 579.4829711914062,
+                                      "y": 756.9089965820312
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "_2lJBNn1RE",
+                              "type": "Shape",
+                              "name": "Leg contours 1",
+                              "x": 0,
+                              "y": 0,
+                              "fill": "#f8bac7",
+                              "children": [
+                                {
+                                  "id": "G8cE9aJ23r",
+                                  "type": "PointsPath",
+                                  "x": 0,
+                                  "y": 0,
+                                  "vertices": [
+                                    {
+                                      "id": "GyOupBosN9",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 578.9639892578125,
+                                      "y": 757.072998046875
+                                    },
+                                    {
+                                      "id": "FuCdvH69CP",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 568.6500244140625,
+                                      "y": 650.06298828125
+                                    },
+                                    {
+                                      "id": "Xg-g0nWSb2",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 662.5180053710938,
+                                      "y": 610.3690185546875
+                                    },
+                                    {
+                                      "id": "PJuwmSCU8i",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 663.1950073242188,
+                                      "y": 607.8380126953125
+                                    },
+                                    {
+                                      "id": "BQXurrxphy",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 582.1420288085938,
+                                      "y": 628.7659912109375
+                                    },
+                                    {
+                                      "id": "xYWrgQac-6",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 555.6799926757812,
+                                      "y": 711.5809936523438
+                                    },
+                                    {
+                                      "id": "pDR4Bxx8sE",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 577.0889892578125,
+                                      "y": 758.9710083007812
+                                    },
+                                    {
+                                      "id": "MekvPWde_l",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 578.9119873046875,
+                                      "y": 757.1259765625
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "gJtJng1kBq",
+                              "type": "Shape",
+                              "name": "Leg contours 0",
+                              "x": 0,
+                              "y": 0,
+                              "fill": "#f8bac7",
+                              "children": [
+                                {
+                                  "id": "wTU9K6fAJh",
+                                  "type": "PointsPath",
+                                  "x": 0,
+                                  "y": 0,
+                                  "vertices": [
+                                    {
+                                      "id": "ewhpkpScsH",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 472.3320007324219,
+                                      "y": 706.8880004882812
+                                    },
+                                    {
+                                      "id": "OI9tKGRb4U",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 450.4020080566406,
+                                      "y": 745.5280151367188
+                                    },
+                                    {
+                                      "id": "NcxbDX9KrG",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 452.6409912109375,
+                                      "y": 746.8460083007812
+                                    },
+                                    {
+                                      "id": "td_P625Vl7",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 474.5719909667969,
+                                      "y": 708.2059936523438
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "3ISfb3RnVf",
+                          "type": "Shape",
+                          "name": "Body silhouette",
+                          "x": 0,
+                          "y": 0,
+                          "fill": "#f4edf0",
+                          "children": [
+                            {
+                              "id": "9A6ntyEwKt",
+                              "type": "PointsPath",
+                              "x": 0,
+                              "y": 0,
+                              "vertices": [
+                                {
+                                  "id": "sqY-yKw2Pt",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 324.3380126953125,
+                                  "y": 535.625
+                                },
+                                {
+                                  "id": "rE0GyHuMr3",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 360.8009948730469,
+                                  "y": 683.3309936523438
+                                },
+                                {
+                                  "id": "-mdEmNDb3Y",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 346.21600341796875,
+                                  "y": 764.5650024414062
+                                },
+                                {
+                                  "id": "BPYzXmcQkX",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 309.75201416015625,
+                                  "y": 801.4650268554688
+                                },
+                                {
+                                  "id": "f1rHncTNkl",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 375.4389953613281,
+                                  "y": 823.60498046875
+                                },
+                                {
+                                  "id": "Bm3ncMLx8D",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 419.24700927734375,
+                                  "y": 801.4650268554688
+                                },
+                                {
+                                  "id": "TiSr7Ca_NE",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 455.7099914550781,
+                                  "y": 734.9920043945312
+                                },
+                                {
+                                  "id": "jFjHA9BX_j",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 499.5190124511719,
+                                  "y": 764.5120239257812
+                                },
+                                {
+                                  "id": "sr38xvh4vR",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 463.05499267578125,
+                                  "y": 801.4119873046875
+                                },
+                                {
+                                  "id": "hbdo9_58_A",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 477.1199951171875,
+                                  "y": 824.39599609375
+                                },
+                                {
+                                  "id": "9Sk-bgMxiP",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 665.3759765625,
+                                  "y": 824.39599609375
+                                },
+                                {
+                                  "id": "yaOj1KrEXy",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 762.2130126953125,
+                                  "y": 661.0859985351562
+                                },
+                                {
+                                  "id": "XTKgbZU389",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 477.5889892578125,
+                                  "y": 446.906005859375
+                                },
+                                {
+                                  "id": "gQAvIWMgSt",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 346.21600341796875,
+                                  "y": 306.5799865722656
+                                },
+                                {
+                                  "id": "ykYdm6lH5F",
+                                  "type": "CubicDetachedVertex",
+                                  "x": 324.3380126953125,
+                                  "y": 535.52001953125
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Yvr9J4gnd7",
+                      "type": "Node",
+                      "name": "Tail",
+                      "x": 764,
+                      "y": 699,
+                      "children": [
+                        {
+                          "id": "X20YPcFH16",
+                          "type": "Node",
+                          "name": "TailCoordinates",
+                          "x": -764,
+                          "y": -699,
+                          "children": [
+                            {
+                              "id": "C7GPTlkr0v",
+                              "type": "Shape",
+                              "name": "Tail silhouette",
+                              "x": 0,
+                              "y": 0,
+                              "fill": "#f4dce7",
+                              "children": [
+                                {
+                                  "id": "5yNfOtYI7L",
+                                  "type": "PointsPath",
+                                  "x": 0,
+                                  "y": 0,
+                                  "vertices": [
+                                    {
+                                      "id": "pmyd8VQggr",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 788.7880249023438,
+                                      "y": 742.239990234375
+                                    },
+                                    {
+                                      "id": "hbojP0IH2O",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 831.0479736328125,
+                                      "y": 697.906982421875
+                                    },
+                                    {
+                                      "id": "C1pJOoClkl",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 788.7880249023438,
+                                      "y": 653.573974609375
+                                    },
+                                    {
+                                      "id": "rYPAxpOijz",
+                                      "type": "CubicDetachedVertex",
+                                      "x": 746.5289916992188,
+                                      "y": 697.906982421875
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timelines": [
+        {
+          "id": "NwHdNRmDfo",
+          "name": "idle",
+          "fps": 60,
+          "durationSeconds": 1,
+          "loop": "loop",
+          "keyed": [
+            "RabbitRoot.x",
+            "RabbitRoot.scaleX",
+            "RabbitRoot.scaleY",
+            "RabbitRoot.rotation",
+            "RabbitRoot.y",
+            "Head.rotation",
+            "FrontEar.rotation",
+            "RearEar.rotation",
+            "Tail.rotation",
+            "Eye.scaleY"
+          ]
+        },
+        {
+          "id": "lOVuyWhF6A",
+          "name": "jump",
+          "fps": 60,
+          "durationSeconds": 1.4,
+          "loop": "oneShot",
+          "keyed": [
+            "RabbitRoot.x",
+            "RabbitRoot.scaleX",
+            "RabbitRoot.scaleY",
+            "RabbitRoot.rotation",
+            "RabbitRoot.y",
+            "Head.rotation",
+            "FrontEar.rotation",
+            "RearEar.rotation",
+            "Tail.rotation",
+            "Eye.scaleY"
+          ]
+        }
+      ],
+      "properties": [],
+      "stateMachines": [
+        {
+          "id": "K35WXDlTBM",
+          "name": "RabbitController",
+          "inputs": [
+            {
+              "id": "XbPcRaYjoe",
+              "name": "jump",
+              "type": "trigger"
+            },
+            {
+              "id": "daB3Uwf_eL",
+              "name": "reset",
+              "type": "trigger"
+            }
+          ],
+          "layers": [
+            {
+              "name": "Rabbit movement",
+              "states": [
+                {
+                  "id": "TCfIoy45pc",
+                  "type": "AnyState",
+                  "transitionsTo": [
+                    "nUKbQfaHkb"
+                  ]
+                },
+                {
+                  "id": "w-lcORwEjV",
+                  "type": "ExitState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "b-inK2AX6G",
+                  "type": "EntryState",
+                  "transitionsTo": [
+                    "nUKbQfaHkb"
+                  ]
+                },
+                {
+                  "id": "nUKbQfaHkb",
+                  "type": "AnimationState",
+                  "timeline": "idle",
+                  "transitionsTo": [
+                    "DFa5XTN0sb"
+                  ]
+                },
+                {
+                  "id": "DFa5XTN0sb",
+                  "type": "AnimationState",
+                  "timeline": "jump",
+                  "transitionsTo": [
+                    "nUKbQfaHkb"
+                  ]
+                }
+              ]
+            }
+          ],
+          "listeners": 0
+        }
+      ]
+    }
+  ],
+  "themeColors": [],
+  "themes": []
+}

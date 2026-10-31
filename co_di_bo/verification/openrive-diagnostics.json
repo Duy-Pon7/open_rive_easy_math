@@ -1,0 +1,15 @@
+{
+  "project": "Co - Walking",
+  "id": "vdhj3ZgjKDRD",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 108673,
+    "timelines": 6,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

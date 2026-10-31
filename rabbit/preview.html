@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thỏ nhảy</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f0f4;color:#503e52;font:16px system-ui}main{max-width:1060px;margin:24px auto;padding:20px;display:grid;grid-template-columns:minmax(260px,560px) 1fr;gap:28px;align-items:center}canvas{display:block;width:100%;height:auto;border-radius:24px;background-color:#fff;background-image:linear-gradient(45deg,#f6f3f6 25%,transparent 25%),linear-gradient(-45deg,#f6f3f6 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#f6f3f6 75%),linear-gradient(-45deg,transparent 75%,#f6f3f6 75%);background-size:32px 32px;background-position:0 0,0 16px,16px -16px,-16px 0}h1{font-size:38px;margin:0 0 14px}p{line-height:1.7}button{font:inherit;border:0;padding:13px 24px;border-radius:12px;background:#bb668d;color:white;cursor:pointer;margin:5px 6px 5px 0}button:disabled{opacity:.5;cursor:default}#reset{background:#e8dce5;color:#503e52}label{display:block;margin:18px 0}.status{color:#8b6b85}@media(max-width:700px){main{grid-template-columns:1fr;margin:0}canvas{max-height:67vh;width:auto;max-width:100%;margin:auto}h1{font-size:28px}}
+</style>
+<main><canvas id="scene" width="914" height="1100" aria-label="Thỏ nhảy"></canvas><section>
+<h1>Thỏ nhảy</h1><p>Nhún lấy đà, bật lên và tiếp đất nhẹ nhàng.</p>
+<button id="jump" disabled>Nhảy</button><button id="reset">Đứng lại</button>
+<label><input type="checkbox" id="repeat"> Tự động nhảy tiếp</label>
+<p class="status" id="status">Đang tải…</p>
+</section></main>
+<script type="module">
+import Rive from './runtime/canvas_advanced.mjs';
+const facingRight=new URLSearchParams(location.search).get('direction')==='right';
+if(facingRight){document.title='Thỏ nhảy sang phải';document.querySelector('h1').textContent='Thỏ nhảy sang phải';document.getElementById('scene').setAttribute('aria-label','Thỏ nhảy sang phải');}
+try{
+ const rive=await Rive({locateFile:n=>new URL('./runtime/'+(n.includes('fallback')?'rive_fallback.wasm':'rive.wasm'),location.href).href});
+ const file=await rive.load(new Uint8Array(await(await fetch(facingRight?'./rabbit_jump_right.riv':'./rabbit_jump.riv')).arrayBuffer()),undefined,false);
+ const canvas=document.getElementById('scene'),renderer=rive.makeRenderer(canvas);
+ let board,machine,inputs,events=[],auto=true,last=0,jumping=false,wait=0;
+ const button=document.getElementById('jump'),status=document.getElementById('status');
+ function fresh(){if(machine)machine.delete();if(board)board.delete();board=file.artboardByName('Rabbit');machine=new rive.StateMachineInstance(board.stateMachineByName('RabbitController'),board);inputs={};events=[];for(let i=0;i<machine.inputCount();i++){const v=machine.input(i);inputs[v.name]=v.asTrigger();}jumping=false;wait=0;step(0);}
+ function step(dt){machine.advanceAndApply(dt);board.advance(dt);for(let i=0;i<machine.stateChangedCount();i++){const name=machine.stateChangedNameByIndex(i);events.push(name);if(name==='jump'){jumping=true;wait=0;}if(name==='idle'){jumping=false;wait=0;}}button.disabled=jumping;status.textContent=jumping?'Đang nhảy':'Sẵn sàng';}
+ function advance(t){const steps=Math.round(t*120);for(let i=0;i<steps;i++)step(1/120);}
+ function draw(){canvas.getContext('2d').clearRect(0,0,914,1100);renderer.beginFrame();renderer.save();renderer.align(rive.Fit.contain,rive.Alignment.center,{minX:0,minY:0,maxX:914,maxY:1100},board.bounds);board.draw(renderer);renderer.restore();renderer.flush();rive.resolveAnimationFrame();return canvas.toDataURL('image/png');}
+ window.rabbit={fresh:()=>{auto=false;fresh();return Object.keys(inputs);},fire:n=>inputs[n].fire(),advance,draw,events:()=>events.slice(),clearEvents:()=>events=[],snapshot:()=>({image:draw(),events:events.slice()})};
+ fresh();button.onclick=()=>inputs.jump.fire();document.getElementById('reset').onclick=()=>{document.getElementById('repeat').checked=false;inputs.reset.fire();};
+ function tick(now){if(auto){const dt=last?Math.min((now-last)/1000,.05):0;step(dt);if(!jumping&&document.getElementById('repeat').checked){wait+=dt;if(wait>.65){inputs.jump.fire();wait=0;}}draw();}last=now;requestAnimationFrame(tick);}requestAnimationFrame(tick);window.ready=true;
+}catch(e){window.failure=String(e);document.getElementById('status').textContent=String(e);console.error(e);}
+</script></html>

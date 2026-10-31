@@ -1,0 +1,15 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "ok"
+      }
+    ],
+    "structuredContent": {
+      "result": "ok"
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}
