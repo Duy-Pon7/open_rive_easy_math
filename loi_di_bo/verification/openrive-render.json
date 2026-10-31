@@ -1,0 +1,4 @@
+{
+  "mcp_renderer_error": "{'result': {'content': [{'type': 'text', 'text': 'Error: oI.resolve is not a function. (In \\'oI.resolve(\"@rive-app/canvas-advanced\")\\', \\'oI.resolve\\' is undefined)'}], 'isError': True}, 'jsonrpc': '2.0', 'id': 2}",
+  "fallback": "python loi_di_bo/tools/check_walk.py uses the exported file in Rive WASM."
+}

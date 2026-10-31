@@ -1,0 +1,28 @@
+{
+  "source_sha256": "770837d4f10b5d6c160cfa018721c8c982449cbe2387186e0c0fccb9c1617656",
+  "canvas": [
+    314,
+    820
+  ],
+  "svg_offset": [
+    24,
+    24
+  ],
+  "native_vectors": true,
+  "walk_seconds": 1.2,
+  "counts": {
+    "paths": 59,
+    "gradients": 2,
+    "morph_properties": 877
+  },
+  "step_count_per_cycle": 2,
+  "lift_px": 24,
+  "stride_px": 12,
+  "shorts_rig": "Independent smooth contour, fixed waistband, bounded cuff shear, Jacobian tangents",
+  "state_machine": "HuyWalkController",
+  "inputs": {
+    "is_walking": true,
+    "blink": "Trigger",
+    "facing_left": false
+  }
+}

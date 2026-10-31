@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Huy đi bộ</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f7f0f5;color:#533e55;font:16px system-ui}main{max-width:960px;margin:24px auto;padding:20px;display:grid;grid-template-columns:380px 1fr;gap:30px;align-items:center}canvas{display:block;width:100%;height:auto;border-radius:24px;background-color:#fff;background-image:linear-gradient(45deg,#f8f2f6 25%,transparent 25%),linear-gradient(-45deg,#f8f2f6 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#f8f2f6 75%),linear-gradient(-45deg,transparent 75%,#f8f2f6 75%);background-size:32px 32px;background-position:0 0,0 16px,16px -16px,-16px 0}h1{font-size:36px;margin:0 0 14px}p{line-height:1.7;color:#82677e}button{font:inherit;padding:12px 24px;margin:6px 6px 6px 0;border:0;border-radius:12px;background:#b54e87;color:white;cursor:pointer}#stop{background:#e9dbe5;color:#533e55}.status{font-size:14px}@media(max-width:700px){main{grid-template-columns:1fr;margin:0}canvas{width:auto;max-height:65vh;max-width:100%;margin:auto}h1{font-size:28px}}
+</style>
+<main><canvas id="scene" width="314" height="820" aria-label="Huy đi bộ"></canvas><section><h1>Huy đi bộ</h1><p>Hai chân bước luân phiên, tay đánh theo nhịp và chớp mắt tự nhiên.</p><p><label>Hướng <select id="facing" style="font:inherit;padding:8px;border-radius:8px"><option value="right">Sang phải</option><option value="left">Sang trái</option></select></label></p><button id="walk">Đi bộ</button><button id="stop">Đứng lại</button><button id="blink">Chớp mắt</button><p class="status" id="status">Đang tải…</p></section></main>
+<script type="module">
+import Rive from './runtime/canvas_advanced.mjs';
+try{
+ const rive=await Rive({locateFile:n=>new URL('./runtime/'+(n.includes('fallback')?'rive_fallback.wasm':'rive.wasm'),location.href).href});
+ const file=await rive.load(new Uint8Array(await(await fetch('./huy_di_bo.riv')).arrayBuffer()),undefined,false);
+ const canvas=document.getElementById('scene'),renderer=rive.makeRenderer(canvas),status=document.getElementById('status');
+ let board,machine,input,blinkInput,facingInput,events=[],auto=true,last=0;
+ function step(dt){machine.advanceAndApply(dt);board.advance(dt);for(let i=0;i<machine.stateChangedCount();i++)events.push(machine.stateChangedNameByIndex(i));}
+ function setWalking(value){input.value=Boolean(value);status.textContent=value?'Đang đi bộ':'Đang đứng';}
+ function setFacingLeft(value){facingInput.value=Boolean(value);document.getElementById('facing').value=value?'left':'right';}
+ function fresh(walking=true,facingLeft=false){if(machine)machine.delete();if(board)board.delete();board=file.artboardByName('Huy Walking');machine=new rive.StateMachineInstance(board.stateMachineByName('HuyWalkController'),board);for(let i=0;i<machine.inputCount();i++){const value=machine.input(i);if(value.name==='is_walking')input=value.asBool();if(value.name==='blink')blinkInput=value.asTrigger();if(value.name==='facing_left')facingInput=value.asBool();}events=[];setWalking(walking);setFacingLeft(facingLeft);step(0);return {is_walking:input.value};}
+ function advance(t){for(let n=Math.round(t*120);n>0;n--)step(1/120);}
+ function draw(){canvas.getContext('2d').clearRect(0,0,canvas.width,canvas.height);renderer.beginFrame();renderer.save();renderer.align(rive.Fit.contain,rive.Alignment.center,{minX:0,minY:0,maxX:canvas.width,maxY:canvas.height},board.bounds);board.draw(renderer);renderer.restore();renderer.flush();rive.resolveAnimationFrame();return canvas.toDataURL('image/png');}
+ function pose(time,animationName='walk'){auto=false;if(machine){machine.delete();machine=null;}if(board)board.delete();board=file.artboardByName('Huy Walking');const animation=new rive.LinearAnimationInstance(board.animationByName(animationName),board);animation.time=time;animation.apply(1);board.advance(0);animation.delete();return draw();}
+ window.huyWalk={fresh:(walking=true,facingLeft=false)=>{auto=false;return fresh(walking,facingLeft);},setWalking,setFacingLeft,advance,draw,pose,blink:()=>blinkInput.fire(),events:()=>events.slice(),clearEvents:()=>events=[],snapshot:()=>({image:draw(),events:events.slice()})};
+ fresh(true,new URLSearchParams(location.search).get('direction')==='left');document.getElementById('walk').onclick=()=>setWalking(true);document.getElementById('stop').onclick=()=>setWalking(false);document.getElementById('blink').onclick=()=>blinkInput.fire();document.getElementById('facing').onchange=e=>setFacingLeft(e.target.value==='left');
+ function tick(now){if(auto){step(last?Math.min((now-last)/1000,.05):0);draw();}last=now;requestAnimationFrame(tick);}requestAnimationFrame(tick);window.ready=true;
+}catch(e){window.failure=String(e);document.getElementById('status').textContent=String(e);console.error(e);}
+</script></html>

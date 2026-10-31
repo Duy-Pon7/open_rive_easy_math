@@ -1,0 +1,15 @@
+{
+  "project": "Vy - Walking",
+  "id": "GAdYkCudyRki",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 64768,
+    "timelines": 6,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

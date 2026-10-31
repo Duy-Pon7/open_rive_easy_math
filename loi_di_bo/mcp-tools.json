@@ -1,0 +1,3318 @@
+{
+  "result": {
+    "tools": [
+      {
+        "name": "list_projects",
+        "description": "List projects available to this connection.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "list_templates",
+        "description": "List starter templates and example files that create_project can use.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "create_project",
+        "description": "Create a new project, optionally from a template (see list_templates). Returns its id and editor URL.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "template": {
+              "description": "Template id, default \"blank\"",
+              "type": "string"
+            }
+          },
+          "required": [
+            "name"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "delete_project",
+        "description": "Permanently delete a project and its stored file. This cannot be undone.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            }
+          },
+          "required": [
+            "project"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": false,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "get_project",
+        "description": "Describe a project: artboards with their object tree (ids, names, positions, colors, text), timelines with keyed properties, state machines with inputs/states, and theme colors.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            }
+          },
+          "required": [
+            "project"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "import_riv",
+        "description": "Import a .riv file as a new project. Use dataBase64 for remote HTTP MCP sessions; path is available only to local stdio MCP.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "path": {
+              "description": "Absolute path to a .riv file (local stdio only)",
+              "type": "string"
+            },
+            "dataBase64": {
+              "description": "Base64 encoded .riv bytes (for HTTP MCP)",
+              "type": "string",
+              "maxLength": 139810136,
+              "format": "base64",
+              "contentEncoding": "base64",
+              "pattern": "^$|^(?:[0-9a-zA-Z+/]{4})*(?:(?:[0-9a-zA-Z+/]{2}==)|(?:[0-9a-zA-Z+/]{3}=))?$"
+            },
+            "name": {
+              "type": "string",
+              "maxLength": 200
+            }
+          }
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "export_riv",
+        "description": "Export a project as a .riv file. Local stdio may provide path; HTTP MCP receives portable base64 bytes in the response.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "path": {
+              "description": "Output file path (.riv), local stdio only",
+              "type": "string"
+            }
+          },
+          "required": [
+            "project"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "inspect_riv",
+        "description": "Describe a .riv file. Use dataBase64 for HTTP MCP; path is available only to local stdio MCP.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "dataBase64": {
+              "type": "string",
+              "maxLength": 139810136,
+              "format": "base64",
+              "contentEncoding": "base64",
+              "pattern": "^$|^(?:[0-9a-zA-Z+/]{4})*(?:(?:[0-9a-zA-Z+/]{2}==)|(?:[0-9a-zA-Z+/]{3}=))?$"
+            }
+          }
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "diagnose_project",
+        "description": "Check a project\u2019s exported .riv for broken references, missing assets, unsupported features and byte-identical round-trip safety. Run after substantial edits and fix error-level diagnostics before delivery.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            }
+          },
+          "required": [
+            "project"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "render_preview",
+        "description": "Render a project artboard to a PNG so you can inspect visual results. Select an animation and time to preview a frame. The software renderer supports vector files; image assets, meshes and feathering require the CLI browser renderer.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "animation": {
+              "description": "Timeline id, name or index; omit for a static frame",
+              "type": "string"
+            },
+            "time": {
+              "default": 0,
+              "description": "Seconds into the selected timeline",
+              "type": "number",
+              "minimum": 0
+            },
+            "scale": {
+              "default": 1,
+              "description": "Output scale, up to 2\u00d7",
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 2
+            }
+          },
+          "required": [
+            "project"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string"
+            },
+            "artboard": {
+              "type": "string"
+            },
+            "width": {
+              "type": "number"
+            },
+            "height": {
+              "type": "number"
+            },
+            "time": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "project",
+            "artboard",
+            "width",
+            "height",
+            "time"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_artboard",
+        "description": "Add an artboard to a project.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "name": {
+              "type": "string"
+            },
+            "width": {
+              "default": 500,
+              "type": "number"
+            },
+            "height": {
+              "default": 500,
+              "type": "number"
+            },
+            "background": {
+              "type": "string",
+              "description": "CSS color, e.g. #ff5c7a or #00000080"
+            }
+          },
+          "required": [
+            "project"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_shape",
+        "description": "Add a shape (rectangle, ellipse, triangle, polygon, star) centered at x,y.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "parent": {
+              "description": "Group to nest in",
+              "type": "string"
+            },
+            "kind": {
+              "type": "string",
+              "enum": [
+                "rectangle",
+                "ellipse",
+                "triangle",
+                "polygon",
+                "star"
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "width": {
+              "type": "number"
+            },
+            "height": {
+              "type": "number"
+            },
+            "fill": {
+              "type": "string",
+              "description": "CSS color, e.g. #ff5c7a or #00000080"
+            },
+            "noFill": {
+              "type": "boolean"
+            },
+            "stroke": {
+              "type": "string",
+              "description": "CSS color, e.g. #ff5c7a or #00000080"
+            },
+            "strokeWidth": {
+              "type": "number"
+            },
+            "cornerRadius": {
+              "type": "number"
+            },
+            "points": {
+              "description": "Polygon/star point count",
+              "type": "number"
+            },
+            "innerRadius": {
+              "description": "Star inner radius 0..1",
+              "type": "number"
+            },
+            "rotation": {
+              "description": "Degrees",
+              "type": "number"
+            }
+          },
+          "required": [
+            "project",
+            "kind",
+            "x",
+            "y",
+            "width",
+            "height"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_path",
+        "description": "Add a custom vector path from points (relative to x,y). Points may have bezier handles inX/inY/outX/outY (offsets from the point).",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "parent": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "points": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number"
+                  },
+                  "y": {
+                    "type": "number"
+                  },
+                  "inX": {
+                    "type": "number"
+                  },
+                  "inY": {
+                    "type": "number"
+                  },
+                  "outX": {
+                    "type": "number"
+                  },
+                  "outY": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "closed": {
+              "default": true,
+              "type": "boolean"
+            },
+            "fill": {
+              "type": "string",
+              "description": "CSS color, e.g. #ff5c7a or #00000080"
+            },
+            "stroke": {
+              "type": "string",
+              "description": "CSS color, e.g. #ff5c7a or #00000080"
+            },
+            "strokeWidth": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "project",
+            "points"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_text",
+        "description": "Add a text object (the Inter font is embedded automatically).",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "parent": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "fontSize": {
+              "type": "number"
+            },
+            "color": {
+              "type": "string",
+              "description": "CSS color, e.g. #ff5c7a or #00000080"
+            },
+            "name": {
+              "type": "string"
+            },
+            "width": {
+              "description": "Wrap width; omit for auto width",
+              "type": "number"
+            },
+            "align": {
+              "type": "string",
+              "enum": [
+                "left",
+                "center",
+                "right"
+              ]
+            },
+            "origin": {
+              "description": "What x,y refers to",
+              "type": "string",
+              "enum": [
+                "topLeft",
+                "center"
+              ]
+            },
+            "bold": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "project",
+            "text",
+            "x",
+            "y"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_group",
+        "description": "Add an empty group (Node) that other objects can be nested in via their parent.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "parent": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "project"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "set_properties",
+        "description": "Set design properties on an object, e.g. {\"x\":10,\"opacity\":0.5,\"rotationDegrees\":45,\"fill\":\"#ff0000\",\"text\":\"Hi\",\"fontSize\":24,\"width\":100}.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "object": {
+              "type": "string",
+              "description": "Object id or name"
+            },
+            "properties": {
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {}
+            }
+          },
+          "required": [
+            "project",
+            "object",
+            "properties"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "delete_objects",
+        "description": "Delete objects (and their children and keyframes).",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "objects": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "project",
+            "objects"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": false,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "convert_vertex_type",
+        "description": "Convert a path vertex between straight and cubic handle types while preserving skin weights.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "vertex": {
+              "type": "string",
+              "description": "Path vertex id or name"
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "StraightVertex",
+                "CubicMirroredVertex",
+                "CubicAsymmetricVertex",
+                "CubicDetachedVertex"
+              ]
+            }
+          },
+          "required": [
+            "project",
+            "vertex",
+            "type"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_clip",
+        "description": "Clip an object and its children to another shape on the same artboard. The mask shape must be outside the clipped object.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "object": {
+              "type": "string",
+              "description": "Object id or name to clip"
+            },
+            "source": {
+              "type": "string",
+              "description": "Mask shape id or name"
+            }
+          },
+          "required": [
+            "project",
+            "object",
+            "source"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "remove_clip",
+        "description": "Remove one clip mask or every mask from an object.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "object": {
+              "type": "string",
+              "description": "Clipped object id or name"
+            },
+            "clipId": {
+              "description": "Specific clipping shape id; omit to remove every mask",
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "object"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": false,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_timeline",
+        "description": "Add a timeline (linear animation) to an artboard.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "duration": {
+              "description": "Seconds (default 1)",
+              "type": "number"
+            },
+            "fps": {
+              "type": "number"
+            },
+            "loop": {
+              "type": "string",
+              "enum": [
+                "oneShot",
+                "loop",
+                "pingPong"
+              ]
+            },
+            "speed": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "project",
+            "name"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_keyframes",
+        "description": "Key one property of an object in a timeline. Properties: x, y, rotationDegrees, scaleX, scaleY, opacity, width, height, fill, stroke, fontSize, cornerRadiusTL, ... Values for fill/stroke are colors.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "timeline": {
+              "type": "string"
+            },
+            "object": {
+              "type": "string"
+            },
+            "property": {
+              "type": "string"
+            },
+            "keys": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "frame": {
+                    "type": "number"
+                  },
+                  "time": {
+                    "description": "Seconds (instead of frame)",
+                    "type": "number"
+                  },
+                  "value": {
+                    "type": [
+                      "number",
+                      "string",
+                      "boolean"
+                    ]
+                  },
+                  "themeColor": {
+                    "description": "Use a theme color for color properties",
+                    "type": "string"
+                  },
+                  "ease": {
+                    "description": "Interpolation to the next key (default easeInOut) or a cubic bezier [x1,y1,x2,y2]",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "enum": [
+                          "hold",
+                          "linear",
+                          "easeInOut",
+                          "easeIn",
+                          "easeOut",
+                          "easeOutBack",
+                          "easeInBack"
+                        ]
+                      },
+                      {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "number"
+                          }
+                        ],
+                        "additionalItems": false,
+                        "minItems": 4,
+                        "maxItems": 4
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "project",
+            "timeline",
+            "object",
+            "property",
+            "keys"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "apply_edit_plan",
+        "description": "Apply a sequence of up to 100 design, animation and interaction operations with one project save. All operations succeed together or none are saved. Within the plan, later steps can reference objects and timelines by the names assigned in earlier steps.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "operations": {
+              "minItems": 1,
+              "maxItems": 100,
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_artboard"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "width": {
+                        "default": 500,
+                        "type": "number"
+                      },
+                      "height": {
+                        "default": 500,
+                        "type": "number"
+                      },
+                      "background": {
+                        "type": "string",
+                        "description": "CSS color, e.g. #ff5c7a or #00000080"
+                      }
+                    },
+                    "required": [
+                      "op"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_shape"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "parent": {
+                        "type": "string"
+                      },
+                      "kind": {
+                        "type": "string",
+                        "enum": [
+                          "rectangle",
+                          "ellipse",
+                          "triangle",
+                          "polygon",
+                          "star"
+                        ]
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "x": {
+                        "type": "number"
+                      },
+                      "y": {
+                        "type": "number"
+                      },
+                      "width": {
+                        "type": "number"
+                      },
+                      "height": {
+                        "type": "number"
+                      },
+                      "fill": {
+                        "type": "string",
+                        "description": "CSS color, e.g. #ff5c7a or #00000080"
+                      },
+                      "noFill": {
+                        "type": "boolean"
+                      },
+                      "stroke": {
+                        "type": "string",
+                        "description": "CSS color, e.g. #ff5c7a or #00000080"
+                      },
+                      "strokeWidth": {
+                        "type": "number"
+                      },
+                      "cornerRadius": {
+                        "type": "number"
+                      },
+                      "points": {
+                        "type": "number"
+                      },
+                      "innerRadius": {
+                        "type": "number"
+                      },
+                      "rotation": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "kind",
+                      "x",
+                      "y",
+                      "width",
+                      "height"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_path"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "parent": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "x": {
+                        "type": "number"
+                      },
+                      "y": {
+                        "type": "number"
+                      },
+                      "points": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "number"
+                            },
+                            "y": {
+                              "type": "number"
+                            },
+                            "inX": {
+                              "type": "number"
+                            },
+                            "inY": {
+                              "type": "number"
+                            },
+                            "outX": {
+                              "type": "number"
+                            },
+                            "outY": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        }
+                      },
+                      "closed": {
+                        "default": true,
+                        "type": "boolean"
+                      },
+                      "fill": {
+                        "type": "string",
+                        "description": "CSS color, e.g. #ff5c7a or #00000080"
+                      },
+                      "stroke": {
+                        "type": "string",
+                        "description": "CSS color, e.g. #ff5c7a or #00000080"
+                      },
+                      "strokeWidth": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "points"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_text"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "parent": {
+                        "type": "string"
+                      },
+                      "text": {
+                        "type": "string"
+                      },
+                      "x": {
+                        "type": "number"
+                      },
+                      "y": {
+                        "type": "number"
+                      },
+                      "fontSize": {
+                        "type": "number"
+                      },
+                      "color": {
+                        "type": "string",
+                        "description": "CSS color, e.g. #ff5c7a or #00000080"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "width": {
+                        "type": "number"
+                      },
+                      "align": {
+                        "type": "string",
+                        "enum": [
+                          "left",
+                          "center",
+                          "right"
+                        ]
+                      },
+                      "origin": {
+                        "type": "string",
+                        "enum": [
+                          "topLeft",
+                          "center"
+                        ]
+                      },
+                      "bold": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "text",
+                      "x",
+                      "y"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_group"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "parent": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "x": {
+                        "type": "number"
+                      },
+                      "y": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "op"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "set_properties"
+                      },
+                      "object": {
+                        "type": "string"
+                      },
+                      "properties": {
+                        "type": "object",
+                        "propertyNames": {
+                          "type": "string"
+                        },
+                        "additionalProperties": {}
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "object",
+                      "properties"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "delete_objects"
+                      },
+                      "objects": {
+                        "minItems": 1,
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "objects"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_timeline"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "duration": {
+                        "type": "number"
+                      },
+                      "fps": {
+                        "type": "number"
+                      },
+                      "loop": {
+                        "type": "string",
+                        "enum": [
+                          "oneShot",
+                          "loop",
+                          "pingPong"
+                        ]
+                      },
+                      "speed": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_keyframes"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "timeline": {
+                        "type": "string"
+                      },
+                      "object": {
+                        "type": "string"
+                      },
+                      "property": {
+                        "type": "string"
+                      },
+                      "keys": {
+                        "minItems": 1,
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "frame": {
+                              "type": "number"
+                            },
+                            "time": {
+                              "type": "number"
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "string",
+                                "boolean"
+                              ]
+                            },
+                            "themeColor": {
+                              "type": "string"
+                            },
+                            "ease": {
+                              "anyOf": [
+                                {
+                                  "type": "string",
+                                  "enum": [
+                                    "hold",
+                                    "linear",
+                                    "easeInOut",
+                                    "easeIn",
+                                    "easeOut",
+                                    "easeOutBack",
+                                    "easeInBack"
+                                  ]
+                                },
+                                {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "number"
+                                    },
+                                    {
+                                      "type": "number"
+                                    },
+                                    {
+                                      "type": "number"
+                                    },
+                                    {
+                                      "type": "number"
+                                    }
+                                  ],
+                                  "additionalItems": false,
+                                  "minItems": 4,
+                                  "maxItems": 4
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "timeline",
+                      "object",
+                      "property",
+                      "keys"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_state_machine"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_property"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "number",
+                          "boolean",
+                          "trigger",
+                          "string",
+                          "color"
+                        ]
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": [
+                          "number",
+                          "boolean",
+                          "string"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "type",
+                      "name"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "set_property_value"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "property": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": [
+                          "number",
+                          "boolean",
+                          "string"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "property",
+                      "value"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_state"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "stateMachine": {
+                        "type": "string"
+                      },
+                      "timeline": {
+                        "type": "string"
+                      },
+                      "layer": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "timeline"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_transition"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "stateMachine": {
+                        "type": "string"
+                      },
+                      "layer": {
+                        "type": "string"
+                      },
+                      "from": {
+                        "type": "string"
+                      },
+                      "to": {
+                        "type": "string"
+                      },
+                      "durationMs": {
+                        "type": "number"
+                      },
+                      "exitTimeMs": {
+                        "type": "number"
+                      },
+                      "conditions": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "property": {
+                              "type": "string"
+                            },
+                            "input": {
+                              "type": "string"
+                            },
+                            "op": {
+                              "type": "string",
+                              "enum": [
+                                "==",
+                                "!=",
+                                "<",
+                                "<=",
+                                ">",
+                                ">="
+                              ]
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "boolean",
+                                "string"
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "from",
+                      "to"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "op": {
+                        "type": "string",
+                        "const": "add_event"
+                      },
+                      "artboard": {
+                        "description": "Artboard id or name (default: first artboard)",
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "properties": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "type": {
+                              "type": "string",
+                              "enum": [
+                                "number",
+                                "boolean",
+                                "string",
+                                "color"
+                              ]
+                            },
+                            "value": {
+                              "type": [
+                                "number",
+                                "boolean",
+                                "string"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "type"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "required": [
+            "project",
+            "operations"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": false,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_state_machine",
+        "description": "Add a state machine (with entry / any / exit states).",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "name"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_input",
+        "description": "DEPRECATED: add a state machine input. Rive deprecated inputs \u2014 prefer add_property, which works everywhere inputs did and more. Only use this for a file that must keep its existing inputs.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "stateMachine": {
+              "description": "State machine id or name (default: first)",
+              "type": "string"
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "number",
+                "boolean",
+                "trigger"
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "value": {
+              "type": [
+                "number",
+                "boolean"
+              ]
+            }
+          },
+          "required": [
+            "project",
+            "type",
+            "name"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_property",
+        "description": "Add a data binding property to the artboard (what replaces state machine inputs). Transitions can read it, listeners can set it, and runtimes get and set it on the view model instance.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "number",
+                "boolean",
+                "trigger",
+                "string",
+                "color"
+              ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "value": {
+              "description": "Starting value; colors take #rrggbb",
+              "type": [
+                "number",
+                "boolean",
+                "string"
+              ]
+            }
+          },
+          "required": [
+            "project",
+            "type",
+            "name"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "set_property_value",
+        "description": "Set the value a data binding property starts with.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "property": {
+              "type": "string"
+            },
+            "value": {
+              "type": [
+                "number",
+                "boolean",
+                "string"
+              ]
+            }
+          },
+          "required": [
+            "project",
+            "property",
+            "value"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "convert_inputs_to_data_binding",
+        "description": "Rewrite a file's deprecated state machine inputs as data binding properties: conditions read the property, listeners set it, and the inputs are removed. Reports anything that had to keep its input.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "stateMachine": {
+              "description": "State machine id or name (default: first)",
+              "type": "string"
+            }
+          },
+          "required": [
+            "project"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_state",
+        "description": "Add a state that plays a timeline.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "stateMachine": {
+              "description": "State machine id or name (default: first)",
+              "type": "string"
+            },
+            "timeline": {
+              "type": "string"
+            },
+            "layer": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "timeline"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_bone",
+        "description": "Add a root bone at an artboard position, or a child bone at the tip of a parent bone. Rotation is in radians.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "parent": {
+              "description": "Parent bone for a chained bone",
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "length": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "rotation": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "project",
+            "length"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "bind_skin",
+        "description": "Bind every vertex on a PointsPath or Mesh to the selected bones in its current bind pose. Vertex weights can then be edited in the OpenRive inspector.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "path": {
+              "type": "string",
+              "description": "PointsPath or Mesh id or name"
+            },
+            "bones": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Bone ids or names"
+            }
+          },
+          "required": [
+            "project",
+            "path",
+            "bones"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "set_skin_weights",
+        "description": "Set normalized point or independent cubic-handle weights. Tendon indices are 1-based; 0 is unbound.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "vertex": {
+              "type": "string"
+            },
+            "influences": {
+              "minItems": 1,
+              "maxItems": 4,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "index": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 255
+                  },
+                  "weight": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "index",
+                  "weight"
+                ]
+              }
+            },
+            "channel": {
+              "type": "string",
+              "enum": [
+                "point",
+                "in",
+                "out",
+                "all"
+              ]
+            }
+          },
+          "required": [
+            "project",
+            "vertex",
+            "influences"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "auto_weight_skin",
+        "description": "Assign up to four nearby bone influences per point and cubic handle.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "path"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "smooth_skin_weights",
+        "description": "Smooth weights across adjacent contour vertices.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "path"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "rebind_skin",
+        "description": "Capture the current posed contour as a new bind pose while retaining weights.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "path"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "unbind_skin",
+        "description": "Remove a skin while keeping the current posed contour.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "path"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "set_bone_parent",
+        "description": "Link a bone to a parent tip, or detach to the artboard while preserving its world pose.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "bone": {
+              "type": "string"
+            },
+            "parent": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "bone"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "paint_skin_weights",
+        "description": "Paint a normalized bone influence within an artboard-space brush stroke.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "path": {
+              "type": "string"
+            },
+            "bone": {
+              "type": "string"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "fromX": {
+              "type": "number"
+            },
+            "fromY": {
+              "type": "number"
+            },
+            "radius": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "strength": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "mode": {
+              "type": "string",
+              "enum": [
+                "add",
+                "subtract"
+              ]
+            },
+            "channel": {
+              "type": "string",
+              "enum": [
+                "point",
+                "in",
+                "out",
+                "all"
+              ]
+            }
+          },
+          "required": [
+            "project",
+            "path",
+            "bone",
+            "x",
+            "y",
+            "radius",
+            "strength"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_blend_state",
+        "description": "Add a 1D blend state driven by a numeric state-machine parameter and a set of timelines with parameter values.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "stateMachine": {
+              "description": "State machine id or name (default: first)",
+              "type": "string"
+            },
+            "layer": {
+              "type": "string"
+            },
+            "parameter": {
+              "description": "Existing numeric state-machine input name or id; otherwise a new one is created",
+              "type": "string"
+            },
+            "animations": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "animation": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "animation",
+                  "value"
+                ]
+              }
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "project",
+            "animations"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_transition",
+        "description": "Add a transition between states. from/to: \"entry\", \"any\", \"exit\", a state id, or a timeline name. Conditions compare data binding properties (booleans use value, numbers use op + value, triggers need only the name).",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "stateMachine": {
+              "description": "State machine id or name (default: first)",
+              "type": "string"
+            },
+            "layer": {
+              "type": "string"
+            },
+            "from": {
+              "type": "string"
+            },
+            "to": {
+              "type": "string"
+            },
+            "durationMs": {
+              "description": "Blend duration",
+              "type": "number"
+            },
+            "exitTimeMs": {
+              "description": "Wait until this time in the source timeline",
+              "type": "number"
+            },
+            "conditions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "property": {
+                    "description": "Data binding property to read (preferred)",
+                    "type": "string"
+                  },
+                  "input": {
+                    "description": "Deprecated state machine input; a property of the same name is used when there is no such input",
+                    "type": "string"
+                  },
+                  "op": {
+                    "type": "string",
+                    "enum": [
+                      "==",
+                      "!=",
+                      "<",
+                      "<=",
+                      ">",
+                      ">="
+                    ]
+                  },
+                  "value": {
+                    "type": [
+                      "number",
+                      "boolean",
+                      "string"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "project",
+            "from",
+            "to"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_listener",
+        "description": "Make an object interactive: respond to a pointer or named Rive event, set data binding properties, align a node to the pointer, or fire a named event.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "stateMachine": {
+              "description": "State machine id or name (default: first)",
+              "type": "string"
+            },
+            "target": {
+              "description": "Object id or name (default: whole artboard)",
+              "type": "string"
+            },
+            "event": {
+              "type": "string",
+              "enum": [
+                "down",
+                "up",
+                "click",
+                "enter",
+                "exit",
+                "move",
+                "rive"
+              ]
+            },
+            "eventName": {
+              "description": "Required when event is \"rive\"",
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "actions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "property": {
+                    "description": "Data binding property to set (preferred)",
+                    "type": "string"
+                  },
+                  "input": {
+                    "description": "Deprecated state machine input; a property of the same name is used when there is no such input",
+                    "type": "string"
+                  },
+                  "value": {
+                    "description": "Triggers need no value; \"toggle\" only works with an input",
+                    "type": [
+                      "number",
+                      "boolean",
+                      "string"
+                    ]
+                  },
+                  "alignTarget": {
+                    "description": "Object id or name to align to the pointer",
+                    "type": "string"
+                  },
+                  "preserveOffset": {
+                    "type": "boolean"
+                  },
+                  "fireEvent": {
+                    "description": "Named custom event to report",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "project",
+            "event",
+            "actions"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_event",
+        "description": "Create a named custom Rive event with optional number, boolean, string or color payload properties.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "properties": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "number",
+                      "boolean",
+                      "string",
+                      "color"
+                    ]
+                  },
+                  "value": {
+                    "type": [
+                      "number",
+                      "boolean",
+                      "string"
+                    ]
+                  }
+                },
+                "required": [
+                  "name",
+                  "type"
+                ]
+              }
+            }
+          },
+          "required": [
+            "project",
+            "name"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "rename_event",
+        "description": "Rename a custom event, keeping its artboard event names unique.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "event": {
+              "type": "string",
+              "description": "Event id or name"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "event",
+            "name"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "remove_event",
+        "description": "Remove a custom event and its event payload properties and state-machine listeners/actions.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "event": {
+              "type": "string",
+              "description": "Event id or name"
+            }
+          },
+          "required": [
+            "project",
+            "event"
+          ]
+        },
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": false,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_distance_constraint",
+        "description": "Add a distance constraint from one node to another, with an optional rule and strength.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "artboard": {
+              "description": "Artboard id or name (default: first artboard)",
+              "type": "string"
+            },
+            "object": {
+              "type": "string"
+            },
+            "target": {
+              "type": "string"
+            },
+            "distance": {
+              "type": "number",
+              "minimum": 0
+            },
+            "mode": {
+              "type": "string",
+              "enum": [
+                "closer",
+                "further",
+                "exact"
+              ]
+            },
+            "strength": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "project",
+            "object",
+            "target",
+            "distance"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "define_theme_color",
+        "description": "Define (or update in the active theme) a named theme color.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "name": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string",
+              "description": "CSS color, e.g. #ff5c7a or #00000080"
+            }
+          },
+          "required": [
+            "project",
+            "name",
+            "color"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "use_theme_color",
+        "description": "Bind an object's fill or stroke (or a text color) to a theme color so it follows theme changes.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "object": {
+              "type": "string"
+            },
+            "color": {
+              "type": "string",
+              "description": "Theme color name"
+            },
+            "kind": {
+              "type": "string",
+              "enum": [
+                "Fill",
+                "Stroke"
+              ]
+            }
+          },
+          "required": [
+            "project",
+            "object",
+            "color"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "add_theme",
+        "description": "Add a theme (a copy of the active one) whose colors can then be changed.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "name"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "set_theme_color_value",
+        "description": "Change a theme color's value within a specific theme.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "theme": {
+              "type": "string",
+              "description": "Theme name or id"
+            },
+            "name": {
+              "type": "string",
+              "description": "Theme color name"
+            },
+            "color": {
+              "type": "string",
+              "description": "CSS color, e.g. #ff5c7a or #00000080"
+            }
+          },
+          "required": [
+            "project",
+            "theme",
+            "name",
+            "color"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      },
+      {
+        "name": "switch_theme",
+        "description": "Make a theme active, recoloring every bound color.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "project": {
+              "type": "string",
+              "description": "Project id or name"
+            },
+            "theme": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "project",
+            "theme"
+          ]
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "result": {}
+          },
+          "required": [
+            "result"
+          ],
+          "additionalProperties": false
+        }
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 3
+}

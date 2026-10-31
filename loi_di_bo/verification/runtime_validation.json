@@ -1,0 +1,128 @@
+[
+  {
+    "test": "source_svg_unchanged",
+    "passed": true
+  },
+  {
+    "test": "default_walk_controller",
+    "passed": true
+  },
+  {
+    "test": "original_svg_fidelity",
+    "passed": true,
+    "mean_rgb_error": 0.334341678541595
+  },
+  {
+    "test": "eye_details_match_svg",
+    "passed": true,
+    "mean_rgb_error": 1.3811510791366906
+  },
+  {
+    "test": "continuous_walk",
+    "passed": true
+  },
+  {
+    "test": "seamless_walk_loop",
+    "passed": true,
+    "mean_rgb_error": 0.0
+  },
+  {
+    "test": "no_clipping",
+    "passed": true
+  },
+  {
+    "test": "left_arm_moves",
+    "passed": true,
+    "maximum_rgb_change": 39.87883040935672
+  },
+  {
+    "test": "right_arm_moves",
+    "passed": true,
+    "maximum_rgb_change": 44.0456049382716
+  },
+  {
+    "test": "knees_moves",
+    "passed": true,
+    "maximum_rgb_change": 41.54547938008931
+  },
+  {
+    "test": "alternating_28px_foot_lift",
+    "passed": true,
+    "soles": [
+      [
+        825,
+        797
+      ],
+      [
+        776,
+        804
+      ]
+    ]
+  },
+  {
+    "test": "stance_foot_grounded",
+    "passed": true
+  },
+  {
+    "test": "wrists_and_trouser_cuffs_stay_joined",
+    "passed": true,
+    "transparent_samples": 0
+  },
+  {
+    "test": "trousers_do_not_fold_inside_out",
+    "passed": true,
+    "minimum_jacobian": 0.17373726778102605
+  },
+  {
+    "test": "stop_restores_idle",
+    "passed": true
+  },
+  {
+    "test": "resume_walk",
+    "passed": true
+  },
+  {
+    "test": "rapid_toggle_returns_idle",
+    "passed": true
+  },
+  {
+    "test": "idle_left_controller",
+    "passed": true
+  },
+  {
+    "test": "walk_left_controller",
+    "passed": true
+  },
+  {
+    "test": "idle_mirrors",
+    "passed": true
+  },
+  {
+    "test": "walk_mirrors",
+    "passed": true
+  },
+  {
+    "test": "automatic_blink",
+    "passed": true
+  },
+  {
+    "test": "blink_reopens",
+    "passed": true
+  },
+  {
+    "test": "trigger_blink",
+    "passed": true
+  },
+  {
+    "test": "trigger_blink_reopens",
+    "passed": true
+  },
+  {
+    "test": "left_leg_segment_lengths",
+    "passed": true
+  },
+  {
+    "test": "right_leg_segment_lengths",
+    "passed": true
+  }
+]

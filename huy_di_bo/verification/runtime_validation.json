@@ -1,0 +1,128 @@
+[
+  {
+    "test": "source_svg_unchanged",
+    "passed": true
+  },
+  {
+    "test": "default_walk_controller",
+    "passed": true
+  },
+  {
+    "test": "original_svg_fidelity",
+    "passed": true,
+    "mean_rgb_error": 0.9532960488840557
+  },
+  {
+    "test": "eye_details_match_svg",
+    "passed": true,
+    "mean_rgb_error": 1.0690896188158963
+  },
+  {
+    "test": "continuous_walk",
+    "passed": true
+  },
+  {
+    "test": "seamless_walk_loop",
+    "passed": true,
+    "mean_rgb_error": 0.0
+  },
+  {
+    "test": "no_clipping",
+    "passed": true
+  },
+  {
+    "test": "left_arm_moves",
+    "passed": true,
+    "maximum_rgb_change": 34.33671612541993
+  },
+  {
+    "test": "right_arm_moves",
+    "passed": true,
+    "maximum_rgb_change": 36.7
+  },
+  {
+    "test": "knees_moves",
+    "passed": true,
+    "maximum_rgb_change": 28.800289256198347
+  },
+  {
+    "test": "alternating_24px_foot_lift",
+    "passed": true,
+    "soles": [
+      [
+        790,
+        766
+      ],
+      [
+        744,
+        768
+      ]
+    ]
+  },
+  {
+    "test": "stance_foot_grounded",
+    "passed": true
+  },
+  {
+    "test": "wrists_and_cuffs_stay_joined",
+    "passed": true,
+    "transparent_samples": 0
+  },
+  {
+    "test": "shirt_front_slit_has_underlay",
+    "passed": true,
+    "minimum_alpha": 255
+  },
+  {
+    "test": "stop_restores_idle",
+    "passed": true
+  },
+  {
+    "test": "resume_walk",
+    "passed": true
+  },
+  {
+    "test": "rapid_toggle_returns_idle",
+    "passed": true
+  },
+  {
+    "test": "idle_left_controller",
+    "passed": true
+  },
+  {
+    "test": "walk_left_controller",
+    "passed": true
+  },
+  {
+    "test": "idle_mirrors",
+    "passed": true
+  },
+  {
+    "test": "walk_mirrors",
+    "passed": true
+  },
+  {
+    "test": "automatic_blink",
+    "passed": true
+  },
+  {
+    "test": "blink_reopens",
+    "passed": true
+  },
+  {
+    "test": "trigger_blink",
+    "passed": true
+  },
+  {
+    "test": "trigger_blink_reopens",
+    "passed": true
+  },
+  {
+    "test": "left_leg_segment_lengths",
+    "passed": true
+  },
+  {
+    "test": "right_leg_segment_lengths",
+    "passed": true
+  }
+]

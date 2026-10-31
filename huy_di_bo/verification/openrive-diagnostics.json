@@ -1,0 +1,15 @@
+{
+  "project": "Huy - Walking",
+  "id": "1A3kv2KDQTAO",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 79551,
+    "timelines": 6,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

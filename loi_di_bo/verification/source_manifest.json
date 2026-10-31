@@ -1,0 +1,32 @@
+{
+  "source_sha256": "cd27f819712699a5a4aead6f673bf0806093b3ffc5f6eaaf7d8512a9ed0a5a02",
+  "canvas": [
+    376,
+    866
+  ],
+  "svg_offset": [
+    24,
+    24
+  ],
+  "native_vectors": true,
+  "walk_seconds": 1.2,
+  "counts": {
+    "paths": 114,
+    "gradients": 2,
+    "morph_properties": 3205
+  },
+  "step_count_per_cycle": 2,
+  "lift_px": 28,
+  "stride_px": 24,
+  "leg_rig": "Two-segment IK, continuous trouser silhouette and sleeve morphs, Jacobian tangents",
+  "keyframe_tolerance": {
+    "coordinates_px": 0.06,
+    "tangent_angles_rad": 0.0005
+  },
+  "state_machine": "LoiWalkController",
+  "inputs": {
+    "is_walking": true,
+    "blink": "Trigger",
+    "facing_left": false
+  }
+}
