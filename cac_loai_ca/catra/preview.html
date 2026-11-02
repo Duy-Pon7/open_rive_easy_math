@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cá tra · Idle / Swim</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#edf4f2;color:#183b36;font:16px system-ui}main{max-width:1150px;margin:64px auto;padding:24px}h1{font-size:32px;margin:0 0 10px}p{color:#59746d;line-height:1.6}canvas{display:block;width:100%;height:auto;background:#fff;border:1px solid #dbe7e1;border-radius:24px;margin:30px 0}button{font:inherit;border:1px solid #b9cec6;border-radius:12px;padding:12px 22px;background:white;color:#183b36;cursor:pointer;margin-right:8px}button[aria-pressed=true]{background:#206657;color:#fff;border-color:#206657}#status{font-size:14px}code{background:#dceae4;border-radius:5px;padding:3px 7px}
+</style>
+<main><h1>Cá tra</h1><p>Đuôi quẫy nhẹ, bốn vây vẫy lệch nhịp khi bơi.</p>
+<canvas id="scene" width="784" height="460" aria-label="Cá tra"></canvas>
+<button id="idle" aria-pressed="true">Idle · Nghỉ</button><button id="swim" aria-pressed="false">Swim · Bơi</button>
+<p id="status">Đang tải…</p><p><code>is_swimming = false</code> nghỉ · <code>is_swimming = true</code> bơi</p></main>
+<script type="module">
+import Rive from './runtime/canvas_advanced.mjs';
+try{
+ const rive=await Rive({locateFile:n=>new URL('./runtime/'+(n.includes('fallback')?'rive_fallback.wasm':'rive.wasm'),location.href).href});
+ const file=await rive.load(new Uint8Array(await(await fetch('./catra.riv')).arrayBuffer()),undefined,false);
+ const canvas=document.getElementById('scene'),renderer=rive.makeRenderer(canvas);
+ let board,machine,input,events=[],auto=true,last=0;
+ function step(dt){machine.advanceAndApply(dt);board.advance(dt);for(let i=0;i<machine.stateChangedCount();i++)events.push(machine.stateChangedNameByIndex(i));}
+ function setSwim(value){input.value=Boolean(value);document.getElementById('status').textContent=value?'Swim · Đang bơi':'Idle · Đang nghỉ';document.getElementById('idle').setAttribute('aria-pressed',String(!value));document.getElementById('swim').setAttribute('aria-pressed',String(Boolean(value)));}
+ function fresh(swimming=false){if(machine)machine.delete();if(board)board.delete();board=file.artboardByName('Ca Tra');machine=new rive.StateMachineInstance(board.stateMachineByName('CaTraController'),board);input=machine.input(0).asBool();events=[];setSwim(swimming);step(0);return {is_swimming:input.value};}
+ function advance(t){for(let n=Math.round(t*120);n>0;n--)step(1/120);}
+ function draw(){canvas.getContext('2d').clearRect(0,0,canvas.width,canvas.height);renderer.beginFrame();renderer.save();renderer.align(rive.Fit.contain,rive.Alignment.center,{minX:0,minY:0,maxX:canvas.width,maxY:canvas.height},board.bounds);board.draw(renderer);renderer.restore();renderer.flush();rive.resolveAnimationFrame();return canvas.toDataURL('image/png');}
+ function pose(time,name='swim'){auto=false;if(machine){machine.delete();machine=null;}if(board)board.delete();board=file.artboardByName('Ca Tra');const animation=new rive.LinearAnimationInstance(board.animationByName(name),board);animation.time=time;animation.apply(1);board.advance(0);animation.delete();return draw();}
+ window.fish={fresh:(value=false)=>{auto=false;return fresh(value);},setSwim,advance,draw,pose:(time,name)=>pose(time,name),events:()=>events.slice(),clearEvents:()=>events=[]};
+ fresh();document.getElementById('idle').onclick=()=>setSwim(false);document.getElementById('swim').onclick=()=>setSwim(true);
+ function tick(now){if(auto){step(last?Math.min((now-last)/1000,.05):0);draw();}last=now;requestAnimationFrame(tick);}requestAnimationFrame(tick);window.ready=true;
+}catch(e){window.failure=String(e);document.getElementById('status').textContent=String(e);console.error(e);}
+</script></html>

@@ -1,0 +1,5229 @@
+{
+  "header": {
+    "major": 7,
+    "minor": 3,
+    "fileId": 0,
+    "toc": [
+      [
+        196,
+        0
+      ],
+      [
+        236,
+        0
+      ],
+      [
+        494,
+        0
+      ],
+      [
+        536,
+        0
+      ],
+      [
+        613,
+        0
+      ],
+      [
+        614,
+        0
+      ],
+      [
+        615,
+        0
+      ],
+      [
+        616,
+        0
+      ],
+      [
+        617,
+        0
+      ],
+      [
+        618,
+        0
+      ],
+      [
+        619,
+        0
+      ],
+      [
+        620,
+        0
+      ],
+      [
+        625,
+        0
+      ],
+      [
+        626,
+        0
+      ]
+    ],
+    "usedKeys": [
+      236,
+      196,
+      7,
+      8,
+      494,
+      4,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      625,
+      626,
+      5,
+      13,
+      14,
+      32,
+      84,
+      85,
+      86,
+      87,
+      24,
+      25,
+      37,
+      47,
+      48,
+      92,
+      59,
+      55,
+      51,
+      53,
+      70,
+      68,
+      67,
+      57,
+      138,
+      151,
+      149,
+      536,
+      152,
+      158,
+      155,
+      156
+    ]
+  },
+  "top": [
+    {
+      "id": "_hYCWjzDCJ",
+      "type": "Backboard",
+      "props": {}
+    }
+  ],
+  "artboards": [
+    {
+      "id": "WEZyXKNaVd",
+      "artboard": {
+        "id": "WEZyXKNaVd",
+        "type": "Artboard",
+        "props": {
+          "defaultStateMachineId": "ewBhIO-WDU",
+          "clip": true,
+          "width": 335,
+          "height": 81,
+          "styleId": "oSRlYg53sI",
+          "name": "Ca Hai Long"
+        },
+        "ui": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "objects": [
+        {
+          "id": "oSRlYg53sI",
+          "type": "LayoutComponentStyle",
+          "props": {
+            "marginLeftUnitsValue": 1,
+            "marginRightUnitsValue": 1,
+            "marginTopUnitsValue": 1,
+            "marginBottomUnitsValue": 1,
+            "paddingLeftUnitsValue": 1,
+            "paddingRightUnitsValue": 1,
+            "paddingTopUnitsValue": 1,
+            "paddingBottomUnitsValue": 1,
+            "gapHorizontalUnitsValue": 1,
+            "gapVerticalUnitsValue": 1,
+            "name": "Transparent canvas",
+            "parentId": "WEZyXKNaVd"
+          }
+        },
+        {
+          "id": "hCowE-GqxX",
+          "type": "Node",
+          "props": {
+            "x": 167.5,
+            "y": 40.5,
+            "name": "FishRoot",
+            "parentId": "WEZyXKNaVd"
+          }
+        },
+        {
+          "id": "ioMhGJ37Ys",
+          "type": "Node",
+          "props": {
+            "x": -143.5,
+            "y": -12.5,
+            "name": "OriginalSVGCoordinates",
+            "parentId": "hCowE-GqxX"
+          }
+        },
+        {
+          "id": "XKQxbiCcw5",
+          "type": "Shape",
+          "props": {
+            "name": "Mouth shading",
+            "parentId": "ioMhGJ37Ys"
+          }
+        },
+        {
+          "id": "rpmfcF4MyM",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "XKQxbiCcw5"
+          }
+        },
+        {
+          "id": "QhmQPlOx7t",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.7219593524932861,
+            "inDistance": 1.1355490684509277,
+            "outRotation": -1.4187629222869873,
+            "outDistance": 1.1357001066207886,
+            "x": 283.64801025390625,
+            "y": 17.8125,
+            "parentId": "rpmfcF4MyM"
+          }
+        },
+        {
+          "id": "OscVGGB0fZ",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.15164630115032196,
+            "inDistance": 0.5381762981414795,
+            "outRotation": -2.989849090576172,
+            "outDistance": 0.5371726155281067,
+            "x": 282.9960021972656,
+            "y": 15.632699966430664,
+            "parentId": "rpmfcF4MyM"
+          }
+        },
+        {
+          "id": "IHnQKRDefu",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.419633388519287,
+            "inDistance": 1.1355490684509277,
+            "outRotation": 1.722829818725586,
+            "outDistance": 1.1357001066207886,
+            "x": 281.7229919433594,
+            "y": 17.518199920654297,
+            "parentId": "rpmfcF4MyM"
+          }
+        },
+        {
+          "id": "1xUPwSwXwH",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.9901299476623535,
+            "inDistance": 0.5381612181663513,
+            "outRotation": 0.15164630115032196,
+            "outDistance": 0.5381762981414795,
+            "x": 282.375,
+            "y": 19.697900772094727,
+            "parentId": "rpmfcF4MyM"
+          }
+        },
+        {
+          "id": "q0zeH7ubAn",
+          "type": "Fill",
+          "props": {
+            "parentId": "XKQxbiCcw5"
+          }
+        },
+        {
+          "id": "X8ukyr-ALl",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4287989333,
+            "parentId": "q0zeH7ubAn"
+          }
+        },
+        {
+          "id": "gfCBLGCisI",
+          "type": "Shape",
+          "props": {
+            "name": "Mouth outline",
+            "parentId": "ioMhGJ37Ys"
+          }
+        },
+        {
+          "id": "V7d_NvGzJ3",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "gfCBLGCisI"
+          }
+        },
+        {
+          "id": "3pz0MH_foD",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "outRotation": 1.9650462865829468,
+            "outDistance": 1.421446442604065,
+            "x": 280.27899169921875,
+            "y": 16.89550018310547,
+            "parentId": "V7d_NvGzJ3"
+          }
+        },
+        {
+          "id": "C0N1Sc6_HF",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.7999275922775269,
+            "inDistance": 0.9994208216667175,
+            "outRotation": 1.4891295433044434,
+            "outDistance": 0.2083946019411087,
+            "x": 280.0690002441406,
+            "y": 20.15519905090332,
+            "parentId": "V7d_NvGzJ3"
+          }
+        },
+        {
+          "id": "ncoiNMa66s",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.4891295433044434,
+            "inDistance": 0.2083946019411087,
+            "outRotation": -1.846051573753357,
+            "outDistance": 1.2362370491027832,
+            "x": 280.3940124511719,
+            "y": 20.15519905090332,
+            "parentId": "V7d_NvGzJ3"
+          }
+        },
+        {
+          "id": "gluaNBVL-i",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.9350945949554443,
+            "inDistance": 1.1984493732452393,
+            "outRotation": -1.3624577522277832,
+            "outDistance": 0.20789560675621033,
+            "x": 280.5929870605469,
+            "y": 16.979900360107422,
+            "parentId": "V7d_NvGzJ3"
+          }
+        },
+        {
+          "id": "-wmtkbBeuZ",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.353168249130249,
+            "inDistance": 0.20841610431671143,
+            "x": 280.27899169921875,
+            "y": 16.893400192260742,
+            "parentId": "V7d_NvGzJ3"
+          }
+        },
+        {
+          "id": "eqYZtTWM3a",
+          "type": "Fill",
+          "props": {
+            "parentId": "gfCBLGCisI"
+          }
+        },
+        {
+          "id": "_noFMSsqOu",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4287989333,
+            "parentId": "eqYZtTWM3a"
+          }
+        },
+        {
+          "id": "YkmQGBssoW",
+          "type": "Shape",
+          "props": {
+            "name": "Pupil",
+            "parentId": "ioMhGJ37Ys"
+          }
+        },
+        {
+          "id": "vihSzVlRw1",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "YkmQGBssoW"
+          }
+        },
+        {
+          "id": "lVcfyhU2ll",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.1415927410125732,
+            "inDistance": 0.9570000171661377,
+            "outDistance": 0.9559999704360962,
+            "x": 244.80999755859375,
+            "y": 14.635000228881836,
+            "parentId": "vihSzVlRw1"
+          }
+        },
+        {
+          "id": "GWO1CY3NWp",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.5707963705062866,
+            "inDistance": 0.9563000202178955,
+            "outRotation": -1.5707963705062866,
+            "outDistance": 0.9563000202178955,
+            "x": 246.54100036621094,
+            "y": 12.903400421142578,
+            "parentId": "vihSzVlRw1"
+          }
+        },
+        {
+          "id": "SxVpup-s5s",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inDistance": 0.9559999704360962,
+            "outRotation": 3.1415927410125732,
+            "outDistance": 0.9570000171661377,
+            "x": 244.80999755859375,
+            "y": 11.171899795532227,
+            "parentId": "vihSzVlRw1"
+          }
+        },
+        {
+          "id": "7qFG_-t9iL",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.5707963705062866,
+            "inDistance": 0.9563000202178955,
+            "outRotation": 1.5707963705062866,
+            "outDistance": 0.9563000202178955,
+            "x": 243.0780029296875,
+            "y": 12.903400421142578,
+            "parentId": "vihSzVlRw1"
+          }
+        },
+        {
+          "id": "T25-_tnMIv",
+          "type": "Fill",
+          "props": {
+            "parentId": "YkmQGBssoW"
+          }
+        },
+        {
+          "id": "ug4kmC-lzw",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4278190080,
+            "parentId": "T25-_tnMIv"
+          }
+        },
+        {
+          "id": "BWiTpTEdgl",
+          "type": "Shape",
+          "props": {
+            "name": "Eye white",
+            "parentId": "ioMhGJ37Ys"
+          }
+        },
+        {
+          "id": "BdK1A9r5zB",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "BWiTpTEdgl"
+          }
+        },
+        {
+          "id": "YeEpPHi8ak",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.1415927410125732,
+            "inDistance": 1.5540000200271606,
+            "outDistance": 1.5540000200271606,
+            "x": 244.80999755859375,
+            "y": 15.717399597167969,
+            "parentId": "BdK1A9r5zB"
+          }
+        },
+        {
+          "id": "wrp5vLTNq4",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.5707963705062866,
+            "inDistance": 1.5540000200271606,
+            "outRotation": -1.5707963705062866,
+            "outDistance": 1.5540000200271606,
+            "x": 247.62399291992188,
+            "y": 12.903599739074707,
+            "parentId": "BdK1A9r5zB"
+          }
+        },
+        {
+          "id": "E-bp4XpvHB",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inDistance": 1.5540000200271606,
+            "outRotation": 3.1415927410125732,
+            "outDistance": 1.5540000200271606,
+            "x": 244.80999755859375,
+            "y": 10.089799880981445,
+            "parentId": "BdK1A9r5zB"
+          }
+        },
+        {
+          "id": "g8cv_GTWGb",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.5707963705062866,
+            "inDistance": 1.5540000200271606,
+            "outRotation": 1.5707963705062866,
+            "outDistance": 1.5540000200271606,
+            "x": 241.99600219726562,
+            "y": 12.903599739074707,
+            "parentId": "BdK1A9r5zB"
+          }
+        },
+        {
+          "id": "XmpWEzfT7q",
+          "type": "Fill",
+          "props": {
+            "parentId": "BWiTpTEdgl"
+          }
+        },
+        {
+          "id": "Ml6iKLgEXG",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4294967295,
+            "parentId": "XmpWEzfT7q"
+          }
+        },
+        {
+          "id": "wKiGPTkn5A",
+          "type": "Node",
+          "props": {
+            "x": 216,
+            "y": 14,
+            "name": "PectoralFin",
+            "parentId": "ioMhGJ37Ys"
+          }
+        },
+        {
+          "id": "BeGgB-MBYQ",
+          "type": "Node",
+          "props": {
+            "x": -216,
+            "y": -14,
+            "name": "OriginalFinCoordinates",
+            "parentId": "wKiGPTkn5A"
+          }
+        },
+        {
+          "id": "XYlehYsymc",
+          "type": "Shape",
+          "props": {
+            "name": "Pectoral fin",
+            "parentId": "BeGgB-MBYQ"
+          }
+        },
+        {
+          "id": "oiU3SISFoS",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "XYlehYsymc"
+          }
+        },
+        {
+          "id": "A4-OxFq2Nq",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "outRotation": 0.5617586970329285,
+            "outDistance": 0.7314022183418274,
+            "x": 221.15199279785156,
+            "y": 14.3548002243042,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "oASS2E9O4j",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.4824469089508057,
+            "inDistance": 0.7366731762886047,
+            "outRotation": 1.6624414920806885,
+            "outDistance": 0.808593213558197,
+            "x": 222.06100463867188,
+            "y": 16.1643009185791,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "j8NGTVgk-w",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.9249279499053955,
+            "inDistance": 0.7941622138023376,
+            "outRotation": 2.2189829349517822,
+            "outDistance": 1.7457791566848755,
+            "x": 221.06100463867188,
+            "y": 18.38719940185547,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "51UWHaZt7y",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.9226096272468567,
+            "inDistance": 1.7457791566848755,
+            "outRotation": 2.2171640396118164,
+            "outDistance": 0.6209626197814941,
+            "x": 217.89599609375,
+            "y": 22.56450080871582,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "Ue1SiHPMUY",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.5013628602027893,
+            "inDistance": 0.6214874982833862,
+            "outRotation": 2.642301321029663,
+            "outDistance": 0.8634023070335388,
+            "x": 216.5850067138672,
+            "y": 23.86750030517578,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "q75H_ROXON",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.4231704771518707,
+            "inDistance": 0.86423259973526,
+            "outRotation": -2.7183167934417725,
+            "outDistance": 0.864273726940155,
+            "x": 214.08700561523438,
+            "y": 23.856700897216797,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "tfTFI_0PdL",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.8563843369483948,
+            "inDistance": 0.8623672127723694,
+            "outRotation": -2.285097122192383,
+            "outDistance": 2.205806016921997,
+            "x": 212.09300231933594,
+            "y": 22.237699508666992,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "lKv5qIW53u",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.6416157484054565,
+            "inDistance": 2.2046260833740234,
+            "outRotation": -1.4999768733978271,
+            "outDistance": 2.2046260833740234,
+            "x": 209.72999572753906,
+            "y": 16.24220085144043,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "O4-uM2KyMb",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.060026168823242,
+            "inDistance": 2.204328775405884,
+            "outRotation": -0.0821586325764656,
+            "outDistance": 1.3184473514556885,
+            "x": 213.75599670410156,
+            "y": 11.696900367736816,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "yXQeaP4k12",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.7034969329833984,
+            "inDistance": 1.316311001777649,
+            "outRotation": 0.4367671608924866,
+            "outDistance": 1.294524908065796,
+            "x": 217.5260009765625,
+            "y": 12.718500137329102,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "Rcs2udasJ1",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.5802087783813477,
+            "inDistance": 1.3171584606170654,
+            "x": 221.15199279785156,
+            "y": 14.359100341796875,
+            "parentId": "oiU3SISFoS"
+          }
+        },
+        {
+          "id": "_UCmP5lLNF",
+          "type": "Fill",
+          "props": {
+            "parentId": "XYlehYsymc"
+          }
+        },
+        {
+          "id": "BVK4SvqD9k",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4287989333,
+            "parentId": "_UCmP5lLNF"
+          }
+        },
+        {
+          "id": "UHmq1jaYM1",
+          "type": "Node",
+          "props": {
+            "name": "Body shading and markings",
+            "parentId": "ioMhGJ37Ys"
+          }
+        },
+        {
+          "id": "LXqW3Y37vr",
+          "type": "Shape",
+          "props": {
+            "name": "Rigid body shading mask",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "oEg-VqB88W",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "LXqW3Y37vr"
+          }
+        },
+        {
+          "id": "fqCLTEcVbw",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.0799436569213867,
+            "inDistance": 8.782684326171875,
+            "x": 280.2900085449219,
+            "y": 14.942999839782715,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "37ZjQKIaAt",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.6778063774108887,
+            "inDistance": 1.9354510307312012,
+            "outRotation": 0.4635090231895447,
+            "outDistance": 1.9363007545471191,
+            "x": 283.75299072265625,
+            "y": 13.860799789428711,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "7cM5tu-BRz",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.0305942296981812,
+            "inDistance": 2.523773193359375,
+            "outRotation": 2.1113381385803223,
+            "outDistance": 2.524287700653076,
+            "x": 284.40301513671875,
+            "y": 19.488300323486328,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "Ejr_ABecpW",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.5707963705062866,
+            "inDistance": 2.164400100708008,
+            "x": 280.2900085449219,
+            "y": 19.488300323486328,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "h7lr_KhQnP",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.3217703700065613,
+            "inDistance": 9.581764221191406,
+            "x": 245.00999450683594,
+            "y": 17.97319984436035,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "yh3DkD0mU4",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.4636722505092621,
+            "inDistance": 7.25948429107666,
+            "x": 225.0970001220703,
+            "y": 17.75670051574707,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "by4mB_cH64",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.06785564869642258,
+            "inDistance": 44.69084930419922,
+            "outRotation": -3.0635955333709717,
+            "outDistance": 2.8606972694396973,
+            "x": 129.10400390625,
+            "y": 20.029399871826172,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "wkNWmheZUR",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.07492080330848694,
+            "inDistance": 2.8630313873291016,
+            "outRotation": -3.0663936138153076,
+            "outDistance": 7.202354907989502,
+            "x": 120.54199981689453,
+            "y": 19.375699996948242,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "rjjkgRGeDv",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.0715775117278099,
+            "inDistance": 7.202542781829834,
+            "outRotation": -3.0702362060546875,
+            "outDistance": 9.471803665161133,
+            "x": 98.99490356445312,
+            "y": 17.791400909423828,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "N_lSsE7t6l",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.06518861651420593,
+            "inDistance": 9.470014572143555,
+            "outRotation": -3.076414108276367,
+            "outDistance": 9.66953182220459,
+            "x": 70.64949798583984,
+            "y": 15.845499992370605,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "LqFF1IKfTF",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.0535239577293396,
+            "inDistance": 9.66944694519043,
+            "outRotation": -3.0882763862609863,
+            "outDistance": 7.798681735992432,
+            "x": 41.69369888305664,
+            "y": 14.10099983215332,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "OfpbEmeRqM",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.021642085164785385,
+            "inDistance": 7.80022668838501,
+            "outRotation": -3.119971513748169,
+            "outDistance": 2.201714515686035,
+            "x": 18.313499450683594,
+            "y": 13.126999855041504,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "fTJLNnW2KM",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.015762822702527046,
+            "inDistance": 2.2014734745025635,
+            "outRotation": 3.1258647441864014,
+            "outDistance": 1.9265782833099365,
+            "x": 11.709799766540527,
+            "y": 13.081600189208984,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "haO39hsKfW",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.5866132974624634,
+            "inDistance": 3.1473937034606934,
+            "outRotation": 1.55538010597229,
+            "outDistance": 1.1235334873199463,
+            "x": 5.177539825439453,
+            "y": 15.694000244140625,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "j6ONNXvZ_8",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.793764352798462,
+            "inDistance": 0.9968991279602051,
+            "outRotation": 0.3501540720462799,
+            "outDistance": 0.7004961967468262,
+            "x": 7.181809902191162,
+            "y": 17.752399444580078,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "zu5L5rbcrd",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -3.0638842582702637,
+            "inDistance": 0.6968930959701538,
+            "outRotation": 0.07672754675149918,
+            "outDistance": 0.5361875295639038,
+            "x": 9.251009941101074,
+            "y": 18.148500442504883,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "Kpo5p3DVMY",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.614039182662964,
+            "inDistance": 0.4558809995651245,
+            "x": 11.740099906921387,
+            "y": 18.066299438476562,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "1NriH7aKjZ",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.0949539914727211,
+            "inDistance": 4.565908432006836,
+            "outRotation": 3.0463545322418213,
+            "outDistance": 3.504943370819092,
+            "x": 9.844059944152832,
+            "y": 20.029399871826172,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "3PXAtubEKP",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.3100653886795044,
+            "inDistance": 3.2325544357299805,
+            "outRotation": -1.831830620765686,
+            "outDistance": 2.289562225341797,
+            "x": 2.1646499633789062,
+            "y": 16.637699127197266,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "SuctzI508V",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 2.6115355491638184,
+            "inDistance": 2.29042649269104,
+            "outRotation": -0.5305352210998535,
+            "outDistance": 3.4177803993225098,
+            "x": 4.5931501388549805,
+            "y": 10.949600219726562,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "RDMeIMjh7M",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.1119253635406494,
+            "inDistance": 3.356376886367798,
+            "outRotation": -0.029721420258283615,
+            "outDistance": 18.208742141723633,
+            "x": 14.313599586486816,
+            "y": 8.689929962158203,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "rH0aHMb1dp",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.0783066749572754,
+            "inDistance": 18.20684814453125,
+            "outRotation": -0.06335639208555222,
+            "outDistance": 16.853614807128906,
+            "x": 68.86599731445312,
+            "y": 5.8415398597717285,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "zgDswerjKB",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.1017675399780273,
+            "inDistance": 16.85236167907715,
+            "outRotation": -0.03984483331441879,
+            "outDistance": 7.987339496612549,
+            "x": 119.36199951171875,
+            "y": 2.9433600902557373,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "fMw65l2u5m",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.1215364933013916,
+            "inDistance": 7.986606121063232,
+            "outRotation": -0.020121250301599503,
+            "outDistance": 11.618351936340332,
+            "x": 143.30999755859375,
+            "y": 2.2355899810791016,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "vFV-PKJ83q",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -3.127249002456665,
+            "inDistance": 11.620195388793945,
+            "outRotation": 0.014358118176460266,
+            "outDistance": 11.758212089538574,
+            "x": 178.16600036621094,
+            "y": 2.088409900665283,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "GYbtIoRF9e",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -3.0522162914276123,
+            "inDistance": 11.760942459106445,
+            "outRotation": 0.08949078619480133,
+            "outDistance": 6.36948823928833,
+            "x": 213.41099548339844,
+            "y": 3.6835899353027344,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "sl3bHV21q_",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.9170236587524414,
+            "inDistance": 6.376102924346924,
+            "x": 232.34800720214844,
+            "y": 6.39346981048584,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "a-zJJeK03Y",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.6090948581695557,
+            "inDistance": 14.068965911865234,
+            "x": 250.74600219726562,
+            "y": 10.072999954223633,
+            "parentId": "oEg-VqB88W"
+          }
+        },
+        {
+          "id": "TntDDnXnnW",
+          "type": "Shape",
+          "props": {
+            "name": "Body shading and markings.7",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "ItVHNtNoGK",
+          "type": "PointsPath",
+          "props": {
+            "parentId": "TntDDnXnnW"
+          }
+        },
+        {
+          "id": "5q8_T5xM1Y",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 211.24600219726562,
+            "y": 14.293000221252441,
+            "parentId": "ItVHNtNoGK"
+          }
+        },
+        {
+          "id": "Ui-GGI6Jg2",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 213.41099548339844,
+            "y": 14.293000221252441,
+            "parentId": "ItVHNtNoGK"
+          }
+        },
+        {
+          "id": "ZSaINgmIbr",
+          "type": "Stroke",
+          "props": {
+            "thickness": 1.2986600399017334,
+            "cap": 1,
+            "parentId": "TntDDnXnnW"
+          }
+        },
+        {
+          "id": "QwGXizxTDL",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4292133009,
+            "parentId": "ZSaINgmIbr"
+          }
+        },
+        {
+          "id": "J8hbc3nUsL",
+          "type": "ClippingShape",
+          "props": {
+            "sourceId": "LXqW3Y37vr",
+            "parentId": "TntDDnXnnW"
+          }
+        },
+        {
+          "id": "lMp_PG_mUc",
+          "type": "Shape",
+          "props": {
+            "name": "Body shading and markings.6",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "kcwOIeDrAb",
+          "type": "PointsPath",
+          "props": {
+            "parentId": "lMp_PG_mUc"
+          }
+        },
+        {
+          "id": "LbvfLRqrw4",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 54.38090133666992,
+            "y": 14.293000221252441,
+            "parentId": "kcwOIeDrAb"
+          }
+        },
+        {
+          "id": "VWHzOdqfhz",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 206.88900756835938,
+            "y": 14.293000221252441,
+            "parentId": "kcwOIeDrAb"
+          }
+        },
+        {
+          "id": "JRjedXfvwJ",
+          "type": "Stroke",
+          "props": {
+            "thickness": 1.2986600399017334,
+            "cap": 1,
+            "parentId": "lMp_PG_mUc"
+          }
+        },
+        {
+          "id": "GJdQn8kQkY",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4292133009,
+            "parentId": "JRjedXfvwJ"
+          }
+        },
+        {
+          "id": "1Uzrkg30CG",
+          "type": "ClippingShape",
+          "props": {
+            "sourceId": "LXqW3Y37vr",
+            "parentId": "lMp_PG_mUc"
+          }
+        },
+        {
+          "id": "Fzubqjep-I",
+          "type": "Shape",
+          "props": {
+            "name": "Body shading and markings.5",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "MjzyR6SXH7",
+          "type": "PointsPath",
+          "props": {
+            "parentId": "Fzubqjep-I"
+          }
+        },
+        {
+          "id": "9PuiTxtCoV",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 43.50199890136719,
+            "y": 14.293000221252441,
+            "parentId": "MjzyR6SXH7"
+          }
+        },
+        {
+          "id": "W7UXpg9n4Y",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 45.66640090942383,
+            "y": 14.293000221252441,
+            "parentId": "MjzyR6SXH7"
+          }
+        },
+        {
+          "id": "UShTeCTu6S",
+          "type": "Stroke",
+          "props": {
+            "thickness": 1.2986600399017334,
+            "cap": 1,
+            "parentId": "Fzubqjep-I"
+          }
+        },
+        {
+          "id": "9iQQ9M49Cg",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4292133009,
+            "parentId": "UShTeCTu6S"
+          }
+        },
+        {
+          "id": "yYfJ_ENnip",
+          "type": "ClippingShape",
+          "props": {
+            "sourceId": "LXqW3Y37vr",
+            "parentId": "Fzubqjep-I"
+          }
+        },
+        {
+          "id": "lFA0g01jmi",
+          "type": "Shape",
+          "props": {
+            "name": "Body shading and markings.4",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "NF4JaflVMK",
+          "type": "PointsPath",
+          "props": {
+            "parentId": "lFA0g01jmi"
+          }
+        },
+        {
+          "id": "E_q0rVb32y",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 216.43899536132812,
+            "y": 10.613300323486328,
+            "parentId": "NF4JaflVMK"
+          }
+        },
+        {
+          "id": "mwv8BNeb7-",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 218.60400390625,
+            "y": 10.613300323486328,
+            "parentId": "NF4JaflVMK"
+          }
+        },
+        {
+          "id": "_Ygm0wJOz1",
+          "type": "Stroke",
+          "props": {
+            "thickness": 1.2986600399017334,
+            "cap": 1,
+            "parentId": "lFA0g01jmi"
+          }
+        },
+        {
+          "id": "owljFdr3BR",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4292133009,
+            "parentId": "_Ygm0wJOz1"
+          }
+        },
+        {
+          "id": "8L1zaTz7P1",
+          "type": "ClippingShape",
+          "props": {
+            "sourceId": "LXqW3Y37vr",
+            "parentId": "lFA0g01jmi"
+          }
+        },
+        {
+          "id": "5Y0jtijcTt",
+          "type": "Shape",
+          "props": {
+            "name": "Body shading and markings.3",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "79wRdVTSLS",
+          "type": "PointsPath",
+          "props": {
+            "parentId": "5Y0jtijcTt"
+          }
+        },
+        {
+          "id": "IpG79k2oQZ",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 59.57419967651367,
+            "y": 10.613300323486328,
+            "parentId": "79wRdVTSLS"
+          }
+        },
+        {
+          "id": "REQZcVHvh1",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 212.08200073242188,
+            "y": 10.613300323486328,
+            "parentId": "79wRdVTSLS"
+          }
+        },
+        {
+          "id": "l5X-HtpWYP",
+          "type": "Stroke",
+          "props": {
+            "thickness": 1.2986600399017334,
+            "cap": 1,
+            "parentId": "5Y0jtijcTt"
+          }
+        },
+        {
+          "id": "ByDQhrhFFl",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4292133009,
+            "parentId": "l5X-HtpWYP"
+          }
+        },
+        {
+          "id": "AhAV7gSoOR",
+          "type": "ClippingShape",
+          "props": {
+            "sourceId": "LXqW3Y37vr",
+            "parentId": "5Y0jtijcTt"
+          }
+        },
+        {
+          "id": "jdga-hyXn5",
+          "type": "Shape",
+          "props": {
+            "name": "Body shading and markings.2",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "AA75QKbiXk",
+          "type": "PointsPath",
+          "props": {
+            "parentId": "jdga-hyXn5"
+          }
+        },
+        {
+          "id": "prU7oS0iWU",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 48.6953010559082,
+            "y": 10.613300323486328,
+            "parentId": "AA75QKbiXk"
+          }
+        },
+        {
+          "id": "9JBR8bjF2a",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 50.85969924926758,
+            "y": 10.613300323486328,
+            "parentId": "AA75QKbiXk"
+          }
+        },
+        {
+          "id": "nWvOzHa9Fs",
+          "type": "Stroke",
+          "props": {
+            "thickness": 1.2986600399017334,
+            "cap": 1,
+            "parentId": "jdga-hyXn5"
+          }
+        },
+        {
+          "id": "Q5nkX8tFmG",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4292133009,
+            "parentId": "nWvOzHa9Fs"
+          }
+        },
+        {
+          "id": "RPDMSyX2dt",
+          "type": "ClippingShape",
+          "props": {
+            "sourceId": "LXqW3Y37vr",
+            "parentId": "jdga-hyXn5"
+          }
+        },
+        {
+          "id": "qCqaUA4EWm",
+          "type": "Shape",
+          "props": {
+            "name": "Body shading and markings.1",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "PlDYlgb0Ig",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "qCqaUA4EWm"
+          }
+        },
+        {
+          "id": "ckWQq2W8HX",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "outRotation": 1.587170124053955,
+            "outDistance": 1.7101291418075562,
+            "x": 222.5449981689453,
+            "y": 12.063699722290039,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "CbwYycqiih",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.2162013053894043,
+            "inDistance": 1.7123230695724487,
+            "outRotation": 0.9246073365211487,
+            "outDistance": 1.7188462018966675,
+            "x": 224.1009979248047,
+            "y": 16.844900131225586,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "dxJdiyarhn",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.8908848762512207,
+            "inDistance": 1.7187327146530151,
+            "outRotation": 0.2508399188518524,
+            "outDistance": 0.9765622019767761,
+            "x": 228.29200744628906,
+            "y": 19.617599487304688,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "GSxUFnmJ13",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.0126631259918213,
+            "inDistance": 0.9761015772819519,
+            "outRotation": -0.12738528847694397,
+            "outDistance": 0.20465829968452454,
+            "x": 231.19000244140625,
+            "y": 19.79509925842285,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "JhereFIRSE",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.1342831552028656,
+            "inDistance": 0.2098895013332367,
+            "outRotation": 3.011579751968384,
+            "outDistance": 1.6529505252838135,
+            "x": 231.19000244140625,
+            "y": 19.470399856567383,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "2FOv039oad",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.5296328663825989,
+            "inDistance": 1.6535483598709106,
+            "outRotation": -2.6116018295288086,
+            "outDistance": 1.652735948562622,
+            "x": 226.44500732421875,
+            "y": 18.511600494384766,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "8VvlDCUBVO",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.2165284156799316,
+            "inDistance": 1.6661678552627563,
+            "outRotation": -1.9266705513000488,
+            "outDistance": 0.9213284254074097,
+            "x": 223.32899475097656,
+            "y": 14.762800216674805,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "cCAI7NdJzZ",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.5881463289260864,
+            "inDistance": 0.922238826751709,
+            "outRotation": -1.5517419576644897,
+            "outDistance": 0.20993809401988983,
+            "x": 222.8679962158203,
+            "y": 12.063699722290039,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "zylE1GZXw6",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.5517419576644897,
+            "inDistance": 0.20993809401988983,
+            "x": 222.54299926757812,
+            "y": 12.063699722290039,
+            "parentId": "PlDYlgb0Ig"
+          }
+        },
+        {
+          "id": "O5rHOdm7lP",
+          "type": "Fill",
+          "props": {
+            "parentId": "qCqaUA4EWm"
+          }
+        },
+        {
+          "id": "sBtwhPdRKN",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4287989333,
+            "parentId": "O5rHOdm7lP"
+          }
+        },
+        {
+          "id": "mc_eCp-gfw",
+          "type": "ClippingShape",
+          "props": {
+            "sourceId": "LXqW3Y37vr",
+            "parentId": "qCqaUA4EWm"
+          }
+        },
+        {
+          "id": "USzGhq1YzW",
+          "type": "Shape",
+          "props": {
+            "name": "Body shading and markings.0",
+            "parentId": "UHmq1jaYM1"
+          }
+        },
+        {
+          "id": "VDukCwIhh0",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "USzGhq1YzW"
+          }
+        },
+        {
+          "id": "7Rw-KJOVhq",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 1.9843800067901611,
+            "y": 10.062899589538574,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "slTLj2LPFO",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 111.01599884033203,
+            "y": 7.366000175476074,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "UoH4x5Vj0y",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -3.0172383785247803,
+            "inDistance": 15.705276489257812,
+            "x": 225.08099365234375,
+            "y": 8.664660453796387,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "io75Yh4exb",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 2.5831096172332764,
+            "inDistance": 2.0423085689544678,
+            "outRotation": -0.5587426424026489,
+            "outDistance": 2.0414605140686035,
+            "x": 229.6269989013672,
+            "y": 7.58243989944458,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "nR57tnDwfv",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.848397970199585,
+            "inDistance": 2.254196882247925,
+            "outRotation": 0.29319891333580017,
+            "outDistance": 2.254199743270874,
+            "x": 237.85800170898438,
+            "y": 8.662489891052246,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "cz1w1qizQW",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 242.61300659179688,
+            "y": 8.448209762573242,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "9PnHkIKw5Q",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.342636823654175,
+            "inDistance": 3.1471548080444336,
+            "outRotation": 0.7998469471931458,
+            "outDistance": 0.7634721994400024,
+            "x": 248.17799377441406,
+            "y": 9.402729988098145,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "UHwH7ZaGoJ",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.82509183883667,
+            "inDistance": 0.764997124671936,
+            "outRotation": 0.3169350326061249,
+            "outDistance": 1.451280951499939,
+            "x": 250.0800018310547,
+            "y": 10.623499870300293,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "hgYd0n_4v8",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 2.5895376205444336,
+            "inDistance": 2.063542127609253,
+            "x": 255.38299560546875,
+            "y": 10.396200180053711,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "lqSzd0Hw3A",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 236.55299377441406,
+            "y": 1.9549100399017334,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "iVBYuKh4Ax",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 197.59300231933594,
+            "y": 0.65625,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "C4iBQ4a4KG",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 90.6698989868164,
+            "y": 2.3877999782562256,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "PcvSTKYPOr",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "x": 2.360990047454834,
+            "y": 5.850890159606934,
+            "parentId": "VDukCwIhh0"
+          }
+        },
+        {
+          "id": "1LuGPSZUus",
+          "type": "Fill",
+          "props": {
+            "parentId": "USzGhq1YzW"
+          }
+        },
+        {
+          "id": "Ezw5F5FL6B",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4287989333,
+            "parentId": "1LuGPSZUus"
+          }
+        },
+        {
+          "id": "QBWsBVlfu4",
+          "type": "ClippingShape",
+          "props": {
+            "sourceId": "LXqW3Y37vr",
+            "parentId": "USzGhq1YzW"
+          }
+        },
+        {
+          "id": "0zoc_0983h",
+          "type": "Shape",
+          "props": {
+            "name": "Rigid body and tail",
+            "parentId": "ioMhGJ37Ys"
+          }
+        },
+        {
+          "id": "dxVQN-fBPl",
+          "type": "PointsPath",
+          "props": {
+            "isClosed": true,
+            "parentId": "0zoc_0983h"
+          }
+        },
+        {
+          "id": "OZMs802A96",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.0799436569213867,
+            "inDistance": 8.782684326171875,
+            "x": 280.2900085449219,
+            "y": 14.942999839782715,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "0nbrU-844I",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.6778063774108887,
+            "inDistance": 1.9354510307312012,
+            "outRotation": 0.4635090231895447,
+            "outDistance": 1.9363007545471191,
+            "x": 283.75299072265625,
+            "y": 13.860799789428711,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "VC-kxEtsVf",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.0305942296981812,
+            "inDistance": 2.523773193359375,
+            "outRotation": 2.1113381385803223,
+            "outDistance": 2.524287700653076,
+            "x": 284.40301513671875,
+            "y": 19.488300323486328,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "CrNqc_n9QL",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.5707963705062866,
+            "inDistance": 2.164400100708008,
+            "x": 280.2900085449219,
+            "y": 19.488300323486328,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "DeBveg3q2m",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.3217703700065613,
+            "inDistance": 9.581764221191406,
+            "x": 245.00999450683594,
+            "y": 17.97319984436035,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "zt1BKluiaQ",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.4636722505092621,
+            "inDistance": 7.25948429107666,
+            "x": 225.0970001220703,
+            "y": 17.75670051574707,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "vcYJgpq5AB",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.06785564869642258,
+            "inDistance": 44.69084930419922,
+            "outRotation": -3.0635955333709717,
+            "outDistance": 2.8606972694396973,
+            "x": 129.10400390625,
+            "y": 20.029399871826172,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "VMdLctglT5",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.07492080330848694,
+            "inDistance": 2.8630313873291016,
+            "outRotation": -3.0663936138153076,
+            "outDistance": 7.202354907989502,
+            "x": 120.54199981689453,
+            "y": 19.375699996948242,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "MuWWjfm91m",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.0715775117278099,
+            "inDistance": 7.202542781829834,
+            "outRotation": -3.0702362060546875,
+            "outDistance": 9.471803665161133,
+            "x": 98.99490356445312,
+            "y": 17.791400909423828,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "qvX4YpKFF1",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.06518861651420593,
+            "inDistance": 9.470014572143555,
+            "outRotation": -3.076414108276367,
+            "outDistance": 9.66953182220459,
+            "x": 70.64949798583984,
+            "y": 15.845499992370605,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "J742DoZH56",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.0535239577293396,
+            "inDistance": 9.66944694519043,
+            "outRotation": -3.0882763862609863,
+            "outDistance": 7.798681735992432,
+            "x": 41.69369888305664,
+            "y": 14.10099983215332,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "e0Nd0NSVI5",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 0.021642085164785385,
+            "inDistance": 7.80022668838501,
+            "outRotation": -3.119971513748169,
+            "outDistance": 2.201714515686035,
+            "x": 18.313499450683594,
+            "y": 13.126999855041504,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "zTdxwQ0XC2",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.015762822702527046,
+            "inDistance": 2.2014734745025635,
+            "outRotation": 3.1258647441864014,
+            "outDistance": 1.9265782833099365,
+            "x": 11.709799766540527,
+            "y": 13.081600189208984,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "HLmseUYb2V",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -1.5866132974624634,
+            "inDistance": 3.1473937034606934,
+            "outRotation": 1.55538010597229,
+            "outDistance": 1.1235334873199463,
+            "x": 5.177539825439453,
+            "y": 15.694000244140625,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "-CAqC5mhm9",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.793764352798462,
+            "inDistance": 0.9968991279602051,
+            "outRotation": 0.3501540720462799,
+            "outDistance": 0.7004961967468262,
+            "x": 7.181809902191162,
+            "y": 17.752399444580078,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "3SkBOpdgGM",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -3.0638842582702637,
+            "inDistance": 0.6968930959701538,
+            "outRotation": 0.07672754675149918,
+            "outDistance": 0.5361875295639038,
+            "x": 9.251009941101074,
+            "y": 18.148500442504883,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "ABNLPvmbCv",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.614039182662964,
+            "inDistance": 0.4558809995651245,
+            "x": 11.740099906921387,
+            "y": 18.066299438476562,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "Up9l7pqROs",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -0.0949539914727211,
+            "inDistance": 4.565908432006836,
+            "outRotation": 3.0463545322418213,
+            "outDistance": 3.504943370819092,
+            "x": 9.844059944152832,
+            "y": 20.029399871826172,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "Vvh_ykKRfe",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 1.3100653886795044,
+            "inDistance": 3.2325544357299805,
+            "outRotation": -1.831830620765686,
+            "outDistance": 2.289562225341797,
+            "x": 2.1646499633789062,
+            "y": 16.637699127197266,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "z-QXjecmUQ",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 2.6115355491638184,
+            "inDistance": 2.29042649269104,
+            "outRotation": -0.5305352210998535,
+            "outDistance": 3.4177803993225098,
+            "x": 4.5931501388549805,
+            "y": 10.949600219726562,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "Gu-SJDHbCH",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.1119253635406494,
+            "inDistance": 3.356376886367798,
+            "outRotation": -0.029721420258283615,
+            "outDistance": 18.208742141723633,
+            "x": 14.313599586486816,
+            "y": 8.689929962158203,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "q_bqBtiTph",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.0783066749572754,
+            "inDistance": 18.20684814453125,
+            "outRotation": -0.06335639208555222,
+            "outDistance": 16.853614807128906,
+            "x": 68.86599731445312,
+            "y": 5.8415398597717285,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "tEBJ9T7EKi",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.1017675399780273,
+            "inDistance": 16.85236167907715,
+            "outRotation": -0.03984483331441879,
+            "outDistance": 7.987339496612549,
+            "x": 119.36199951171875,
+            "y": 2.9433600902557373,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "_ABLn7uTad",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": 3.1215364933013916,
+            "inDistance": 7.986606121063232,
+            "outRotation": -0.020121250301599503,
+            "outDistance": 11.618351936340332,
+            "x": 143.30999755859375,
+            "y": 2.2355899810791016,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "2Bwj1Xg9FY",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -3.127249002456665,
+            "inDistance": 11.620195388793945,
+            "outRotation": 0.014358118176460266,
+            "outDistance": 11.758212089538574,
+            "x": 178.16600036621094,
+            "y": 2.088409900665283,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "0h3FVf7Njh",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -3.0522162914276123,
+            "inDistance": 11.760942459106445,
+            "outRotation": 0.08949078619480133,
+            "outDistance": 6.36948823928833,
+            "x": 213.41099548339844,
+            "y": 3.6835899353027344,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "_UTxRKoDGq",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.9170236587524414,
+            "inDistance": 6.376102924346924,
+            "x": 232.34800720214844,
+            "y": 6.39346981048584,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "8e3g1SIb-q",
+          "type": "CubicDetachedVertex",
+          "props": {
+            "inRotation": -2.6090948581695557,
+            "inDistance": 14.068965911865234,
+            "x": 250.74600219726562,
+            "y": 10.072999954223633,
+            "parentId": "dxVQN-fBPl"
+          }
+        },
+        {
+          "id": "cyl64XX9fw",
+          "type": "Fill",
+          "props": {
+            "parentId": "0zoc_0983h"
+          }
+        },
+        {
+          "id": "s5-RyFWZkd",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4292857248,
+            "parentId": "cyl64XX9fw"
+          }
+        }
+      ],
+      "animations": [
+        {
+          "id": "JdWAbU1LPs",
+          "type": "LinearAnimation",
+          "props": {
+            "loopValue": 1,
+            "name": "idle"
+          },
+          "children": [
+            {
+              "id": "LzjgIzFzyJ",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "hCowE-GqxX"
+              },
+              "children": [
+                {
+                  "id": "Qw22ArLmX_",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 13
+                  },
+                  "children": [
+                    {
+                      "id": "aTwXnm3AQ5",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 167.5,
+                        "interpolationType": 1
+                      }
+                    },
+                    {
+                      "id": "x10dh2xLSr",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 167.5,
+                        "interpolationType": 1,
+                        "frame": 60
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "71SmtCYTme",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 14
+                  },
+                  "children": [
+                    {
+                      "id": "6qR0lblW1M",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 1,
+                        "value": 40.5
+                      }
+                    },
+                    {
+                      "id": "LAyQzL0cFe",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 40.5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "U2Q9a5ttAz",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 15
+                  },
+                  "children": [
+                    {
+                      "id": "oRLDQBH1Lz",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "lNHgqQQ_UE",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q1iKiILqwf",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "wKiGPTkn5A"
+              },
+              "children": [
+                {
+                  "id": "N2BpI4OupO",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 15
+                  },
+                  "children": [
+                    {
+                      "id": "HmRvYJLehc",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "4-nKSjHSrW",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "_5PajqmEst",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 17
+                  },
+                  "children": [
+                    {
+                      "id": "suxKbC9fy1",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 1,
+                        "value": 1
+                      }
+                    },
+                    {
+                      "id": "VH4P9UM7X1",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rA13adnpnj",
+          "type": "LinearAnimation",
+          "props": {
+            "duration": 120,
+            "loopValue": 1,
+            "name": "swim"
+          },
+          "children": [
+            {
+              "id": "aB_CLhwtwx",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "hCowE-GqxX"
+              },
+              "children": [
+                {
+                  "id": "7DhPcY2JK6",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 13
+                  },
+                  "children": [
+                    {
+                      "id": "eQWkwRl8_K",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 167.5,
+                        "interpolationType": 1
+                      }
+                    },
+                    {
+                      "id": "T8fY29TIEV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 2,
+                        "interpolationType": 1,
+                        "value": 167.76132116
+                      }
+                    },
+                    {
+                      "id": "9QNh9sE11V",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 4,
+                        "interpolationType": 1,
+                        "value": 168.01977923
+                      }
+                    },
+                    {
+                      "id": "lIMbxtW3Bj",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 6,
+                        "interpolationType": 1,
+                        "value": 168.27254249
+                      }
+                    },
+                    {
+                      "id": "MGlaE3tlA3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 8,
+                        "interpolationType": 1,
+                        "value": 168.51684161
+                      }
+                    },
+                    {
+                      "id": "AZjIHFaLZ9",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 10,
+                        "interpolationType": 1,
+                        "value": 168.75
+                      }
+                    },
+                    {
+                      "id": "BkP4Raivn2",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 12,
+                        "interpolationType": 1,
+                        "value": 168.96946313
+                      }
+                    },
+                    {
+                      "id": "47ueqoxdXG",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 14,
+                        "interpolationType": 1,
+                        "value": 169.17282652
+                      }
+                    },
+                    {
+                      "id": "atGTvVsXg7",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 16,
+                        "interpolationType": 1,
+                        "value": 169.35786206
+                      }
+                    },
+                    {
+                      "id": "XuctqXraPb",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 18,
+                        "interpolationType": 1,
+                        "value": 169.52254249
+                      }
+                    },
+                    {
+                      "id": "4zxtE5c9xw",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 20,
+                        "interpolationType": 1,
+                        "value": 169.66506351
+                      }
+                    },
+                    {
+                      "id": "dzR6ujeAFe",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 22,
+                        "interpolationType": 1,
+                        "value": 169.78386364
+                      }
+                    },
+                    {
+                      "id": "OLxZX33RpT",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 24,
+                        "interpolationType": 1,
+                        "value": 169.87764129
+                      }
+                    },
+                    {
+                      "id": "rbyQlGOFUL",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 26,
+                        "interpolationType": 1,
+                        "value": 169.945369
+                      }
+                    },
+                    {
+                      "id": "sCAFs6lgUX",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 28,
+                        "interpolationType": 1,
+                        "value": 169.98630474
+                      }
+                    },
+                    {
+                      "id": "3dY2GQ5FBI",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 30,
+                        "interpolationType": 1,
+                        "value": 170
+                      }
+                    },
+                    {
+                      "id": "zU0TknS_bO",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 32,
+                        "interpolationType": 1,
+                        "value": 169.98630474
+                      }
+                    },
+                    {
+                      "id": "pVlcbenQbF",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 34,
+                        "interpolationType": 1,
+                        "value": 169.945369
+                      }
+                    },
+                    {
+                      "id": "qXJSl5AT-0",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 36,
+                        "interpolationType": 1,
+                        "value": 169.87764129
+                      }
+                    },
+                    {
+                      "id": "ueqwEXxOpp",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 38,
+                        "interpolationType": 1,
+                        "value": 169.78386364
+                      }
+                    },
+                    {
+                      "id": "Qw4r4VH8i7",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 40,
+                        "interpolationType": 1,
+                        "value": 169.66506351
+                      }
+                    },
+                    {
+                      "id": "sYVIMQhAIJ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 42,
+                        "interpolationType": 1,
+                        "value": 169.52254249
+                      }
+                    },
+                    {
+                      "id": "WcIW4DN0_T",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 44,
+                        "interpolationType": 1,
+                        "value": 169.35786206
+                      }
+                    },
+                    {
+                      "id": "ovIlaRsgSd",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 46,
+                        "interpolationType": 1,
+                        "value": 169.17282652
+                      }
+                    },
+                    {
+                      "id": "vdq5qQD5ux",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 48,
+                        "interpolationType": 1,
+                        "value": 168.96946313
+                      }
+                    },
+                    {
+                      "id": "rhZ4O58z6a",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 50,
+                        "interpolationType": 1,
+                        "value": 168.75
+                      }
+                    },
+                    {
+                      "id": "Ew19Cypj-h",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 52,
+                        "interpolationType": 1,
+                        "value": 168.51684161
+                      }
+                    },
+                    {
+                      "id": "EMaApbSbeD",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 54,
+                        "interpolationType": 1,
+                        "value": 168.27254249
+                      }
+                    },
+                    {
+                      "id": "eCfY6os-iA",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 56,
+                        "interpolationType": 1,
+                        "value": 168.01977923
+                      }
+                    },
+                    {
+                      "id": "ih07dwbE2A",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 58,
+                        "interpolationType": 1,
+                        "value": 167.76132116
+                      }
+                    },
+                    {
+                      "id": "fUFkKujrGy",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 167.5
+                      }
+                    },
+                    {
+                      "id": "SgDHwa0uK2",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 62,
+                        "interpolationType": 1,
+                        "value": 167.23867884
+                      }
+                    },
+                    {
+                      "id": "LAvuYUUwnl",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 64,
+                        "interpolationType": 1,
+                        "value": 166.98022077
+                      }
+                    },
+                    {
+                      "id": "zyqjcBDYiJ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 66,
+                        "interpolationType": 1,
+                        "value": 166.72745751
+                      }
+                    },
+                    {
+                      "id": "qVIskrk9_P",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 68,
+                        "interpolationType": 1,
+                        "value": 166.48315839
+                      }
+                    },
+                    {
+                      "id": "i5YZ_rB_t3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 70,
+                        "interpolationType": 1,
+                        "value": 166.25
+                      }
+                    },
+                    {
+                      "id": "uvQWoFot5U",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 72,
+                        "interpolationType": 1,
+                        "value": 166.03053687
+                      }
+                    },
+                    {
+                      "id": "Agw5EzhN7X",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 74,
+                        "interpolationType": 1,
+                        "value": 165.82717348
+                      }
+                    },
+                    {
+                      "id": "sw_SKi1bj0",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 76,
+                        "interpolationType": 1,
+                        "value": 165.64213794
+                      }
+                    },
+                    {
+                      "id": "gBnoUCKj2l",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 78,
+                        "interpolationType": 1,
+                        "value": 165.47745751
+                      }
+                    },
+                    {
+                      "id": "XK7tXXHXS1",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 80,
+                        "interpolationType": 1,
+                        "value": 165.33493649
+                      }
+                    },
+                    {
+                      "id": "jLggUa1Omd",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 82,
+                        "interpolationType": 1,
+                        "value": 165.21613636
+                      }
+                    },
+                    {
+                      "id": "kRdmVGy4Nj",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 84,
+                        "interpolationType": 1,
+                        "value": 165.12235871
+                      }
+                    },
+                    {
+                      "id": "KIBEWX2PFn",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 86,
+                        "interpolationType": 1,
+                        "value": 165.054631
+                      }
+                    },
+                    {
+                      "id": "Kew-cxN9TW",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 88,
+                        "interpolationType": 1,
+                        "value": 165.01369526
+                      }
+                    },
+                    {
+                      "id": "pKgM7xrnct",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 90,
+                        "interpolationType": 1,
+                        "value": 165
+                      }
+                    },
+                    {
+                      "id": "JKe1X-l_3v",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 92,
+                        "interpolationType": 1,
+                        "value": 165.01369526
+                      }
+                    },
+                    {
+                      "id": "_3TpknRqFg",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 94,
+                        "interpolationType": 1,
+                        "value": 165.054631
+                      }
+                    },
+                    {
+                      "id": "GiOYKKe79M",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 96,
+                        "interpolationType": 1,
+                        "value": 165.12235871
+                      }
+                    },
+                    {
+                      "id": "TbxmktYNj3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 98,
+                        "interpolationType": 1,
+                        "value": 165.21613636
+                      }
+                    },
+                    {
+                      "id": "LpVERuk8iW",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 100,
+                        "interpolationType": 1,
+                        "value": 165.33493649
+                      }
+                    },
+                    {
+                      "id": "dWNJRvKTla",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 102,
+                        "interpolationType": 1,
+                        "value": 165.47745751
+                      }
+                    },
+                    {
+                      "id": "bXUUMJdXIb",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 104,
+                        "interpolationType": 1,
+                        "value": 165.64213794
+                      }
+                    },
+                    {
+                      "id": "HNC2WNy-R3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 106,
+                        "interpolationType": 1,
+                        "value": 165.82717348
+                      }
+                    },
+                    {
+                      "id": "JjhyBKjNnQ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 108,
+                        "interpolationType": 1,
+                        "value": 166.03053687
+                      }
+                    },
+                    {
+                      "id": "mzL_SzWcr5",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 110,
+                        "interpolationType": 1,
+                        "value": 166.25
+                      }
+                    },
+                    {
+                      "id": "zQKDu9Yv_g",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 112,
+                        "interpolationType": 1,
+                        "value": 166.48315839
+                      }
+                    },
+                    {
+                      "id": "q8YFCo02Nw",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 114,
+                        "interpolationType": 1,
+                        "value": 166.72745751
+                      }
+                    },
+                    {
+                      "id": "bV3_DyvoOn",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 116,
+                        "interpolationType": 1,
+                        "value": 166.98022077
+                      }
+                    },
+                    {
+                      "id": "gZgAg-dnZN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 118,
+                        "interpolationType": 1,
+                        "value": 167.23867884
+                      }
+                    },
+                    {
+                      "id": "_gEjbhlLfG",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 167.5,
+                        "interpolationType": 1,
+                        "frame": 120
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "A9AEhIfZCt",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 14
+                  },
+                  "children": [
+                    {
+                      "id": "s6EpSFaL4g",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 1,
+                        "value": 40.5
+                      }
+                    },
+                    {
+                      "id": "RejL1UuKPi",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 2,
+                        "interpolationType": 1,
+                        "value": 40.62020773
+                      }
+                    },
+                    {
+                      "id": "NbwoQlfdlJ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 4,
+                        "interpolationType": 1,
+                        "value": 40.73909844
+                      }
+                    },
+                    {
+                      "id": "5Pf76ZHG9K",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 6,
+                        "interpolationType": 1,
+                        "value": 40.85536954
+                      }
+                    },
+                    {
+                      "id": "XjFSdjvNuF",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 8,
+                        "interpolationType": 1,
+                        "value": 40.96774714
+                      }
+                    },
+                    {
+                      "id": "bqSlPZW4BN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 10,
+                        "interpolationType": 1,
+                        "value": 41.075
+                      }
+                    },
+                    {
+                      "id": "I3RkjOFQC8",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 12,
+                        "interpolationType": 1,
+                        "value": 41.17595304
+                      }
+                    },
+                    {
+                      "id": "-12CEvr3af",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 14,
+                        "interpolationType": 1,
+                        "value": 41.2695002
+                      }
+                    },
+                    {
+                      "id": "WpOlqKsXfz",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 16,
+                        "interpolationType": 1,
+                        "value": 41.35461655
+                      }
+                    },
+                    {
+                      "id": "kngx4IgsUb",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 18,
+                        "interpolationType": 1,
+                        "value": 41.43036954
+                      }
+                    },
+                    {
+                      "id": "a25io_-YvK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 20,
+                        "interpolationType": 1,
+                        "value": 41.49592921
+                      }
+                    },
+                    {
+                      "id": "qOwYe1vVCa",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 22,
+                        "interpolationType": 1,
+                        "value": 41.55057728
+                      }
+                    },
+                    {
+                      "id": "_bU32lAxmQ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 24,
+                        "interpolationType": 1,
+                        "value": 41.59371499
+                      }
+                    },
+                    {
+                      "id": "DAArAGrSVe",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 26,
+                        "interpolationType": 1,
+                        "value": 41.62486974
+                      }
+                    },
+                    {
+                      "id": "Q19xFEhHdC",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 28,
+                        "interpolationType": 1,
+                        "value": 41.64370018
+                      }
+                    },
+                    {
+                      "id": "FI0vv0X_0z",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 30,
+                        "interpolationType": 1,
+                        "value": 41.65
+                      }
+                    },
+                    {
+                      "id": "hbIR8QkWcy",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 32,
+                        "interpolationType": 1,
+                        "value": 41.64370018
+                      }
+                    },
+                    {
+                      "id": "9YjJjZupzB",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 34,
+                        "interpolationType": 1,
+                        "value": 41.62486974
+                      }
+                    },
+                    {
+                      "id": "xx2pvHXm7V",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 36,
+                        "interpolationType": 1,
+                        "value": 41.59371499
+                      }
+                    },
+                    {
+                      "id": "34oSJNglpV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 38,
+                        "interpolationType": 1,
+                        "value": 41.55057728
+                      }
+                    },
+                    {
+                      "id": "iBuml5gCJb",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 40,
+                        "interpolationType": 1,
+                        "value": 41.49592921
+                      }
+                    },
+                    {
+                      "id": "-SFkTfAUaK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 42,
+                        "interpolationType": 1,
+                        "value": 41.43036954
+                      }
+                    },
+                    {
+                      "id": "ijVwXtX2V8",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 44,
+                        "interpolationType": 1,
+                        "value": 41.35461655
+                      }
+                    },
+                    {
+                      "id": "9EXzPR6vnz",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 46,
+                        "interpolationType": 1,
+                        "value": 41.2695002
+                      }
+                    },
+                    {
+                      "id": "pSx0Hb-wPe",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 48,
+                        "interpolationType": 1,
+                        "value": 41.17595304
+                      }
+                    },
+                    {
+                      "id": "oCFb3EsZ_E",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 50,
+                        "interpolationType": 1,
+                        "value": 41.075
+                      }
+                    },
+                    {
+                      "id": "pFHnj2Gq4o",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 52,
+                        "interpolationType": 1,
+                        "value": 40.96774714
+                      }
+                    },
+                    {
+                      "id": "M89ItWzq6o",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 54,
+                        "interpolationType": 1,
+                        "value": 40.85536954
+                      }
+                    },
+                    {
+                      "id": "6GmQnL8WAk",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 56,
+                        "interpolationType": 1,
+                        "value": 40.73909844
+                      }
+                    },
+                    {
+                      "id": "z0brLm-3JC",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 58,
+                        "interpolationType": 1,
+                        "value": 40.62020773
+                      }
+                    },
+                    {
+                      "id": "tnvvVtEZWi",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 40.5
+                      }
+                    },
+                    {
+                      "id": "XFHNdFKuLu",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 62,
+                        "interpolationType": 1,
+                        "value": 40.37979227
+                      }
+                    },
+                    {
+                      "id": "lnD1s4rx-P",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 64,
+                        "interpolationType": 1,
+                        "value": 40.26090156
+                      }
+                    },
+                    {
+                      "id": "AqPLU0VyzN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 66,
+                        "interpolationType": 1,
+                        "value": 40.14463046
+                      }
+                    },
+                    {
+                      "id": "N4YWToyxZE",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 68,
+                        "interpolationType": 1,
+                        "value": 40.03225286
+                      }
+                    },
+                    {
+                      "id": "2uQj5T_r6x",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 70,
+                        "interpolationType": 1,
+                        "value": 39.925
+                      }
+                    },
+                    {
+                      "id": "G3SxB-0S0x",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 72,
+                        "interpolationType": 1,
+                        "value": 39.82404696
+                      }
+                    },
+                    {
+                      "id": "ezytgRq5TU",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 74,
+                        "interpolationType": 1,
+                        "value": 39.7304998
+                      }
+                    },
+                    {
+                      "id": "kJJ9giBkN5",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 76,
+                        "interpolationType": 1,
+                        "value": 39.64538345
+                      }
+                    },
+                    {
+                      "id": "HvNyf1fB43",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 78,
+                        "interpolationType": 1,
+                        "value": 39.56963046
+                      }
+                    },
+                    {
+                      "id": "pOz8Id9yXN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 80,
+                        "interpolationType": 1,
+                        "value": 39.50407079
+                      }
+                    },
+                    {
+                      "id": "TgNyh5X305",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 82,
+                        "interpolationType": 1,
+                        "value": 39.44942272
+                      }
+                    },
+                    {
+                      "id": "PVDKLAr7Qw",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 84,
+                        "interpolationType": 1,
+                        "value": 39.40628501
+                      }
+                    },
+                    {
+                      "id": "UxQmYHCM3j",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 86,
+                        "interpolationType": 1,
+                        "value": 39.37513026
+                      }
+                    },
+                    {
+                      "id": "uT4Zzxq5s8",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 88,
+                        "interpolationType": 1,
+                        "value": 39.35629982
+                      }
+                    },
+                    {
+                      "id": "zeWTp_gbps",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 90,
+                        "interpolationType": 1,
+                        "value": 39.35
+                      }
+                    },
+                    {
+                      "id": "bIG10G68GR",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 92,
+                        "interpolationType": 1,
+                        "value": 39.35629982
+                      }
+                    },
+                    {
+                      "id": "lLCVi6E1a5",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 94,
+                        "interpolationType": 1,
+                        "value": 39.37513026
+                      }
+                    },
+                    {
+                      "id": "hRqRvgkwAh",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 96,
+                        "interpolationType": 1,
+                        "value": 39.40628501
+                      }
+                    },
+                    {
+                      "id": "WAyodOY2LF",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 98,
+                        "interpolationType": 1,
+                        "value": 39.44942272
+                      }
+                    },
+                    {
+                      "id": "KmyFbv-Deh",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 100,
+                        "interpolationType": 1,
+                        "value": 39.50407079
+                      }
+                    },
+                    {
+                      "id": "heTuwkBfE_",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 102,
+                        "interpolationType": 1,
+                        "value": 39.56963046
+                      }
+                    },
+                    {
+                      "id": "Ue2MJMm3_m",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 104,
+                        "interpolationType": 1,
+                        "value": 39.64538345
+                      }
+                    },
+                    {
+                      "id": "Id-xJlAofm",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 106,
+                        "interpolationType": 1,
+                        "value": 39.7304998
+                      }
+                    },
+                    {
+                      "id": "7pXo_YkrUK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 108,
+                        "interpolationType": 1,
+                        "value": 39.82404696
+                      }
+                    },
+                    {
+                      "id": "sRMbZTkTgN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 110,
+                        "interpolationType": 1,
+                        "value": 39.925
+                      }
+                    },
+                    {
+                      "id": "T5DYD3DCyh",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 112,
+                        "interpolationType": 1,
+                        "value": 40.03225286
+                      }
+                    },
+                    {
+                      "id": "zq3CVM9s8J",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 114,
+                        "interpolationType": 1,
+                        "value": 40.14463046
+                      }
+                    },
+                    {
+                      "id": "iecMUOkFfS",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 116,
+                        "interpolationType": 1,
+                        "value": 40.26090156
+                      }
+                    },
+                    {
+                      "id": "phWubVJAnt",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 118,
+                        "interpolationType": 1,
+                        "value": 40.37979227
+                      }
+                    },
+                    {
+                      "id": "lpd4EvAz3X",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 120,
+                        "interpolationType": 1,
+                        "value": 40.5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "u08du9VNWY",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 15
+                  },
+                  "children": [
+                    {
+                      "id": "lqMuZuAdRK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "H8_OluGfaA",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 2,
+                        "interpolationType": 1,
+                        "value": 0.0005473097716183426
+                      }
+                    },
+                    {
+                      "id": "yD4cbm0XdK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 4,
+                        "interpolationType": 1,
+                        "value": 0.0010886231155256083
+                      }
+                    },
+                    {
+                      "id": "UyQd6PyKuP",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 6,
+                        "interpolationType": 1,
+                        "value": 0.0016180092283905952
+                      }
+                    },
+                    {
+                      "id": "NawkFYqZRS",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 8,
+                        "interpolationType": 1,
+                        "value": 0.0021296680320430756
+                      }
+                    },
+                    {
+                      "id": "uTStoEoZfE",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 10,
+                        "interpolationType": 1,
+                        "value": 0.002617993877991494
+                      }
+                    },
+                    {
+                      "id": "u_kTMWu5Pa",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 12,
+                        "interpolationType": 1,
+                        "value": 0.0030776364594138623
+                      }
+                    },
+                    {
+                      "id": "8LC2IAqpKp",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 14,
+                        "interpolationType": 1,
+                        "value": 0.0035035596287535504
+                      }
+                    },
+                    {
+                      "id": "weyhdU5pww",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 16,
+                        "interpolationType": 1,
+                        "value": 0.0038910972482553517
+                      }
+                    },
+                    {
+                      "id": "ZCyODgzsXq",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 18,
+                        "interpolationType": 1,
+                        "value": 0.004236003106382089
+                      }
+                    },
+                    {
+                      "id": "PUuEc4nuJg",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 20,
+                        "interpolationType": 1,
+                        "value": 0.00453449839077027
+                      }
+                    },
+                    {
+                      "id": "Y1oJY4-o44",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 22,
+                        "interpolationType": 1,
+                        "value": 0.004783312878000432
+                      }
+                    },
+                    {
+                      "id": "rn-SdFIYUS",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 24,
+                        "interpolationType": 1,
+                        "value": 0.004979720189248036
+                      }
+                    },
+                    {
+                      "id": "imYzFtIK1y",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 26,
+                        "interpolationType": 1,
+                        "value": 0.005121568857144146
+                      }
+                    },
+                    {
+                      "id": "DcnVfhnRpk",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 28,
+                        "interpolationType": 1,
+                        "value": 0.005207304491456938
+                      }
+                    },
+                    {
+                      "id": "pl1TpOUFOK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 30,
+                        "interpolationType": 1,
+                        "value": 0.005235987755982988
+                      }
+                    },
+                    {
+                      "id": "Acg4YwsC0V",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 32,
+                        "interpolationType": 1,
+                        "value": 0.005207304491456938
+                      }
+                    },
+                    {
+                      "id": "h8Tfxz0KvA",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 34,
+                        "interpolationType": 1,
+                        "value": 0.005121568857144146
+                      }
+                    },
+                    {
+                      "id": "VSyn6glAH2",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 36,
+                        "interpolationType": 1,
+                        "value": 0.004979720189248036
+                      }
+                    },
+                    {
+                      "id": "HNja5lDNEF",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 38,
+                        "interpolationType": 1,
+                        "value": 0.004783312878000432
+                      }
+                    },
+                    {
+                      "id": "kpGMG_JWPf",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 40,
+                        "interpolationType": 1,
+                        "value": 0.00453449839077027
+                      }
+                    },
+                    {
+                      "id": "eLexn2WXqQ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 42,
+                        "interpolationType": 1,
+                        "value": 0.004236003106382089
+                      }
+                    },
+                    {
+                      "id": "Iy8Lcx9i9B",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 44,
+                        "interpolationType": 1,
+                        "value": 0.0038910972482553517
+                      }
+                    },
+                    {
+                      "id": "Svc2zRcNoE",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 46,
+                        "interpolationType": 1,
+                        "value": 0.0035035596287535504
+                      }
+                    },
+                    {
+                      "id": "AyUAYGBNLG",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 48,
+                        "interpolationType": 1,
+                        "value": 0.0030776364594138623
+                      }
+                    },
+                    {
+                      "id": "slsvYNFc1g",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 50,
+                        "interpolationType": 1,
+                        "value": 0.002617993877991494
+                      }
+                    },
+                    {
+                      "id": "gXM1eF8Yum",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 52,
+                        "interpolationType": 1,
+                        "value": 0.0021296680320430756
+                      }
+                    },
+                    {
+                      "id": "6Y2l2nvsC-",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 54,
+                        "interpolationType": 1,
+                        "value": 0.0016180092283905952
+                      }
+                    },
+                    {
+                      "id": "Ly-1ZFrJIl",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 56,
+                        "interpolationType": 1,
+                        "value": 0.0010886231155256083
+                      }
+                    },
+                    {
+                      "id": "CEWYeKcDqk",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 58,
+                        "interpolationType": 1,
+                        "value": 0.0005473097716183426
+                      }
+                    },
+                    {
+                      "id": "IcVyO2Jl6j",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "mv7GjBtqjX",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 62,
+                        "interpolationType": 1,
+                        "value": -0.0005473097716183426
+                      }
+                    },
+                    {
+                      "id": "YxFHBBePVm",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 64,
+                        "interpolationType": 1,
+                        "value": -0.0010886231155256083
+                      }
+                    },
+                    {
+                      "id": "AVjaJNM8Nd",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 66,
+                        "interpolationType": 1,
+                        "value": -0.0016180092283905952
+                      }
+                    },
+                    {
+                      "id": "rbrm2XBU-c",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 68,
+                        "interpolationType": 1,
+                        "value": -0.0021296680320430756
+                      }
+                    },
+                    {
+                      "id": "fwxX3Cefzg",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 70,
+                        "interpolationType": 1,
+                        "value": -0.002617993877991494
+                      }
+                    },
+                    {
+                      "id": "ZfvtRMkuND",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 72,
+                        "interpolationType": 1,
+                        "value": -0.0030776364594138623
+                      }
+                    },
+                    {
+                      "id": "vcNpuX4tDy",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 74,
+                        "interpolationType": 1,
+                        "value": -0.0035035596287535504
+                      }
+                    },
+                    {
+                      "id": "1j508KMK8Q",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 76,
+                        "interpolationType": 1,
+                        "value": -0.0038910972482553517
+                      }
+                    },
+                    {
+                      "id": "kR5Sws3doK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 78,
+                        "interpolationType": 1,
+                        "value": -0.004236003106382089
+                      }
+                    },
+                    {
+                      "id": "FjbP1Jzupu",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 80,
+                        "interpolationType": 1,
+                        "value": -0.00453449839077027
+                      }
+                    },
+                    {
+                      "id": "mO83eH2PJ3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 82,
+                        "interpolationType": 1,
+                        "value": -0.004783312878000432
+                      }
+                    },
+                    {
+                      "id": "hKtklWQ5ty",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 84,
+                        "interpolationType": 1,
+                        "value": -0.004979720189248036
+                      }
+                    },
+                    {
+                      "id": "lD_C26rSwi",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 86,
+                        "interpolationType": 1,
+                        "value": -0.005121568857144146
+                      }
+                    },
+                    {
+                      "id": "Ax3le4eUAY",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 88,
+                        "interpolationType": 1,
+                        "value": -0.005207304491456938
+                      }
+                    },
+                    {
+                      "id": "REWv055WfT",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 90,
+                        "interpolationType": 1,
+                        "value": -0.005235987755982988
+                      }
+                    },
+                    {
+                      "id": "v77c0R6LAV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 92,
+                        "interpolationType": 1,
+                        "value": -0.005207304491456938
+                      }
+                    },
+                    {
+                      "id": "ULGvSjnLil",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 94,
+                        "interpolationType": 1,
+                        "value": -0.005121568857144146
+                      }
+                    },
+                    {
+                      "id": "OTN-BJx6LB",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 96,
+                        "interpolationType": 1,
+                        "value": -0.004979720189248036
+                      }
+                    },
+                    {
+                      "id": "-Uo75P1dec",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 98,
+                        "interpolationType": 1,
+                        "value": -0.004783312878000432
+                      }
+                    },
+                    {
+                      "id": "fjdJkqDyKf",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 100,
+                        "interpolationType": 1,
+                        "value": -0.00453449839077027
+                      }
+                    },
+                    {
+                      "id": "RLtovYkR3q",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 102,
+                        "interpolationType": 1,
+                        "value": -0.004236003106382089
+                      }
+                    },
+                    {
+                      "id": "etQG5xCPCP",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 104,
+                        "interpolationType": 1,
+                        "value": -0.0038910972482553517
+                      }
+                    },
+                    {
+                      "id": "hjmveJQY6G",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 106,
+                        "interpolationType": 1,
+                        "value": -0.0035035596287535504
+                      }
+                    },
+                    {
+                      "id": "k2zBIlqDqq",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 108,
+                        "interpolationType": 1,
+                        "value": -0.0030776364594138623
+                      }
+                    },
+                    {
+                      "id": "n9rRSx-ZfT",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 110,
+                        "interpolationType": 1,
+                        "value": -0.002617993877991494
+                      }
+                    },
+                    {
+                      "id": "bi0rUHsBBY",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 112,
+                        "interpolationType": 1,
+                        "value": -0.0021296680320430756
+                      }
+                    },
+                    {
+                      "id": "Y_Coqf9oXx",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 114,
+                        "interpolationType": 1,
+                        "value": -0.0016180092283905952
+                      }
+                    },
+                    {
+                      "id": "vykQE-8C-e",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 116,
+                        "interpolationType": 1,
+                        "value": -0.0010886231155256083
+                      }
+                    },
+                    {
+                      "id": "vXNW00PHBr",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 118,
+                        "interpolationType": 1,
+                        "value": -0.0005473097716183426
+                      }
+                    },
+                    {
+                      "id": "WQ6VEj3qbR",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 120,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "YZR8sKhAFb",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "wKiGPTkn5A"
+              },
+              "children": [
+                {
+                  "id": "Mv7yaYMfbF",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 15
+                  },
+                  "children": [
+                    {
+                      "id": "9pwEJxUJB2",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "nERYkmPiRn",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 2,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "E2uS1zbxQA",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 4,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "dwH9JubJPv",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 6,
+                        "interpolationType": 1,
+                        "value": 0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "U6n1CCPVA9",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 8,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "tRBelzTPhO",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 10,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "ffUNNgfM_X",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 12,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "0IfHqM8kjv",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 14,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "biZNjzhOZ6",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 16,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "P--8Zm8LYv",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 18,
+                        "interpolationType": 1,
+                        "value": -0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "vT_6plaQXv",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 20,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "dB5QJtxTGk",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 22,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "Rhhahib0Ko",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 24,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "1to76iAaty",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 26,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "aSxfYgjcvd",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 28,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "NAvVDPkl9H",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 30,
+                        "interpolationType": 1,
+                        "value": 0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "Dxudae9mre",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 32,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "MMCrWQPoVK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 34,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "_Z_0CFNJNT",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 36,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "3DXv1jPEAy",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 38,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "0sIf9e6l8F",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 40,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "0PRKK8EOjw",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 42,
+                        "interpolationType": 1,
+                        "value": -0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "3uhd_ROiVT",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 44,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "OCjd2gbKYc",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 46,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "P6bpW0QNFP",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 48,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "BrlksVCQJ9",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 50,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "An8ZOaNIzZ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 52,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "7zR1YbbROl",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 54,
+                        "interpolationType": 1,
+                        "value": 0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "qbry-iHJVf",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 56,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "tH5REDf6w6",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 58,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "DHiawm1thw",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "rweSdNXl2K",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 62,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "5Ib-fn64U8",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 64,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "dCrv6J4G_J",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 66,
+                        "interpolationType": 1,
+                        "value": -0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "xp_Rb7zmef",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 68,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "ZWm5XUsCro",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 70,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "9yJKA9yrYd",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 72,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "BfCg55PSBr",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 74,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "ptof6KoxPq",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 76,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "FoVUz3CgLK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 78,
+                        "interpolationType": 1,
+                        "value": 0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "mYWR7rKZ_I",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 80,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "Kp_StI3qMb",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 82,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "ZI8FbRJLlZ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 84,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "8KHxN-dAtM",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 86,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "e5SR4mPyat",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 88,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "Cpq0--3NEa",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 90,
+                        "interpolationType": 1,
+                        "value": -0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "SGgBTNtW5r",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 92,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "Gl3hWtehed",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 94,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "fJQLEYASWQ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 96,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "wIUNLWYzLc",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 98,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "9BJrDaPTUN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 100,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "c-4BGadSlP",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 102,
+                        "interpolationType": 1,
+                        "value": 0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "a-dWaFFlFr",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 104,
+                        "interpolationType": 1,
+                        "value": 0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "BPCQWV6xtI",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 106,
+                        "interpolationType": 1,
+                        "value": 0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "ZGx1Kv6auu",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 108,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "id": "1cyMmnRXyr",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 110,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "TOrqZyHqNG",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 112,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "ABx5NlhZhd",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 114,
+                        "interpolationType": 1,
+                        "value": -0.22689280275926285
+                      }
+                    },
+                    {
+                      "id": "SDNz6mdfAb",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 116,
+                        "interpolationType": 1,
+                        "value": -0.19649493113937636
+                      }
+                    },
+                    {
+                      "id": "2nrcQ8tBQm",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 118,
+                        "interpolationType": 1,
+                        "value": -0.11344640137963143
+                      }
+                    },
+                    {
+                      "id": "7l-eawgHzS",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 120,
+                        "interpolationType": 1,
+                        "value": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "USOlNb4_8i",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 17
+                  },
+                  "children": [
+                    {
+                      "id": "6B0RYq7Dsn",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 0,
+                        "interpolationType": 1,
+                        "value": 1
+                      }
+                    },
+                    {
+                      "id": "YTm30ZYXEz",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 2,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "wEkdD_8XnG",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 4,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "EDDq-RVms5",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 6,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "gSCmVxj5fb",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 8,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "5Oi4kdzcYz",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 10,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "_VYX7YD_8D",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 12,
+                        "interpolationType": 1,
+                        "value": 0.68
+                      }
+                    },
+                    {
+                      "id": "09atrCGUAY",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 14,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "Gv5sXkOzZM",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 16,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "yzrOMDjjUd",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 18,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "Bh7xu1lXD3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 20,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "njeEBVnqlT",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 22,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "-yqOTRAEWJ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 24,
+                        "interpolationType": 1,
+                        "value": 1
+                      }
+                    },
+                    {
+                      "id": "llpQkhIguT",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 26,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "6PP3nEuiXp",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 28,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "krPQaAkwYt",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 30,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "EOFFGBTMkk",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 32,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "yILRtIDDVC",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 34,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "fige8awIE_",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 36,
+                        "interpolationType": 1,
+                        "value": 0.68
+                      }
+                    },
+                    {
+                      "id": "jd3Vt9J5zp",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 38,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "DBCIFXCaIe",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 40,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "edFtZmzZpF",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 42,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "alSAA2fg-Y",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 44,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "hp5RTVmTtD",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 46,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "u7RcoDRwi7",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 48,
+                        "interpolationType": 1,
+                        "value": 1
+                      }
+                    },
+                    {
+                      "id": "iwW9FYbkn7",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 50,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "E7_7zWL3xr",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 52,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "yEsak55x7J",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 54,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "HsS8nS3jMJ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 56,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "ocf9pxQKyH",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 58,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "CrPaf1Q3Wt",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 60,
+                        "interpolationType": 1,
+                        "value": 0.68
+                      }
+                    },
+                    {
+                      "id": "Z2UDonJT28",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 62,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "_WOO85r8_E",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 64,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "mjrDibX8XZ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 66,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "05QtNpvN35",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 68,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "hQDlb5t_cq",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 70,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "NoIkkVMczw",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 72,
+                        "interpolationType": 1,
+                        "value": 1
+                      }
+                    },
+                    {
+                      "id": "zi-RLzqWNp",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 74,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "Y7E9nySypT",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 76,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "KM3ocX6FD-",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 78,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "2InIeun8CV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 80,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "KNQfAy06FN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 82,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "OavqNyHdpZ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 84,
+                        "interpolationType": 1,
+                        "value": 0.68
+                      }
+                    },
+                    {
+                      "id": "aOK6k5iTtm",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 86,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "3H1u7ZP5z3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 88,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "yP_1okFwZx",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 90,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "XoClj0eKuo",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 92,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "o4NJmpjINm",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 94,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "I1MDNk65Ho",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 96,
+                        "interpolationType": 1,
+                        "value": 1
+                      }
+                    },
+                    {
+                      "id": "pNRoHnI9ru",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 98,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "bojKy-fovO",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 100,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "vU6-H3VFqV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 102,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "deTHEw7FbJ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 104,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "utjAIfbYJh",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 106,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "6JqEVNtUVO",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 108,
+                        "interpolationType": 1,
+                        "value": 0.68
+                      }
+                    },
+                    {
+                      "id": "_y1XK3W9-Y",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 110,
+                        "interpolationType": 1,
+                        "value": 0.70143594
+                      }
+                    },
+                    {
+                      "id": "ocy_28tADV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 112,
+                        "interpolationType": 1,
+                        "value": 0.76
+                      }
+                    },
+                    {
+                      "id": "wymNC-bPOY",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 114,
+                        "interpolationType": 1,
+                        "value": 0.84
+                      }
+                    },
+                    {
+                      "id": "ZSBVdLrUJ1",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 116,
+                        "interpolationType": 1,
+                        "value": 0.92
+                      }
+                    },
+                    {
+                      "id": "T2BMTLmjJ0",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 118,
+                        "interpolationType": 1,
+                        "value": 0.97856406
+                      }
+                    },
+                    {
+                      "id": "OX9_xVH_EB",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "frame": 120,
+                        "interpolationType": 1,
+                        "value": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "stateMachines": [
+        {
+          "id": "ewBhIO-WDU",
+          "type": "StateMachine",
+          "props": {
+            "name": "CaHaiLongController"
+          },
+          "children": [
+            {
+              "id": "xQAj21BYat",
+              "type": "StateMachineBool",
+              "props": {
+                "name": "is_swimming"
+              }
+            },
+            {
+              "id": "hNeTV2cf9p",
+              "type": "StateMachineLayer",
+              "props": {
+                "name": "Locomotion"
+              },
+              "children": [
+                {
+                  "id": "tbKCX8e2dN",
+                  "type": "AnyState",
+                  "props": {}
+                },
+                {
+                  "id": "uf2BxP6qoi",
+                  "type": "ExitState",
+                  "props": {}
+                },
+                {
+                  "id": "IilrUb3E5d",
+                  "type": "EntryState",
+                  "props": {},
+                  "children": [
+                    {
+                      "id": "eOY67PIyPu",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "HbsBRt5Zoc"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "HbsBRt5Zoc",
+                  "type": "AnimationState",
+                  "props": {
+                    "animationId": "JdWAbU1LPs",
+                    "flags": 2
+                  },
+                  "children": [
+                    {
+                      "id": "oWpPpiL9un",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "7XFCnGUG2o",
+                        "flags": 32,
+                        "duration": 200
+                      },
+                      "children": [
+                        {
+                          "id": "XGIGIvDgpS",
+                          "type": "TransitionBoolCondition",
+                          "props": {
+                            "inputId": "xQAj21BYat"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "7XFCnGUG2o",
+                  "type": "AnimationState",
+                  "props": {
+                    "animationId": "rA13adnpnj",
+                    "flags": 2
+                  },
+                  "children": [
+                    {
+                      "id": "rF1Kp_Lj57",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "HbsBRt5Zoc",
+                        "flags": 32,
+                        "duration": 200
+                      },
+                      "children": [
+                        {
+                          "id": "g9w3vPkDz9",
+                          "type": "TransitionBoolCondition",
+                          "props": {
+                            "opValue": 1,
+                            "inputId": "xQAj21BYat"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

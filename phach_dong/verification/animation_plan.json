@@ -1,0 +1,881 @@
+[
+  {
+    "op": "add_group",
+    "name": "Impact",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "op": "add_path",
+    "parent": "Impact",
+    "name": "Impact Ray 1",
+    "x": 200,
+    "y": 106,
+    "points": [
+      {
+        "x": -2.8600000000000136,
+        "y": -1.0900000000000034,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 16.939999999999998,
+        "y": -87.74,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 38.28999999999999,
+        "y": -106.0,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 3.0600000000000023,
+        "y": 1.7399999999999949,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      }
+    ],
+    "fill": "#E5DB6C",
+    "closed": true
+  },
+  {
+    "op": "add_path",
+    "parent": "Impact",
+    "name": "Impact Ray 2",
+    "x": 224,
+    "y": 101,
+    "points": [
+      {
+        "x": -2.9399999999999977,
+        "y": 0.0589999999999975,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 19.939999999999998,
+        "y": -43.1409,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 53.889999999999986,
+        "y": -54.4609,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 2.710000000000008,
+        "y": 0.0589999999999975,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      }
+    ],
+    "fill": "#E5DB6C",
+    "closed": true
+  },
+  {
+    "op": "add_path",
+    "parent": "Impact",
+    "name": "Impact Ray 3",
+    "x": 90,
+    "y": 240,
+    "points": [
+      {
+        "x": -57.4297,
+        "y": 70.03399999999999,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": -3.259699999999995,
+        "y": 0.09399999999999409,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 5.6603000000000065,
+        "y": 0.09399999999999409,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": -48.1697,
+        "y": 87.51400000000001,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      }
+    ],
+    "fill": "#E5DB6C",
+    "closed": true
+  },
+  {
+    "op": "add_path",
+    "parent": "Impact",
+    "name": "Impact Ray 4",
+    "x": 76,
+    "y": 217,
+    "points": [
+      {
+        "x": -76.0,
+        "y": 47.771000000000015,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 0.10999999999999943,
+        "y": 2.86099999999999,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": 0.10999999999999943,
+        "y": -2.2889999999999873,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      },
+      {
+        "x": -50.97,
+        "y": 5.600999999999999,
+        "inX": 0.0,
+        "inY": 0.0,
+        "outX": 0.0,
+        "outY": 0.0
+      }
+    ],
+    "fill": "#E5DB6C",
+    "closed": true
+  },
+  {
+    "op": "add_timeline",
+    "name": "idle",
+    "duration": 0.6,
+    "fps": 60,
+    "loop": "loop"
+  },
+  {
+    "op": "add_timeline",
+    "name": "hit",
+    "duration": 0.6,
+    "fps": 60,
+    "loop": "oneShot"
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Upper Clapper",
+    "property": "rotationDegrees",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Lower Clapper",
+    "property": "rotationDegrees",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Upper Clapper",
+    "property": "rotationDegrees",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 5,
+        "value": -7,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 8,
+        "value": -4,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 10,
+        "value": 0,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 11,
+        "value": 0,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 16,
+        "value": -4,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 24,
+        "value": 0,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 36,
+        "value": 0,
+        "ease": "easeInOut"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Lower Clapper",
+    "property": "rotationDegrees",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 5,
+        "value": 4,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 8,
+        "value": 2,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 10,
+        "value": 0,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 11,
+        "value": 0,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 16,
+        "value": 2,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 24,
+        "value": 0,
+        "ease": "easeInOut"
+      },
+      {
+        "frame": 36,
+        "value": 0,
+        "ease": "easeInOut"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 17,
+        "value": 0.6,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact Ray 1",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact Ray 1",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0.9,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact Ray 1",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact Ray 1",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0.9,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact Ray 2",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact Ray 2",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0.9,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact Ray 2",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact Ray 2",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0.9,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact Ray 3",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact Ray 3",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0.9,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact Ray 3",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact Ray 3",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0.9,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact Ray 4",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact Ray 4",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0.9,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Impact Ray 4",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "hit",
+    "object": "Impact Ray 4",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.85,
+        "ease": "linear"
+      },
+      {
+        "frame": 10,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 13,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 22,
+        "value": 0.9,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_state_machine",
+    "name": "PhachController"
+  },
+  {
+    "op": "add_property",
+    "name": "hit",
+    "type": "trigger"
+  },
+  {
+    "op": "add_state",
+    "stateMachine": "PhachController",
+    "timeline": "idle"
+  },
+  {
+    "op": "add_state",
+    "stateMachine": "PhachController",
+    "timeline": "hit"
+  },
+  {
+    "op": "add_transition",
+    "stateMachine": "PhachController",
+    "from": "entry",
+    "to": "idle",
+    "durationMs": 0
+  },
+  {
+    "op": "add_transition",
+    "stateMachine": "PhachController",
+    "from": "idle",
+    "to": "hit",
+    "durationMs": 0,
+    "conditions": [
+      {
+        "property": "hit"
+      }
+    ]
+  },
+  {
+    "op": "add_transition",
+    "stateMachine": "PhachController",
+    "from": "hit",
+    "to": "idle",
+    "durationMs": 0,
+    "exitTimeMs": 600
+  }
+]

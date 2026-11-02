@@ -1,0 +1,93 @@
+[
+  {
+    "test": "head_and_raised_eye_geometry_preserved",
+    "passed": true,
+    "animated_head_vertices": 0
+  },
+  {
+    "test": "default_idle",
+    "passed": true
+  },
+  {
+    "test": "original_svg_fidelity",
+    "passed": true,
+    "mean_rgb_error": 0.05420836296522063,
+    "source_bounds": [
+      80,
+      80,
+      689,
+      325
+    ],
+    "rive_bounds": [
+      80,
+      80,
+      689,
+      325
+    ]
+  },
+  {
+    "test": "idle_still",
+    "passed": true
+  },
+  {
+    "test": "enter_swim",
+    "passed": true
+  },
+  {
+    "test": "no_clipping",
+    "passed": true,
+    "extents": [
+      78,
+      81,
+      691,
+      325
+    ]
+  },
+  {
+    "test": "seamless_loop",
+    "passed": true,
+    "mean_rgb_error": 0.0
+  },
+  {
+    "test": "continuous_motion",
+    "passed": true
+  },
+  {
+    "test": "tail_moves",
+    "passed": true,
+    "max_mean_rgb_change": 29.35043950617284
+  },
+  {
+    "test": "dorsal_fin_moves",
+    "passed": true,
+    "max_mean_rgb_change": 8.102233333333333
+  },
+  {
+    "test": "rear_dorsal_fin_moves",
+    "passed": true,
+    "max_mean_rgb_change": 29.295466666666666
+  },
+  {
+    "test": "pectoral_fin_moves",
+    "passed": true,
+    "max_mean_rgb_change": 16.694745484400656
+  },
+  {
+    "test": "tail_and_fins_remain_attached",
+    "passed": true,
+    "poses": 30,
+    "largest_component_count": 1
+  },
+  {
+    "test": "return_to_exact_idle",
+    "passed": true
+  },
+  {
+    "test": "resume_swim",
+    "passed": true
+  },
+  {
+    "test": "rapid_toggle_recovers_idle",
+    "passed": true
+  }
+]

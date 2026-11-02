@@ -1,0 +1,105 @@
+{
+  "saved": true,
+  "operations": [
+    {
+      "index": 0,
+      "op": "add_timeline",
+      "id": "8-5E_Iw0qv",
+      "name": "idle"
+    },
+    {
+      "index": 1,
+      "op": "add_timeline",
+      "id": "bUs9QMEsrX",
+      "name": "playing"
+    },
+    {
+      "index": 2,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 3,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 4,
+      "op": "add_keyframes",
+      "count": 8
+    },
+    {
+      "index": 5,
+      "op": "add_keyframes",
+      "count": 8
+    },
+    {
+      "index": 6,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 7,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 8,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 9,
+      "op": "add_keyframes",
+      "count": 7
+    },
+    {
+      "index": 10,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 11,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 12,
+      "op": "add_state_machine",
+      "id": "oYVJfvXuOr",
+      "name": "PhachController"
+    },
+    {
+      "index": 13,
+      "op": "add_property",
+      "id": "hUBWVDJee-",
+      "name": "is_playing",
+      "type": "boolean"
+    },
+    {
+      "index": 14,
+      "op": "add_state",
+      "id": "fX0CpHBou5"
+    },
+    {
+      "index": 15,
+      "op": "add_state",
+      "id": "3I370ee7nk"
+    },
+    {
+      "index": 16,
+      "op": "add_transition",
+      "id": "0srvG3phIG"
+    },
+    {
+      "index": 17,
+      "op": "add_transition",
+      "id": "hPnzcrF15_"
+    },
+    {
+      "index": 18,
+      "op": "add_transition",
+      "id": "I7dIBJ00Mt"
+    }
+  ]
+}

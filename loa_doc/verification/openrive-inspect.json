@@ -1,0 +1,1123 @@
+{
+  "id": "n3w4HCA80Xkc",
+  "name": "Loa Doc - Audio Playback",
+  "editor": "http://127.0.0.1:56545/editor/n3w4HCA80Xkc",
+  "artboards": [
+    {
+      "id": "540c4VNxRo",
+      "name": "Loa Doc",
+      "width": 1254,
+      "height": 1254,
+      "viewModel": "Artboard Data",
+      "events": [],
+      "children": [
+        {
+          "id": "MEktbaGL0x",
+          "type": "Shape",
+          "name": "Sound Ray 5",
+          "x": 820,
+          "y": 615,
+          "opacity": 0,
+          "fill": "#fedf3f",
+          "children": [
+            {
+              "id": "lFnb1CsF5x",
+              "type": "PointsPath",
+              "name": "Path",
+              "x": 0,
+              "y": 0,
+              "vertices": [
+                {
+                  "id": "cNlHJhan4t",
+                  "type": "CubicDetachedVertex",
+                  "x": 67.66399999999999,
+                  "y": 163.37300000000005
+                },
+                {
+                  "id": "gZ4cvAY2XN",
+                  "type": "CubicDetachedVertex",
+                  "x": 90.07399999999996,
+                  "y": 176.96000000000004
+                },
+                {
+                  "id": "vWt0BbewN_",
+                  "type": "CubicDetachedVertex",
+                  "x": 127.52300000000002,
+                  "y": 200.601
+                },
+                {
+                  "id": "simtJm1kWJ",
+                  "type": "CubicDetachedVertex",
+                  "x": 214.20000000000005,
+                  "y": 254.99199999999996
+                },
+                {
+                  "id": "BixZqGtFR8",
+                  "type": "CubicDetachedVertex",
+                  "x": 275.1400000000001,
+                  "y": 293.053
+                },
+                {
+                  "id": "MA3zRn4EaW",
+                  "type": "CubicDetachedVertex",
+                  "x": 276.72,
+                  "y": 318.69000000000005
+                },
+                {
+                  "id": "Z6C7qJOaW5",
+                  "type": "CubicDetachedVertex",
+                  "x": 278.02,
+                  "y": 348.06899999999996
+                },
+                {
+                  "id": "8d5Y_cCtnt",
+                  "type": "CubicDetachedVertex",
+                  "x": 279.9100000000001,
+                  "y": 391.65
+                },
+                {
+                  "id": "vUiXt6gGFh",
+                  "type": "CubicDetachedVertex",
+                  "x": 280.4000000000001,
+                  "y": 418.5
+                },
+                {
+                  "id": "Sw4k_R1cnj",
+                  "type": "CubicDetachedVertex",
+                  "x": 274.5899999999999,
+                  "y": 412.28999999999996
+                },
+                {
+                  "id": "K84kznJf0q",
+                  "type": "CubicDetachedVertex",
+                  "x": 232.77999999999997,
+                  "y": 371.648
+                },
+                {
+                  "id": "16VPEx79EA",
+                  "type": "CubicDetachedVertex",
+                  "x": 174.505,
+                  "y": 313.20399999999995
+                },
+                {
+                  "id": "eww4ElWIZO",
+                  "type": "CubicDetachedVertex",
+                  "x": 55.91999999999996,
+                  "y": 192.543
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1IWKIDUTLk",
+          "type": "Shape",
+          "name": "Sound Ray 4",
+          "x": 820,
+          "y": 615,
+          "opacity": 0,
+          "fill": "#fedf3f",
+          "children": [
+            {
+              "id": "OXE42SwpAt",
+              "type": "PointsPath",
+              "name": "Path",
+              "x": 0,
+              "y": 0,
+              "vertices": [
+                {
+                  "id": "fYfjEj3gaf",
+                  "type": "CubicDetachedVertex",
+                  "x": 5.030999999999949,
+                  "y": -493.979
+                },
+                {
+                  "id": "ATHy5zYNZJ",
+                  "type": "CubicDetachedVertex",
+                  "x": 89.37,
+                  "y": -439.31399999999996
+                },
+                {
+                  "id": "02CJ889KBq",
+                  "type": "CubicDetachedVertex",
+                  "x": 47.53099999999995,
+                  "y": -344.471
+                },
+                {
+                  "id": "0f9GDOr_G8",
+                  "type": "CubicDetachedVertex",
+                  "x": -8.95399999999995,
+                  "y": -214.49900000000002
+                },
+                {
+                  "id": "ZQjbq-97g4",
+                  "type": "CubicDetachedVertex",
+                  "x": -26.05499999999995,
+                  "y": -173.253
+                },
+                {
+                  "id": "f841Js1s9k",
+                  "type": "CubicDetachedVertex",
+                  "x": -53.82299999999998,
+                  "y": -178.70800000000003
+                },
+                {
+                  "id": "NaBIgqrA6I",
+                  "type": "CubicDetachedVertex",
+                  "x": -38.644000000000005,
+                  "y": -260.976
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pqT2FEneCW",
+          "type": "Shape",
+          "name": "Sound Ray 3",
+          "x": 820,
+          "y": 615,
+          "opacity": 0,
+          "fill": "#fedf3f",
+          "children": [
+            {
+              "id": "Ykfx9cMsDG",
+              "type": "PointsPath",
+              "name": "Path",
+              "x": 0,
+              "y": 0,
+              "vertices": [
+                {
+                  "id": "aGWCzJngHe",
+                  "type": "CubicDetachedVertex",
+                  "x": 226.16000000000008,
+                  "y": -445.625
+                },
+                {
+                  "id": "B5hIbNjSZI",
+                  "type": "CubicDetachedVertex",
+                  "x": 260.1199999999999,
+                  "y": -354.826
+                },
+                {
+                  "id": "o2VMfI2WpS",
+                  "type": "CubicDetachedVertex",
+                  "x": 198.36,
+                  "y": -295.021
+                },
+                {
+                  "id": "xSljZxmhAj",
+                  "type": "CubicDetachedVertex",
+                  "x": 91.50699999999995,
+                  "y": -191.08999999999997
+                },
+                {
+                  "id": "xMvmXpuZPg",
+                  "type": "CubicDetachedVertex",
+                  "x": 39.339000000000055,
+                  "y": -140.801
+                },
+                {
+                  "id": "UiEvLtmAsM",
+                  "type": "CubicDetachedVertex",
+                  "x": 13.57899999999995,
+                  "y": -116.15699999999998
+                },
+                {
+                  "id": "mM8EjDnJXG",
+                  "type": "CubicDetachedVertex",
+                  "x": 9.134000000000015,
+                  "y": -115.44099999999997
+                },
+                {
+                  "id": "j1etRr46s3",
+                  "type": "CubicDetachedVertex",
+                  "x": -27.077999999999975,
+                  "y": -129.19799999999998
+                },
+                {
+                  "id": "S4pTfJYMgK",
+                  "type": "CubicDetachedVertex",
+                  "x": 132.76999999999998,
+                  "y": -330.448
+                },
+                {
+                  "id": "Wkz2omYCzt",
+                  "type": "CubicDetachedVertex",
+                  "x": 192.14,
+                  "y": -404.28200000000004
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6b_R9xOorm",
+          "type": "Shape",
+          "name": "Sound Ray 2",
+          "x": 820,
+          "y": 615,
+          "opacity": 0,
+          "fill": "#fedf3f",
+          "children": [
+            {
+              "id": "hI8vObn7u7",
+              "type": "PointsPath",
+              "name": "Path",
+              "x": 0,
+              "y": 0,
+              "vertices": [
+                {
+                  "id": "ImjPqlU0gO",
+                  "type": "CubicDetachedVertex",
+                  "x": 67.27800000000002,
+                  "y": 63.79499999999996
+                },
+                {
+                  "id": "iUilurkt6u",
+                  "type": "CubicDetachedVertex",
+                  "x": 154.538,
+                  "y": 75.71000000000004
+                },
+                {
+                  "id": "Nsilv9CDuC",
+                  "type": "CubicDetachedVertex",
+                  "x": 337,
+                  "y": 102.03999999999996
+                },
+                {
+                  "id": "f1KASM8B7v",
+                  "type": "CubicDetachedVertex",
+                  "x": 362.73,
+                  "y": 141.154
+                },
+                {
+                  "id": "x1cboO7FPs",
+                  "type": "CubicDetachedVertex",
+                  "x": 418.79999999999995,
+                  "y": 229.35000000000002
+                },
+                {
+                  "id": "XL4MLPrrqG",
+                  "type": "CubicDetachedVertex",
+                  "x": 402.93000000000006,
+                  "y": 224.23699999999997
+                },
+                {
+                  "id": "a5zF9elOpR",
+                  "type": "CubicDetachedVertex",
+                  "x": 244.19000000000005,
+                  "y": 171.75
+                },
+                {
+                  "id": "mXjfbWIBwq",
+                  "type": "CubicDetachedVertex",
+                  "x": 123.83699999999999,
+                  "y": 130.27300000000002
+                },
+                {
+                  "id": "koBtX6qjgr",
+                  "type": "CubicDetachedVertex",
+                  "x": 48.07600000000002,
+                  "y": 103.55200000000002
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "z2syqQA4PV",
+          "type": "Shape",
+          "name": "Sound Ray 1",
+          "x": 820,
+          "y": 615,
+          "opacity": 0,
+          "fill": "#fedf3f",
+          "children": [
+            {
+              "id": "waHFj4fY50",
+              "type": "PointsPath",
+              "name": "Path",
+              "x": 0,
+              "y": 0,
+              "vertices": [
+                {
+                  "id": "nXodt95RtU",
+                  "type": "CubicDetachedVertex",
+                  "x": 399.02,
+                  "y": -219.416
+                },
+                {
+                  "id": "xbrMXkyPw5",
+                  "type": "CubicDetachedVertex",
+                  "x": 399.97,
+                  "y": -219.096
+                },
+                {
+                  "id": "SvBg8UOSM9",
+                  "type": "CubicDetachedVertex",
+                  "x": 394.6600000000001,
+                  "y": -208.16699999999997
+                },
+                {
+                  "id": "yr_fqVEX8x",
+                  "type": "CubicDetachedVertex",
+                  "x": 383.8800000000001,
+                  "y": -186.723
+                },
+                {
+                  "id": "q0N4ek6Sdy",
+                  "type": "CubicDetachedVertex",
+                  "x": 336.6500000000001,
+                  "y": -97.899
+                },
+                {
+                  "id": "HZkiU60ZHf",
+                  "type": "CubicDetachedVertex",
+                  "x": 316.8800000000001,
+                  "y": -61.293000000000006
+                },
+                {
+                  "id": "yR5PmPvLfv",
+                  "type": "CubicDetachedVertex",
+                  "x": 306.31999999999994,
+                  "y": -42.63599999999997
+                },
+                {
+                  "id": "Z2F2I_0RWH",
+                  "type": "CubicDetachedVertex",
+                  "x": 282.54999999999995,
+                  "y": -40.914999999999964
+                },
+                {
+                  "id": "nS1jZYm0W9",
+                  "type": "CubicDetachedVertex",
+                  "x": 240.46000000000004,
+                  "y": -37.722999999999956
+                },
+                {
+                  "id": "pQxRn8_4w_",
+                  "type": "CubicDetachedVertex",
+                  "x": 46.307000000000016,
+                  "y": -22.701999999999998
+                },
+                {
+                  "id": "jvuhmavqyC",
+                  "type": "CubicDetachedVertex",
+                  "x": 43.662000000000035,
+                  "y": -30.101
+                },
+                {
+                  "id": "Up-r_Nx5Un",
+                  "type": "CubicDetachedVertex",
+                  "x": 34.974000000000046,
+                  "y": -54.88900000000001
+                },
+                {
+                  "id": "-SoGobwNkY",
+                  "type": "CubicDetachedVertex",
+                  "x": 45.44399999999996,
+                  "y": -60.139999999999986
+                },
+                {
+                  "id": "eG7X8WSVsC",
+                  "type": "CubicDetachedVertex",
+                  "x": 119.80200000000002,
+                  "y": -95.01999999999998
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Z-YuMyiaeX",
+          "type": "Node",
+          "name": "Speaker",
+          "x": 430,
+          "y": 720,
+          "children": [
+            {
+              "id": "DRcBZ_pEgF",
+              "type": "Shape",
+              "name": "Speaker Vector 7",
+              "x": 0,
+              "y": 0,
+              "fill": "#0692e3",
+              "children": [
+                {
+                  "id": "VHGzFEAm7k",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "CgZBBrfeH2",
+                      "type": "CubicDetachedVertex",
+                      "x": -332.3183,
+                      "y": 80.02499999999998
+                    },
+                    {
+                      "id": "yrUnxygOqO",
+                      "type": "CubicDetachedVertex",
+                      "x": -299.08299999999997,
+                      "y": 164.19299999999998
+                    },
+                    {
+                      "id": "WCRV5LKtQc",
+                      "type": "CubicDetachedVertex",
+                      "x": -285.26099999999997,
+                      "y": 182.08399999999995
+                    },
+                    {
+                      "id": "F7Sa1VFjX0",
+                      "type": "CubicDetachedVertex",
+                      "x": -275.147,
+                      "y": 192.13800000000003
+                    },
+                    {
+                      "id": "wAUpHJH0e4",
+                      "type": "CubicDetachedVertex",
+                      "x": -297.437,
+                      "y": 205.54200000000003
+                    },
+                    {
+                      "id": "j4GezIj7yi",
+                      "type": "CubicDetachedVertex",
+                      "x": -319.716,
+                      "y": 208.59699999999998
+                    },
+                    {
+                      "id": "5rUZbE1tP-",
+                      "type": "CubicDetachedVertex",
+                      "x": -350.0623,
+                      "y": 171.20399999999995
+                    },
+                    {
+                      "id": "g3GcJkTMpS",
+                      "type": "CubicDetachedVertex",
+                      "x": -366.5952,
+                      "y": 102.36800000000005
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ydPiG-tRnE",
+              "type": "Shape",
+              "name": "Speaker Vector 6",
+              "x": 0,
+              "y": 0,
+              "fill": "#0293e7",
+              "children": [
+                {
+                  "id": "C1cerHO-_x",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "E2qRUTZSdG",
+                      "type": "CubicDetachedVertex",
+                      "x": -219.89,
+                      "y": 215.78599999999994
+                    },
+                    {
+                      "id": "yzcZAb1rYa",
+                      "type": "CubicDetachedVertex",
+                      "x": -128.18,
+                      "y": 193.461
+                    },
+                    {
+                      "id": "CP2UhmJEHp",
+                      "type": "CubicDetachedVertex",
+                      "x": -71.74900000000002,
+                      "y": 177.40599999999995
+                    },
+                    {
+                      "id": "jSFMNMbteF",
+                      "type": "CubicDetachedVertex",
+                      "x": -73.851,
+                      "y": 229.966
+                    },
+                    {
+                      "id": "4Wg-JdKizQ",
+                      "type": "CubicDetachedVertex",
+                      "x": -73.26299999999998,
+                      "y": 332.54999999999995
+                    },
+                    {
+                      "id": "bCAE1diXP-",
+                      "type": "CubicDetachedVertex",
+                      "x": -104.697,
+                      "y": 338.1099999999999
+                    },
+                    {
+                      "id": "kUvTrjx6sm",
+                      "type": "CubicDetachedVertex",
+                      "x": -191.71,
+                      "y": 270.61699999999996
+                    },
+                    {
+                      "id": "0-ILULn3JA",
+                      "type": "CubicDetachedVertex",
+                      "x": -213.288,
+                      "y": 230.462
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kRbCYzlV6h",
+              "type": "Shape",
+              "name": "Speaker Vector 5",
+              "x": 0,
+              "y": 0,
+              "fill": "#94d2fb",
+              "children": [
+                {
+                  "id": "pstz830N4i",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "jllSdsvM4T",
+                      "type": "CubicDetachedVertex",
+                      "x": -43.976,
+                      "y": -183.71299999999997
+                    },
+                    {
+                      "id": "DpPKknbCHS",
+                      "type": "CubicDetachedVertex",
+                      "x": -43.22500000000002,
+                      "y": -156.5
+                    },
+                    {
+                      "id": "gkioti_vym",
+                      "type": "CubicDetachedVertex",
+                      "x": 83.65800000000002,
+                      "y": 155.173
+                    },
+                    {
+                      "id": "aBRBDj_vp1",
+                      "type": "CubicDetachedVertex",
+                      "x": 95.27800000000002,
+                      "y": 168.14800000000002
+                    },
+                    {
+                      "id": "kMtzItM1zY",
+                      "type": "CubicDetachedVertex",
+                      "x": -22.757000000000005,
+                      "y": 168.10500000000002
+                    },
+                    {
+                      "id": "Dddb4V4T9F",
+                      "type": "CubicDetachedVertex",
+                      "x": -54.15100000000001,
+                      "y": 173.75699999999995
+                    },
+                    {
+                      "id": "qTZHleXVKG",
+                      "type": "CubicDetachedVertex",
+                      "x": -71.74799999999999,
+                      "y": 177.40599999999995
+                    },
+                    {
+                      "id": "3cqGrmnq2l",
+                      "type": "CubicDetachedVertex",
+                      "x": -73.85000000000002,
+                      "y": 229.966
+                    },
+                    {
+                      "id": "5zBxF9npuT",
+                      "type": "CubicDetachedVertex",
+                      "x": -73.26299999999998,
+                      "y": 332.54999999999995
+                    },
+                    {
+                      "id": "gzKO36-oaa",
+                      "type": "CubicDetachedVertex",
+                      "x": -104.697,
+                      "y": 338.1099999999999
+                    },
+                    {
+                      "id": "4aXekJV4YS",
+                      "type": "CubicDetachedVertex",
+                      "x": -191.709,
+                      "y": 270.61699999999996
+                    },
+                    {
+                      "id": "DON9rd7MX5",
+                      "type": "CubicDetachedVertex",
+                      "x": -213.288,
+                      "y": 230.462
+                    },
+                    {
+                      "id": "-2yv45j2F_",
+                      "type": "CubicDetachedVertex",
+                      "x": -219.889,
+                      "y": 215.78499999999997
+                    },
+                    {
+                      "id": "CoUwzEeG5n",
+                      "type": "CubicDetachedVertex",
+                      "x": -275.147,
+                      "y": 192.13800000000003
+                    },
+                    {
+                      "id": "p_X7FKiCYf",
+                      "type": "CubicDetachedVertex",
+                      "x": -297.437,
+                      "y": 205.54100000000005
+                    },
+                    {
+                      "id": "dc6P1xSrXv",
+                      "type": "CubicDetachedVertex",
+                      "x": -319.716,
+                      "y": 208.59699999999998
+                    },
+                    {
+                      "id": "DK9g4q4W8z",
+                      "type": "CubicDetachedVertex",
+                      "x": -350.0623,
+                      "y": 171.20299999999997
+                    },
+                    {
+                      "id": "uwW9W7hyy2",
+                      "type": "CubicDetachedVertex",
+                      "x": -366.5952,
+                      "y": 102.36800000000005
+                    },
+                    {
+                      "id": "RNSK7RlhLc",
+                      "type": "CubicDetachedVertex",
+                      "x": -332.3183,
+                      "y": 80.02499999999998
+                    },
+                    {
+                      "id": "WO7A20FbHf",
+                      "type": "CubicDetachedVertex",
+                      "x": -184.932,
+                      "y": -54.10000000000002
+                    },
+                    {
+                      "id": "oSXyPMuXtv",
+                      "type": "CubicDetachedVertex",
+                      "x": -136.921,
+                      "y": -83.22799999999995
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Ztny6uOvs_",
+              "type": "Shape",
+              "name": "Speaker Vector 4",
+              "x": 0,
+              "y": 0,
+              "fill": "#9ad5fb",
+              "children": [
+                {
+                  "id": "2hlQc-053L",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "iYrfzA3yrx",
+                      "type": "CubicDetachedVertex",
+                      "x": 152.36599999999999,
+                      "y": -142.18200000000002
+                    },
+                    {
+                      "id": "ZTqBMdTvOM",
+                      "type": "CubicDetachedVertex",
+                      "x": 187.57100000000003,
+                      "y": -136.31600000000003
+                    },
+                    {
+                      "id": "Qu46_ZhcPu",
+                      "type": "CubicDetachedVertex",
+                      "x": 224.10699999999997,
+                      "y": -9.860000000000014
+                    },
+                    {
+                      "id": "ejJjGLSOdf",
+                      "type": "CubicDetachedVertex",
+                      "x": 204.44000000000005,
+                      "y": 4.17999999999995
+                    },
+                    {
+                      "id": "eYG92RAGy_",
+                      "type": "CubicDetachedVertex",
+                      "x": 197.63699999999994,
+                      "y": 3.7759999999999536
+                    },
+                    {
+                      "id": "Rid2sX9qlp",
+                      "type": "CubicDetachedVertex",
+                      "x": 136.23000000000002,
+                      "y": -119.731
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VIa5MRdYBd",
+              "type": "Shape",
+              "name": "Speaker Vector 3",
+              "x": 0,
+              "y": 0,
+              "fill": "#5baee8",
+              "children": [
+                {
+                  "id": "OCwtBHZ1YY",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "MLyfnbaiHy",
+                      "type": "CubicDetachedVertex",
+                      "x": 102.75,
+                      "y": -132.82799999999997
+                    },
+                    {
+                      "id": "BfPKQNQ5hH",
+                      "type": "CubicDetachedVertex",
+                      "x": 152.36599999999999,
+                      "y": -142.18399999999997
+                    },
+                    {
+                      "id": "fqetMFoxdq",
+                      "type": "CubicDetachedVertex",
+                      "x": 136.23000000000002,
+                      "y": -119.73299999999995
+                    },
+                    {
+                      "id": "6p9nnf0XS2",
+                      "type": "CubicDetachedVertex",
+                      "x": 197.63699999999994,
+                      "y": 3.774000000000001
+                    },
+                    {
+                      "id": "lWlmPlEc_M",
+                      "type": "CubicDetachedVertex",
+                      "x": 204.44000000000005,
+                      "y": 4.177999999999997
+                    },
+                    {
+                      "id": "O9mjC0fCTF",
+                      "type": "CubicDetachedVertex",
+                      "x": 168.091,
+                      "y": 22.491999999999962
+                    },
+                    {
+                      "id": "-kyS_Fnso3",
+                      "type": "CubicDetachedVertex",
+                      "x": 96.96600000000001,
+                      "y": 56.18700000000001
+                    },
+                    {
+                      "id": "iZZaZnU7um",
+                      "type": "CubicDetachedVertex",
+                      "x": 74.46499999999997,
+                      "y": 17.888000000000034
+                    },
+                    {
+                      "id": "VdUKFYH4uR",
+                      "type": "CubicDetachedVertex",
+                      "x": 30.218999999999994,
+                      "y": -119.41600000000005
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wk9qV6oqP8",
+              "type": "Shape",
+              "name": "Speaker Vector 2",
+              "x": 0,
+              "y": 0,
+              "fill": "#025385",
+              "children": [
+                {
+                  "id": "maNf1qasso",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "Kh6S87BkWw",
+                      "type": "CubicDetachedVertex",
+                      "x": 29.70999999999998,
+                      "y": -195.553
+                    },
+                    {
+                      "id": "btL0iT8Pfc",
+                      "type": "CubicDetachedVertex",
+                      "x": 73.83100000000002,
+                      "y": -286.643
+                    },
+                    {
+                      "id": "q4G3_FDrhd",
+                      "type": "CubicDetachedVertex",
+                      "x": 132.40599999999995,
+                      "y": -301.823
+                    },
+                    {
+                      "id": "-jcXPNc7rR",
+                      "type": "CubicDetachedVertex",
+                      "x": 249.726,
+                      "y": -217.647
+                    },
+                    {
+                      "id": "ffyWKI_sG6",
+                      "type": "CubicDetachedVertex",
+                      "x": 330.75800000000004,
+                      "y": 56.29200000000003
+                    },
+                    {
+                      "id": "udfkBytPkj",
+                      "type": "CubicDetachedVertex",
+                      "x": 286.544,
+                      "y": 146.22699999999998
+                    },
+                    {
+                      "id": "SzM5XiRkmj",
+                      "type": "CubicDetachedVertex",
+                      "x": 227.63400000000001,
+                      "y": 160.096
+                    },
+                    {
+                      "id": "Q7YEjc_3UG",
+                      "type": "CubicDetachedVertex",
+                      "x": 110.30799999999999,
+                      "y": 75.23599999999999
+                    },
+                    {
+                      "id": "W_dqH8-z5O",
+                      "type": "CubicDetachedVertex",
+                      "x": 108.00900000000001,
+                      "y": 71.83799999999997
+                    },
+                    {
+                      "id": "peBKhWwNAe",
+                      "type": "CubicDetachedVertex",
+                      "x": 96.96600000000001,
+                      "y": 56.18700000000001
+                    },
+                    {
+                      "id": "0cP3xmeibs",
+                      "type": "CubicDetachedVertex",
+                      "x": 74.46499999999997,
+                      "y": 17.888000000000034
+                    },
+                    {
+                      "id": "ArvkE2NLf6",
+                      "type": "CubicDetachedVertex",
+                      "x": 30.218999999999994,
+                      "y": -119.41600000000005
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "yFJaDKoqUV",
+              "type": "Shape",
+              "name": "Speaker Vector 1",
+              "x": 0,
+              "y": 0,
+              "fill": "#0293e7",
+              "children": [
+                {
+                  "id": "jfPkq-_Oh6",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "4ULSUG_q-k",
+                      "type": "CubicDetachedVertex",
+                      "x": -43.976999999999975,
+                      "y": -183.71299999999997
+                    },
+                    {
+                      "id": "mbPYA0Y6mX",
+                      "type": "CubicDetachedVertex",
+                      "x": 16.875999999999976,
+                      "y": -349.48
+                    },
+                    {
+                      "id": "ky1aArzs5l",
+                      "type": "CubicDetachedVertex",
+                      "x": 260.36699999999996,
+                      "y": -295.212
+                    },
+                    {
+                      "id": "cqn05WPosv",
+                      "type": "CubicDetachedVertex",
+                      "x": 390.24300000000005,
+                      "y": 53.763000000000034
+                    },
+                    {
+                      "id": "cr6aipsOA9",
+                      "type": "CubicDetachedVertex",
+                      "x": 329.23299999999995,
+                      "y": 212.577
+                    },
+                    {
+                      "id": "siG7woLMVN",
+                      "type": "CubicDetachedVertex",
+                      "x": 95.27700000000004,
+                      "y": 168.14800000000002
+                    },
+                    {
+                      "id": "K4cMpdEZNl",
+                      "type": "CubicDetachedVertex",
+                      "x": 83.65700000000004,
+                      "y": 155.173
+                    },
+                    {
+                      "id": "xGZ-565xrp",
+                      "type": "CubicDetachedVertex",
+                      "x": -43.226,
+                      "y": -156.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timelines": [
+        {
+          "id": "ceKWt0QR2K",
+          "name": "idle",
+          "fps": 60,
+          "durationSeconds": 1,
+          "loop": "loop",
+          "keyed": [
+            "Speaker.rotation",
+            "Speaker.scaleX",
+            "Speaker.scaleY",
+            "Sound Ray 1.opacity",
+            "Sound Ray 1.scaleX",
+            "Sound Ray 1.scaleY",
+            "Sound Ray 2.opacity",
+            "Sound Ray 2.scaleX",
+            "Sound Ray 2.scaleY",
+            "Sound Ray 3.opacity",
+            "Sound Ray 3.scaleX",
+            "Sound Ray 3.scaleY",
+            "Sound Ray 4.opacity",
+            "Sound Ray 4.scaleX",
+            "Sound Ray 4.scaleY",
+            "Sound Ray 5.opacity",
+            "Sound Ray 5.scaleX",
+            "Sound Ray 5.scaleY"
+          ]
+        },
+        {
+          "id": "oQYfSU1Zrb",
+          "name": "playing",
+          "fps": 60,
+          "durationSeconds": 1.2,
+          "loop": "loop",
+          "keyed": [
+            "Speaker.rotation",
+            "Speaker.scaleX",
+            "Speaker.scaleY",
+            "Sound Ray 1.opacity",
+            "Sound Ray 1.scaleX",
+            "Sound Ray 1.scaleY",
+            "Sound Ray 2.opacity",
+            "Sound Ray 2.scaleX",
+            "Sound Ray 2.scaleY",
+            "Sound Ray 3.opacity",
+            "Sound Ray 3.scaleX",
+            "Sound Ray 3.scaleY",
+            "Sound Ray 4.opacity",
+            "Sound Ray 4.scaleX",
+            "Sound Ray 4.scaleY",
+            "Sound Ray 5.opacity",
+            "Sound Ray 5.scaleX",
+            "Sound Ray 5.scaleY"
+          ]
+        }
+      ],
+      "properties": [
+        {
+          "id": "UgyYUccQEC",
+          "name": "is_playing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "stateMachines": [
+        {
+          "id": "FXAcEbp3If",
+          "name": "LoaDocController",
+          "inputs": [],
+          "layers": [
+            {
+              "name": "Layer 1",
+              "states": [
+                {
+                  "id": "-0zsq9vN2d",
+                  "type": "EntryState",
+                  "transitionsTo": [
+                    "Mg5QiQJeSo"
+                  ]
+                },
+                {
+                  "id": "rS0DfLJ1aG",
+                  "type": "AnyState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "t5e3vIHldg",
+                  "type": "ExitState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "Mg5QiQJeSo",
+                  "type": "AnimationState",
+                  "timeline": "idle",
+                  "transitionsTo": [
+                    "dHPfFlag9l"
+                  ]
+                },
+                {
+                  "id": "dHPfFlag9l",
+                  "type": "AnimationState",
+                  "timeline": "playing",
+                  "transitionsTo": [
+                    "Mg5QiQJeSo"
+                  ]
+                }
+              ]
+            }
+          ],
+          "listeners": 0
+        }
+      ]
+    }
+  ],
+  "themeColors": [],
+  "themes": []
+}

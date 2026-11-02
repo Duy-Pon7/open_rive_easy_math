@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phách động</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f7f2e9;color:#533a25;font:16px system-ui}main{min-height:100vh;display:flex;align-items:center;justify-content:center;gap:48px;padding:32px}.stage{background:white;border-radius:28px;box-shadow:0 16px 60px #533a2510}canvas{display:block;width:min(600px,88vw);height:auto}section{max-width:330px}h1{font-size:32px;margin:0 0 16px}p{line-height:1.7;color:#7e6854}button{font:inherit;font-weight:600;border:0;border-radius:12px;padding:13px 22px;background:#b96010;color:white;cursor:pointer}button+button{margin-left:8px;background:#eadfce;color:#533a25}button[aria-pressed=true]{outline:3px solid #d6c946;outline-offset:3px}#status{margin-top:24px}@media(max-width:900px){main{flex-direction:column;gap:24px;padding:24px}}
+</style>
+<main><div class="stage"><canvas id="scene" width="994" height="672" aria-label="Hai phách gõ vào nhau"></canvas></div><section>
+<h1>Phách động</h1><p>Mỗi lần bấm gõ một nhịp. Hai phách đập chéo, tóe bốn tia vàng rồi tự trở về tư thế ban đầu.</p>
+<button id="hit">Gõ một lần</button>
+<p id="status" role="status">Đang tải…</p>
+</section></main>
+<script src="runtime/rive.js"></script>
+<script>
+rive.RuntimeLoader.setWasmUrl('runtime/rive.wasm');
+let trigger,events=[],scrubbing=false,busy=false,inHit=false,pending=[],active=null,completed=0;
+const r=new rive.Rive({src:'phach_dong.riv',canvas:document.getElementById('scene'),artboard:'Phach Dong',
+  stateMachines:'PhachController',autoplay:true,autoBind:true,layout:new rive.Layout({fit:rive.Fit.Contain}),
+  onLoad:()=>{try{trigger=r.viewModelInstance.trigger('hit');if(!trigger)throw Error('Missing hit trigger');window.ready=true;status();}catch(e){window.failure=String(e);}},
+  onStateChange:e=>{for(const name of e.data){events.push(name);if(name==='hit')inHit=true;if(name==='idle'&&inHit){inHit=false;busy=false;completed++;const resolve=active;active=null;resolve?.();requestAnimationFrame(pump);}status();}},
+  onLoadError:e=>{window.failure=String(e.data);}
+});
+function status(){document.getElementById('status').textContent=(busy?'Đang gõ':'Idle')+' · Đã gõ '+completed+' lần'+(pending.length?' · Chờ '+pending.length+' lần':'');}
+function pump(){
+  if(busy||!pending.length)return;
+  busy=true;active=pending.shift();
+  if(scrubbing){const vm=r.viewModelInstance;r.stop();r.play('PhachController');r.bindViewModelInstance(vm);trigger=vm.trigger('hit');scrubbing=false;}
+  requestAnimationFrame(()=>{trigger.trigger();status();});
+}
+function hit(){return new Promise(resolve=>{pending.push(resolve);pump();status();});}
+const draw=()=>document.getElementById('scene').toDataURL('image/png');
+async function pose(time){
+  if(!scrubbing){r.stop();r.play('hit');r.pause('hit');scrubbing=true;}
+  r.scrub('hit',time);r.drawFrame();
+  await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));return draw();
+}
+document.getElementById('hit').onclick=()=>hit();
+window.clappers={hit,draw,pose,fireRaw:()=>trigger.trigger(),events:()=>events.slice(),
+  counts:()=>({completed,pending:pending.length,busy}),runtime:()=>r};
+</script></html>

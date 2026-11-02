@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loa đọc</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#edf5fb;color:#153e58;font:16px system-ui}main{min-height:100vh;display:flex;align-items:center;justify-content:center;gap:48px;padding:32px}.stage{background:white;border-radius:28px;box-shadow:0 16px 60px #153e5810}canvas{display:block;width:min(520px,85vw);height:auto}section{max-width:330px}h1{font-size:32px;margin:0 0 16px}p{line-height:1.7;color:#527087}button{font:inherit;font-weight:600;border:0;border-radius:12px;padding:13px 22px;background:#028ddc;color:white;cursor:pointer}button+button{margin-left:8px;background:#dce9f1;color:#153e58}button[aria-pressed=true]{outline:3px solid #fedf3f;outline-offset:3px}#status{margin-top:24px}@media(max-width:780px){main{flex-direction:column;gap:24px;padding:24px}}
+</style>
+<main><div class="stage"><canvas id="scene" width="627" height="627" aria-label="Loa đọc"></canvas></div><section>
+<h1>Loa đọc</h1><p>Loa rung nhẹ và các tia vàng chuyển động khi đang phát.</p>
+<button id="play" aria-pressed="false">Đang phát</button><button id="idle" aria-pressed="true">Idle</button>
+<p id="status" role="status">Đang tải…</p>
+</section></main>
+<script src="runtime/rive.js"></script>
+<script>
+rive.RuntimeLoader.setWasmUrl('runtime/rive.wasm');
+let property, events=[];
+const r = new rive.Rive({src:'loa_doc.riv',canvas:document.getElementById('scene'),
+  artboard:'Loa Doc',stateMachines:'LoaDocController',autoplay:true,autoBind:true,
+  layout:new rive.Layout({fit:rive.Fit.Contain}),
+  onLoad:()=>{try{property=r.viewModelInstance.boolean('is_playing');set(false);window.ready=true;}catch(e){window.failure=String(e);}},
+  onStateChange:e=>events.push(...e.data),onLoadError:e=>{window.failure=String(e.data);}
+});
+function set(value){property.value=Boolean(value);document.getElementById('status').textContent=value?'Đang phát':'Idle';document.getElementById('play').setAttribute('aria-pressed',String(Boolean(value)));document.getElementById('idle').setAttribute('aria-pressed',String(!value));}
+document.getElementById('play').onclick=()=>set(true);
+document.getElementById('idle').onclick=()=>set(false);
+window.speaker={set,events:()=>events.slice(),value:()=>property.value,draw:()=>document.getElementById('scene').toDataURL('image/png'),pause:()=>r.pause(),resume:()=>r.play('LoaDocController'),runtime:()=>r};
+</script></html>

@@ -1,0 +1,17 @@
+{
+  "source_sha256": "b662d384253bc31b5734cc9c81a6961e92bc002c73de4df0bb18a399cf4f35ba",
+  "rive_sha256": "5d4ff2b1b2640e6058b297e53c27ffbed4b6d0fbbff027d5f9520155bf9e3f50",
+  "bytes": 424605,
+  "canvas": [
+    193,
+    102
+  ],
+  "svg_offset": [
+    20,
+    20
+  ],
+  "loop_seconds": 2.0,
+  "tail_beat_seconds": 1,
+  "animated_vertices": 105,
+  "default_is_swimming": false
+}

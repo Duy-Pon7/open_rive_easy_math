@@ -1,0 +1,19 @@
+{
+  "source_sha256": "3a6611a085b0cd3b6b1a5f78b0dc9c20f708e4464fd83dd6e25803f2c2d32823",
+  "rive_sha256": "ab4be8271c1d6ee114948230e8e16288e5730a133806fbe8ec7abe0121ffe75f",
+  "bytes": 8158,
+  "canvas": [
+    335,
+    81
+  ],
+  "svg_offset": [
+    24,
+    28
+  ],
+  "loop_seconds": 2.0,
+  "rigid_body": true,
+  "animated_nodes": [
+    "FishRoot",
+    "PectoralFin"
+  ]
+}

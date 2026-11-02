@@ -1,0 +1,566 @@
+{
+  "id": "rZTY0L9JgMem",
+  "name": "Phach Dong - Clap Playback",
+  "editor": "http://127.0.0.1:56545/editor/rZTY0L9JgMem",
+  "artboards": [
+    {
+      "id": "awezF14ODo",
+      "name": "Phach Dong",
+      "width": 497,
+      "height": 336,
+      "viewModel": "Phach Dong Data",
+      "events": [],
+      "children": [
+        {
+          "id": "zZOSRLFjXB",
+          "type": "Node",
+          "name": "Impact",
+          "x": 0,
+          "y": 0,
+          "opacity": 0,
+          "children": [
+            {
+              "id": "qzN5YUwgTL",
+              "type": "Shape",
+              "name": "Impact Ray 4",
+              "x": 76,
+              "y": 217,
+              "fill": "#e5db6c",
+              "children": [
+                {
+                  "id": "BIYSPuH-ka",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "xsNtiFqcrX",
+                      "type": "CubicDetachedVertex",
+                      "x": -76,
+                      "y": 47.771000000000015
+                    },
+                    {
+                      "id": "AL1cKSrlKg",
+                      "type": "CubicDetachedVertex",
+                      "x": 0.10999999999999943,
+                      "y": 2.86099999999999
+                    },
+                    {
+                      "id": "jOU6cfjq-U",
+                      "type": "CubicDetachedVertex",
+                      "x": 0.10999999999999943,
+                      "y": -2.2889999999999873
+                    },
+                    {
+                      "id": "Uk5hBMvDiy",
+                      "type": "CubicDetachedVertex",
+                      "x": -50.97,
+                      "y": 5.600999999999999
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "SPxRwcHNAk",
+              "type": "Shape",
+              "name": "Impact Ray 3",
+              "x": 90,
+              "y": 240,
+              "fill": "#e5db6c",
+              "children": [
+                {
+                  "id": "KbevnLerlr",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "pNPeeP6M1s",
+                      "type": "CubicDetachedVertex",
+                      "x": -57.4297,
+                      "y": 70.03399999999999
+                    },
+                    {
+                      "id": "E_HGog0Ok3",
+                      "type": "CubicDetachedVertex",
+                      "x": -3.259699999999995,
+                      "y": 0.09399999999999409
+                    },
+                    {
+                      "id": "4UgoYYJjnD",
+                      "type": "CubicDetachedVertex",
+                      "x": 5.6603000000000065,
+                      "y": 0.09399999999999409
+                    },
+                    {
+                      "id": "zouoH4f9sn",
+                      "type": "CubicDetachedVertex",
+                      "x": -48.1697,
+                      "y": 87.51400000000001
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "RFdC1JqkbD",
+              "type": "Shape",
+              "name": "Impact Ray 2",
+              "x": 224,
+              "y": 101,
+              "fill": "#e5db6c",
+              "children": [
+                {
+                  "id": "wiBw45Y4GS",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "rYmyvZ1Xyl",
+                      "type": "CubicDetachedVertex",
+                      "x": -2.9399999999999977,
+                      "y": 0.0589999999999975
+                    },
+                    {
+                      "id": "lQPHtVdisV",
+                      "type": "CubicDetachedVertex",
+                      "x": 19.939999999999998,
+                      "y": -43.1409
+                    },
+                    {
+                      "id": "QlHdOjaHuW",
+                      "type": "CubicDetachedVertex",
+                      "x": 53.889999999999986,
+                      "y": -54.4609
+                    },
+                    {
+                      "id": "mhik2is1sY",
+                      "type": "CubicDetachedVertex",
+                      "x": 2.710000000000008,
+                      "y": 0.0589999999999975
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fZi95fpboa",
+              "type": "Shape",
+              "name": "Impact Ray 1",
+              "x": 200,
+              "y": 106,
+              "fill": "#e5db6c",
+              "children": [
+                {
+                  "id": "2jJb5RODuQ",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "snAyZ70T41",
+                      "type": "CubicDetachedVertex",
+                      "x": -2.8600000000000136,
+                      "y": -1.0900000000000034
+                    },
+                    {
+                      "id": "IpUKHhy8yT",
+                      "type": "CubicDetachedVertex",
+                      "x": 16.939999999999998,
+                      "y": -87.74
+                    },
+                    {
+                      "id": "ytkCYdzgxy",
+                      "type": "CubicDetachedVertex",
+                      "x": 38.28999999999999,
+                      "y": -106
+                    },
+                    {
+                      "id": "7j6hfIY1HF",
+                      "type": "CubicDetachedVertex",
+                      "x": 3.0600000000000023,
+                      "y": 1.7399999999999949
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qsQKczfub1",
+          "type": "Node",
+          "name": "Lower Clapper",
+          "x": 450,
+          "y": 180,
+          "children": [
+            {
+              "id": "6wZlVUyqu9",
+              "type": "Shape",
+              "name": "Lower Clapper Shading",
+              "x": 0,
+              "y": 0,
+              "fill": "#b85e10",
+              "children": [
+                {
+                  "id": "rl972JXgNF",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "NbDdnhf6g8",
+                      "type": "CubicDetachedVertex",
+                      "x": -356.6299,
+                      "y": -29.235000000000014
+                    },
+                    {
+                      "id": "bT7Q0uRIkx",
+                      "type": "CubicDetachedVertex",
+                      "x": 46.81999999999999,
+                      "y": -12.264999999999986
+                    },
+                    {
+                      "id": "rxxlNriUga",
+                      "type": "CubicDetachedVertex",
+                      "x": 43.74000000000001,
+                      "y": -53.905
+                    },
+                    {
+                      "id": "zxSeX28jAJ",
+                      "type": "CubicDetachedVertex",
+                      "x": -334.43,
+                      "y": -58.55500000000001
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "gUXaRm0q8x",
+              "type": "Shape",
+              "name": "Lower Clapper Body",
+              "x": 0,
+              "y": 0,
+              "fill": "#cb6b15",
+              "children": [
+                {
+                  "id": "OPck-bOtcf",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "MH_gHpOrVf",
+                      "type": "CubicDetachedVertex",
+                      "x": -317.83000000000004,
+                      "y": -43.56299999999999
+                    },
+                    {
+                      "id": "AJAwiKka9n",
+                      "type": "CubicDetachedVertex",
+                      "x": 3.6899999999999977,
+                      "y": -28.673000000000002
+                    },
+                    {
+                      "id": "6g7CUTYS28",
+                      "type": "CubicDetachedVertex",
+                      "x": 5.680000000000007,
+                      "y": -27.90299999999999
+                    },
+                    {
+                      "id": "xKvwD0ACpd",
+                      "type": "CubicDetachedVertex",
+                      "x": 14.899999999999977,
+                      "y": 2.3569999999999993
+                    },
+                    {
+                      "id": "6f8sgGYcWQ",
+                      "type": "CubicDetachedVertex",
+                      "x": 0.6100000000000136,
+                      "y": 31.206999999999994
+                    },
+                    {
+                      "id": "GbAAszpaMi",
+                      "type": "CubicDetachedVertex",
+                      "x": -0.6700000000000159,
+                      "y": 31.37700000000001
+                    },
+                    {
+                      "id": "P04YcS9CmF",
+                      "type": "CubicDetachedVertex",
+                      "x": -321.21000000000004,
+                      "y": 11.857
+                    },
+                    {
+                      "id": "xd1ZPFayDN",
+                      "type": "CubicDetachedVertex",
+                      "x": -323.34000000000003,
+                      "y": 10.926999999999992
+                    },
+                    {
+                      "id": "c5Iv8DKmz4",
+                      "type": "CubicDetachedVertex",
+                      "x": -334.22,
+                      "y": -18.943000000000012
+                    },
+                    {
+                      "id": "OuDvnhGZ4U",
+                      "type": "CubicDetachedVertex",
+                      "x": -319.57,
+                      "y": -43.203
+                    },
+                    {
+                      "id": "EzidfIS9V7",
+                      "type": "CubicDetachedVertex",
+                      "x": -317.84000000000003,
+                      "y": -43.56299999999999
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "-A7eebJS1f",
+          "type": "Node",
+          "name": "Upper Clapper",
+          "x": 405,
+          "y": 80,
+          "children": [
+            {
+              "id": "n5OdhlMm0t",
+              "type": "Shape",
+              "name": "Upper Clapper Shading",
+              "x": 0,
+              "y": 0,
+              "fill": "#d06c16",
+              "children": [
+                {
+                  "id": "UNwaYytzR6",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "ge9B8nZI6A",
+                      "type": "CubicDetachedVertex",
+                      "x": 37.72000000000003,
+                      "y": -16.7031
+                    },
+                    {
+                      "id": "P5OOOG3sRp",
+                      "type": "CubicDetachedVertex",
+                      "x": -285.82,
+                      "y": 224.91699999999997
+                    },
+                    {
+                      "id": "dVzcjFBcHu",
+                      "type": "CubicDetachedVertex",
+                      "x": -257.14,
+                      "y": 255.257
+                    },
+                    {
+                      "id": "DLwtscj1on",
+                      "type": "CubicDetachedVertex",
+                      "x": 39.00999999999999,
+                      "y": 20.046999999999997
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kP7so9qSxS",
+              "type": "Shape",
+              "name": "Upper Clapper Body",
+              "x": 0,
+              "y": 0,
+              "fill": "#b96010",
+              "children": [
+                {
+                  "id": "BumVidmEQo",
+                  "type": "PointsPath",
+                  "name": "Path",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "FxCjb4EaID",
+                      "type": "CubicDetachedVertex",
+                      "x": 16.560000000000002,
+                      "y": 20.703999999999994
+                    },
+                    {
+                      "id": "S_IKHWqVvg",
+                      "type": "CubicDetachedVertex",
+                      "x": -242.14,
+                      "y": 212.19400000000002
+                    },
+                    {
+                      "id": "QLlwLEDI-R",
+                      "type": "CubicDetachedVertex",
+                      "x": -244.17,
+                      "y": 212.85399999999998
+                    },
+                    {
+                      "id": "ZVywQmp3j7",
+                      "type": "CubicDetachedVertex",
+                      "x": -270.43,
+                      "y": 195.214
+                    },
+                    {
+                      "id": "4_uT40jR1v",
+                      "type": "CubicDetachedVertex",
+                      "x": -277.57,
+                      "y": 163.824
+                    },
+                    {
+                      "id": "YQv4OB4XD2",
+                      "type": "CubicDetachedVertex",
+                      "x": -276.68,
+                      "y": 162.894
+                    },
+                    {
+                      "id": "qFYMAHjZhx",
+                      "type": "CubicDetachedVertex",
+                      "x": -15.829999999999984,
+                      "y": -24.4063
+                    },
+                    {
+                      "id": "Nw714oJ7oi",
+                      "type": "CubicDetachedVertex",
+                      "x": -13.589999999999975,
+                      "y": -25.0263
+                    },
+                    {
+                      "id": "RuJ2-fF5en",
+                      "type": "CubicDetachedVertex",
+                      "x": 13.70999999999998,
+                      "y": -8.7363
+                    },
+                    {
+                      "id": "QjmYpz5o6J",
+                      "type": "CubicDetachedVertex",
+                      "x": 17.670000000000016,
+                      "y": 19.333699999999993
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timelines": [
+        {
+          "id": "Fgj3nIfeu6",
+          "name": "idle",
+          "fps": 60,
+          "durationSeconds": 0.6,
+          "loop": "loop",
+          "keyed": [
+            "Upper Clapper.rotation",
+            "Lower Clapper.rotation",
+            "Impact.opacity",
+            "Impact Ray 1.scaleX",
+            "Impact Ray 1.scaleY",
+            "Impact Ray 2.scaleX",
+            "Impact Ray 2.scaleY",
+            "Impact Ray 3.scaleX",
+            "Impact Ray 3.scaleY",
+            "Impact Ray 4.scaleX",
+            "Impact Ray 4.scaleY"
+          ]
+        },
+        {
+          "id": "A2CWPARBf_",
+          "name": "hit",
+          "fps": 60,
+          "durationSeconds": 0.6,
+          "loop": "oneShot",
+          "keyed": [
+            "Upper Clapper.rotation",
+            "Lower Clapper.rotation",
+            "Impact.opacity",
+            "Impact Ray 1.scaleX",
+            "Impact Ray 1.scaleY",
+            "Impact Ray 2.scaleX",
+            "Impact Ray 2.scaleY",
+            "Impact Ray 3.scaleX",
+            "Impact Ray 3.scaleY",
+            "Impact Ray 4.scaleX",
+            "Impact Ray 4.scaleY"
+          ]
+        }
+      ],
+      "properties": [
+        {
+          "id": "A6Kv82fhg2",
+          "name": "hit",
+          "type": "trigger"
+        }
+      ],
+      "stateMachines": [
+        {
+          "id": "vqP91N9aEK",
+          "name": "PhachController",
+          "inputs": [],
+          "layers": [
+            {
+              "name": "Layer 1",
+              "states": [
+                {
+                  "id": "oygb4aayed",
+                  "type": "EntryState",
+                  "transitionsTo": [
+                    "3xcTj4YGWp"
+                  ]
+                },
+                {
+                  "id": "MlyGYkUmPY",
+                  "type": "AnyState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "E1Erfhc1cX",
+                  "type": "ExitState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "3xcTj4YGWp",
+                  "type": "AnimationState",
+                  "timeline": "idle",
+                  "transitionsTo": [
+                    "H4nHJOjo7K"
+                  ]
+                },
+                {
+                  "id": "H4nHJOjo7K",
+                  "type": "AnimationState",
+                  "timeline": "hit",
+                  "transitionsTo": [
+                    "3xcTj4YGWp"
+                  ]
+                }
+              ]
+            }
+          ],
+          "listeners": 0
+        }
+      ]
+    }
+  ],
+  "themeColors": [],
+  "themes": []
+}

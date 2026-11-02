@@ -1,0 +1,116 @@
+{
+  "source_sha256": "941d64149497973c22bccf307fdd962940a7bc99b4665d5aa98ad45fd44dd07d",
+  "riv_sha256": "f3274347c06c250d24fcd79e8934a6f3d9ab1b162c2764104a8e3eddb6b3de2c",
+  "canvas": [
+    497,
+    336
+  ],
+  "native_vectors": true,
+  "native_clip_masks": 2,
+  "strike_seconds": 0.6,
+  "loop": false,
+  "impact_frame": 10,
+  "effect_paths": "original SVG paths, positions and size",
+  "state_machine": "PhachController",
+  "trigger_property": "hit",
+  "idle_matches_original_svg": true,
+  "upper_keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      5,
+      -7
+    ],
+    [
+      8,
+      -4
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      11,
+      0
+    ],
+    [
+      16,
+      -4
+    ],
+    [
+      24,
+      0
+    ],
+    [
+      36,
+      0
+    ]
+  ],
+  "lower_keyframes": [
+    [
+      0,
+      0
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      11,
+      0
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      24,
+      0
+    ],
+    [
+      36,
+      0
+    ]
+  ],
+  "effect_opacity": [
+    [
+      0,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      17,
+      0.6
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      36,
+      0
+    ]
+  ],
+  "motion_revision": "single-strike-original-burst-v1"
+}

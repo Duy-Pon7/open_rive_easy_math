@@ -1,0 +1,199 @@
+{
+  "saved": true,
+  "operations": [
+    {
+      "index": 0,
+      "op": "add_group",
+      "id": "zZOSRLFjXB",
+      "name": "Impact"
+    },
+    {
+      "index": 1,
+      "op": "add_path",
+      "id": "fZi95fpboa",
+      "name": "Impact Ray 1",
+      "pathId": "2jJb5RODuQ"
+    },
+    {
+      "index": 2,
+      "op": "add_path",
+      "id": "RFdC1JqkbD",
+      "name": "Impact Ray 2",
+      "pathId": "wiBw45Y4GS"
+    },
+    {
+      "index": 3,
+      "op": "add_path",
+      "id": "SPxRwcHNAk",
+      "name": "Impact Ray 3",
+      "pathId": "KbevnLerlr"
+    },
+    {
+      "index": 4,
+      "op": "add_path",
+      "id": "qzN5YUwgTL",
+      "name": "Impact Ray 4",
+      "pathId": "BIYSPuH-ka"
+    },
+    {
+      "index": 5,
+      "op": "add_timeline",
+      "id": "Fgj3nIfeu6",
+      "name": "idle"
+    },
+    {
+      "index": 6,
+      "op": "add_timeline",
+      "id": "A2CWPARBf_",
+      "name": "hit"
+    },
+    {
+      "index": 7,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 8,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 9,
+      "op": "add_keyframes",
+      "count": 8
+    },
+    {
+      "index": 10,
+      "op": "add_keyframes",
+      "count": 8
+    },
+    {
+      "index": 11,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 12,
+      "op": "add_keyframes",
+      "count": 7
+    },
+    {
+      "index": 13,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 14,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 15,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 16,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 17,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 18,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 19,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 20,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 21,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 22,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 23,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 24,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 25,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 26,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 27,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 28,
+      "op": "add_keyframes",
+      "count": 6
+    },
+    {
+      "index": 29,
+      "op": "add_state_machine",
+      "id": "vqP91N9aEK",
+      "name": "PhachController"
+    },
+    {
+      "index": 30,
+      "op": "add_property",
+      "id": "A6Kv82fhg2",
+      "name": "hit",
+      "type": "trigger"
+    },
+    {
+      "index": 31,
+      "op": "add_state",
+      "id": "3xcTj4YGWp"
+    },
+    {
+      "index": 32,
+      "op": "add_state",
+      "id": "H4nHJOjo7K"
+    },
+    {
+      "index": 33,
+      "op": "add_transition",
+      "id": "9D6akBHpF3"
+    },
+    {
+      "index": 34,
+      "op": "add_transition",
+      "id": "tz24-jWAF4"
+    },
+    {
+      "index": 35,
+      "op": "add_transition",
+      "id": "eaTHTgZUXi"
+    }
+  ]
+}

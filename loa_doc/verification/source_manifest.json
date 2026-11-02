@@ -1,0 +1,17 @@
+{
+  "source_sha256": "9bdb183463bf2e9afa8a7056f9d22ce6fb8ec9df263776e72c0bef05f52233ca",
+  "riv_sha256": "e7833d4f99fbaa7be1b27a700153dd7de99309e75b71ece6583f7a8562b6d32e",
+  "native_vectors": true,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "timelines": [
+    "idle",
+    "playing"
+  ],
+  "state_machine": "LoaDocController",
+  "boolean_property": "is_playing",
+  "default": false,
+  "loop_seconds": 1.2
+}

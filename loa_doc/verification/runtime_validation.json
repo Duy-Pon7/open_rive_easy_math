@@ -1,0 +1,67 @@
+[
+  {
+    "test": "default_is_idle",
+    "passed": true
+  },
+  {
+    "test": "idle_is_stationary",
+    "passed": true
+  },
+  {
+    "test": "idle_rays_are_hidden",
+    "passed": true,
+    "yellow_pixels": 0
+  },
+  {
+    "test": "boolean_enters_playing",
+    "passed": true
+  },
+  {
+    "test": "playing_rays_are_visible",
+    "passed": true,
+    "yellow_pixels": [
+      26692,
+      27039,
+      28659,
+      29150,
+      27703,
+      26549,
+      27249,
+      28862,
+      28952,
+      27430,
+      26561,
+      27444
+    ]
+  },
+  {
+    "test": "playing_visibly_animates",
+    "passed": true
+  },
+  {
+    "test": "all_frames_fit_canvas",
+    "passed": true
+  },
+  {
+    "test": "playing_continues_after_multiple_loops",
+    "passed": true
+  },
+  {
+    "test": "stop_returns_to_exact_idle",
+    "passed": true,
+    "events": [
+      "idle",
+      "playing",
+      "idle"
+    ]
+  },
+  {
+    "test": "rapid_toggle_returns_to_idle",
+    "passed": true
+  },
+  {
+    "test": "no_runtime_errors",
+    "passed": true,
+    "errors": []
+  }
+]

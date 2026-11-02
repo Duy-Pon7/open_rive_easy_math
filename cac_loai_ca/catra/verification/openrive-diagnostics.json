@@ -1,0 +1,15 @@
+{
+  "project": "Ca Tra - Idle and Swim",
+  "id": "CXFBY0-PQ37t",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 56080,
+    "timelines": 2,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

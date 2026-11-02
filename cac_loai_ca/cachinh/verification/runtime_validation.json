@@ -1,0 +1,69 @@
+[
+  {
+    "test": "default_is_idle",
+    "passed": true
+  },
+  {
+    "test": "original_svg_fidelity",
+    "passed": true,
+    "mean_rgb_error": 0.06505288155114904,
+    "source_bounds": [
+      66,
+      140,
+      1053,
+      232
+    ],
+    "rive_bounds": [
+      66,
+      140,
+      1053,
+      232
+    ]
+  },
+  {
+    "test": "idle_is_still",
+    "passed": true
+  },
+  {
+    "test": "idle_to_swim",
+    "passed": true
+  },
+  {
+    "test": "swim_no_clipping",
+    "passed": true,
+    "extents": [
+      73,
+      107,
+      1053,
+      279
+    ]
+  },
+  {
+    "test": "seamless_swim_loop",
+    "passed": true,
+    "mean_rgb_error": 0.0
+  },
+  {
+    "test": "tail_wave_with_stable_head",
+    "passed": true,
+    "tail_rgb_change": 49.45504761904762,
+    "head_rgb_change": 0.0
+  },
+  {
+    "test": "continuous_motion",
+    "passed": true
+  },
+  {
+    "test": "swim_to_exact_idle",
+    "passed": true,
+    "mean_rgb_error": 0.0
+  },
+  {
+    "test": "resume_swim",
+    "passed": true
+  },
+  {
+    "test": "rapid_toggle_recovers_idle",
+    "passed": true
+  }
+]

@@ -1,0 +1,235 @@
+{
+  "saved": true,
+  "operations": [
+    {
+      "index": 0,
+      "op": "add_timeline",
+      "id": "ceKWt0QR2K",
+      "name": "idle"
+    },
+    {
+      "index": 1,
+      "op": "add_timeline",
+      "id": "oQYfSU1Zrb",
+      "name": "playing"
+    },
+    {
+      "index": 2,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 3,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 4,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 5,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 6,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 7,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 8,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 9,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 10,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 11,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 12,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 13,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 14,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 15,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 16,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 17,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 18,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 19,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 20,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 21,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 22,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 23,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 24,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 25,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 26,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 27,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 28,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 29,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 30,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 31,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 32,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 33,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 34,
+      "op": "add_keyframes",
+      "count": 2
+    },
+    {
+      "index": 35,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 36,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 37,
+      "op": "add_keyframes",
+      "count": 25
+    },
+    {
+      "index": 38,
+      "op": "add_state_machine",
+      "id": "FXAcEbp3If",
+      "name": "LoaDocController"
+    },
+    {
+      "index": 39,
+      "op": "add_property",
+      "id": "UgyYUccQEC",
+      "name": "is_playing",
+      "type": "boolean"
+    },
+    {
+      "index": 40,
+      "op": "add_state",
+      "id": "Mg5QiQJeSo"
+    },
+    {
+      "index": 41,
+      "op": "add_state",
+      "id": "dHPfFlag9l"
+    },
+    {
+      "index": 42,
+      "op": "add_transition",
+      "id": "MxvLT7B2IB"
+    },
+    {
+      "index": 43,
+      "op": "add_transition",
+      "id": "QpSYNu6_Oj"
+    },
+    {
+      "index": 44,
+      "op": "add_transition",
+      "id": "8Q_IqjkRax"
+    }
+  ]
+}

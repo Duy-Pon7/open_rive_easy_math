@@ -1,0 +1,79 @@
+[
+  {
+    "test": "no_body_or_tail_deformation",
+    "passed": true,
+    "animated_nodes": [
+      "FishRoot",
+      "PectoralFin"
+    ]
+  },
+  {
+    "test": "whole_body_has_rigid_transforms_only",
+    "passed": true,
+    "property_keys": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "test": "default_idle",
+    "passed": true
+  },
+  {
+    "test": "original_svg_fidelity",
+    "passed": true,
+    "mean_rgb_error": 0.023800749339721147,
+    "source_bounds": [
+      104,
+      120,
+      1237,
+      209
+    ],
+    "rive_bounds": [
+      104,
+      120,
+      1237,
+      209
+    ]
+  },
+  {
+    "test": "idle_still",
+    "passed": true
+  },
+  {
+    "test": "enter_swim",
+    "passed": true
+  },
+  {
+    "test": "no_clipping",
+    "passed": true,
+    "extents": [
+      94,
+      115,
+      1247,
+      215
+    ]
+  },
+  {
+    "test": "seamless_loop",
+    "passed": true,
+    "mean_rgb_error": 1.0748725508261164e-05
+  },
+  {
+    "test": "continuous_motion",
+    "passed": true
+  },
+  {
+    "test": "return_to_exact_idle",
+    "passed": true
+  },
+  {
+    "test": "resume_swim",
+    "passed": true
+  },
+  {
+    "test": "rapid_toggle_recovers_idle",
+    "passed": true
+  }
+]

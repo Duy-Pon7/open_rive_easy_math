@@ -1,0 +1,15 @@
+{
+  "saved": true,
+  "operations": [
+    {
+      "index": 0,
+      "op": "add_keyframes",
+      "count": 21
+    },
+    {
+      "index": 1,
+      "op": "add_keyframes",
+      "count": 33
+    }
+  ]
+}

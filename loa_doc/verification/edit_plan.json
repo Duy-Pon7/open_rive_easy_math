@@ -1,0 +1,2787 @@
+[
+  {
+    "op": "add_timeline",
+    "name": "idle",
+    "duration": 1,
+    "fps": 60,
+    "loop": "loop"
+  },
+  {
+    "op": "add_timeline",
+    "name": "playing",
+    "duration": 1.2,
+    "fps": 60,
+    "loop": "loop"
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Speaker",
+    "property": "rotationDegrees",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Speaker",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Speaker",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Speaker",
+    "property": "rotationDegrees",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": -0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": -0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": -0.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": -0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": -0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": -0.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": -0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": -0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": -0.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": -0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": -0.606218,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": -0.0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Speaker",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 1.006364,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 1.009,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 1.006364,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.993636,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.991,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.993636,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 1.006364,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 1.009,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 1.006364,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.993636,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.991,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.993636,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 1.006364,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 1.009,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 1.006364,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.993636,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.991,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.993636,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 1.0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Speaker",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 1.004243,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 1.006,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 1.004243,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.995757,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.994,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.995757,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 1.004243,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 1.006,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 1.004243,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.995757,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.994,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.995757,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 1.004243,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 1.006,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 1.004243,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.995757,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.994,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.995757,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 1.0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 1",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 1",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 1",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 1",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.913895,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.697502,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.450499,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.269231,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.190849,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.18,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.190849,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.269231,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.450499,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.697502,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.913895,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.913895,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.697502,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.450499,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.269231,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.190849,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.18,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.190849,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.269231,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.450499,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.697502,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.913895,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 1.0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 1",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.996325,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.987088,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.976546,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.968809,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.965463,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.965,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.965463,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.968809,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.976546,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.987088,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.996325,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.996325,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.987088,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.976546,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.968809,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.965463,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.965,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.965463,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.968809,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.976546,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.987088,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.996325,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 1.0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 1",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.996325,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.987088,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.976546,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.968809,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.965463,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.965,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.965463,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.968809,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.976546,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.987088,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.996325,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 1.0,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.996325,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.987088,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.976546,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.968809,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.965463,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.965,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.965463,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.968809,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.976546,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.987088,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.996325,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 1.0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 2",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 2",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 2",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 2",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.851999,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.990057,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.960798,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.778544,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.529483,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.318454,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.206472,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.180333,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.183025,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.232101,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.379356,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.613092,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.851999,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.990057,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.960798,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.778544,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.529483,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.318454,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.206472,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.180333,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.183025,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.232101,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.379356,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.613092,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.851999,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 2",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.993683,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 2",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.993683,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 3",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 3",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 3",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 3",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.851999,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.990057,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.960798,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.778544,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.529483,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.318454,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.206472,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.180333,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.183025,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.232101,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.379356,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.613092,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.851999,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.990057,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.960798,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.778544,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.529483,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.318454,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.206472,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.180333,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.183025,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.232101,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.379356,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.613092,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.851999,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 3",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.993683,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 3",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.993683,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 4",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 4",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 4",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 4",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.529483,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.778544,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.960798,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.990057,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.851999,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.613092,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.379356,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.232101,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.183025,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.180333,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.206472,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.318454,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.529483,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.778544,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.960798,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.990057,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.851999,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.613092,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.379356,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.232101,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.183025,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.180333,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.206472,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.318454,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.529483,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 4",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.979917,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 4",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.979917,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 5",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 5",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "idle",
+    "object": "Sound Ray 5",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 1,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 1,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 5",
+    "property": "opacity",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.529483,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.778544,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.960798,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.990057,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.851999,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.613092,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.379356,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.232101,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.183025,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.180333,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.206472,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.318454,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.529483,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.778544,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.960798,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.990057,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.851999,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.613092,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.379356,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.232101,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.183025,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.180333,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.206472,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.318454,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.529483,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 5",
+    "property": "scaleX",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.979917,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_keyframes",
+    "timeline": "playing",
+    "object": "Sound Ray 5",
+    "property": "scaleY",
+    "keys": [
+      {
+        "frame": 0,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 3,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 6,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 9,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 12,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 15,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 18,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 21,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 24,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 27,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 30,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 33,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 36,
+        "value": 0.979917,
+        "ease": "linear"
+      },
+      {
+        "frame": 39,
+        "value": 0.990548,
+        "ease": "linear"
+      },
+      {
+        "frame": 42,
+        "value": 0.998327,
+        "ease": "linear"
+      },
+      {
+        "frame": 45,
+        "value": 0.999576,
+        "ease": "linear"
+      },
+      {
+        "frame": 48,
+        "value": 0.993683,
+        "ease": "linear"
+      },
+      {
+        "frame": 51,
+        "value": 0.983486,
+        "ease": "linear"
+      },
+      {
+        "frame": 54,
+        "value": 0.973509,
+        "ease": "linear"
+      },
+      {
+        "frame": 57,
+        "value": 0.967224,
+        "ease": "linear"
+      },
+      {
+        "frame": 60,
+        "value": 0.965129,
+        "ease": "linear"
+      },
+      {
+        "frame": 63,
+        "value": 0.965014,
+        "ease": "linear"
+      },
+      {
+        "frame": 66,
+        "value": 0.96613,
+        "ease": "linear"
+      },
+      {
+        "frame": 69,
+        "value": 0.97091,
+        "ease": "linear"
+      },
+      {
+        "frame": 72,
+        "value": 0.979917,
+        "ease": "linear"
+      }
+    ]
+  },
+  {
+    "op": "add_state_machine",
+    "name": "LoaDocController"
+  },
+  {
+    "op": "add_property",
+    "type": "boolean",
+    "name": "is_playing",
+    "value": false
+  },
+  {
+    "op": "add_state",
+    "stateMachine": "LoaDocController",
+    "timeline": "idle"
+  },
+  {
+    "op": "add_state",
+    "stateMachine": "LoaDocController",
+    "timeline": "playing"
+  },
+  {
+    "op": "add_transition",
+    "stateMachine": "LoaDocController",
+    "from": "entry",
+    "to": "idle",
+    "durationMs": 0
+  },
+  {
+    "op": "add_transition",
+    "stateMachine": "LoaDocController",
+    "from": "idle",
+    "to": "playing",
+    "durationMs": 120,
+    "conditions": [
+      {
+        "property": "is_playing",
+        "value": true
+      }
+    ]
+  },
+  {
+    "op": "add_transition",
+    "stateMachine": "LoaDocController",
+    "from": "playing",
+    "to": "idle",
+    "durationMs": 160,
+    "conditions": [
+      {
+        "property": "is_playing",
+        "value": false
+      }
+    ]
+  }
+]

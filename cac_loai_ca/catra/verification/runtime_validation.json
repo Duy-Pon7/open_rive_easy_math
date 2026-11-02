@@ -1,0 +1,93 @@
+[
+  {
+    "test": "default_idle",
+    "passed": true
+  },
+  {
+    "test": "original_svg_fidelity",
+    "passed": true,
+    "mean_rgb_error": 0.05611782756580893,
+    "source_bounds": [
+      83,
+      88,
+      692,
+      372
+    ],
+    "rive_bounds": [
+      83,
+      88,
+      692,
+      372
+    ]
+  },
+  {
+    "test": "idle_still",
+    "passed": true
+  },
+  {
+    "test": "enter_swim",
+    "passed": true
+  },
+  {
+    "test": "no_clipping",
+    "passed": true,
+    "extents": [
+      69,
+      88,
+      695,
+      368
+    ]
+  },
+  {
+    "test": "seamless_loop",
+    "passed": true,
+    "mean_rgb_error": 9.057971014492754e-05
+  },
+  {
+    "test": "continuous_motion",
+    "passed": true
+  },
+  {
+    "test": "tail_moves",
+    "passed": true,
+    "max_mean_rgb_change": 23.56925925925926
+  },
+  {
+    "test": "dorsal_fin_moves",
+    "passed": true,
+    "max_mean_rgb_change": 11.27092970521542
+  },
+  {
+    "test": "pelvic_fin_moves",
+    "passed": true,
+    "max_mean_rgb_change": 9.780507936507936
+  },
+  {
+    "test": "anal_fin_moves",
+    "passed": true,
+    "max_mean_rgb_change": 21.446689303904925
+  },
+  {
+    "test": "pectoral_fin_moves",
+    "passed": true,
+    "max_mean_rgb_change": 11.512266666666667
+  },
+  {
+    "test": "tail_and_fins_remain_attached",
+    "passed": true,
+    "poses": 30,
+    "largest_component_count": 1
+  },
+  {
+    "test": "return_to_exact_idle",
+    "passed": true
+  },
+  {
+    "test": "resume_swim",
+    "passed": true
+  },
+  {
+    "test": "rapid_toggle_recovers_idle",
+    "passed": true
+  }
+]

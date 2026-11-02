@@ -1,0 +1,96 @@
+[
+  {
+    "test": "starts_in_idle",
+    "passed": true
+  },
+  {
+    "test": "idle_stationary_without_calls",
+    "passed": true
+  },
+  {
+    "test": "no_burst_at_idle",
+    "passed": true
+  },
+  {
+    "test": "idle_keeps_original_svg_positions",
+    "passed": true,
+    "silhouette_iou": 0.9994484840568352,
+    "mean_rgb_error": 0.017747116452214686
+  },
+  {
+    "test": "raw_hit_trigger_enters_hit",
+    "passed": true
+  },
+  {
+    "test": "strike_has_visible_burst",
+    "passed": true
+  },
+  {
+    "test": "one_call_auto_returns_idle",
+    "passed": true
+  },
+  {
+    "test": "no_repeat_without_another_call",
+    "passed": true
+  },
+  {
+    "test": "next_call_strikes_exactly_once",
+    "passed": true
+  },
+  {
+    "test": "four_rapid_calls_produce_four_strikes",
+    "passed": true,
+    "counts": {
+      "completed": 6,
+      "pending": 0,
+      "busy": false
+    }
+  },
+  {
+    "test": "queue_finishes_at_original_idle",
+    "passed": true
+  },
+  {
+    "test": "burst_matches_reference_svg_shape_size_and_placement",
+    "passed": true,
+    "silhouette_iou": 0.9995087932471998,
+    "mean_rgb_error": 0.017747116452214686
+  },
+  {
+    "test": "burst_only_after_contact",
+    "passed": true
+  },
+  {
+    "test": "burst_fades_after_strike",
+    "passed": true
+  },
+  {
+    "test": "one_shot_ends_in_exact_idle",
+    "passed": true
+  },
+  {
+    "test": "all_frames_inside_original_canvas",
+    "passed": true
+  },
+  {
+    "test": "transparent_background",
+    "passed": true
+  },
+  {
+    "test": "no_runtime_errors",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "test": "hit_timeline_is_one_shot",
+    "passed": true
+  },
+  {
+    "test": "only_hit_trigger_no_playing_boolean",
+    "passed": true
+  },
+  {
+    "test": "four_original_rays_and_no_ring",
+    "passed": true
+  }
+]

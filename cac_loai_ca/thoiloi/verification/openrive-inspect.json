@@ -1,0 +1,3024 @@
+{
+  "id": "9oKyeY0ASuvY",
+  "name": "Ca Thoi Loi - Idle and Swim",
+  "editor": "http://127.0.0.1:56545/editor/9oKyeY0ASuvY",
+  "artboards": [
+    {
+      "id": "5QBshetKyi",
+      "name": "Ca Thoi Loi",
+      "width": 193,
+      "height": 102,
+      "events": [],
+      "children": [
+        {
+          "id": "kamXuyhapv",
+          "type": "Node",
+          "name": "FishRoot",
+          "x": 20,
+          "y": 20,
+          "children": [
+            {
+              "id": "fmIY6V8Rzj",
+              "type": "Shape",
+              "name": "Nostril",
+              "x": 0,
+              "y": 0,
+              "fill": "#443629",
+              "children": [
+                {
+                  "id": "AmJWI2K33z",
+                  "type": "PointsPath",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "B0FuZ2EnCk",
+                      "type": "CubicDetachedVertex",
+                      "x": 146.0260009765625,
+                      "y": 32.51369857788086
+                    },
+                    {
+                      "id": "Kfb449buki",
+                      "type": "CubicDetachedVertex",
+                      "x": 145.95700073242188,
+                      "y": 30.5531005859375
+                    },
+                    {
+                      "id": "-8zM5p65_U",
+                      "type": "CubicDetachedVertex",
+                      "x": 147.6199951171875,
+                      "y": 31.593299865722656
+                    },
+                    {
+                      "id": "3vrfcVU2Fg",
+                      "type": "CubicDetachedVertex",
+                      "x": 147.68899536132812,
+                      "y": 33.55400085449219
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "85xUj1hrTl",
+              "type": "Node",
+              "name": "Pupil",
+              "x": 0,
+              "y": 0,
+              "children": [
+                {
+                  "id": "pgu355hqEY",
+                  "type": "Shape",
+                  "name": "Pupil mask",
+                  "x": 0,
+                  "y": 0,
+                  "children": [
+                    {
+                      "id": "KhWx_GpDJ2",
+                      "type": "PointsPath",
+                      "x": 0,
+                      "y": 0,
+                      "vertices": [
+                        {
+                          "id": "rZ-8NsK0X5",
+                          "type": "CubicDetachedVertex",
+                          "x": 129.1199951171875,
+                          "y": 20.138999938964844
+                        },
+                        {
+                          "id": "3VabdWQr9r",
+                          "type": "CubicDetachedVertex",
+                          "x": 123.81400299072266,
+                          "y": 14.833200454711914
+                        },
+                        {
+                          "id": "3Pq92jk7uG",
+                          "type": "CubicDetachedVertex",
+                          "x": 129.1199951171875,
+                          "y": 9.527339935302734
+                        },
+                        {
+                          "id": "e5vN1YCQCe",
+                          "type": "CubicDetachedVertex",
+                          "x": 134.42599487304688,
+                          "y": 14.833200454711914
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "jPWAELIYYU",
+                  "type": "Shape",
+                  "name": "Pupil.0",
+                  "x": 0,
+                  "y": 0,
+                  "fill": "#000000",
+                  "children": [
+                    {
+                      "id": "VgBbnVuoZf",
+                      "type": "PointsPath",
+                      "x": 0,
+                      "y": 0,
+                      "vertices": [
+                        {
+                          "id": "y7JLDskxx7",
+                          "type": "CubicDetachedVertex",
+                          "x": 129.12100219726562,
+                          "y": 18.515600204467773
+                        },
+                        {
+                          "id": "3wcCq9PThF",
+                          "type": "CubicDetachedVertex",
+                          "x": 125.44000244140625,
+                          "y": 14.833999633789062
+                        },
+                        {
+                          "id": "uA0_2LsLap",
+                          "type": "CubicDetachedVertex",
+                          "x": 129.12100219726562,
+                          "y": 11.152299880981445
+                        },
+                        {
+                          "id": "ZY2ZiopLjh",
+                          "type": "CubicDetachedVertex",
+                          "x": 132.80299377441406,
+                          "y": 14.833999633789062
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "FI9Xe-XEsv",
+              "type": "Shape",
+              "name": "Eye white",
+              "x": 0,
+              "y": 0,
+              "fill": "#fefefe",
+              "children": [
+                {
+                  "id": "0hctQfMG4S",
+                  "type": "PointsPath",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "O7pgCbsu6h",
+                      "type": "CubicDetachedVertex",
+                      "x": 129.1199951171875,
+                      "y": 20.138999938964844
+                    },
+                    {
+                      "id": "AFLzz37p9V",
+                      "type": "CubicDetachedVertex",
+                      "x": 123.81400299072266,
+                      "y": 14.833200454711914
+                    },
+                    {
+                      "id": "lr3PSwD5RM",
+                      "type": "CubicDetachedVertex",
+                      "x": 129.1199951171875,
+                      "y": 9.527339935302734
+                    },
+                    {
+                      "id": "ozqzgxuDH2",
+                      "type": "CubicDetachedVertex",
+                      "x": 134.42599487304688,
+                      "y": 14.833200454711914
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "IdKOgPEEHF",
+              "type": "Node",
+              "name": "PectoralFin",
+              "x": 111,
+              "y": 40,
+              "children": [
+                {
+                  "id": "ilGqSDsj9x",
+                  "type": "Node",
+                  "name": "PectoralFinCoordinates",
+                  "x": -111,
+                  "y": -40,
+                  "children": [
+                    {
+                      "id": "ARtggt0O-J",
+                      "type": "Shape",
+                      "name": "Pectoral fin",
+                      "x": 0,
+                      "y": 0,
+                      "fill": "#a7906b",
+                      "children": [
+                        {
+                          "id": "4uwxeS-Iiw",
+                          "type": "PointsPath",
+                          "x": 0,
+                          "y": 0,
+                          "vertices": [
+                            {
+                              "id": "i6RrQ_blT3",
+                              "type": "CubicDetachedVertex",
+                              "x": 116.84300231933594,
+                              "y": 40.017799377441406
+                            },
+                            {
+                              "id": "-g2bImNCK2",
+                              "type": "CubicDetachedVertex",
+                              "x": 117.6656265258789,
+                              "y": 47.68058776855469
+                            },
+                            {
+                              "id": "Yeku8HdYbY",
+                              "type": "CubicDetachedVertex",
+                              "x": 119.65299987792969,
+                              "y": 55.66579818725586
+                            },
+                            {
+                              "id": "yr9b3oHgV6",
+                              "type": "CubicDetachedVertex",
+                              "x": 119.04399871826172,
+                              "y": 58.6067008972168
+                            },
+                            {
+                              "id": "umOm9Wch5_",
+                              "type": "CubicDetachedVertex",
+                              "x": 112.03700256347656,
+                              "y": 61.052799224853516
+                            },
+                            {
+                              "id": "a277L3fHDu",
+                              "type": "CubicDetachedVertex",
+                              "x": 103.77202606201172,
+                              "y": 58.24203872680664
+                            },
+                            {
+                              "id": "RB2-XMLVMl",
+                              "type": "CubicDetachedVertex",
+                              "x": 98.27619934082031,
+                              "y": 53.66899871826172
+                            },
+                            {
+                              "id": "uTTJMU-YMC",
+                              "type": "CubicDetachedVertex",
+                              "x": 96.66829681396484,
+                              "y": 51.14820098876953
+                            },
+                            {
+                              "id": "9eaWUxznOE",
+                              "type": "CubicDetachedVertex",
+                              "x": 97.18260192871094,
+                              "y": 48.11199951171875
+                            },
+                            {
+                              "id": "zYy5tf8NDi",
+                              "type": "CubicDetachedVertex",
+                              "x": 102.90280151367188,
+                              "y": 42.670799255371094
+                            },
+                            {
+                              "id": "zUe3YesLdg",
+                              "type": "CubicDetachedVertex",
+                              "x": 108.62300109863281,
+                              "y": 37.22959899902344
+                            },
+                            {
+                              "id": "r4uMZ7RWH7",
+                              "type": "CubicDetachedVertex",
+                              "x": 111.36199951171875,
+                              "y": 36.4911003112793
+                            },
+                            {
+                              "id": "KUdkNDePJn",
+                              "type": "CubicDetachedVertex",
+                              "x": 114.61100006103516,
+                              "y": 37.3572998046875
+                            },
+                            {
+                              "id": "roJlam-Rw5",
+                              "type": "CubicDetachedVertex",
+                              "x": 116.84500122070312,
+                              "y": 40.01890182495117
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ruTkwDGKzT",
+              "type": "Node",
+              "name": "Body shading",
+              "x": 0,
+              "y": 0,
+              "children": [
+                {
+                  "id": "E5ZFl0fOh9",
+                  "type": "Shape",
+                  "name": "Body shading mask",
+                  "x": 0,
+                  "y": 0,
+                  "children": [
+                    {
+                      "id": "m8PjWpRyFE",
+                      "type": "PointsPath",
+                      "x": 0,
+                      "y": 0,
+                      "vertices": [
+                        {
+                          "id": "gMFYnqIN45",
+                          "type": "CubicDetachedVertex",
+                          "x": 137.71299743652344,
+                          "y": 20.289499282836914
+                        },
+                        {
+                          "id": "gZQwZ0q4b1",
+                          "type": "CubicDetachedVertex",
+                          "x": 143.1616973876953,
+                          "y": 23.249771118164062
+                        },
+                        {
+                          "id": "hG1DtkwTfD",
+                          "type": "CubicDetachedVertex",
+                          "x": 148.90328979492188,
+                          "y": 28.195262908935547
+                        },
+                        {
+                          "id": "rmh_e4u63Y",
+                          "type": "CubicDetachedVertex",
+                          "x": 151.97000122070312,
+                          "y": 35.05379867553711
+                        },
+                        {
+                          "id": "h2QFYUdUhg",
+                          "type": "CubicDetachedVertex",
+                          "x": 152.1055145263672,
+                          "y": 38.04086685180664
+                        },
+                        {
+                          "id": "jRLENUj-sQ",
+                          "type": "CubicDetachedVertex",
+                          "x": 149.3048095703125,
+                          "y": 43.897666931152344
+                        },
+                        {
+                          "id": "cvxXSlIJYP",
+                          "type": "CubicDetachedVertex",
+                          "x": 138.7570037841797,
+                          "y": 47.96760177612305
+                        },
+                        {
+                          "id": "Z7htLa2a8A",
+                          "type": "CubicDetachedVertex",
+                          "x": 132.7570037841797,
+                          "y": 48.35751724243164
+                        },
+                        {
+                          "id": "N54qP0XSnk",
+                          "type": "CubicDetachedVertex",
+                          "x": 124.72347259521484,
+                          "y": 48.56616973876953
+                        },
+                        {
+                          "id": "UQiQbaD4-3",
+                          "type": "CubicDetachedVertex",
+                          "x": 115.18265533447266,
+                          "y": 48.61370086669922
+                        },
+                        {
+                          "id": "wglcO4ELgU",
+                          "type": "CubicDetachedVertex",
+                          "x": 104.6607894897461,
+                          "y": 48.5202522277832
+                        },
+                        {
+                          "id": "Psdw0Otzq2",
+                          "type": "CubicDetachedVertex",
+                          "x": 93.68415069580078,
+                          "y": 48.30596160888672
+                        },
+                        {
+                          "id": "J0arRJfSkW",
+                          "type": "CubicDetachedVertex",
+                          "x": 82.77897644042969,
+                          "y": 47.990970611572266
+                        },
+                        {
+                          "id": "Ej-7ukt_oC",
+                          "type": "CubicDetachedVertex",
+                          "x": 72.4715347290039,
+                          "y": 47.595420837402344
+                        },
+                        {
+                          "id": "7QqQNltJgl",
+                          "type": "CubicDetachedVertex",
+                          "x": 63.28807067871094,
+                          "y": 47.13944625854492
+                        },
+                        {
+                          "id": "w2ffI13sJa",
+                          "type": "CubicDetachedVertex",
+                          "x": 55.75484085083008,
+                          "y": 46.643192291259766
+                        },
+                        {
+                          "id": "PZf5R_LtD4",
+                          "type": "CubicDetachedVertex",
+                          "x": 50.398101806640625,
+                          "y": 46.126800537109375
+                        },
+                        {
+                          "id": "wA-wMdtzFh",
+                          "type": "CubicDetachedVertex",
+                          "x": 40.243221282958984,
+                          "y": 44.702171325683594
+                        },
+                        {
+                          "id": "Cl2ChwmFLE",
+                          "type": "CubicDetachedVertex",
+                          "x": 31.204999923706055,
+                          "y": 43.25727462768555
+                        },
+                        {
+                          "id": "VShqtiM_PQ",
+                          "type": "CubicDetachedVertex",
+                          "x": 24.724952697753906,
+                          "y": 42.13724136352539
+                        },
+                        {
+                          "id": "FDA5ggllT_",
+                          "type": "CubicDetachedVertex",
+                          "x": 22.244600296020508,
+                          "y": 41.687198638916016
+                        },
+                        {
+                          "id": "T7d-7Bijd6",
+                          "type": "CubicDetachedVertex",
+                          "x": 16.749250411987305,
+                          "y": 44.46623611450195
+                        },
+                        {
+                          "id": "HzulBhjuaL",
+                          "type": "CubicDetachedVertex",
+                          "x": 10.912799835205078,
+                          "y": 46.3650016784668
+                        },
+                        {
+                          "id": "ODP6_6nagT",
+                          "type": "CubicDetachedVertex",
+                          "x": 4.098618984222412,
+                          "y": 44.75538635253906
+                        },
+                        {
+                          "id": "CzU-2hOTTw",
+                          "type": "CubicDetachedVertex",
+                          "x": 0.21777300536632538,
+                          "y": 38.874000549316406
+                        },
+                        {
+                          "id": "FnTeR4cHPF",
+                          "type": "CubicDetachedVertex",
+                          "x": 0.11924699693918228,
+                          "y": 34.41059875488281
+                        },
+                        {
+                          "id": "rAhkUZPMXK",
+                          "type": "CubicDetachedVertex",
+                          "x": 2.885859966278076,
+                          "y": 28.187599182128906
+                        },
+                        {
+                          "id": "vy2w2rnXvc",
+                          "type": "CubicDetachedVertex",
+                          "x": 7.28646993637085,
+                          "y": 26.782100677490234
+                        },
+                        {
+                          "id": "y5nPN9jomX",
+                          "type": "CubicDetachedVertex",
+                          "x": 14.288683891296387,
+                          "y": 27.757461547851562
+                        },
+                        {
+                          "id": "UmpUZNDBui",
+                          "type": "CubicDetachedVertex",
+                          "x": 20.83690071105957,
+                          "y": 30.534099578857422
+                        },
+                        {
+                          "id": "eNGVuAEE1E",
+                          "type": "CubicDetachedVertex",
+                          "x": 28.524999618530273,
+                          "y": 29.8843994140625
+                        },
+                        {
+                          "id": "X1M5InjSBj",
+                          "type": "CubicDetachedVertex",
+                          "x": 30.37259292602539,
+                          "y": 29.65532875061035
+                        },
+                        {
+                          "id": "UjhdpnX2jL",
+                          "type": "CubicDetachedVertex",
+                          "x": 35.48650360107422,
+                          "y": 29.025094985961914
+                        },
+                        {
+                          "id": "h1fh5YrAoJ",
+                          "type": "CubicDetachedVertex",
+                          "x": 43.223426818847656,
+                          "y": 28.079164505004883
+                        },
+                        {
+                          "id": "Z5-_4Nhpnw",
+                          "type": "CubicDetachedVertex",
+                          "x": 52.9400634765625,
+                          "y": 26.903003692626953
+                        },
+                        {
+                          "id": "aSfPpBo7Sh",
+                          "type": "CubicDetachedVertex",
+                          "x": 63.993106842041016,
+                          "y": 25.58207893371582
+                        },
+                        {
+                          "id": "TYEy-xwh_l",
+                          "type": "CubicDetachedVertex",
+                          "x": 75.7392578125,
+                          "y": 24.201854705810547
+                        },
+                        {
+                          "id": "ytOqkchyUj",
+                          "type": "CubicDetachedVertex",
+                          "x": 87.53520965576172,
+                          "y": 22.847801208496094
+                        },
+                        {
+                          "id": "kbYSAjG4Lv",
+                          "type": "CubicDetachedVertex",
+                          "x": 98.73766326904297,
+                          "y": 21.605382919311523
+                        },
+                        {
+                          "id": "DFVboH5aO7",
+                          "type": "CubicDetachedVertex",
+                          "x": 108.70331573486328,
+                          "y": 20.5600643157959
+                        },
+                        {
+                          "id": "nhft4f6J5b",
+                          "type": "CubicDetachedVertex",
+                          "x": 116.78886413574219,
+                          "y": 19.79731559753418
+                        },
+                        {
+                          "id": "2QgRpojne_",
+                          "type": "CubicDetachedVertex",
+                          "x": 122.35099792480469,
+                          "y": 19.402599334716797
+                        },
+                        {
+                          "id": "zVSh9lzi6S",
+                          "type": "CubicDetachedVertex",
+                          "x": 122.54100036621094,
+                          "y": 19.052900314331055
+                        },
+                        {
+                          "id": "suiryG-e05",
+                          "type": "CubicDetachedVertex",
+                          "x": 121.59200286865234,
+                          "y": 16.091299057006836
+                        },
+                        {
+                          "id": "pIcuuSdj42",
+                          "type": "CubicDetachedVertex",
+                          "x": 122.33799743652344,
+                          "y": 11.19453239440918
+                        },
+                        {
+                          "id": "8o2hphaGVm",
+                          "type": "CubicDetachedVertex",
+                          "x": 125.87100219726562,
+                          "y": 7.904099941253662
+                        },
+                        {
+                          "id": "4rG_0s4eQq",
+                          "type": "CubicDetachedVertex",
+                          "x": 131.44212341308594,
+                          "y": 7.555561065673828
+                        },
+                        {
+                          "id": "SUeX6SmQSd",
+                          "type": "CubicDetachedVertex",
+                          "x": 136.01499938964844,
+                          "y": 10.777899742126465
+                        },
+                        {
+                          "id": "6U0xNwM0ch",
+                          "type": "CubicDetachedVertex",
+                          "x": 136.92599487304688,
+                          "y": 18.133499145507812
+                        },
+                        {
+                          "id": "3R6wTAH9Ve",
+                          "type": "CubicDetachedVertex",
+                          "x": 137.71200561523438,
+                          "y": 20.29050064086914
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "rLw0qomASi",
+                  "type": "Shape",
+                  "name": "Body shading.2",
+                  "x": 0,
+                  "y": 0,
+                  "fill": "#a7906b",
+                  "children": [
+                    {
+                      "id": "K2X3CFHlUN",
+                      "type": "PointsPath",
+                      "x": 0,
+                      "y": 0,
+                      "vertices": [
+                        {
+                          "id": "NZEnN83HTo",
+                          "type": "CubicDetachedVertex",
+                          "x": 21.13479995727539,
+                          "y": 28.283199310302734
+                        },
+                        {
+                          "id": "r0YKAO-de0",
+                          "type": "CubicDetachedVertex",
+                          "x": 20.775888442993164,
+                          "y": 32.72636795043945
+                        },
+                        {
+                          "id": "EKbW8xYs0T",
+                          "type": "CubicDetachedVertex",
+                          "x": 21.88311195373535,
+                          "y": 41.35333251953125
+                        },
+                        {
+                          "id": "QqREyiD5up",
+                          "type": "CubicDetachedVertex",
+                          "x": 27.73240089416504,
+                          "y": 47.11029815673828
+                        },
+                        {
+                          "id": "1Em8kdSOUo",
+                          "type": "CubicDetachedVertex",
+                          "x": 20.549667358398438,
+                          "y": 48.77786636352539
+                        },
+                        {
+                          "id": "cOb5U04Od_",
+                          "type": "CubicDetachedVertex",
+                          "x": 13.36693286895752,
+                          "y": 50.4454345703125
+                        },
+                        {
+                          "id": "TzCI3OLuPU",
+                          "type": "CubicDetachedVertex",
+                          "x": 6.184199810028076,
+                          "y": 52.112998962402344
+                        },
+                        {
+                          "id": "og7F0fW6OP",
+                          "type": "CubicDetachedVertex",
+                          "x": 2.380774974822998,
+                          "y": 49.06752395629883
+                        },
+                        {
+                          "id": "2oaPetZMjr",
+                          "type": "CubicDetachedVertex",
+                          "x": -1.5038599967956543,
+                          "y": 45.61600112915039
+                        },
+                        {
+                          "id": "5ssnD-Df7S",
+                          "type": "CubicDetachedVertex",
+                          "x": -2.478410005569458,
+                          "y": 37.16999816894531
+                        },
+                        {
+                          "id": "3B_1VpaQMu",
+                          "type": "CubicDetachedVertex",
+                          "x": -2.1968801021575928,
+                          "y": 28.37310028076172
+                        },
+                        {
+                          "id": "ON-ASS4Orj",
+                          "type": "CubicDetachedVertex",
+                          "x": 1.2031999826431274,
+                          "y": 25.36720085144043
+                        },
+                        {
+                          "id": "PeP1z9Z3PT",
+                          "type": "CubicDetachedVertex",
+                          "x": 5.696899890899658,
+                          "y": 25.908599853515625
+                        },
+                        {
+                          "id": "bj_B-Pe2vE",
+                          "type": "CubicDetachedVertex",
+                          "x": 10.190600395202637,
+                          "y": 26.450000762939453
+                        },
+                        {
+                          "id": "GA6krFPaff",
+                          "type": "CubicDetachedVertex",
+                          "x": 15.662699699401855,
+                          "y": 27.366600036621094
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hMoLyz6pRp",
+                  "type": "Shape",
+                  "name": "Body shading.1",
+                  "x": 0,
+                  "y": 0,
+                  "fill": "#423622",
+                  "children": [
+                    {
+                      "id": "vivEiyK4RW",
+                      "type": "PointsPath",
+                      "x": 0,
+                      "y": 0,
+                      "vertices": [
+                        {
+                          "id": "4v6YsAZe6z",
+                          "type": "CubicDetachedVertex",
+                          "x": 151.53599548339844,
+                          "y": 40.56679916381836
+                        },
+                        {
+                          "id": "-8cNvv-cs6",
+                          "type": "CubicDetachedVertex",
+                          "x": 148.5679931640625,
+                          "y": 41.52069854736328
+                        },
+                        {
+                          "id": "ya58Hji7mX",
+                          "type": "CubicDetachedVertex",
+                          "x": 144.8179931640625,
+                          "y": 41.51100158691406
+                        },
+                        {
+                          "id": "aTtOQ15nvX",
+                          "type": "CubicDetachedVertex",
+                          "x": 142.51499938964844,
+                          "y": 41.08110046386719
+                        },
+                        {
+                          "id": "tyw4VI6-nl",
+                          "type": "CubicDetachedVertex",
+                          "x": 142.68800354003906,
+                          "y": 40.4541015625
+                        },
+                        {
+                          "id": "usFVWynJd6",
+                          "type": "CubicDetachedVertex",
+                          "x": 146.5019989013672,
+                          "y": 40.985801696777344
+                        },
+                        {
+                          "id": "ohJp3kbpNc",
+                          "type": "CubicDetachedVertex",
+                          "x": 149.7689971923828,
+                          "y": 40.6078987121582
+                        },
+                        {
+                          "id": "hTM9lHvZQl",
+                          "type": "CubicDetachedVertex",
+                          "x": 151.2100067138672,
+                          "y": 40.003700256347656
+                        },
+                        {
+                          "id": "ECo6BfKSQo",
+                          "type": "CubicDetachedVertex",
+                          "x": 151.53799438476562,
+                          "y": 40.56460189819336
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "HaCpjD9koF",
+                  "type": "Shape",
+                  "name": "Body shading.0",
+                  "x": 0,
+                  "y": 0,
+                  "fill": "#73664f",
+                  "children": [
+                    {
+                      "id": "eUfVBwj0PI",
+                      "type": "PointsPath",
+                      "x": 0,
+                      "y": 0,
+                      "vertices": [
+                        {
+                          "id": "wD1FRIFEKo",
+                          "type": "CubicDetachedVertex",
+                          "x": 154.83799743652344,
+                          "y": 38.709598541259766
+                        },
+                        {
+                          "id": "4myvkekb43",
+                          "type": "CubicDetachedVertex",
+                          "x": 151.31875610351562,
+                          "y": 40.550437927246094
+                        },
+                        {
+                          "id": "dkIaDbnuZD",
+                          "type": "CubicDetachedVertex",
+                          "x": 142.6020050048828,
+                          "y": 40.766998291015625
+                        },
+                        {
+                          "id": "NvB6QFes-m",
+                          "type": "CubicDetachedVertex",
+                          "x": 139.29736328125,
+                          "y": 42.38322067260742
+                        },
+                        {
+                          "id": "-OVNucN_N1",
+                          "type": "CubicDetachedVertex",
+                          "x": 131.46896362304688,
+                          "y": 44.45664596557617
+                        },
+                        {
+                          "id": "5LW70KlNoV",
+                          "type": "CubicDetachedVertex",
+                          "x": 122.24500274658203,
+                          "y": 42.82440185546875
+                        },
+                        {
+                          "id": "513CT3a0Fz",
+                          "type": "CubicDetachedVertex",
+                          "x": 116.56614685058594,
+                          "y": 38.72168731689453
+                        },
+                        {
+                          "id": "z-jMmMyCAY",
+                          "type": "CubicDetachedVertex",
+                          "x": 112.33084869384766,
+                          "y": 36.64024353027344
+                        },
+                        {
+                          "id": "W82nSmyVk0",
+                          "type": "CubicDetachedVertex",
+                          "x": 102.10399627685547,
+                          "y": 37.301998138427734
+                        },
+                        {
+                          "id": "wwGbarjxUC",
+                          "type": "CubicDetachedVertex",
+                          "x": 94.6391372680664,
+                          "y": 38.57530975341797
+                        },
+                        {
+                          "id": "MwYQmrbdT6",
+                          "type": "CubicDetachedVertex",
+                          "x": 87.68256378173828,
+                          "y": 39.94487762451172
+                        },
+                        {
+                          "id": "6SRQFT0sku",
+                          "type": "CubicDetachedVertex",
+                          "x": 80.84026336669922,
+                          "y": 41.14601135253906
+                        },
+                        {
+                          "id": "aPhDqCa-OK",
+                          "type": "CubicDetachedVertex",
+                          "x": 73.71820068359375,
+                          "y": 41.91402053833008
+                        },
+                        {
+                          "id": "0oqXo1rx8c",
+                          "type": "CubicDetachedVertex",
+                          "x": 65.92235565185547,
+                          "y": 41.984214782714844
+                        },
+                        {
+                          "id": "HhC95_iI2b",
+                          "type": "CubicDetachedVertex",
+                          "x": 57.05870056152344,
+                          "y": 41.09189987182617
+                        },
+                        {
+                          "id": "l0Jd4Ti9Xn",
+                          "type": "CubicDetachedVertex",
+                          "x": 46.28806686401367,
+                          "y": 39.559017181396484
+                        },
+                        {
+                          "id": "OOlDgvYNgA",
+                          "type": "CubicDetachedVertex",
+                          "x": 37.03252029418945,
+                          "y": 38.444549560546875
+                        },
+                        {
+                          "id": "Ssn_63jSMf",
+                          "type": "CubicDetachedVertex",
+                          "x": 29.572729110717773,
+                          "y": 37.71211242675781
+                        },
+                        {
+                          "id": "U5F-bavoDB",
+                          "type": "CubicDetachedVertex",
+                          "x": 24.18936538696289,
+                          "y": 37.32532501220703
+                        },
+                        {
+                          "id": "hh2tQ0pgnJ",
+                          "type": "CubicDetachedVertex",
+                          "x": 21.16309928894043,
+                          "y": 37.247798919677734
+                        },
+                        {
+                          "id": "v9XMDKSpwx",
+                          "type": "CubicDetachedVertex",
+                          "x": 20.532062530517578,
+                          "y": 33.00870132446289
+                        },
+                        {
+                          "id": "9KTsDJ5Os3",
+                          "type": "CubicDetachedVertex",
+                          "x": 20.909700393676758,
+                          "y": 27.909500122070312
+                        },
+                        {
+                          "id": "t6E-6rUttQ",
+                          "type": "CubicDetachedVertex",
+                          "x": 26.15275001525879,
+                          "y": 26.108800888061523
+                        },
+                        {
+                          "id": "1H93xmK4cP",
+                          "type": "CubicDetachedVertex",
+                          "x": 31.39579963684082,
+                          "y": 24.3080997467041
+                        },
+                        {
+                          "id": "MQRBKgK2BN",
+                          "type": "CubicDetachedVertex",
+                          "x": 39.52904510498047,
+                          "y": 23.766677856445312
+                        },
+                        {
+                          "id": "WS33TeLOQV",
+                          "type": "CubicDetachedVertex",
+                          "x": 47.662288665771484,
+                          "y": 23.225255966186523
+                        },
+                        {
+                          "id": "uSmg1tTx6u",
+                          "type": "CubicDetachedVertex",
+                          "x": 55.7955322265625,
+                          "y": 22.683834075927734
+                        },
+                        {
+                          "id": "WumLTGBaT9",
+                          "type": "CubicDetachedVertex",
+                          "x": 63.92877960205078,
+                          "y": 22.142410278320312
+                        },
+                        {
+                          "id": "BEh62ldRFM",
+                          "type": "CubicDetachedVertex",
+                          "x": 72.06201934814453,
+                          "y": 21.600988388061523
+                        },
+                        {
+                          "id": "CWVMBI1OEF",
+                          "type": "CubicDetachedVertex",
+                          "x": 80.19526672363281,
+                          "y": 21.059566497802734
+                        },
+                        {
+                          "id": "eVdQJyY9KF",
+                          "type": "CubicDetachedVertex",
+                          "x": 88.3285140991211,
+                          "y": 20.518144607543945
+                        },
+                        {
+                          "id": "S795RGxKFD",
+                          "type": "CubicDetachedVertex",
+                          "x": 96.46175384521484,
+                          "y": 19.976722717285156
+                        },
+                        {
+                          "id": "56Eb1_r9TC",
+                          "type": "CubicDetachedVertex",
+                          "x": 104.59500122070312,
+                          "y": 19.435300827026367
+                        },
+                        {
+                          "id": "Z1WUQBe5pj",
+                          "type": "CubicDetachedVertex",
+                          "x": 109.35933685302734,
+                          "y": 14.526506423950195
+                        },
+                        {
+                          "id": "XtyXWamoYM",
+                          "type": "CubicDetachedVertex",
+                          "x": 114.12366485595703,
+                          "y": 9.61771297454834
+                        },
+                        {
+                          "id": "UWgvzTREz5",
+                          "type": "CubicDetachedVertex",
+                          "x": 118.88800048828125,
+                          "y": 4.708920001983643
+                        },
+                        {
+                          "id": "FKcQqv0SkP",
+                          "type": "CubicDetachedVertex",
+                          "x": 127.33399963378906,
+                          "y": 4.221650123596191
+                        },
+                        {
+                          "id": "UVJ3HPbdMd",
+                          "type": "CubicDetachedVertex",
+                          "x": 135.77999877929688,
+                          "y": 3.734380006790161
+                        },
+                        {
+                          "id": "5b9JkTTCry",
+                          "type": "CubicDetachedVertex",
+                          "x": 140.6529998779297,
+                          "y": 7.524290084838867
+                        },
+                        {
+                          "id": "MR8XyYlSJh",
+                          "type": "CubicDetachedVertex",
+                          "x": 145.5260009765625,
+                          "y": 11.314200401306152
+                        },
+                        {
+                          "id": "IRtCsg61Tl",
+                          "type": "CubicDetachedVertex",
+                          "x": 147.85400390625,
+                          "y": 18.163049697875977
+                        },
+                        {
+                          "id": "dMaQY1ZTBn",
+                          "type": "CubicDetachedVertex",
+                          "x": 150.1820068359375,
+                          "y": 25.011899948120117
+                        },
+                        {
+                          "id": "DPqWUuFuS4",
+                          "type": "CubicDetachedVertex",
+                          "x": 152.50999450683594,
+                          "y": 31.860750198364258
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fcvzUMRXWC",
+              "type": "Shape",
+              "name": "Body and tail",
+              "x": 0,
+              "y": 0,
+              "fill": "#94805d",
+              "children": [
+                {
+                  "id": "Y4vlHgDkp0",
+                  "type": "PointsPath",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "twunFW8Zd6",
+                      "type": "CubicDetachedVertex",
+                      "x": 137.71299743652344,
+                      "y": 20.289499282836914
+                    },
+                    {
+                      "id": "vNnlICViQQ",
+                      "type": "CubicDetachedVertex",
+                      "x": 143.1616973876953,
+                      "y": 23.249771118164062
+                    },
+                    {
+                      "id": "EA2_aaTwf6",
+                      "type": "CubicDetachedVertex",
+                      "x": 148.90328979492188,
+                      "y": 28.195262908935547
+                    },
+                    {
+                      "id": "I93fGdBm_J",
+                      "type": "CubicDetachedVertex",
+                      "x": 151.97000122070312,
+                      "y": 35.05379867553711
+                    },
+                    {
+                      "id": "ZSj_DFjAsL",
+                      "type": "CubicDetachedVertex",
+                      "x": 152.1055145263672,
+                      "y": 38.04086685180664
+                    },
+                    {
+                      "id": "7bpsr1xJ-w",
+                      "type": "CubicDetachedVertex",
+                      "x": 149.3048095703125,
+                      "y": 43.897666931152344
+                    },
+                    {
+                      "id": "RYX2ZGgKJf",
+                      "type": "CubicDetachedVertex",
+                      "x": 138.7570037841797,
+                      "y": 47.96760177612305
+                    },
+                    {
+                      "id": "XTqHX5sKe7",
+                      "type": "CubicDetachedVertex",
+                      "x": 132.7570037841797,
+                      "y": 48.35751724243164
+                    },
+                    {
+                      "id": "oUA5RsJ1UG",
+                      "type": "CubicDetachedVertex",
+                      "x": 124.72347259521484,
+                      "y": 48.56616973876953
+                    },
+                    {
+                      "id": "1_HwtxUKZl",
+                      "type": "CubicDetachedVertex",
+                      "x": 115.18265533447266,
+                      "y": 48.61370086669922
+                    },
+                    {
+                      "id": "4Xhq4DLsKK",
+                      "type": "CubicDetachedVertex",
+                      "x": 104.6607894897461,
+                      "y": 48.5202522277832
+                    },
+                    {
+                      "id": "Az9B-H0Nnb",
+                      "type": "CubicDetachedVertex",
+                      "x": 93.68415069580078,
+                      "y": 48.30596160888672
+                    },
+                    {
+                      "id": "CdzWCiRy_U",
+                      "type": "CubicDetachedVertex",
+                      "x": 82.77897644042969,
+                      "y": 47.990970611572266
+                    },
+                    {
+                      "id": "ghxV-sJfIj",
+                      "type": "CubicDetachedVertex",
+                      "x": 72.4715347290039,
+                      "y": 47.595420837402344
+                    },
+                    {
+                      "id": "lfsQ9mLD2o",
+                      "type": "CubicDetachedVertex",
+                      "x": 63.28807067871094,
+                      "y": 47.13944625854492
+                    },
+                    {
+                      "id": "BAPZ4608eN",
+                      "type": "CubicDetachedVertex",
+                      "x": 55.75484085083008,
+                      "y": 46.643192291259766
+                    },
+                    {
+                      "id": "EddYKaYP1q",
+                      "type": "CubicDetachedVertex",
+                      "x": 50.398101806640625,
+                      "y": 46.126800537109375
+                    },
+                    {
+                      "id": "_rrJaGyPju",
+                      "type": "CubicDetachedVertex",
+                      "x": 40.243221282958984,
+                      "y": 44.702171325683594
+                    },
+                    {
+                      "id": "59HiyFo0du",
+                      "type": "CubicDetachedVertex",
+                      "x": 31.204999923706055,
+                      "y": 43.25727462768555
+                    },
+                    {
+                      "id": "WclMVplVln",
+                      "type": "CubicDetachedVertex",
+                      "x": 24.724952697753906,
+                      "y": 42.13724136352539
+                    },
+                    {
+                      "id": "Gv77771JLv",
+                      "type": "CubicDetachedVertex",
+                      "x": 22.244600296020508,
+                      "y": 41.687198638916016
+                    },
+                    {
+                      "id": "s6azfqujsW",
+                      "type": "CubicDetachedVertex",
+                      "x": 16.749250411987305,
+                      "y": 44.46623611450195
+                    },
+                    {
+                      "id": "l8XY_kUIt_",
+                      "type": "CubicDetachedVertex",
+                      "x": 10.912799835205078,
+                      "y": 46.3650016784668
+                    },
+                    {
+                      "id": "m3jSuSZBE8",
+                      "type": "CubicDetachedVertex",
+                      "x": 4.098618984222412,
+                      "y": 44.75538635253906
+                    },
+                    {
+                      "id": "6ZLnkFCSl4",
+                      "type": "CubicDetachedVertex",
+                      "x": 0.21777300536632538,
+                      "y": 38.874000549316406
+                    },
+                    {
+                      "id": "5POH5ZeNab",
+                      "type": "CubicDetachedVertex",
+                      "x": 0.11924699693918228,
+                      "y": 34.41059875488281
+                    },
+                    {
+                      "id": "cu7rb5N8pV",
+                      "type": "CubicDetachedVertex",
+                      "x": 2.885859966278076,
+                      "y": 28.187599182128906
+                    },
+                    {
+                      "id": "Y_GQKX-IUp",
+                      "type": "CubicDetachedVertex",
+                      "x": 7.28646993637085,
+                      "y": 26.782100677490234
+                    },
+                    {
+                      "id": "gATRAD_TPK",
+                      "type": "CubicDetachedVertex",
+                      "x": 14.288683891296387,
+                      "y": 27.757461547851562
+                    },
+                    {
+                      "id": "mlYNEZp0SW",
+                      "type": "CubicDetachedVertex",
+                      "x": 20.83690071105957,
+                      "y": 30.534099578857422
+                    },
+                    {
+                      "id": "dPr4a5aTJw",
+                      "type": "CubicDetachedVertex",
+                      "x": 28.524999618530273,
+                      "y": 29.8843994140625
+                    },
+                    {
+                      "id": "IyMkppQ9V5",
+                      "type": "CubicDetachedVertex",
+                      "x": 30.37259292602539,
+                      "y": 29.65532875061035
+                    },
+                    {
+                      "id": "JvdcPKEa_q",
+                      "type": "CubicDetachedVertex",
+                      "x": 35.48650360107422,
+                      "y": 29.025094985961914
+                    },
+                    {
+                      "id": "SPPqKqy9yG",
+                      "type": "CubicDetachedVertex",
+                      "x": 43.223426818847656,
+                      "y": 28.079164505004883
+                    },
+                    {
+                      "id": "TjExKhtyJX",
+                      "type": "CubicDetachedVertex",
+                      "x": 52.9400634765625,
+                      "y": 26.903003692626953
+                    },
+                    {
+                      "id": "RCvBk2SFb6",
+                      "type": "CubicDetachedVertex",
+                      "x": 63.993106842041016,
+                      "y": 25.58207893371582
+                    },
+                    {
+                      "id": "rHYswGep40",
+                      "type": "CubicDetachedVertex",
+                      "x": 75.7392578125,
+                      "y": 24.201854705810547
+                    },
+                    {
+                      "id": "K8sLXCE9mA",
+                      "type": "CubicDetachedVertex",
+                      "x": 87.53520965576172,
+                      "y": 22.847801208496094
+                    },
+                    {
+                      "id": "JXSuTN1YFN",
+                      "type": "CubicDetachedVertex",
+                      "x": 98.73766326904297,
+                      "y": 21.605382919311523
+                    },
+                    {
+                      "id": "MV4t8RXwjp",
+                      "type": "CubicDetachedVertex",
+                      "x": 108.70331573486328,
+                      "y": 20.5600643157959
+                    },
+                    {
+                      "id": "_WkwZJr5YK",
+                      "type": "CubicDetachedVertex",
+                      "x": 116.78886413574219,
+                      "y": 19.79731559753418
+                    },
+                    {
+                      "id": "AUVcqj1Dqg",
+                      "type": "CubicDetachedVertex",
+                      "x": 122.35099792480469,
+                      "y": 19.402599334716797
+                    },
+                    {
+                      "id": "buiVq7QiMv",
+                      "type": "CubicDetachedVertex",
+                      "x": 122.54100036621094,
+                      "y": 19.052900314331055
+                    },
+                    {
+                      "id": "_ukwwLl97J",
+                      "type": "CubicDetachedVertex",
+                      "x": 121.59200286865234,
+                      "y": 16.091299057006836
+                    },
+                    {
+                      "id": "xI8DGhJ1Dv",
+                      "type": "CubicDetachedVertex",
+                      "x": 122.33799743652344,
+                      "y": 11.19453239440918
+                    },
+                    {
+                      "id": "O1tgykZj3H",
+                      "type": "CubicDetachedVertex",
+                      "x": 125.87100219726562,
+                      "y": 7.904099941253662
+                    },
+                    {
+                      "id": "CbsP8dM5d8",
+                      "type": "CubicDetachedVertex",
+                      "x": 131.44212341308594,
+                      "y": 7.555561065673828
+                    },
+                    {
+                      "id": "k_0OEHBE7f",
+                      "type": "CubicDetachedVertex",
+                      "x": 136.01499938964844,
+                      "y": 10.777899742126465
+                    },
+                    {
+                      "id": "giHfZqk5DC",
+                      "type": "CubicDetachedVertex",
+                      "x": 136.92599487304688,
+                      "y": 18.133499145507812
+                    },
+                    {
+                      "id": "5xzkIFMzm8",
+                      "type": "CubicDetachedVertex",
+                      "x": 137.71200561523438,
+                      "y": 20.29050064086914
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dTrNlTWs_u",
+              "type": "Node",
+              "name": "RearDorsalFin",
+              "x": 48,
+              "y": 29,
+              "children": [
+                {
+                  "id": "Sg8GGglf1S",
+                  "type": "Node",
+                  "name": "RearDorsalFinCoordinates",
+                  "x": -48,
+                  "y": -29,
+                  "children": [
+                    {
+                      "id": "oRTSfl203R",
+                      "type": "Shape",
+                      "name": "Rear dorsal fin",
+                      "x": 0,
+                      "y": 0,
+                      "fill": "#a7906b",
+                      "children": [
+                        {
+                          "id": "Pm7IK8JSZT",
+                          "type": "PointsPath",
+                          "x": 0,
+                          "y": 0,
+                          "vertices": [
+                            {
+                              "id": "CQR5nAAtag",
+                              "type": "CubicDetachedVertex",
+                              "x": 62.485198974609375,
+                              "y": 28.446500778198242
+                            },
+                            {
+                              "id": "aJWNcVqoxd",
+                              "type": "CubicDetachedVertex",
+                              "x": 56.92599868774414,
+                              "y": 22.12929916381836
+                            },
+                            {
+                              "id": "FHSv7p2fWD",
+                              "type": "CubicDetachedVertex",
+                              "x": 50.592506408691406,
+                              "y": 21.580263137817383
+                            },
+                            {
+                              "id": "H4JKU3JHCp",
+                              "type": "CubicDetachedVertex",
+                              "x": 41.70042419433594,
+                              "y": 21.339399337768555
+                            },
+                            {
+                              "id": "jE12skgZjH",
+                              "type": "CubicDetachedVertex",
+                              "x": 33.471832275390625,
+                              "y": 21.24066162109375
+                            },
+                            {
+                              "id": "vvm3tk8OJS",
+                              "type": "CubicDetachedVertex",
+                              "x": 29.128799438476562,
+                              "y": 21.118000030517578
+                            },
+                            {
+                              "id": "IK0TUIHbQi",
+                              "type": "CubicDetachedVertex",
+                              "x": 28.87649917602539,
+                              "y": 24.150999069213867
+                            },
+                            {
+                              "id": "5cz_Gz0-LK",
+                              "type": "CubicDetachedVertex",
+                              "x": 33.39406204223633,
+                              "y": 28.88927459716797
+                            },
+                            {
+                              "id": "MzrNZljBpt",
+                              "type": "CubicDetachedVertex",
+                              "x": 36.96310043334961,
+                              "y": 32.48979949951172
+                            },
+                            {
+                              "id": "ryVC6KRvpS",
+                              "type": "CubicDetachedVertex",
+                              "x": 43.692359924316406,
+                              "y": 31.441537857055664
+                            },
+                            {
+                              "id": "ljFDftiqgM",
+                              "type": "CubicDetachedVertex",
+                              "x": 55.92523956298828,
+                              "y": 29.494762420654297
+                            },
+                            {
+                              "id": "ZsfPO_bx0t",
+                              "type": "CubicDetachedVertex",
+                              "x": 62.48630142211914,
+                              "y": 28.446500778198242
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jD0i7UJumM",
+              "type": "Node",
+              "name": "DorsalFin",
+              "x": 94,
+              "y": 22,
+              "children": [
+                {
+                  "id": "_ls5keIns_",
+                  "type": "Node",
+                  "name": "DorsalFinCoordinates",
+                  "x": -94,
+                  "y": -22,
+                  "children": [
+                    {
+                      "id": "IeZMMVPjWq",
+                      "type": "Shape",
+                      "name": "Dorsal fin",
+                      "x": 0,
+                      "y": 0,
+                      "fill": "#a7906b",
+                      "children": [
+                        {
+                          "id": "ZC-KWfSwgt",
+                          "type": "PointsPath",
+                          "x": 0,
+                          "y": 0,
+                          "vertices": [
+                            {
+                              "id": "xTNVX3YV3i",
+                              "type": "CubicDetachedVertex",
+                              "x": 113.24500274658203,
+                              "y": 20.401199340820312
+                            },
+                            {
+                              "id": "sneUBjljvk",
+                              "type": "CubicDetachedVertex",
+                              "x": 113.14988708496094,
+                              "y": 17.27083396911621
+                            },
+                            {
+                              "id": "Wk__e-j7M2",
+                              "type": "CubicDetachedVertex",
+                              "x": 111.84544372558594,
+                              "y": 10.026933670043945
+                            },
+                            {
+                              "id": "J4Q9EHEuWN",
+                              "type": "CubicDetachedVertex",
+                              "x": 107.8030014038086,
+                              "y": 1.8903000354766846
+                            },
+                            {
+                              "id": "mQZulamel6",
+                              "type": "CubicDetachedVertex",
+                              "x": 100.65423583984375,
+                              "y": 0.25024479627609253
+                            },
+                            {
+                              "id": "dPhPb4dccm",
+                              "type": "CubicDetachedVertex",
+                              "x": 90.6999282836914,
+                              "y": 3.9637787342071533
+                            },
+                            {
+                              "id": "ngIWAK4hwW",
+                              "type": "CubicDetachedVertex",
+                              "x": 81.85580444335938,
+                              "y": 9.085323333740234
+                            },
+                            {
+                              "id": "jotRJ_mtjv",
+                              "type": "CubicDetachedVertex",
+                              "x": 78.03759765625,
+                              "y": 11.669300079345703
+                            },
+                            {
+                              "id": "WkBaj_GyNP",
+                              "type": "CubicDetachedVertex",
+                              "x": 72.21659088134766,
+                              "y": 15.838587760925293
+                            },
+                            {
+                              "id": "8L9Kl1ZqUr",
+                              "type": "CubicDetachedVertex",
+                              "x": 66.99490356445312,
+                              "y": 24.067699432373047
+                            },
+                            {
+                              "id": "V0ajNst_ub",
+                              "type": "CubicDetachedVertex",
+                              "x": 66.95590209960938,
+                              "y": 26.527799606323242
+                            },
+                            {
+                              "id": "NSVlT23Nc7",
+                              "type": "CubicDetachedVertex",
+                              "x": 74.67041778564453,
+                              "y": 25.50670051574707
+                            },
+                            {
+                              "id": "kKUMU6xKhZ",
+                              "type": "CubicDetachedVertex",
+                              "x": 82.38493347167969,
+                              "y": 24.485599517822266
+                            },
+                            {
+                              "id": "Tk90wM0dwH",
+                              "type": "CubicDetachedVertex",
+                              "x": 90.09944915771484,
+                              "y": 23.464500427246094
+                            },
+                            {
+                              "id": "cBlpigcwlS",
+                              "type": "CubicDetachedVertex",
+                              "x": 97.81396484375,
+                              "y": 22.44339942932129
+                            },
+                            {
+                              "id": "yIaX0vsG-t",
+                              "type": "CubicDetachedVertex",
+                              "x": 105.52848052978516,
+                              "y": 21.422300338745117
+                            },
+                            {
+                              "id": "tg2_5UN9np",
+                              "type": "CubicDetachedVertex",
+                              "x": 113.24299621582031,
+                              "y": 20.401199340820312
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timelines": [
+        {
+          "id": "0LG8iwwqCW",
+          "name": "idle",
+          "fps": 60,
+          "durationSeconds": 1,
+          "loop": "loop",
+          "keyed": [
+            "Body shading mask vertex 12.x",
+            "Body shading mask vertex 12.y",
+            "Body shading mask vertex 12.inRotation",
+            "Body shading mask vertex 12.inDistance",
+            "Body shading mask vertex 12.outRotation",
+            "Body shading mask vertex 12.outDistance",
+            "Body shading mask vertex 13.x",
+            "Body shading mask vertex 13.y",
+            "Body shading mask vertex 13.inRotation",
+            "Body shading mask vertex 13.inDistance",
+            "Body shading mask vertex 13.outRotation",
+            "Body shading mask vertex 13.outDistance",
+            "Body shading mask vertex 14.x",
+            "Body shading mask vertex 14.y",
+            "Body shading mask vertex 14.inRotation",
+            "Body shading mask vertex 14.inDistance",
+            "Body shading mask vertex 14.outRotation",
+            "Body shading mask vertex 14.outDistance",
+            "Body shading mask vertex 15.x",
+            "Body shading mask vertex 15.y",
+            "Body shading mask vertex 15.inRotation",
+            "Body shading mask vertex 15.inDistance",
+            "Body shading mask vertex 15.outRotation",
+            "Body shading mask vertex 15.outDistance",
+            "Body shading mask vertex 16.x",
+            "Body shading mask vertex 16.y",
+            "Body shading mask vertex 16.inRotation",
+            "Body shading mask vertex 16.inDistance",
+            "Body shading mask vertex 16.outRotation",
+            "Body shading mask vertex 16.outDistance",
+            "Body shading mask vertex 17.x",
+            "Body shading mask vertex 17.y",
+            "Body shading mask vertex 17.inRotation",
+            "Body shading mask vertex 17.inDistance",
+            "Body shading mask vertex 17.outRotation",
+            "Body shading mask vertex 17.outDistance",
+            "Body shading mask vertex 18.x",
+            "Body shading mask vertex 18.y",
+            "Body shading mask vertex 18.inRotation",
+            "Body shading mask vertex 18.inDistance",
+            "Body shading mask vertex 18.outRotation",
+            "Body shading mask vertex 18.outDistance",
+            "Body shading mask vertex 19.x",
+            "Body shading mask vertex 19.y",
+            "Body shading mask vertex 19.inRotation",
+            "Body shading mask vertex 19.inDistance",
+            "Body shading mask vertex 19.outRotation",
+            "Body shading mask vertex 19.outDistance",
+            "Body shading mask vertex 20.x",
+            "Body shading mask vertex 20.y",
+            "Body shading mask vertex 20.inRotation",
+            "Body shading mask vertex 20.inDistance",
+            "Body shading mask vertex 20.outRotation",
+            "Body shading mask vertex 20.outDistance",
+            "Body shading mask vertex 21.x",
+            "Body shading mask vertex 21.y",
+            "Body shading mask vertex 21.inRotation",
+            "Body shading mask vertex 21.inDistance",
+            "Body shading mask vertex 21.outRotation",
+            "Body shading mask vertex 21.outDistance",
+            "Body shading mask vertex 22.x",
+            "Body shading mask vertex 22.y",
+            "Body shading mask vertex 22.inRotation",
+            "Body shading mask vertex 22.inDistance",
+            "Body shading mask vertex 22.outRotation",
+            "Body shading mask vertex 22.outDistance",
+            "Body shading mask vertex 23.x",
+            "Body shading mask vertex 23.y",
+            "Body shading mask vertex 23.inRotation",
+            "Body shading mask vertex 23.inDistance",
+            "Body shading mask vertex 23.outRotation",
+            "Body shading mask vertex 23.outDistance",
+            "Body shading mask vertex 24.x",
+            "Body shading mask vertex 24.y",
+            "Body shading mask vertex 24.inRotation",
+            "Body shading mask vertex 24.inDistance",
+            "Body shading mask vertex 24.outRotation",
+            "Body shading mask vertex 24.outDistance",
+            "Body shading mask vertex 25.x",
+            "Body shading mask vertex 25.y",
+            "Body shading mask vertex 25.inRotation",
+            "Body shading mask vertex 25.inDistance",
+            "Body shading mask vertex 25.outRotation",
+            "Body shading mask vertex 25.outDistance",
+            "Body shading mask vertex 26.x",
+            "Body shading mask vertex 26.y",
+            "Body shading mask vertex 26.inRotation",
+            "Body shading mask vertex 26.inDistance",
+            "Body shading mask vertex 26.outRotation",
+            "Body shading mask vertex 26.outDistance",
+            "Body shading mask vertex 27.x",
+            "Body shading mask vertex 27.y",
+            "Body shading mask vertex 27.inRotation",
+            "Body shading mask vertex 27.inDistance",
+            "Body shading mask vertex 27.outRotation",
+            "Body shading mask vertex 27.outDistance",
+            "Body shading mask vertex 28.x",
+            "Body shading mask vertex 28.y",
+            "Body shading mask vertex 28.inRotation",
+            "Body shading mask vertex 28.inDistance",
+            "Body shading mask vertex 28.outRotation",
+            "Body shading mask vertex 28.outDistance",
+            "Body shading mask vertex 29.x",
+            "Body shading mask vertex 29.y",
+            "Body shading mask vertex 29.inRotation",
+            "Body shading mask vertex 29.inDistance",
+            "Body shading mask vertex 29.outRotation",
+            "Body shading mask vertex 29.outDistance",
+            "Body shading mask vertex 30.x",
+            "Body shading mask vertex 30.y",
+            "Body shading mask vertex 30.inRotation",
+            "Body shading mask vertex 30.inDistance",
+            "Body shading mask vertex 30.outRotation",
+            "Body shading mask vertex 30.outDistance",
+            "Body shading mask vertex 31.x",
+            "Body shading mask vertex 31.y",
+            "Body shading mask vertex 31.inRotation",
+            "Body shading mask vertex 31.inDistance",
+            "Body shading mask vertex 31.outRotation",
+            "Body shading mask vertex 31.outDistance",
+            "Body shading mask vertex 32.x",
+            "Body shading mask vertex 32.y",
+            "Body shading mask vertex 32.inRotation",
+            "Body shading mask vertex 32.inDistance",
+            "Body shading mask vertex 32.outRotation",
+            "Body shading mask vertex 32.outDistance",
+            "Body shading mask vertex 33.x",
+            "Body shading mask vertex 33.y",
+            "Body shading mask vertex 33.inRotation",
+            "Body shading mask vertex 33.inDistance",
+            "Body shading mask vertex 33.outRotation",
+            "Body shading mask vertex 33.outDistance",
+            "Body shading mask vertex 34.x",
+            "Body shading mask vertex 34.y",
+            "Body shading mask vertex 34.inRotation",
+            "Body shading mask vertex 34.inDistance",
+            "Body shading mask vertex 34.outRotation",
+            "Body shading mask vertex 34.outDistance",
+            "Body shading mask vertex 35.x",
+            "Body shading mask vertex 35.y",
+            "Body shading mask vertex 35.inRotation",
+            "Body shading mask vertex 35.inDistance",
+            "Body shading mask vertex 35.outRotation",
+            "Body shading mask vertex 35.outDistance",
+            "Body shading mask vertex 36.x",
+            "Body shading mask vertex 36.y",
+            "Body shading mask vertex 36.inRotation",
+            "Body shading mask vertex 36.inDistance",
+            "Body shading mask vertex 36.outRotation",
+            "Body shading mask vertex 36.outDistance",
+            "Body shading mask vertex 37.x",
+            "Body shading mask vertex 37.y",
+            "Body shading mask vertex 37.inRotation",
+            "Body shading mask vertex 37.inDistance",
+            "Body shading mask vertex 37.outRotation",
+            "Body shading mask vertex 37.outDistance",
+            "Body shading.2 vertex 0.x",
+            "Body shading.2 vertex 0.y",
+            "Body shading.2 vertex 0.inRotation",
+            "Body shading.2 vertex 0.inDistance",
+            "Body shading.2 vertex 0.outRotation",
+            "Body shading.2 vertex 0.outDistance",
+            "Body shading.2 vertex 1.x",
+            "Body shading.2 vertex 1.y",
+            "Body shading.2 vertex 1.inRotation",
+            "Body shading.2 vertex 1.inDistance",
+            "Body shading.2 vertex 1.outRotation",
+            "Body shading.2 vertex 1.outDistance",
+            "Body shading.2 vertex 2.x",
+            "Body shading.2 vertex 2.y",
+            "Body shading.2 vertex 2.inRotation",
+            "Body shading.2 vertex 2.inDistance",
+            "Body shading.2 vertex 2.outRotation",
+            "Body shading.2 vertex 2.outDistance",
+            "Body shading.2 vertex 3.x",
+            "Body shading.2 vertex 3.y",
+            "Body shading.2 vertex 3.inRotation",
+            "Body shading.2 vertex 3.inDistance",
+            "Body shading.2 vertex 3.outRotation",
+            "Body shading.2 vertex 3.outDistance",
+            "Body shading.2 vertex 4.x",
+            "Body shading.2 vertex 4.y",
+            "Body shading.2 vertex 4.inRotation",
+            "Body shading.2 vertex 4.inDistance",
+            "Body shading.2 vertex 4.outRotation",
+            "Body shading.2 vertex 4.outDistance",
+            "Body shading.2 vertex 5.x",
+            "Body shading.2 vertex 5.y",
+            "Body shading.2 vertex 5.inRotation",
+            "Body shading.2 vertex 5.inDistance",
+            "Body shading.2 vertex 5.outRotation",
+            "Body shading.2 vertex 5.outDistance",
+            "Body shading.2 vertex 6.x",
+            "Body shading.2 vertex 6.y",
+            "Body shading.2 vertex 6.inRotation",
+            "Body shading.2 vertex 6.inDistance",
+            "Body shading.2 vertex 6.outRotation",
+            "Body shading.2 vertex 6.outDistance",
+            "Body shading.2 vertex 7.x",
+            "Body shading.2 vertex 7.y",
+            "Body shading.2 vertex 7.inRotation",
+            "Body shading.2 vertex 7.inDistance",
+            "Body shading.2 vertex 7.outRotation",
+            "Body shading.2 vertex 7.outDistance",
+            "Body shading.2 vertex 8.x",
+            "Body shading.2 vertex 8.y",
+            "Body shading.2 vertex 8.inRotation",
+            "Body shading.2 vertex 8.inDistance",
+            "Body shading.2 vertex 8.outRotation",
+            "Body shading.2 vertex 8.outDistance",
+            "Body shading.2 vertex 9.x",
+            "Body shading.2 vertex 9.y",
+            "Body shading.2 vertex 9.inRotation",
+            "Body shading.2 vertex 9.inDistance",
+            "Body shading.2 vertex 9.outRotation",
+            "Body shading.2 vertex 9.outDistance",
+            "Body shading.2 vertex 10.x",
+            "Body shading.2 vertex 10.y",
+            "Body shading.2 vertex 10.inRotation",
+            "Body shading.2 vertex 10.inDistance",
+            "Body shading.2 vertex 10.outRotation",
+            "Body shading.2 vertex 10.outDistance",
+            "Body shading.2 vertex 11.x",
+            "Body shading.2 vertex 11.y",
+            "Body shading.2 vertex 11.inRotation",
+            "Body shading.2 vertex 11.inDistance",
+            "Body shading.2 vertex 11.outRotation",
+            "Body shading.2 vertex 11.outDistance",
+            "Body shading.2 vertex 12.x",
+            "Body shading.2 vertex 12.y",
+            "Body shading.2 vertex 12.inRotation",
+            "Body shading.2 vertex 12.inDistance",
+            "Body shading.2 vertex 12.outRotation",
+            "Body shading.2 vertex 12.outDistance",
+            "Body shading.2 vertex 13.x",
+            "Body shading.2 vertex 13.y",
+            "Body shading.2 vertex 13.inRotation",
+            "Body shading.2 vertex 13.inDistance",
+            "Body shading.2 vertex 13.outRotation",
+            "Body shading.2 vertex 13.outDistance",
+            "Body shading.2 vertex 14.x",
+            "Body shading.2 vertex 14.y",
+            "Body shading.2 vertex 14.inRotation",
+            "Body shading.2 vertex 14.inDistance",
+            "Body shading.2 vertex 14.outRotation",
+            "Body shading.2 vertex 14.outDistance",
+            "Body shading.0 vertex 11.x",
+            "Body shading.0 vertex 11.y",
+            "Body shading.0 vertex 11.inRotation",
+            "Body shading.0 vertex 11.inDistance",
+            "Body shading.0 vertex 11.outRotation",
+            "Body shading.0 vertex 11.outDistance",
+            "Body shading.0 vertex 12.x",
+            "Body shading.0 vertex 12.y",
+            "Body shading.0 vertex 12.inRotation",
+            "Body shading.0 vertex 12.inDistance",
+            "Body shading.0 vertex 12.outRotation",
+            "Body shading.0 vertex 12.outDistance",
+            "Body shading.0 vertex 13.x",
+            "Body shading.0 vertex 13.y",
+            "Body shading.0 vertex 13.inRotation",
+            "Body shading.0 vertex 13.inDistance",
+            "Body shading.0 vertex 13.outRotation",
+            "Body shading.0 vertex 13.outDistance",
+            "Body shading.0 vertex 14.x",
+            "Body shading.0 vertex 14.y",
+            "Body shading.0 vertex 14.inRotation",
+            "Body shading.0 vertex 14.inDistance",
+            "Body shading.0 vertex 14.outRotation",
+            "Body shading.0 vertex 14.outDistance",
+            "Body shading.0 vertex 15.x",
+            "Body shading.0 vertex 15.y",
+            "Body shading.0 vertex 15.inRotation",
+            "Body shading.0 vertex 15.inDistance",
+            "Body shading.0 vertex 15.outRotation",
+            "Body shading.0 vertex 15.outDistance",
+            "Body shading.0 vertex 16.x",
+            "Body shading.0 vertex 16.y",
+            "Body shading.0 vertex 16.inRotation",
+            "Body shading.0 vertex 16.inDistance",
+            "Body shading.0 vertex 16.outRotation",
+            "Body shading.0 vertex 16.outDistance",
+            "Body shading.0 vertex 17.x",
+            "Body shading.0 vertex 17.y",
+            "Body shading.0 vertex 17.inRotation",
+            "Body shading.0 vertex 17.inDistance",
+            "Body shading.0 vertex 17.outRotation",
+            "Body shading.0 vertex 17.outDistance",
+            "Body shading.0 vertex 18.x",
+            "Body shading.0 vertex 18.y",
+            "Body shading.0 vertex 18.inRotation",
+            "Body shading.0 vertex 18.inDistance",
+            "Body shading.0 vertex 18.outRotation",
+            "Body shading.0 vertex 18.outDistance",
+            "Body shading.0 vertex 19.x",
+            "Body shading.0 vertex 19.y",
+            "Body shading.0 vertex 19.inRotation",
+            "Body shading.0 vertex 19.inDistance",
+            "Body shading.0 vertex 19.outRotation",
+            "Body shading.0 vertex 19.outDistance",
+            "Body shading.0 vertex 20.x",
+            "Body shading.0 vertex 20.y",
+            "Body shading.0 vertex 20.inRotation",
+            "Body shading.0 vertex 20.inDistance",
+            "Body shading.0 vertex 20.outRotation",
+            "Body shading.0 vertex 20.outDistance",
+            "Body shading.0 vertex 21.x",
+            "Body shading.0 vertex 21.y",
+            "Body shading.0 vertex 21.inRotation",
+            "Body shading.0 vertex 21.inDistance",
+            "Body shading.0 vertex 21.outRotation",
+            "Body shading.0 vertex 21.outDistance",
+            "Body shading.0 vertex 22.x",
+            "Body shading.0 vertex 22.y",
+            "Body shading.0 vertex 22.inRotation",
+            "Body shading.0 vertex 22.inDistance",
+            "Body shading.0 vertex 22.outRotation",
+            "Body shading.0 vertex 22.outDistance",
+            "Body shading.0 vertex 23.x",
+            "Body shading.0 vertex 23.y",
+            "Body shading.0 vertex 23.inRotation",
+            "Body shading.0 vertex 23.inDistance",
+            "Body shading.0 vertex 23.outRotation",
+            "Body shading.0 vertex 23.outDistance",
+            "Body shading.0 vertex 24.x",
+            "Body shading.0 vertex 24.y",
+            "Body shading.0 vertex 24.inRotation",
+            "Body shading.0 vertex 24.inDistance",
+            "Body shading.0 vertex 24.outRotation",
+            "Body shading.0 vertex 24.outDistance",
+            "Body shading.0 vertex 25.x",
+            "Body shading.0 vertex 25.y",
+            "Body shading.0 vertex 25.inRotation",
+            "Body shading.0 vertex 25.inDistance",
+            "Body shading.0 vertex 25.outRotation",
+            "Body shading.0 vertex 25.outDistance",
+            "Body shading.0 vertex 26.x",
+            "Body shading.0 vertex 26.y",
+            "Body shading.0 vertex 26.inRotation",
+            "Body shading.0 vertex 26.inDistance",
+            "Body shading.0 vertex 26.outRotation",
+            "Body shading.0 vertex 26.outDistance",
+            "Body shading.0 vertex 27.x",
+            "Body shading.0 vertex 27.y",
+            "Body shading.0 vertex 27.inRotation",
+            "Body shading.0 vertex 27.inDistance",
+            "Body shading.0 vertex 27.outRotation",
+            "Body shading.0 vertex 27.outDistance",
+            "Body shading.0 vertex 28.x",
+            "Body shading.0 vertex 28.y",
+            "Body shading.0 vertex 28.inRotation",
+            "Body shading.0 vertex 28.inDistance",
+            "Body shading.0 vertex 28.outRotation",
+            "Body shading.0 vertex 28.outDistance",
+            "Body shading.0 vertex 29.x",
+            "Body shading.0 vertex 29.y",
+            "Body shading.0 vertex 29.inRotation",
+            "Body shading.0 vertex 29.inDistance",
+            "Body shading.0 vertex 29.outRotation",
+            "Body shading.0 vertex 29.outDistance",
+            "Body and tail vertex 12.x",
+            "Body and tail vertex 12.y",
+            "Body and tail vertex 12.inRotation",
+            "Body and tail vertex 12.inDistance",
+            "Body and tail vertex 12.outRotation",
+            "Body and tail vertex 12.outDistance",
+            "Body and tail vertex 13.x",
+            "Body and tail vertex 13.y",
+            "Body and tail vertex 13.inRotation",
+            "Body and tail vertex 13.inDistance",
+            "Body and tail vertex 13.outRotation",
+            "Body and tail vertex 13.outDistance",
+            "Body and tail vertex 14.x",
+            "Body and tail vertex 14.y",
+            "Body and tail vertex 14.inRotation",
+            "Body and tail vertex 14.inDistance",
+            "Body and tail vertex 14.outRotation",
+            "Body and tail vertex 14.outDistance",
+            "Body and tail vertex 15.x",
+            "Body and tail vertex 15.y",
+            "Body and tail vertex 15.inRotation",
+            "Body and tail vertex 15.inDistance",
+            "Body and tail vertex 15.outRotation",
+            "Body and tail vertex 15.outDistance",
+            "Body and tail vertex 16.x",
+            "Body and tail vertex 16.y",
+            "Body and tail vertex 16.inRotation",
+            "Body and tail vertex 16.inDistance",
+            "Body and tail vertex 16.outRotation",
+            "Body and tail vertex 16.outDistance",
+            "Body and tail vertex 17.x",
+            "Body and tail vertex 17.y",
+            "Body and tail vertex 17.inRotation",
+            "Body and tail vertex 17.inDistance",
+            "Body and tail vertex 17.outRotation",
+            "Body and tail vertex 17.outDistance",
+            "Body and tail vertex 18.x",
+            "Body and tail vertex 18.y",
+            "Body and tail vertex 18.inRotation",
+            "Body and tail vertex 18.inDistance",
+            "Body and tail vertex 18.outRotation",
+            "Body and tail vertex 18.outDistance",
+            "Body and tail vertex 19.x",
+            "Body and tail vertex 19.y",
+            "Body and tail vertex 19.inRotation",
+            "Body and tail vertex 19.inDistance",
+            "Body and tail vertex 19.outRotation",
+            "Body and tail vertex 19.outDistance",
+            "Body and tail vertex 20.x",
+            "Body and tail vertex 20.y",
+            "Body and tail vertex 20.inRotation",
+            "Body and tail vertex 20.inDistance",
+            "Body and tail vertex 20.outRotation",
+            "Body and tail vertex 20.outDistance",
+            "Body and tail vertex 21.x",
+            "Body and tail vertex 21.y",
+            "Body and tail vertex 21.inRotation",
+            "Body and tail vertex 21.inDistance",
+            "Body and tail vertex 21.outRotation",
+            "Body and tail vertex 21.outDistance",
+            "Body and tail vertex 22.x",
+            "Body and tail vertex 22.y",
+            "Body and tail vertex 22.inRotation",
+            "Body and tail vertex 22.inDistance",
+            "Body and tail vertex 22.outRotation",
+            "Body and tail vertex 22.outDistance",
+            "Body and tail vertex 23.x",
+            "Body and tail vertex 23.y",
+            "Body and tail vertex 23.inRotation",
+            "Body and tail vertex 23.inDistance",
+            "Body and tail vertex 23.outRotation",
+            "Body and tail vertex 23.outDistance",
+            "Body and tail vertex 24.x",
+            "Body and tail vertex 24.y",
+            "Body and tail vertex 24.inRotation",
+            "Body and tail vertex 24.inDistance",
+            "Body and tail vertex 24.outRotation",
+            "Body and tail vertex 24.outDistance",
+            "Body and tail vertex 25.x",
+            "Body and tail vertex 25.y",
+            "Body and tail vertex 25.inRotation",
+            "Body and tail vertex 25.inDistance",
+            "Body and tail vertex 25.outRotation",
+            "Body and tail vertex 25.outDistance",
+            "Body and tail vertex 26.x",
+            "Body and tail vertex 26.y",
+            "Body and tail vertex 26.inRotation",
+            "Body and tail vertex 26.inDistance",
+            "Body and tail vertex 26.outRotation",
+            "Body and tail vertex 26.outDistance",
+            "Body and tail vertex 27.x",
+            "Body and tail vertex 27.y",
+            "Body and tail vertex 27.inRotation",
+            "Body and tail vertex 27.inDistance",
+            "Body and tail vertex 27.outRotation",
+            "Body and tail vertex 27.outDistance",
+            "Body and tail vertex 28.x",
+            "Body and tail vertex 28.y",
+            "Body and tail vertex 28.inRotation",
+            "Body and tail vertex 28.inDistance",
+            "Body and tail vertex 28.outRotation",
+            "Body and tail vertex 28.outDistance",
+            "Body and tail vertex 29.x",
+            "Body and tail vertex 29.y",
+            "Body and tail vertex 29.inRotation",
+            "Body and tail vertex 29.inDistance",
+            "Body and tail vertex 29.outRotation",
+            "Body and tail vertex 29.outDistance",
+            "Body and tail vertex 30.x",
+            "Body and tail vertex 30.y",
+            "Body and tail vertex 30.inRotation",
+            "Body and tail vertex 30.inDistance",
+            "Body and tail vertex 30.outRotation",
+            "Body and tail vertex 30.outDistance",
+            "Body and tail vertex 31.x",
+            "Body and tail vertex 31.y",
+            "Body and tail vertex 31.inRotation",
+            "Body and tail vertex 31.inDistance",
+            "Body and tail vertex 31.outRotation",
+            "Body and tail vertex 31.outDistance",
+            "Body and tail vertex 32.x",
+            "Body and tail vertex 32.y",
+            "Body and tail vertex 32.inRotation",
+            "Body and tail vertex 32.inDistance",
+            "Body and tail vertex 32.outRotation",
+            "Body and tail vertex 32.outDistance",
+            "Body and tail vertex 33.x",
+            "Body and tail vertex 33.y",
+            "Body and tail vertex 33.inRotation",
+            "Body and tail vertex 33.inDistance",
+            "Body and tail vertex 33.outRotation",
+            "Body and tail vertex 33.outDistance",
+            "Body and tail vertex 34.x",
+            "Body and tail vertex 34.y",
+            "Body and tail vertex 34.inRotation",
+            "Body and tail vertex 34.inDistance",
+            "Body and tail vertex 34.outRotation",
+            "Body and tail vertex 34.outDistance",
+            "Body and tail vertex 35.x",
+            "Body and tail vertex 35.y",
+            "Body and tail vertex 35.inRotation",
+            "Body and tail vertex 35.inDistance",
+            "Body and tail vertex 35.outRotation",
+            "Body and tail vertex 35.outDistance",
+            "Body and tail vertex 36.x",
+            "Body and tail vertex 36.y",
+            "Body and tail vertex 36.inRotation",
+            "Body and tail vertex 36.inDistance",
+            "Body and tail vertex 36.outRotation",
+            "Body and tail vertex 36.outDistance",
+            "Body and tail vertex 37.x",
+            "Body and tail vertex 37.y",
+            "Body and tail vertex 37.inRotation",
+            "Body and tail vertex 37.inDistance",
+            "Body and tail vertex 37.outRotation",
+            "Body and tail vertex 37.outDistance",
+            "Rear dorsal fin vertex 0.x",
+            "Rear dorsal fin vertex 0.y",
+            "Rear dorsal fin vertex 0.inRotation",
+            "Rear dorsal fin vertex 0.inDistance",
+            "Rear dorsal fin vertex 0.outRotation",
+            "Rear dorsal fin vertex 0.outDistance",
+            "Rear dorsal fin vertex 1.x",
+            "Rear dorsal fin vertex 1.y",
+            "Rear dorsal fin vertex 1.inRotation",
+            "Rear dorsal fin vertex 1.inDistance",
+            "Rear dorsal fin vertex 1.outRotation",
+            "Rear dorsal fin vertex 1.outDistance",
+            "Rear dorsal fin vertex 2.x",
+            "Rear dorsal fin vertex 2.y",
+            "Rear dorsal fin vertex 2.inRotation",
+            "Rear dorsal fin vertex 2.inDistance",
+            "Rear dorsal fin vertex 2.outRotation",
+            "Rear dorsal fin vertex 2.outDistance",
+            "Rear dorsal fin vertex 3.x",
+            "Rear dorsal fin vertex 3.y",
+            "Rear dorsal fin vertex 3.inRotation",
+            "Rear dorsal fin vertex 3.inDistance",
+            "Rear dorsal fin vertex 3.outRotation",
+            "Rear dorsal fin vertex 3.outDistance",
+            "Rear dorsal fin vertex 4.x",
+            "Rear dorsal fin vertex 4.y",
+            "Rear dorsal fin vertex 4.inRotation",
+            "Rear dorsal fin vertex 4.inDistance",
+            "Rear dorsal fin vertex 4.outRotation",
+            "Rear dorsal fin vertex 4.outDistance",
+            "Rear dorsal fin vertex 5.x",
+            "Rear dorsal fin vertex 5.y",
+            "Rear dorsal fin vertex 5.inRotation",
+            "Rear dorsal fin vertex 5.inDistance",
+            "Rear dorsal fin vertex 5.outRotation",
+            "Rear dorsal fin vertex 5.outDistance",
+            "Rear dorsal fin vertex 6.x",
+            "Rear dorsal fin vertex 6.y",
+            "Rear dorsal fin vertex 6.inRotation",
+            "Rear dorsal fin vertex 6.inDistance",
+            "Rear dorsal fin vertex 6.outRotation",
+            "Rear dorsal fin vertex 6.outDistance",
+            "Rear dorsal fin vertex 7.x",
+            "Rear dorsal fin vertex 7.y",
+            "Rear dorsal fin vertex 7.inRotation",
+            "Rear dorsal fin vertex 7.inDistance",
+            "Rear dorsal fin vertex 7.outRotation",
+            "Rear dorsal fin vertex 7.outDistance",
+            "Rear dorsal fin vertex 8.x",
+            "Rear dorsal fin vertex 8.y",
+            "Rear dorsal fin vertex 8.inRotation",
+            "Rear dorsal fin vertex 8.inDistance",
+            "Rear dorsal fin vertex 8.outRotation",
+            "Rear dorsal fin vertex 8.outDistance",
+            "Rear dorsal fin vertex 9.x",
+            "Rear dorsal fin vertex 9.y",
+            "Rear dorsal fin vertex 9.inRotation",
+            "Rear dorsal fin vertex 9.inDistance",
+            "Rear dorsal fin vertex 9.outRotation",
+            "Rear dorsal fin vertex 9.outDistance",
+            "Rear dorsal fin vertex 10.x",
+            "Rear dorsal fin vertex 10.y",
+            "Rear dorsal fin vertex 10.inRotation",
+            "Rear dorsal fin vertex 10.inDistance",
+            "Rear dorsal fin vertex 10.outRotation",
+            "Rear dorsal fin vertex 10.outDistance",
+            "Rear dorsal fin vertex 11.x",
+            "Rear dorsal fin vertex 11.y",
+            "Rear dorsal fin vertex 11.inRotation",
+            "Rear dorsal fin vertex 11.inDistance",
+            "Rear dorsal fin vertex 11.outRotation",
+            "Rear dorsal fin vertex 11.outDistance",
+            "Dorsal fin vertex 6.x",
+            "Dorsal fin vertex 6.y",
+            "Dorsal fin vertex 6.inRotation",
+            "Dorsal fin vertex 6.inDistance",
+            "Dorsal fin vertex 6.outRotation",
+            "Dorsal fin vertex 6.outDistance",
+            "Dorsal fin vertex 7.x",
+            "Dorsal fin vertex 7.y",
+            "Dorsal fin vertex 7.inRotation",
+            "Dorsal fin vertex 7.inDistance",
+            "Dorsal fin vertex 7.outRotation",
+            "Dorsal fin vertex 7.outDistance",
+            "Dorsal fin vertex 8.x",
+            "Dorsal fin vertex 8.y",
+            "Dorsal fin vertex 8.inRotation",
+            "Dorsal fin vertex 8.inDistance",
+            "Dorsal fin vertex 8.outRotation",
+            "Dorsal fin vertex 8.outDistance",
+            "Dorsal fin vertex 9.x",
+            "Dorsal fin vertex 9.y",
+            "Dorsal fin vertex 9.inRotation",
+            "Dorsal fin vertex 9.inDistance",
+            "Dorsal fin vertex 9.outRotation",
+            "Dorsal fin vertex 9.outDistance",
+            "Dorsal fin vertex 10.x",
+            "Dorsal fin vertex 10.y",
+            "Dorsal fin vertex 10.inRotation",
+            "Dorsal fin vertex 10.inDistance",
+            "Dorsal fin vertex 10.outRotation",
+            "Dorsal fin vertex 10.outDistance",
+            "Dorsal fin vertex 11.x",
+            "Dorsal fin vertex 11.y",
+            "Dorsal fin vertex 11.inRotation",
+            "Dorsal fin vertex 11.inDistance",
+            "Dorsal fin vertex 11.outRotation",
+            "Dorsal fin vertex 11.outDistance",
+            "Dorsal fin vertex 12.x",
+            "Dorsal fin vertex 12.y",
+            "Dorsal fin vertex 12.inRotation",
+            "Dorsal fin vertex 12.inDistance",
+            "Dorsal fin vertex 12.outRotation",
+            "Dorsal fin vertex 12.outDistance",
+            "FishRoot.x",
+            "FishRoot.y",
+            "DorsalFin.y",
+            "DorsalFin.rotation",
+            "DorsalFin.scaleX",
+            "RearDorsalFin.y",
+            "RearDorsalFin.rotation",
+            "RearDorsalFin.scaleY",
+            "PectoralFin.rotation",
+            "PectoralFin.scaleY"
+          ]
+        },
+        {
+          "id": "PFzBqD12vD",
+          "name": "swim",
+          "fps": 60,
+          "durationSeconds": 2,
+          "loop": "loop",
+          "keyed": [
+            "Body shading mask vertex 12.x",
+            "Body shading mask vertex 12.y",
+            "Body shading mask vertex 12.inRotation",
+            "Body shading mask vertex 12.inDistance",
+            "Body shading mask vertex 12.outRotation",
+            "Body shading mask vertex 12.outDistance",
+            "Body shading mask vertex 13.x",
+            "Body shading mask vertex 13.y",
+            "Body shading mask vertex 13.inRotation",
+            "Body shading mask vertex 13.inDistance",
+            "Body shading mask vertex 13.outRotation",
+            "Body shading mask vertex 13.outDistance",
+            "Body shading mask vertex 14.x",
+            "Body shading mask vertex 14.y",
+            "Body shading mask vertex 14.inRotation",
+            "Body shading mask vertex 14.inDistance",
+            "Body shading mask vertex 14.outRotation",
+            "Body shading mask vertex 14.outDistance",
+            "Body shading mask vertex 15.x",
+            "Body shading mask vertex 15.y",
+            "Body shading mask vertex 15.inRotation",
+            "Body shading mask vertex 15.inDistance",
+            "Body shading mask vertex 15.outRotation",
+            "Body shading mask vertex 15.outDistance",
+            "Body shading mask vertex 16.x",
+            "Body shading mask vertex 16.y",
+            "Body shading mask vertex 16.inRotation",
+            "Body shading mask vertex 16.inDistance",
+            "Body shading mask vertex 16.outRotation",
+            "Body shading mask vertex 16.outDistance",
+            "Body shading mask vertex 17.x",
+            "Body shading mask vertex 17.y",
+            "Body shading mask vertex 17.inRotation",
+            "Body shading mask vertex 17.inDistance",
+            "Body shading mask vertex 17.outRotation",
+            "Body shading mask vertex 17.outDistance",
+            "Body shading mask vertex 18.x",
+            "Body shading mask vertex 18.y",
+            "Body shading mask vertex 18.inRotation",
+            "Body shading mask vertex 18.inDistance",
+            "Body shading mask vertex 18.outRotation",
+            "Body shading mask vertex 18.outDistance",
+            "Body shading mask vertex 19.x",
+            "Body shading mask vertex 19.y",
+            "Body shading mask vertex 19.inRotation",
+            "Body shading mask vertex 19.inDistance",
+            "Body shading mask vertex 19.outRotation",
+            "Body shading mask vertex 19.outDistance",
+            "Body shading mask vertex 20.x",
+            "Body shading mask vertex 20.y",
+            "Body shading mask vertex 20.inRotation",
+            "Body shading mask vertex 20.inDistance",
+            "Body shading mask vertex 20.outRotation",
+            "Body shading mask vertex 20.outDistance",
+            "Body shading mask vertex 21.x",
+            "Body shading mask vertex 21.y",
+            "Body shading mask vertex 21.inRotation",
+            "Body shading mask vertex 21.inDistance",
+            "Body shading mask vertex 21.outRotation",
+            "Body shading mask vertex 21.outDistance",
+            "Body shading mask vertex 22.x",
+            "Body shading mask vertex 22.y",
+            "Body shading mask vertex 22.inRotation",
+            "Body shading mask vertex 22.inDistance",
+            "Body shading mask vertex 22.outRotation",
+            "Body shading mask vertex 22.outDistance",
+            "Body shading mask vertex 23.x",
+            "Body shading mask vertex 23.y",
+            "Body shading mask vertex 23.inRotation",
+            "Body shading mask vertex 23.inDistance",
+            "Body shading mask vertex 23.outRotation",
+            "Body shading mask vertex 23.outDistance",
+            "Body shading mask vertex 24.x",
+            "Body shading mask vertex 24.y",
+            "Body shading mask vertex 24.inRotation",
+            "Body shading mask vertex 24.inDistance",
+            "Body shading mask vertex 24.outRotation",
+            "Body shading mask vertex 24.outDistance",
+            "Body shading mask vertex 25.x",
+            "Body shading mask vertex 25.y",
+            "Body shading mask vertex 25.inRotation",
+            "Body shading mask vertex 25.inDistance",
+            "Body shading mask vertex 25.outRotation",
+            "Body shading mask vertex 25.outDistance",
+            "Body shading mask vertex 26.x",
+            "Body shading mask vertex 26.y",
+            "Body shading mask vertex 26.inRotation",
+            "Body shading mask vertex 26.inDistance",
+            "Body shading mask vertex 26.outRotation",
+            "Body shading mask vertex 26.outDistance",
+            "Body shading mask vertex 27.x",
+            "Body shading mask vertex 27.y",
+            "Body shading mask vertex 27.inRotation",
+            "Body shading mask vertex 27.inDistance",
+            "Body shading mask vertex 27.outRotation",
+            "Body shading mask vertex 27.outDistance",
+            "Body shading mask vertex 28.x",
+            "Body shading mask vertex 28.y",
+            "Body shading mask vertex 28.inRotation",
+            "Body shading mask vertex 28.inDistance",
+            "Body shading mask vertex 28.outRotation",
+            "Body shading mask vertex 28.outDistance",
+            "Body shading mask vertex 29.x",
+            "Body shading mask vertex 29.y",
+            "Body shading mask vertex 29.inRotation",
+            "Body shading mask vertex 29.inDistance",
+            "Body shading mask vertex 29.outRotation",
+            "Body shading mask vertex 29.outDistance",
+            "Body shading mask vertex 30.x",
+            "Body shading mask vertex 30.y",
+            "Body shading mask vertex 30.inRotation",
+            "Body shading mask vertex 30.inDistance",
+            "Body shading mask vertex 30.outRotation",
+            "Body shading mask vertex 30.outDistance",
+            "Body shading mask vertex 31.x",
+            "Body shading mask vertex 31.y",
+            "Body shading mask vertex 31.inRotation",
+            "Body shading mask vertex 31.inDistance",
+            "Body shading mask vertex 31.outRotation",
+            "Body shading mask vertex 31.outDistance",
+            "Body shading mask vertex 32.x",
+            "Body shading mask vertex 32.y",
+            "Body shading mask vertex 32.inRotation",
+            "Body shading mask vertex 32.inDistance",
+            "Body shading mask vertex 32.outRotation",
+            "Body shading mask vertex 32.outDistance",
+            "Body shading mask vertex 33.x",
+            "Body shading mask vertex 33.y",
+            "Body shading mask vertex 33.inRotation",
+            "Body shading mask vertex 33.inDistance",
+            "Body shading mask vertex 33.outRotation",
+            "Body shading mask vertex 33.outDistance",
+            "Body shading mask vertex 34.x",
+            "Body shading mask vertex 34.y",
+            "Body shading mask vertex 34.inRotation",
+            "Body shading mask vertex 34.inDistance",
+            "Body shading mask vertex 34.outRotation",
+            "Body shading mask vertex 34.outDistance",
+            "Body shading mask vertex 35.x",
+            "Body shading mask vertex 35.y",
+            "Body shading mask vertex 35.inRotation",
+            "Body shading mask vertex 35.inDistance",
+            "Body shading mask vertex 35.outRotation",
+            "Body shading mask vertex 35.outDistance",
+            "Body shading mask vertex 36.x",
+            "Body shading mask vertex 36.y",
+            "Body shading mask vertex 36.inRotation",
+            "Body shading mask vertex 36.inDistance",
+            "Body shading mask vertex 36.outRotation",
+            "Body shading mask vertex 36.outDistance",
+            "Body shading mask vertex 37.x",
+            "Body shading mask vertex 37.y",
+            "Body shading mask vertex 37.inRotation",
+            "Body shading mask vertex 37.inDistance",
+            "Body shading mask vertex 37.outRotation",
+            "Body shading mask vertex 37.outDistance",
+            "Body shading.2 vertex 0.x",
+            "Body shading.2 vertex 0.y",
+            "Body shading.2 vertex 0.inRotation",
+            "Body shading.2 vertex 0.inDistance",
+            "Body shading.2 vertex 0.outRotation",
+            "Body shading.2 vertex 0.outDistance",
+            "Body shading.2 vertex 1.x",
+            "Body shading.2 vertex 1.y",
+            "Body shading.2 vertex 1.inRotation",
+            "Body shading.2 vertex 1.inDistance",
+            "Body shading.2 vertex 1.outRotation",
+            "Body shading.2 vertex 1.outDistance",
+            "Body shading.2 vertex 2.x",
+            "Body shading.2 vertex 2.y",
+            "Body shading.2 vertex 2.inRotation",
+            "Body shading.2 vertex 2.inDistance",
+            "Body shading.2 vertex 2.outRotation",
+            "Body shading.2 vertex 2.outDistance",
+            "Body shading.2 vertex 3.x",
+            "Body shading.2 vertex 3.y",
+            "Body shading.2 vertex 3.inRotation",
+            "Body shading.2 vertex 3.inDistance",
+            "Body shading.2 vertex 3.outRotation",
+            "Body shading.2 vertex 3.outDistance",
+            "Body shading.2 vertex 4.x",
+            "Body shading.2 vertex 4.y",
+            "Body shading.2 vertex 4.inRotation",
+            "Body shading.2 vertex 4.inDistance",
+            "Body shading.2 vertex 4.outRotation",
+            "Body shading.2 vertex 4.outDistance",
+            "Body shading.2 vertex 5.x",
+            "Body shading.2 vertex 5.y",
+            "Body shading.2 vertex 5.inRotation",
+            "Body shading.2 vertex 5.inDistance",
+            "Body shading.2 vertex 5.outRotation",
+            "Body shading.2 vertex 5.outDistance",
+            "Body shading.2 vertex 6.x",
+            "Body shading.2 vertex 6.y",
+            "Body shading.2 vertex 6.inRotation",
+            "Body shading.2 vertex 6.inDistance",
+            "Body shading.2 vertex 6.outRotation",
+            "Body shading.2 vertex 6.outDistance",
+            "Body shading.2 vertex 7.x",
+            "Body shading.2 vertex 7.y",
+            "Body shading.2 vertex 7.inRotation",
+            "Body shading.2 vertex 7.inDistance",
+            "Body shading.2 vertex 7.outRotation",
+            "Body shading.2 vertex 7.outDistance",
+            "Body shading.2 vertex 8.x",
+            "Body shading.2 vertex 8.y",
+            "Body shading.2 vertex 8.inRotation",
+            "Body shading.2 vertex 8.inDistance",
+            "Body shading.2 vertex 8.outRotation",
+            "Body shading.2 vertex 8.outDistance",
+            "Body shading.2 vertex 9.x",
+            "Body shading.2 vertex 9.y",
+            "Body shading.2 vertex 9.inRotation",
+            "Body shading.2 vertex 9.inDistance",
+            "Body shading.2 vertex 9.outRotation",
+            "Body shading.2 vertex 9.outDistance",
+            "Body shading.2 vertex 10.x",
+            "Body shading.2 vertex 10.y",
+            "Body shading.2 vertex 10.inRotation",
+            "Body shading.2 vertex 10.inDistance",
+            "Body shading.2 vertex 10.outRotation",
+            "Body shading.2 vertex 10.outDistance",
+            "Body shading.2 vertex 11.x",
+            "Body shading.2 vertex 11.y",
+            "Body shading.2 vertex 11.inRotation",
+            "Body shading.2 vertex 11.inDistance",
+            "Body shading.2 vertex 11.outRotation",
+            "Body shading.2 vertex 11.outDistance",
+            "Body shading.2 vertex 12.x",
+            "Body shading.2 vertex 12.y",
+            "Body shading.2 vertex 12.inRotation",
+            "Body shading.2 vertex 12.inDistance",
+            "Body shading.2 vertex 12.outRotation",
+            "Body shading.2 vertex 12.outDistance",
+            "Body shading.2 vertex 13.x",
+            "Body shading.2 vertex 13.y",
+            "Body shading.2 vertex 13.inRotation",
+            "Body shading.2 vertex 13.inDistance",
+            "Body shading.2 vertex 13.outRotation",
+            "Body shading.2 vertex 13.outDistance",
+            "Body shading.2 vertex 14.x",
+            "Body shading.2 vertex 14.y",
+            "Body shading.2 vertex 14.inRotation",
+            "Body shading.2 vertex 14.inDistance",
+            "Body shading.2 vertex 14.outRotation",
+            "Body shading.2 vertex 14.outDistance",
+            "Body shading.0 vertex 11.x",
+            "Body shading.0 vertex 11.y",
+            "Body shading.0 vertex 11.inRotation",
+            "Body shading.0 vertex 11.inDistance",
+            "Body shading.0 vertex 11.outRotation",
+            "Body shading.0 vertex 11.outDistance",
+            "Body shading.0 vertex 12.x",
+            "Body shading.0 vertex 12.y",
+            "Body shading.0 vertex 12.inRotation",
+            "Body shading.0 vertex 12.inDistance",
+            "Body shading.0 vertex 12.outRotation",
+            "Body shading.0 vertex 12.outDistance",
+            "Body shading.0 vertex 13.x",
+            "Body shading.0 vertex 13.y",
+            "Body shading.0 vertex 13.inRotation",
+            "Body shading.0 vertex 13.inDistance",
+            "Body shading.0 vertex 13.outRotation",
+            "Body shading.0 vertex 13.outDistance",
+            "Body shading.0 vertex 14.x",
+            "Body shading.0 vertex 14.y",
+            "Body shading.0 vertex 14.inRotation",
+            "Body shading.0 vertex 14.inDistance",
+            "Body shading.0 vertex 14.outRotation",
+            "Body shading.0 vertex 14.outDistance",
+            "Body shading.0 vertex 15.x",
+            "Body shading.0 vertex 15.y",
+            "Body shading.0 vertex 15.inRotation",
+            "Body shading.0 vertex 15.inDistance",
+            "Body shading.0 vertex 15.outRotation",
+            "Body shading.0 vertex 15.outDistance",
+            "Body shading.0 vertex 16.x",
+            "Body shading.0 vertex 16.y",
+            "Body shading.0 vertex 16.inRotation",
+            "Body shading.0 vertex 16.inDistance",
+            "Body shading.0 vertex 16.outRotation",
+            "Body shading.0 vertex 16.outDistance",
+            "Body shading.0 vertex 17.x",
+            "Body shading.0 vertex 17.y",
+            "Body shading.0 vertex 17.inRotation",
+            "Body shading.0 vertex 17.inDistance",
+            "Body shading.0 vertex 17.outRotation",
+            "Body shading.0 vertex 17.outDistance",
+            "Body shading.0 vertex 18.x",
+            "Body shading.0 vertex 18.y",
+            "Body shading.0 vertex 18.inRotation",
+            "Body shading.0 vertex 18.inDistance",
+            "Body shading.0 vertex 18.outRotation",
+            "Body shading.0 vertex 18.outDistance",
+            "Body shading.0 vertex 19.x",
+            "Body shading.0 vertex 19.y",
+            "Body shading.0 vertex 19.inRotation",
+            "Body shading.0 vertex 19.inDistance",
+            "Body shading.0 vertex 19.outRotation",
+            "Body shading.0 vertex 19.outDistance",
+            "Body shading.0 vertex 20.x",
+            "Body shading.0 vertex 20.y",
+            "Body shading.0 vertex 20.inRotation",
+            "Body shading.0 vertex 20.inDistance",
+            "Body shading.0 vertex 20.outRotation",
+            "Body shading.0 vertex 20.outDistance",
+            "Body shading.0 vertex 21.x",
+            "Body shading.0 vertex 21.y",
+            "Body shading.0 vertex 21.inRotation",
+            "Body shading.0 vertex 21.inDistance",
+            "Body shading.0 vertex 21.outRotation",
+            "Body shading.0 vertex 21.outDistance",
+            "Body shading.0 vertex 22.x",
+            "Body shading.0 vertex 22.y",
+            "Body shading.0 vertex 22.inRotation",
+            "Body shading.0 vertex 22.inDistance",
+            "Body shading.0 vertex 22.outRotation",
+            "Body shading.0 vertex 22.outDistance",
+            "Body shading.0 vertex 23.x",
+            "Body shading.0 vertex 23.y",
+            "Body shading.0 vertex 23.inRotation",
+            "Body shading.0 vertex 23.inDistance",
+            "Body shading.0 vertex 23.outRotation",
+            "Body shading.0 vertex 23.outDistance",
+            "Body shading.0 vertex 24.x",
+            "Body shading.0 vertex 24.y",
+            "Body shading.0 vertex 24.inRotation",
+            "Body shading.0 vertex 24.inDistance",
+            "Body shading.0 vertex 24.outRotation",
+            "Body shading.0 vertex 24.outDistance",
+            "Body shading.0 vertex 25.x",
+            "Body shading.0 vertex 25.y",
+            "Body shading.0 vertex 25.inRotation",
+            "Body shading.0 vertex 25.inDistance",
+            "Body shading.0 vertex 25.outRotation",
+            "Body shading.0 vertex 25.outDistance",
+            "Body shading.0 vertex 26.x",
+            "Body shading.0 vertex 26.y",
+            "Body shading.0 vertex 26.inRotation",
+            "Body shading.0 vertex 26.inDistance",
+            "Body shading.0 vertex 26.outRotation",
+            "Body shading.0 vertex 26.outDistance",
+            "Body shading.0 vertex 27.x",
+            "Body shading.0 vertex 27.y",
+            "Body shading.0 vertex 27.inRotation",
+            "Body shading.0 vertex 27.inDistance",
+            "Body shading.0 vertex 27.outRotation",
+            "Body shading.0 vertex 27.outDistance",
+            "Body shading.0 vertex 28.x",
+            "Body shading.0 vertex 28.y",
+            "Body shading.0 vertex 28.inRotation",
+            "Body shading.0 vertex 28.inDistance",
+            "Body shading.0 vertex 28.outRotation",
+            "Body shading.0 vertex 28.outDistance",
+            "Body shading.0 vertex 29.x",
+            "Body shading.0 vertex 29.y",
+            "Body shading.0 vertex 29.inRotation",
+            "Body shading.0 vertex 29.inDistance",
+            "Body shading.0 vertex 29.outRotation",
+            "Body shading.0 vertex 29.outDistance",
+            "Body and tail vertex 12.x",
+            "Body and tail vertex 12.y",
+            "Body and tail vertex 12.inRotation",
+            "Body and tail vertex 12.inDistance",
+            "Body and tail vertex 12.outRotation",
+            "Body and tail vertex 12.outDistance",
+            "Body and tail vertex 13.x",
+            "Body and tail vertex 13.y",
+            "Body and tail vertex 13.inRotation",
+            "Body and tail vertex 13.inDistance",
+            "Body and tail vertex 13.outRotation",
+            "Body and tail vertex 13.outDistance",
+            "Body and tail vertex 14.x",
+            "Body and tail vertex 14.y",
+            "Body and tail vertex 14.inRotation",
+            "Body and tail vertex 14.inDistance",
+            "Body and tail vertex 14.outRotation",
+            "Body and tail vertex 14.outDistance",
+            "Body and tail vertex 15.x",
+            "Body and tail vertex 15.y",
+            "Body and tail vertex 15.inRotation",
+            "Body and tail vertex 15.inDistance",
+            "Body and tail vertex 15.outRotation",
+            "Body and tail vertex 15.outDistance",
+            "Body and tail vertex 16.x",
+            "Body and tail vertex 16.y",
+            "Body and tail vertex 16.inRotation",
+            "Body and tail vertex 16.inDistance",
+            "Body and tail vertex 16.outRotation",
+            "Body and tail vertex 16.outDistance",
+            "Body and tail vertex 17.x",
+            "Body and tail vertex 17.y",
+            "Body and tail vertex 17.inRotation",
+            "Body and tail vertex 17.inDistance",
+            "Body and tail vertex 17.outRotation",
+            "Body and tail vertex 17.outDistance",
+            "Body and tail vertex 18.x",
+            "Body and tail vertex 18.y",
+            "Body and tail vertex 18.inRotation",
+            "Body and tail vertex 18.inDistance",
+            "Body and tail vertex 18.outRotation",
+            "Body and tail vertex 18.outDistance",
+            "Body and tail vertex 19.x",
+            "Body and tail vertex 19.y",
+            "Body and tail vertex 19.inRotation",
+            "Body and tail vertex 19.inDistance",
+            "Body and tail vertex 19.outRotation",
+            "Body and tail vertex 19.outDistance",
+            "Body and tail vertex 20.x",
+            "Body and tail vertex 20.y",
+            "Body and tail vertex 20.inRotation",
+            "Body and tail vertex 20.inDistance",
+            "Body and tail vertex 20.outRotation",
+            "Body and tail vertex 20.outDistance",
+            "Body and tail vertex 21.x",
+            "Body and tail vertex 21.y",
+            "Body and tail vertex 21.inRotation",
+            "Body and tail vertex 21.inDistance",
+            "Body and tail vertex 21.outRotation",
+            "Body and tail vertex 21.outDistance",
+            "Body and tail vertex 22.x",
+            "Body and tail vertex 22.y",
+            "Body and tail vertex 22.inRotation",
+            "Body and tail vertex 22.inDistance",
+            "Body and tail vertex 22.outRotation",
+            "Body and tail vertex 22.outDistance",
+            "Body and tail vertex 23.x",
+            "Body and tail vertex 23.y",
+            "Body and tail vertex 23.inRotation",
+            "Body and tail vertex 23.inDistance",
+            "Body and tail vertex 23.outRotation",
+            "Body and tail vertex 23.outDistance",
+            "Body and tail vertex 24.x",
+            "Body and tail vertex 24.y",
+            "Body and tail vertex 24.inRotation",
+            "Body and tail vertex 24.inDistance",
+            "Body and tail vertex 24.outRotation",
+            "Body and tail vertex 24.outDistance",
+            "Body and tail vertex 25.x",
+            "Body and tail vertex 25.y",
+            "Body and tail vertex 25.inRotation",
+            "Body and tail vertex 25.inDistance",
+            "Body and tail vertex 25.outRotation",
+            "Body and tail vertex 25.outDistance",
+            "Body and tail vertex 26.x",
+            "Body and tail vertex 26.y",
+            "Body and tail vertex 26.inRotation",
+            "Body and tail vertex 26.inDistance",
+            "Body and tail vertex 26.outRotation",
+            "Body and tail vertex 26.outDistance",
+            "Body and tail vertex 27.x",
+            "Body and tail vertex 27.y",
+            "Body and tail vertex 27.inRotation",
+            "Body and tail vertex 27.inDistance",
+            "Body and tail vertex 27.outRotation",
+            "Body and tail vertex 27.outDistance",
+            "Body and tail vertex 28.x",
+            "Body and tail vertex 28.y",
+            "Body and tail vertex 28.inRotation",
+            "Body and tail vertex 28.inDistance",
+            "Body and tail vertex 28.outRotation",
+            "Body and tail vertex 28.outDistance",
+            "Body and tail vertex 29.x",
+            "Body and tail vertex 29.y",
+            "Body and tail vertex 29.inRotation",
+            "Body and tail vertex 29.inDistance",
+            "Body and tail vertex 29.outRotation",
+            "Body and tail vertex 29.outDistance",
+            "Body and tail vertex 30.x",
+            "Body and tail vertex 30.y",
+            "Body and tail vertex 30.inRotation",
+            "Body and tail vertex 30.inDistance",
+            "Body and tail vertex 30.outRotation",
+            "Body and tail vertex 30.outDistance",
+            "Body and tail vertex 31.x",
+            "Body and tail vertex 31.y",
+            "Body and tail vertex 31.inRotation",
+            "Body and tail vertex 31.inDistance",
+            "Body and tail vertex 31.outRotation",
+            "Body and tail vertex 31.outDistance",
+            "Body and tail vertex 32.x",
+            "Body and tail vertex 32.y",
+            "Body and tail vertex 32.inRotation",
+            "Body and tail vertex 32.inDistance",
+            "Body and tail vertex 32.outRotation",
+            "Body and tail vertex 32.outDistance",
+            "Body and tail vertex 33.x",
+            "Body and tail vertex 33.y",
+            "Body and tail vertex 33.inRotation",
+            "Body and tail vertex 33.inDistance",
+            "Body and tail vertex 33.outRotation",
+            "Body and tail vertex 33.outDistance",
+            "Body and tail vertex 34.x",
+            "Body and tail vertex 34.y",
+            "Body and tail vertex 34.inRotation",
+            "Body and tail vertex 34.inDistance",
+            "Body and tail vertex 34.outRotation",
+            "Body and tail vertex 34.outDistance",
+            "Body and tail vertex 35.x",
+            "Body and tail vertex 35.y",
+            "Body and tail vertex 35.inRotation",
+            "Body and tail vertex 35.inDistance",
+            "Body and tail vertex 35.outRotation",
+            "Body and tail vertex 35.outDistance",
+            "Body and tail vertex 36.x",
+            "Body and tail vertex 36.y",
+            "Body and tail vertex 36.inRotation",
+            "Body and tail vertex 36.inDistance",
+            "Body and tail vertex 36.outRotation",
+            "Body and tail vertex 36.outDistance",
+            "Body and tail vertex 37.x",
+            "Body and tail vertex 37.y",
+            "Body and tail vertex 37.inRotation",
+            "Body and tail vertex 37.inDistance",
+            "Body and tail vertex 37.outRotation",
+            "Body and tail vertex 37.outDistance",
+            "Rear dorsal fin vertex 0.x",
+            "Rear dorsal fin vertex 0.y",
+            "Rear dorsal fin vertex 0.inRotation",
+            "Rear dorsal fin vertex 0.inDistance",
+            "Rear dorsal fin vertex 0.outRotation",
+            "Rear dorsal fin vertex 0.outDistance",
+            "Rear dorsal fin vertex 1.x",
+            "Rear dorsal fin vertex 1.y",
+            "Rear dorsal fin vertex 1.inRotation",
+            "Rear dorsal fin vertex 1.inDistance",
+            "Rear dorsal fin vertex 1.outRotation",
+            "Rear dorsal fin vertex 1.outDistance",
+            "Rear dorsal fin vertex 2.x",
+            "Rear dorsal fin vertex 2.y",
+            "Rear dorsal fin vertex 2.inRotation",
+            "Rear dorsal fin vertex 2.inDistance",
+            "Rear dorsal fin vertex 2.outRotation",
+            "Rear dorsal fin vertex 2.outDistance",
+            "Rear dorsal fin vertex 3.x",
+            "Rear dorsal fin vertex 3.y",
+            "Rear dorsal fin vertex 3.inRotation",
+            "Rear dorsal fin vertex 3.inDistance",
+            "Rear dorsal fin vertex 3.outRotation",
+            "Rear dorsal fin vertex 3.outDistance",
+            "Rear dorsal fin vertex 4.x",
+            "Rear dorsal fin vertex 4.y",
+            "Rear dorsal fin vertex 4.inRotation",
+            "Rear dorsal fin vertex 4.inDistance",
+            "Rear dorsal fin vertex 4.outRotation",
+            "Rear dorsal fin vertex 4.outDistance",
+            "Rear dorsal fin vertex 5.x",
+            "Rear dorsal fin vertex 5.y",
+            "Rear dorsal fin vertex 5.inRotation",
+            "Rear dorsal fin vertex 5.inDistance",
+            "Rear dorsal fin vertex 5.outRotation",
+            "Rear dorsal fin vertex 5.outDistance",
+            "Rear dorsal fin vertex 6.x",
+            "Rear dorsal fin vertex 6.y",
+            "Rear dorsal fin vertex 6.inRotation",
+            "Rear dorsal fin vertex 6.inDistance",
+            "Rear dorsal fin vertex 6.outRotation",
+            "Rear dorsal fin vertex 6.outDistance",
+            "Rear dorsal fin vertex 7.x",
+            "Rear dorsal fin vertex 7.y",
+            "Rear dorsal fin vertex 7.inRotation",
+            "Rear dorsal fin vertex 7.inDistance",
+            "Rear dorsal fin vertex 7.outRotation",
+            "Rear dorsal fin vertex 7.outDistance",
+            "Rear dorsal fin vertex 8.x",
+            "Rear dorsal fin vertex 8.y",
+            "Rear dorsal fin vertex 8.inRotation",
+            "Rear dorsal fin vertex 8.inDistance",
+            "Rear dorsal fin vertex 8.outRotation",
+            "Rear dorsal fin vertex 8.outDistance",
+            "Rear dorsal fin vertex 9.x",
+            "Rear dorsal fin vertex 9.y",
+            "Rear dorsal fin vertex 9.inRotation",
+            "Rear dorsal fin vertex 9.inDistance",
+            "Rear dorsal fin vertex 9.outRotation",
+            "Rear dorsal fin vertex 9.outDistance",
+            "Rear dorsal fin vertex 10.x",
+            "Rear dorsal fin vertex 10.y",
+            "Rear dorsal fin vertex 10.inRotation",
+            "Rear dorsal fin vertex 10.inDistance",
+            "Rear dorsal fin vertex 10.outRotation",
+            "Rear dorsal fin vertex 10.outDistance",
+            "Rear dorsal fin vertex 11.x",
+            "Rear dorsal fin vertex 11.y",
+            "Rear dorsal fin vertex 11.inRotation",
+            "Rear dorsal fin vertex 11.inDistance",
+            "Rear dorsal fin vertex 11.outRotation",
+            "Rear dorsal fin vertex 11.outDistance",
+            "Dorsal fin vertex 6.x",
+            "Dorsal fin vertex 6.y",
+            "Dorsal fin vertex 6.inRotation",
+            "Dorsal fin vertex 6.inDistance",
+            "Dorsal fin vertex 6.outRotation",
+            "Dorsal fin vertex 6.outDistance",
+            "Dorsal fin vertex 7.x",
+            "Dorsal fin vertex 7.y",
+            "Dorsal fin vertex 7.inRotation",
+            "Dorsal fin vertex 7.inDistance",
+            "Dorsal fin vertex 7.outRotation",
+            "Dorsal fin vertex 7.outDistance",
+            "Dorsal fin vertex 8.x",
+            "Dorsal fin vertex 8.y",
+            "Dorsal fin vertex 8.inRotation",
+            "Dorsal fin vertex 8.inDistance",
+            "Dorsal fin vertex 8.outRotation",
+            "Dorsal fin vertex 8.outDistance",
+            "Dorsal fin vertex 9.x",
+            "Dorsal fin vertex 9.y",
+            "Dorsal fin vertex 9.inRotation",
+            "Dorsal fin vertex 9.inDistance",
+            "Dorsal fin vertex 9.outRotation",
+            "Dorsal fin vertex 9.outDistance",
+            "Dorsal fin vertex 10.x",
+            "Dorsal fin vertex 10.y",
+            "Dorsal fin vertex 10.inRotation",
+            "Dorsal fin vertex 10.inDistance",
+            "Dorsal fin vertex 10.outRotation",
+            "Dorsal fin vertex 10.outDistance",
+            "Dorsal fin vertex 11.x",
+            "Dorsal fin vertex 11.y",
+            "Dorsal fin vertex 11.inRotation",
+            "Dorsal fin vertex 11.inDistance",
+            "Dorsal fin vertex 11.outRotation",
+            "Dorsal fin vertex 11.outDistance",
+            "Dorsal fin vertex 12.x",
+            "Dorsal fin vertex 12.y",
+            "Dorsal fin vertex 12.inRotation",
+            "Dorsal fin vertex 12.inDistance",
+            "Dorsal fin vertex 12.outRotation",
+            "Dorsal fin vertex 12.outDistance",
+            "FishRoot.x",
+            "FishRoot.y",
+            "DorsalFin.y",
+            "DorsalFin.rotation",
+            "DorsalFin.scaleX",
+            "RearDorsalFin.y",
+            "RearDorsalFin.rotation",
+            "RearDorsalFin.scaleY",
+            "PectoralFin.rotation",
+            "PectoralFin.scaleY"
+          ]
+        }
+      ],
+      "properties": [],
+      "stateMachines": [
+        {
+          "id": "MLal1S-2Pu",
+          "name": "CaThoiLoiController",
+          "inputs": [
+            {
+              "id": "4j0P2jpmoG",
+              "name": "is_swimming",
+              "type": "bool"
+            }
+          ],
+          "layers": [
+            {
+              "name": "Locomotion",
+              "states": [
+                {
+                  "id": "BmlKTdW8G1",
+                  "type": "AnyState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "IeKW36T_D2",
+                  "type": "ExitState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "A18AuiFM4t",
+                  "type": "EntryState",
+                  "transitionsTo": [
+                    "AAgcK42sbC"
+                  ]
+                },
+                {
+                  "id": "AAgcK42sbC",
+                  "type": "AnimationState",
+                  "timeline": "idle",
+                  "transitionsTo": [
+                    "G66_RWIy1C"
+                  ]
+                },
+                {
+                  "id": "G66_RWIy1C",
+                  "type": "AnimationState",
+                  "timeline": "swim",
+                  "transitionsTo": [
+                    "AAgcK42sbC"
+                  ]
+                }
+              ]
+            }
+          ],
+          "listeners": 0
+        }
+      ]
+    }
+  ],
+  "themeColors": [],
+  "themes": []
+}
