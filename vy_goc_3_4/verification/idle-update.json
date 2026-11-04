@@ -1,0 +1,37 @@
+{
+  "file": "vy_goc_3_4_noi_speaking_vi.riv",
+  "bytes": 56979,
+  "sha256": "01ee67fc7ec3b1ab568202d2c243ba7a431ac46f203ffbbee22f36cfd7aa882a",
+  "head_degrees": [
+    -2.6,
+    3.2
+  ],
+  "cycle_seconds": 18,
+  "neck_points": [
+    [
+      230,
+      235
+    ],
+    [
+      270,
+      235
+    ],
+    [
+      277,
+      275
+    ],
+    [
+      272,
+      327
+    ],
+    [
+      246,
+      287
+    ],
+    [
+      220,
+      267
+    ]
+  ],
+  "backup": "verification/before_idle/vy_goc_3_4_noi_speaking_vi.riv"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "http://127.0.0.1:8784/preview.html",
+  "ready": true,
+  "mouth_button": true,
+  "head_only_checkbox": true,
+  "reset_button": true,
+  "page_errors": []
+}

@@ -1,0 +1,15 @@
+{
+  "project": "Vy 3/4 - Vietnamese Lip Sync",
+  "id": "aKZnH8Wa6cbi",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 5331,
+    "timelines": 20,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": []
+}

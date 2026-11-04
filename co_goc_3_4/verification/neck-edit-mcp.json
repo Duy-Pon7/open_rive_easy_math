@@ -1,0 +1,95 @@
+{
+  "operations": [
+    {
+      "op": "add_path",
+      "parent": "CharacterRoot",
+      "name": "NeckBacking",
+      "points": [
+        {
+          "x": 214.8,
+          "y": 290
+        },
+        {
+          "x": 273.2,
+          "y": 290
+        },
+        {
+          "x": 273.2,
+          "y": 314
+        },
+        {
+          "x": 267,
+          "y": 320
+        },
+        {
+          "x": 229,
+          "y": 317
+        },
+        {
+          "x": 214.8,
+          "y": 313
+        }
+      ],
+      "fill": "#FDA34E",
+      "closed": true
+    },
+    {
+      "op": "add_keyframes",
+      "timeline": "show_full_body",
+      "object": "NeckBacking",
+      "property": "opacity",
+      "keys": [
+        {
+          "frame": 0,
+          "value": 1,
+          "ease": "linear"
+        },
+        {
+          "frame": 1,
+          "value": 1,
+          "ease": "linear"
+        }
+      ]
+    },
+    {
+      "op": "add_keyframes",
+      "timeline": "show_head_only",
+      "object": "NeckBacking",
+      "property": "opacity",
+      "keys": [
+        {
+          "frame": 0,
+          "value": 0,
+          "ease": "linear"
+        },
+        {
+          "frame": 1,
+          "value": 0,
+          "ease": "linear"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "saved": true,
+    "operations": [
+      {
+        "index": 0,
+        "op": "add_path",
+        "id": "4_OJNUc9_b",
+        "name": "NeckBacking",
+        "pathId": "jGw5QqPDKB"
+      },
+      {
+        "index": 1,
+        "op": "add_keyframes",
+        "count": 2
+      },
+      {
+        "index": 2,
+        "op": "add_keyframes",
+        "count": 2
+      }
+    ]
+  }
+}

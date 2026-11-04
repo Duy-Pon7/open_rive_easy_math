@@ -1,0 +1,147 @@
+{
+  "artboard": "Vy Speaking VI",
+  "state_machine": "VyVietnameseLipSync",
+  "source_svg": "vy_goc_3_4.svg",
+  "view": "right-facing 3/4",
+  "control_api": "stateMachineInputs (same as vy/vy_noi_speaking_vi.riv)",
+  "canvas": {
+    "width": 443,
+    "height": 819
+  },
+  "inputs": {
+    "viseme_id": "Number integer 0..11",
+    "is_talking": "Boolean",
+    "blink": "Trigger",
+    "reset": "Trigger",
+    "head_only": "Boolean (default false): true shows only the head; false shows the full character"
+  },
+  "transition_ms": 60,
+  "tone_mapping": false,
+  "reset_behavior": "REST latched until is_talking=false; stop host scheduling before reset",
+  "visemes": [
+    {
+      "id": 0,
+      "name": "REST",
+      "animation": "mouth_rest"
+    },
+    {
+      "id": 1,
+      "name": "MBP",
+      "animation": "viseme_MBP"
+    },
+    {
+      "id": 2,
+      "name": "A_OPEN",
+      "animation": "viseme_A_OPEN"
+    },
+    {
+      "id": 3,
+      "name": "E_I_WIDE",
+      "animation": "viseme_E_I_WIDE"
+    },
+    {
+      "id": 4,
+      "name": "O_ROUND",
+      "animation": "viseme_O_ROUND"
+    },
+    {
+      "id": 5,
+      "name": "U_ROUND",
+      "animation": "viseme_U_ROUND"
+    },
+    {
+      "id": 6,
+      "name": "CENTRAL",
+      "animation": "viseme_CENTRAL"
+    },
+    {
+      "id": 7,
+      "name": "FV",
+      "animation": "viseme_FV"
+    },
+    {
+      "id": 8,
+      "name": "DENTAL",
+      "animation": "viseme_DENTAL"
+    },
+    {
+      "id": 9,
+      "name": "NARROW",
+      "animation": "viseme_NARROW"
+    },
+    {
+      "id": 10,
+      "name": "MID_OPEN",
+      "animation": "viseme_MID_OPEN"
+    },
+    {
+      "id": 11,
+      "name": "WIDE_TALK",
+      "animation": "viseme_WIDE_TALK"
+    }
+  ],
+  "phonetic_groups": {
+    "MBP": [
+      "m",
+      "b",
+      "p"
+    ],
+    "A_OPEN": [
+      "a",
+      "ă"
+    ],
+    "E_I_WIDE": [
+      "e",
+      "ê",
+      "i",
+      "y"
+    ],
+    "O_ROUND": [
+      "o",
+      "ô"
+    ],
+    "U_ROUND": [
+      "u"
+    ],
+    "CENTRAL": [
+      "ơ",
+      "â",
+      "ư"
+    ],
+    "FV": [
+      "ph",
+      "v"
+    ],
+    "DENTAL": [
+      "t",
+      "th",
+      "đ",
+      "n",
+      "l"
+    ],
+    "NARROW": [
+      "s",
+      "x"
+    ],
+    "MID_OPEN": [
+      "h",
+      "c",
+      "k",
+      "g",
+      "ng",
+      "nh",
+      "ch",
+      "tr"
+    ],
+    "WIDE_TALK": [
+      "emphasis: optional, amplitude driven"
+    ]
+  },
+  "dialect_notes": [
+    "Visual groups, not a complete phoneme inventory.",
+    "Southern v may use a glide: use CENTRAL/E_I_WIDE instead of FV when appropriate.",
+    "Northern/southern s/x, tr/ch, r/d/gi vary; calibrate from the actual voice.",
+    "Diphthongs use a sequence of shapes; final stops shorten/close the mouth.",
+    "Tone marks never select a distinct viseme. No claim of forced alignment."
+  ]
+}

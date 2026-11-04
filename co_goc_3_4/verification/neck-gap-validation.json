@@ -1,0 +1,62 @@
+[
+  {
+    "version": "before",
+    "time": 0,
+    "neck_gap_pixels": 21
+  },
+  {
+    "version": "before",
+    "time": 3.7,
+    "neck_gap_pixels": 61
+  },
+  {
+    "version": "before",
+    "time": 4.3,
+    "neck_gap_pixels": 57
+  },
+  {
+    "version": "before",
+    "time": 11.9,
+    "neck_gap_pixels": 18
+  },
+  {
+    "version": "before",
+    "time": 12.5,
+    "neck_gap_pixels": 29
+  },
+  {
+    "version": "before",
+    "time": 13.5,
+    "neck_gap_pixels": 41
+  },
+  {
+    "version": "after",
+    "time": 0,
+    "neck_gap_pixels": 0
+  },
+  {
+    "version": "after",
+    "time": 3.7,
+    "neck_gap_pixels": 0
+  },
+  {
+    "version": "after",
+    "time": 4.3,
+    "neck_gap_pixels": 0
+  },
+  {
+    "version": "after",
+    "time": 11.9,
+    "neck_gap_pixels": 0
+  },
+  {
+    "version": "after",
+    "time": 12.5,
+    "neck_gap_pixels": 0
+  },
+  {
+    "version": "after",
+    "time": 13.5,
+    "neck_gap_pixels": 0
+  }
+]

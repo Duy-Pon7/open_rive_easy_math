@@ -1,0 +1,1058 @@
+[
+  {
+    "from": 0,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 0,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 1,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 2,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 3,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 4,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 5,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 6,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 7,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 8,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 9,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 10,
+    "to": 11,
+    "events": [
+      "viseme_WIDE_TALK"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 0,
+    "events": [
+      "mouth_rest"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 1,
+    "events": [
+      "viseme_MBP"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 2,
+    "events": [
+      "viseme_A_OPEN"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 3,
+    "events": [
+      "viseme_E_I_WIDE"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 4,
+    "events": [
+      "viseme_O_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 5,
+    "events": [
+      "viseme_U_ROUND"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 6,
+    "events": [
+      "viseme_CENTRAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 7,
+    "events": [
+      "viseme_FV"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 8,
+    "events": [
+      "viseme_DENTAL"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 9,
+    "events": [
+      "viseme_NARROW"
+    ],
+    "pass": true
+  },
+  {
+    "from": 11,
+    "to": 10,
+    "events": [
+      "viseme_MID_OPEN"
+    ],
+    "pass": true
+  }
+]

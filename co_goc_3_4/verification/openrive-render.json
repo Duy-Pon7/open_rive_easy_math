@@ -1,0 +1,6 @@
+{
+  "tool": "render_preview",
+  "status": "ERROR",
+  "error": "o_.resolve is not a function (installed OpenRive renderer)",
+  "fallback": "Actual delivered .riv rendered with bundled Rive WASM in Edge; see rest.png, viseme_*.png, blink_closed.png and runtime_validation.json"
+}

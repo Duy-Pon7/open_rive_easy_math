@@ -1,0 +1,31 @@
+{
+  "source": "co_goc_3_4.svg",
+  "source_sha256": "67a86fba3c94db223e88ff34f5a66504da8758ebce1de9090343b29551315f22",
+  "svg_canvas": [
+    489,
+    868
+  ],
+  "mouth_bounds": [
+    251,
+    255,
+    312,
+    296
+  ],
+  "head_pivot": [
+    250,
+    310
+  ],
+  "view": "right-facing three-quarter",
+  "independent_eye_pivots": [
+    220,
+    217
+  ],
+  "perspective_mouth": true,
+  "mouth_vertex_count": 7,
+  "objects": 8606,
+  "native_vectors": true,
+  "raster_assets": 0,
+  "svg_paths_preserved_except_mouth": true,
+  "svg_masks_preserved": true,
+  "original_gradients_preserved": true
+}

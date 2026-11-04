@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Huy góc 3/4 · Khẩu hình tiếng Việt</title>
+<style>
+body{font:16px system-ui;margin:0;background:#edf3f7;color:#16324a}main{max-width:1060px;margin:24px auto;display:grid;grid-template-columns:280px 1fr;gap:24px;padding:16px}canvas{width:100%;height:auto;background:white;border-radius:20px}section{background:white;padding:24px;border-radius:20px}h1{margin-top:0}button,select{font:inherit;padding:10px;margin:4px;border:1px solid #c7d4df;border-radius:9px;background:#f4f8fb;color:inherit;cursor:pointer}button:hover{background:#dcecf6}.grid{display:grid;grid-template-columns:repeat(3,1fr)}.grid button{font-size:13px}p{line-height:1.6}.status{font-family:monospace;padding:12px;background:#edf3f7;border-radius:8px}@media(max-width:720px){main{grid-template-columns:1fr}canvas{max-height:60vh;width:auto;max-width:100%;margin:auto}}
+</style>
+<main><canvas id="scene" width="266" height="772" aria-label="Nhân vật Huy góc 3/4"></canvas><section>
+<h1>Huy góc 3/4 nói tiếng Việt</h1><p>12 khẩu hình vector theo góc mặt 3/4, điều khiển trực tiếp bằng State Machine.</p>
+<div id="poses" class="grid"></div><p><label><input id="talk" type="checkbox"> is_talking</label></p>
+<p><label><input id="headOnly" type="checkbox"> Chỉ hiển thị đầu (head_only)</label></p>
+<button id="blink">Chớp mắt</button><button id="reset">Reset</button>
+<button id="sweep">Thử 0 → 11 → 0</button><button id="sentence">Demo câu tiếng Việt</button>
+<p>“Xin chào các em! Hôm nay chúng ta cùng học toán nhé. Một, hai, ba, bốn, năm.”</p>
+<p>Demo kỹ thuật không có âm thanh; thời điểm khẩu hình được đặt thủ công để thử rig.</p>
+<p class="status" id="status">Đang nạp Rive…</p>
+</section></main>
+<script type="module">
+import Rive from './runtime/canvas_advanced.mjs';
+const names=['REST','MBP','A_OPEN','E_I_WIDE','O_ROUND','U_ROUND','CENTRAL','FV','DENTAL','NARROW','MID_OPEN','WIDE_TALK'];
+try {
+ const rive=await Rive({locateFile:n=>new URL('./runtime/'+(n.includes('fallback')?'rive_fallback.wasm':'rive.wasm'),location.href).href});
+ const file=await rive.load(new Uint8Array(await(await fetch('./huy_goc_3_4_noi_speaking_vi.riv')).arrayBuffer()),undefined,false);
+ const canvas=document.getElementById('scene'),renderer=rive.makeRenderer(canvas);
+ let board,machine,inputs,events=[],auto=true,last=0,timers=[],generation=0;
+ function fresh(){if(machine)machine.delete();if(board)board.delete();board=file.artboardByName('Huy Speaking VI');machine=new rive.StateMachineInstance(board.stateMachineByName('HuyVietnameseLipSync'),board);inputs={};for(let i=0;i<machine.inputCount();i++){const v=machine.input(i);inputs[v.name]=v.type===rive.SMIInput.number?v.asNumber():v.type===rive.SMIInput.bool?v.asBool():v.asTrigger();}events=[];document.getElementById('headOnly').checked=false;document.getElementById('talk').checked=false;step(0);}
+ function step(dt){machine.advanceAndApply(dt);board.advance(dt);for(let i=0;i<machine.stateChangedCount();i++)events.push(machine.stateChangedNameByIndex(i));}
+ function advance(t){for(let n=Math.round(t*120);n>0;n--)step(1/120);}
+ function draw(){canvas.getContext('2d').clearRect(0,0,266,772);renderer.beginFrame();renderer.save();renderer.align(rive.Fit.contain,rive.Alignment.center,{minX:0,minY:0,maxX:266,maxY:772},board.bounds);board.draw(renderer);renderer.restore();renderer.flush();rive.resolveAnimationFrame();return canvas.toDataURL('image/png');}
+ function set(id,talking=true){inputs.viseme_id.value=id;inputs.is_talking.value=talking;document.getElementById('talk').checked=talking;document.getElementById('status').textContent=`viseme_id=${id} ${names[id]??'INVALID'} · is_talking=${talking}`;}
+ function cancel(){generation++;timers.forEach(clearTimeout);timers=[];}
+ function setHeadOnly(value){inputs.head_only.value=Boolean(value);document.getElementById('headOnly').checked=Boolean(value);}
+ function stop(){cancel();set(0,false);inputs.reset.fire();}
+ const api=window.huy={names,fresh:()=>{auto=false;fresh();return Object.keys(inputs);},set,advance,draw,fire:n=>inputs[n].fire(),events:()=>events.slice(),clearEvents:()=>{events=[];},inputValues:()=>({id:inputs.viseme_id.value,talking:inputs.is_talking.value}),snapshot:()=>({image:draw(),events:events.slice()})};
+ fresh();
+ api.setHeadOnly=setHeadOnly;
+ document.getElementById('headOnly').onchange=e=>setHeadOnly(e.target.checked);
+ for(const [i,name] of names.entries()){const b=document.createElement('button');b.textContent=`${i} · ${name}`;b.onclick=()=>{cancel();set(i,true);};document.getElementById('poses').append(b);}
+ document.getElementById('talk').onchange=e=>{cancel();inputs.is_talking.value=e.target.checked;};
+ document.getElementById('blink').onclick=()=>inputs.blink.fire();
+ document.getElementById('reset').onclick=stop;
+ const syllables=[['Xin',[9,3,8]],['chào',[10,2,4]],['các',[10,2,10]],['em',[3,1]],['!',[]],['Hôm',[10,4,1]],['nay',[8,2,3]],['chúng',[10,5,10]],['ta',[8,2]],['cùng',[10,5,10]],['học',[10,4,10]],['toán',[8,4,2,8]],['nhé',[10,3]],['.',[]],['Một',[1,4,8]],['hai',[10,2,3]],['ba',[1,2]],['bốn',[1,4,8]],['năm',[8,2,1]]];
+ const sentence=syllables.flatMap(([word,ids])=>ids.length?ids.map(id=>({word,id,ms:110})):[{word,id:0,ms:260}]);
+ function play(sequence){stop();const token=generation;let elapsed=100;for(const item of sequence){timers.push(setTimeout(()=>{if(token===generation){set(item.id,true);document.getElementById('status').textContent+=` · ${item.word??''}`;}},elapsed));elapsed+=item.ms;}timers.push(setTimeout(()=>{if(token===generation)stop();},elapsed));}
+ document.getElementById('sweep').onclick=()=>play([...names.map((_,id)=>({id,ms:450})),{id:0,ms:450}]);
+ document.getElementById('sentence').onclick=()=>play(sentence);
+ api.sentence=sentence;
+ function tick(now){if(auto){step(last?Math.min((now-last)/1000,.05):0);draw();}last=now;requestAnimationFrame(tick);}requestAnimationFrame(tick);
+ window.ready=true;
+}catch(e){window.failure=String(e);document.getElementById('status').textContent=String(e);console.error(e);}
+</script></html>

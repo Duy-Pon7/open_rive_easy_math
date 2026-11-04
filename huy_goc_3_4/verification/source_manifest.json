@@ -1,0 +1,31 @@
+{
+  "source": "huy_goc_3_4.svg",
+  "source_sha256": "770837d4f10b5d6c160cfa018721c8c982449cbe2387186e0c0fccb9c1617656",
+  "svg_canvas": [
+    266,
+    772
+  ],
+  "mouth_bounds": [
+    130,
+    198,
+    181,
+    239
+  ],
+  "head_pivot": [
+    133,
+    250
+  ],
+  "view": "right-facing three-quarter",
+  "independent_eye_pivots": [
+    165,
+    160
+  ],
+  "perspective_mouth": true,
+  "mouth_vertex_count": 7,
+  "objects": 6284,
+  "native_vectors": true,
+  "raster_assets": 0,
+  "svg_paths_preserved_except_mouth": true,
+  "svg_masks_preserved": true,
+  "original_gradients_preserved": true
+}

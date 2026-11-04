@@ -1,0 +1,31 @@
+{
+  "source": "vy_goc_3_4.svg",
+  "source_sha256": "231d66aadf60bc8ac2aa37dbcafd7fc8afa89292da95bd6901a421790ef39e18",
+  "svg_canvas": [
+    443,
+    819
+  ],
+  "mouth_bounds": [
+    248,
+    192,
+    309,
+    238
+  ],
+  "head_pivot": [
+    250,
+    255
+  ],
+  "view": "right-facing three-quarter",
+  "independent_eye_pivots": [
+    154,
+    149
+  ],
+  "perspective_mouth": true,
+  "mouth_vertex_count": 7,
+  "objects": 6217,
+  "native_vectors": true,
+  "raster_assets": 0,
+  "svg_paths_preserved_except_mouth": true,
+  "svg_masks_preserved": true,
+  "original_gradients_preserved": true
+}

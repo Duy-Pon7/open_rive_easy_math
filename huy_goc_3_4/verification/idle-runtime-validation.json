@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "test": "automatic_blink_at_3.20s",
+      "status": "PASS",
+      "eye_ink": 35
+    },
+    {
+      "test": "automatic_blink_at_7.90s",
+      "status": "PASS",
+      "eye_ink": 37
+    },
+    {
+      "test": "automatic_blink_at_11.60s",
+      "status": "PASS",
+      "eye_ink": 23
+    },
+    {
+      "test": "automatic_blink_at_16.80s",
+      "status": "PASS",
+      "eye_ink": 38
+    },
+    {
+      "test": "automatic_blink_reopens",
+      "status": "PASS"
+    },
+    {
+      "test": "automatic_blink_repeats_next_cycle",
+      "status": "PASS"
+    },
+    {
+      "test": "manual_blink_works_during_idle",
+      "status": "PASS"
+    },
+    {
+      "test": "talking_does_not_use_idle_blinks",
+      "status": "PASS"
+    },
+    {
+      "test": "stop_talking_resumes_automatic_blink",
+      "status": "PASS"
+    },
+    {
+      "test": "head_moves_without_host_inputs",
+      "status": "PASS",
+      "changed_head_pixels": 5163
+    },
+    {
+      "test": "idle_loop_returns_to_neutral",
+      "status": "PASS",
+      "changed_pixels": 33,
+      "mean_channel_error": 0.0004443589543807706
+    },
+    {
+      "test": "neck_stays_connected_through_entire_idle",
+      "status": "PASS",
+      "frames": 270,
+      "max_transparent_neck_pixels": 0
+    }
+  ],
+  "failures": 0,
+  "idle_seconds": 18,
+  "blink_samples": [
+    {
+      "time": 3.2,
+      "eye_ink": 35
+    },
+    {
+      "time": 7.9,
+      "eye_ink": 37
+    },
+    {
+      "time": 11.6,
+      "eye_ink": 23
+    },
+    {
+      "time": 16.8,
+      "eye_ink": 38
+    }
+  ],
+  "baseline_eye_ink": 1177
+}

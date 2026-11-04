@@ -1,0 +1,26 @@
+{
+  "file": "co_goc_3_4_noi_speaking_vi.riv",
+  "sha256": "d95758a959aba7d5d23588def4dd8e3a5d1c0e4520a9e0d8afefaca027ca6bfa",
+  "bytes": 107281,
+  "mcp_operations": 9,
+  "project_patch": {
+    "timeline": "head_rest",
+    "duration": 1080,
+    "loopValue": 1
+  },
+  "backup": "verification/before_idle/co_goc_3_4_noi_speaking_vi.riv",
+  "preview": "Verified using bundled WASM runtime; MCP render_preview unavailable due to server o_.resolve error.",
+  "head_degrees": [
+    -2.6,
+    3.2
+  ],
+  "gesture_holds_seconds": 0.6,
+  "behavior": "Two occasional tilts with neutral rests in the 18 second loop",
+  "latest_backup": "verification/before_neck_fix/co_goc_3_4_noi_speaking_vi.riv",
+  "neck_overlap": {
+    "top_y": 290,
+    "extra_height_px": 15,
+    "layer": "behind Head and Body",
+    "hidden_with_head_only": true
+  }
+}

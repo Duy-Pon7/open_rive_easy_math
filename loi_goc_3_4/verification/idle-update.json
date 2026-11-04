@@ -1,0 +1,37 @@
+{
+  "file": "loi_goc_3_4_noi_speaking_vi.riv",
+  "bytes": 75925,
+  "sha256": "2483b5d36603ec958e0dbfa0febe556f80ebda6a48cc3014e625728c29a59c03",
+  "head_degrees": [
+    -2.6,
+    3.2
+  ],
+  "cycle_seconds": 18,
+  "neck_points": [
+    [
+      161,
+      276
+    ],
+    [
+      209,
+      276
+    ],
+    [
+      217,
+      311
+    ],
+    [
+      200,
+      334
+    ],
+    [
+      171,
+      324
+    ],
+    [
+      150,
+      301
+    ]
+  ],
+  "backup": "verification/before_idle/loi_goc_3_4_noi_speaking_vi.riv"
+}
