@@ -1,0 +1,25 @@
+{
+  "starts_with_solid_head": true,
+  "final_pose_matches_original_svg": true,
+  "head_pulls_growing_trail": true,
+  "arrowhead_is_visible_during_travel": true,
+  "rest_of_body_stays_fixed_during_recoil": true,
+  "arrow_shortens_then_advances": true,
+  "ends_at_original_destination": true,
+  "head_has_only_rigid_motion": true,
+  "never_clips": true,
+  "holds_final_pose_for_5_seconds": true,
+  "state_machine_holds_complete_icon": true,
+  "runtime": {
+    "animations": 1,
+    "stateMachines": 1,
+    "elapsed": 7.233333333333483,
+    "original_rgba_mean_error": 0.2620670438957476,
+    "solid_areas": [
+      1392,
+      2231,
+      3969,
+      6538
+    ]
+  }
+}

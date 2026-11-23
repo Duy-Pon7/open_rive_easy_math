@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tick — Mũi tên chạy và kéo thân</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fb;color:#17304d;font:16px system-ui;display:grid;place-items:center;min-height:100vh}main{text-align:center;padding:36px}.stage{width:288px;height:288px;background:white;border:1px solid #e5ecf4;border-radius:32px;display:grid;place-items:center;margin:0 auto 28px;box-shadow:0 16px 60px #17304d08}canvas{width:216px;height:216px}h1{font-size:24px;margin:0 0 10px}p{color:#60758d;margin:0 0 24px}button{border:0;border-radius:12px;background:#0d99ff;color:white;font:600 15px system-ui;padding:12px 24px;cursor:pointer}button:hover{background:#0086e6}#status{margin:18px 0 0;font-size:13px;min-height:20px}
+</style>
+<main><div class="stage"><canvas id="scene" width="216" height="216" aria-label="Nét tick chạy thành hình, lùi ngắn lại rồi đẩy tới"></canvas></div><h1>Nét tick chạy thành hình.</h1><p>Lùi ngắn lại, rồi đẩy tới và dừng.</p><button id="replay">Chạy lại</button><p id="status" role="status">Đang tải…</p></main>
+<script type="module">
+import Rive from './runtime/canvas_advanced.mjs';
+try {
+const rive=await Rive({locateFile:n=>new URL('./runtime/'+(n.includes('fallback')?'rive_fallback.wasm':'rive.wasm'),location.href).href});
+const file=await rive.load(new Uint8Array(await(await fetch('./tick.riv')).arrayBuffer()),undefined,false);
+const canvas=document.getElementById('scene'),renderer=rive.makeRenderer(canvas),status=document.getElementById('status');
+let board,machine,auto=true,last=0,elapsed=0;
+function fresh(){machine?.delete();board?.delete();board=file.artboardByName('Tick');machine=new rive.StateMachineInstance(board.stateMachineByName('Tick'),board);elapsed=0;machine.advanceAndApply(0);board.advance(0);}
+function step(dt){machine.advanceAndApply(dt);board.advance(dt);elapsed+=dt;}
+function advance(dt){const count=Math.round(dt*120);for(let i=0;i<count;i++)step(1/120);}
+function draw(){canvas.getContext('2d').clearRect(0,0,216,216);renderer.beginFrame();renderer.save();renderer.align(rive.Fit.contain,rive.Alignment.center,{minX:0,minY:0,maxX:216,maxY:216},board.bounds);board.draw(renderer);renderer.restore();renderer.flush();rive.resolveAnimationFrame();return canvas.toDataURL('image/png');}
+fresh();
+window.tick={fresh:()=>{auto=false;fresh();return draw();},advance,draw,pose:t=>{auto=false;fresh();const a=new rive.LinearAnimationInstance(board.animationByName('tick'),board);a.time=t;a.apply(1);board.advance(0);const result=draw();a.delete();return result;},info:()=>({animations:board.animationCount(),stateMachines:board.stateMachineCount(),elapsed})};
+document.getElementById('replay').onclick=()=>{fresh();last=0;auto=true;};
+function tick(now){if(auto){step(last?Math.min((now-last)/1000,.05):0);draw();status.textContent=elapsed<.8?'Đang vẽ dấu tick…':elapsed<56/60?'Lùi ngắn lại…':elapsed<69/60?'Đẩy tới…':'Đã dừng';}last=now;requestAnimationFrame(tick);}requestAnimationFrame(tick);window.ready=true;
+}catch(e){window.failure=String(e);document.getElementById('status').textContent=String(e);console.error(e);}
+</script>
+</html>

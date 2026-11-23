@@ -1,0 +1,22 @@
+{
+  "project": "Tick - Trace, Retract and Advance",
+  "id": "jUQjdV7GU32J",
+  "valid": true,
+  "fileVersion": "7.3",
+  "roundTripsByteIdentically": true,
+  "counts": {
+    "artboards": 1,
+    "objects": 108,
+    "timelines": 1,
+    "stateMachines": 1,
+    "assets": 0
+  },
+  "diagnostics": [
+    {
+      "code": "limited-viewmodel",
+      "severity": "info",
+      "title": "ViewModel has limited editing support",
+      "message": "Data binding is preserved; inspect the Data panel to review editable properties."
+    }
+  ]
+}

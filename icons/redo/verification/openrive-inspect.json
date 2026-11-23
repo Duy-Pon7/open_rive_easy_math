@@ -1,0 +1,485 @@
+{
+  "id": "XbxOhpcFlJyA",
+  "name": "Redo - Retract and Advance",
+  "editor": "http://127.0.0.1:50829/editor/XbxOhpcFlJyA",
+  "artboards": [
+    {
+      "id": "tGgdtsShG4",
+      "name": "Redo",
+      "width": 72,
+      "height": 72,
+      "events": [],
+      "children": [
+        {
+          "id": "lQCm-blIzH",
+          "type": "Node",
+          "name": "Stationary Icon",
+          "x": 36,
+          "y": 36,
+          "children": [
+            {
+              "id": "0VC6HuXf0B",
+              "type": "Shape",
+              "name": "Traveling Arrowhead",
+              "x": 16.8,
+              "y": 14.8,
+              "rotationDegrees": -259.99,
+              "fill": "#0d99ff",
+              "children": [
+                {
+                  "id": "7287YW56TK",
+                  "type": "PointsPath",
+                  "name": "Original SVG contour",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "cZ47RI7rIO",
+                      "type": "CubicDetachedVertex",
+                      "x": 2.141249895095825,
+                      "y": -2.157170057296753
+                    },
+                    {
+                      "id": "7tEpq2DML8",
+                      "type": "CubicDetachedVertex",
+                      "x": 2.8927500247955322,
+                      "y": -5.866743087768555
+                    },
+                    {
+                      "id": "5xcabBLyLI",
+                      "type": "CubicDetachedVertex",
+                      "x": 4.960350036621094,
+                      "y": -6.84522008895874
+                    },
+                    {
+                      "id": "8TV4KZi28R",
+                      "type": "CubicDetachedVertex",
+                      "x": 7.615449905395508,
+                      "y": -5.557909965515137
+                    },
+                    {
+                      "id": "8DYbVIcG5B",
+                      "type": "CubicDetachedVertex",
+                      "x": 8.090550422668457,
+                      "y": -3.7495899200439453
+                    },
+                    {
+                      "id": "BPEMfTTAzJ",
+                      "type": "CubicDetachedVertex",
+                      "x": 8.083749771118164,
+                      "y": 5.191709995269775
+                    },
+                    {
+                      "id": "MzY-9IKQO2",
+                      "type": "CubicDetachedVertex",
+                      "x": 4.508749961853027,
+                      "y": 8.137109756469727
+                    },
+                    {
+                      "id": "guI2VX2X-0",
+                      "type": "CubicDetachedVertex",
+                      "x": -0.8541499972343445,
+                      "y": 8.135210037231445
+                    },
+                    {
+                      "id": "SA2EefEXWE",
+                      "type": "CubicDetachedVertex",
+                      "x": -4.570250034332275,
+                      "y": 8.001609802246094
+                    },
+                    {
+                      "id": "qrcBgLsAGz",
+                      "type": "CubicDetachedVertex",
+                      "x": -5.969950199127197,
+                      "y": 2.976710081100464
+                    },
+                    {
+                      "id": "idHa_liOHA",
+                      "type": "CubicDetachedVertex",
+                      "x": -2.141249895095825,
+                      "y": 2.157170057296753
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "-UpDEy4bNf",
+              "type": "Shape",
+              "name": "Growing Trail Mask",
+              "x": 0,
+              "y": 0,
+              "children": [
+                {
+                  "id": "X8jMJhQ2sW",
+                  "type": "PointsPath",
+                  "name": "Progressive sector",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "82HWPmU_ng",
+                      "type": "StraightVertex",
+                      "x": 2,
+                      "y": 0
+                    },
+                    {
+                      "id": "SEKUaJc6yc",
+                      "type": "StraightVertex",
+                      "x": 53.961524963378906,
+                      "y": 30
+                    },
+                    {
+                      "id": "V8Vlxyj3fu",
+                      "type": "StraightVertex",
+                      "x": 53.48389434814453,
+                      "y": 30.812475204467773
+                    },
+                    {
+                      "id": "MCoh-1bJ3e",
+                      "type": "StraightVertex",
+                      "x": 52.993560791015625,
+                      "y": 31.617347717285156
+                    },
+                    {
+                      "id": "we1Fvt6wur",
+                      "type": "StraightVertex",
+                      "x": 52.49064636230469,
+                      "y": 32.41442108154297
+                    },
+                    {
+                      "id": "EFFFbwsKRK",
+                      "type": "StraightVertex",
+                      "x": 51.97527313232422,
+                      "y": 33.2034912109375
+                    },
+                    {
+                      "id": "ro9R7KOfnC",
+                      "type": "StraightVertex",
+                      "x": 51.44757080078125,
+                      "y": 33.984375
+                    },
+                    {
+                      "id": "2iMypTGQSZ",
+                      "type": "StraightVertex",
+                      "x": 50.90766906738281,
+                      "y": 34.75687026977539
+                    },
+                    {
+                      "id": "MrolJ1DTzK",
+                      "type": "StraightVertex",
+                      "x": 50.35569763183594,
+                      "y": 35.520790100097656
+                    },
+                    {
+                      "id": "nsMyu775v9",
+                      "type": "StraightVertex",
+                      "x": 49.79179382324219,
+                      "y": 36.27594757080078
+                    },
+                    {
+                      "id": "PLjH1fNt6A",
+                      "type": "StraightVertex",
+                      "x": 49.216102600097656,
+                      "y": 37.022151947021484
+                    },
+                    {
+                      "id": "cnVxT0g3C1",
+                      "type": "StraightVertex",
+                      "x": 48.62875747680664,
+                      "y": 37.75922393798828
+                    },
+                    {
+                      "id": "4UHdNLcjV0",
+                      "type": "StraightVertex",
+                      "x": 48.0299072265625,
+                      "y": 38.486976623535156
+                    },
+                    {
+                      "id": "Pdvlw2BsqR",
+                      "type": "StraightVertex",
+                      "x": 47.41970443725586,
+                      "y": 39.20523452758789
+                    },
+                    {
+                      "id": "pGQLw0CQik",
+                      "type": "StraightVertex",
+                      "x": 46.79829025268555,
+                      "y": 39.913822174072266
+                    },
+                    {
+                      "id": "48SVUXMsR_",
+                      "type": "StraightVertex",
+                      "x": 46.16582489013672,
+                      "y": 40.61255645751953
+                    },
+                    {
+                      "id": "rfXr1z8rkV",
+                      "type": "StraightVertex",
+                      "x": 45.5224609375,
+                      "y": 41.301273345947266
+                    },
+                    {
+                      "id": "DrCIFfQ1PU",
+                      "type": "StraightVertex",
+                      "x": 44.86836242675781,
+                      "y": 41.979801177978516
+                    },
+                    {
+                      "id": "gG4ZE7X21M",
+                      "type": "StraightVertex",
+                      "x": 44.20368194580078,
+                      "y": 42.64796829223633
+                    },
+                    {
+                      "id": "4nsRzg5D98",
+                      "type": "StraightVertex",
+                      "x": 43.52859115600586,
+                      "y": 43.30561447143555
+                    },
+                    {
+                      "id": "JeF5k2HUaf",
+                      "type": "StraightVertex",
+                      "x": 42.8432502746582,
+                      "y": 43.95257568359375
+                    },
+                    {
+                      "id": "RqLgA1hoGn",
+                      "type": "StraightVertex",
+                      "x": 42.14783477783203,
+                      "y": 44.588687896728516
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1DNWtKgnpM",
+              "type": "Shape",
+              "name": "Stationary Growing Trail",
+              "x": -24,
+              "y": -24,
+              "fill": "#0d99ff",
+              "children": [
+                {
+                  "id": "oP6-QhT02i",
+                  "type": "PointsPath",
+                  "name": "Original SVG contour",
+                  "x": 0,
+                  "y": 0,
+                  "vertices": [
+                    {
+                      "id": "dUNLGLXAgW",
+                      "type": "CubicDetachedVertex",
+                      "x": 35.861900329589844,
+                      "y": 9.006159782409668
+                    },
+                    {
+                      "id": "bPt14588IH",
+                      "type": "CubicDetachedVertex",
+                      "x": 16.727500915527344,
+                      "y": 8.471830368041992
+                    },
+                    {
+                      "id": "RAbkW-ZprH",
+                      "type": "CubicDetachedVertex",
+                      "x": 8.42885971069336,
+                      "y": 19.558900833129883
+                    },
+                    {
+                      "id": "TQY4nYFe-P",
+                      "type": "CubicDetachedVertex",
+                      "x": 10.398699760437012,
+                      "y": 33.18880081176758
+                    },
+                    {
+                      "id": "u5SX5aRToo",
+                      "type": "CubicDetachedVertex",
+                      "x": 21.745899200439453,
+                      "y": 41.51580047607422
+                    },
+                    {
+                      "id": "YniL5shq-y",
+                      "type": "CubicDetachedVertex",
+                      "x": 25.464399337768555,
+                      "y": 41.945899963378906
+                    },
+                    {
+                      "id": "_7wAE-41Bn",
+                      "type": "CubicDetachedVertex",
+                      "x": 37.55970001220703,
+                      "y": 37.660301208496094
+                    },
+                    {
+                      "id": "KkhdYTgUVh",
+                      "type": "CubicDetachedVertex",
+                      "x": 40.481300354003906,
+                      "y": 35.8557014465332
+                    },
+                    {
+                      "id": "Rx8LtguvgR",
+                      "type": "CubicDetachedVertex",
+                      "x": 43.76340103149414,
+                      "y": 38.645599365234375
+                    },
+                    {
+                      "id": "bxFfvjUEhH",
+                      "type": "CubicDetachedVertex",
+                      "x": 41.08420181274414,
+                      "y": 42.54349899291992
+                    },
+                    {
+                      "id": "XQI9FthRhV",
+                      "type": "CubicDetachedVertex",
+                      "x": 27.685300827026367,
+                      "y": 47.93550109863281
+                    },
+                    {
+                      "id": "_vTmcG4iRx",
+                      "type": "CubicDetachedVertex",
+                      "x": 10.119099617004395,
+                      "y": 42.094200134277344
+                    },
+                    {
+                      "id": "DFkPTKuYhs",
+                      "type": "CubicDetachedVertex",
+                      "x": 7.824510097503662,
+                      "y": 8.158269882202148
+                    },
+                    {
+                      "id": "YyqQ6IwHO1",
+                      "type": "CubicDetachedVertex",
+                      "x": 23.714500427246094,
+                      "y": 0.0780882015824318
+                    },
+                    {
+                      "id": "H_gq7q1MRq",
+                      "type": "CubicDetachedVertex",
+                      "x": 28.943199157714844,
+                      "y": 0.16530999541282654
+                    },
+                    {
+                      "id": "38bFO-NyVx",
+                      "type": "CubicDetachedVertex",
+                      "x": 40.14440155029297,
+                      "y": 4.69182014465332
+                    },
+                    {
+                      "id": "7S3P0pdvM6",
+                      "type": "CubicDetachedVertex",
+                      "x": 40.43115234375,
+                      "y": 4.892503261566162
+                    },
+                    {
+                      "id": "y-2Qy5j7uA",
+                      "type": "CubicDetachedVertex",
+                      "x": 36.148651123046875,
+                      "y": 9.206843376159668
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timelines": [
+        {
+          "id": "tiROnLR6rc",
+          "name": "redo",
+          "fps": 60,
+          "durationSeconds": 1.35,
+          "loop": "oneShot",
+          "keyed": [
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "StraightVertex.x",
+            "StraightVertex.y",
+            "Traveling Arrowhead.x",
+            "Traveling Arrowhead.y",
+            "Traveling Arrowhead.rotation"
+          ]
+        }
+      ],
+      "properties": [],
+      "stateMachines": [
+        {
+          "id": "2N203nU5LL",
+          "name": "Redo",
+          "inputs": [],
+          "layers": [
+            {
+              "name": "Play once",
+              "states": [
+                {
+                  "id": "96ZWGA1_ZQ",
+                  "type": "AnyState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "V9Kno5g72q",
+                  "type": "ExitState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "2PXAnVAPXM",
+                  "type": "EntryState",
+                  "transitionsTo": [
+                    "9NWA2dY0nK"
+                  ]
+                },
+                {
+                  "id": "9NWA2dY0nK",
+                  "type": "AnimationState",
+                  "timeline": "redo",
+                  "transitionsTo": []
+                }
+              ]
+            }
+          ],
+          "listeners": 0
+        }
+      ]
+    }
+  ],
+  "themeColors": [],
+  "themes": []
+}

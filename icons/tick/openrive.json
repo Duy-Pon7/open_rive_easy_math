@@ -1,0 +1,12 @@
+{
+  "project_id": "jUQjdV7GU32J",
+  "editor_url": "http://127.0.0.1:50829/editor/jUQjdV7GU32J",
+  "animation": "tick",
+  "state_machine": "Tick",
+  "duration_seconds": 1.35,
+  "stroke_width": 6.6,
+  "end_motion": "shorten by 8 percent then advance to original endpoint",
+  "view_model": "IconStyle",
+  "color_property": "iconColor",
+  "default_color": "#0D99FF"
+}

@@ -1,0 +1,1122 @@
+{
+  "header": {
+    "major": 7,
+    "minor": 3,
+    "fileId": 0,
+    "toc": [
+      [
+        196,
+        0
+      ],
+      [
+        236,
+        0
+      ],
+      [
+        494,
+        0
+      ],
+      [
+        536,
+        0
+      ],
+      [
+        554,
+        0
+      ],
+      [
+        555,
+        3
+      ],
+      [
+        557,
+        1
+      ],
+      [
+        566,
+        0
+      ],
+      [
+        583,
+        0
+      ],
+      [
+        586,
+        0
+      ],
+      [
+        588,
+        1
+      ],
+      [
+        613,
+        0
+      ],
+      [
+        614,
+        0
+      ],
+      [
+        615,
+        0
+      ],
+      [
+        616,
+        0
+      ],
+      [
+        617,
+        0
+      ],
+      [
+        618,
+        0
+      ],
+      [
+        619,
+        0
+      ],
+      [
+        620,
+        0
+      ],
+      [
+        625,
+        0
+      ],
+      [
+        626,
+        0
+      ]
+    ],
+    "usedKeys": [
+      557,
+      566,
+      4,
+      555,
+      554,
+      236,
+      583,
+      196,
+      7,
+      8,
+      494,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      625,
+      626,
+      5,
+      13,
+      14,
+      24,
+      25,
+      47,
+      48,
+      49,
+      37,
+      588,
+      586,
+      115,
+      117,
+      57,
+      55,
+      51,
+      53,
+      70,
+      68,
+      67,
+      138,
+      151,
+      149,
+      536
+    ]
+  },
+  "top": [
+    {
+      "id": "sSeV8iTekA",
+      "type": "Backboard",
+      "props": {}
+    },
+    {
+      "id": "SeO1rZwi6l",
+      "type": "ViewModel",
+      "props": {
+        "name": "IconStyle"
+      }
+    },
+    {
+      "id": "GBL9pb3XUc",
+      "type": "ViewModelPropertyColor",
+      "props": {
+        "name": "iconColor"
+      }
+    },
+    {
+      "id": "Qr3uTbDWcW",
+      "type": "ViewModelInstance",
+      "props": {
+        "viewModelId": 0,
+        "name": "Default"
+      }
+    },
+    {
+      "id": "yWFgJRbXnn",
+      "type": "ViewModelInstanceColor",
+      "props": {
+        "propertyValue": 4279081471,
+        "viewModelPropertyId": 0
+      }
+    }
+  ],
+  "artboards": [
+    {
+      "id": "ht95TzhP1x",
+      "artboard": {
+        "id": "ht95TzhP1x",
+        "type": "Artboard",
+        "props": {
+          "defaultStateMachineId": "mTuly11DYZ",
+          "viewModelId": "SeO1rZwi6l",
+          "clip": true,
+          "width": 72,
+          "height": 72,
+          "styleId": "2Zl5CLSnMi",
+          "name": "Tick"
+        },
+        "ui": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "objects": [
+        {
+          "id": "2Zl5CLSnMi",
+          "type": "LayoutComponentStyle",
+          "props": {
+            "marginLeftUnitsValue": 1,
+            "marginRightUnitsValue": 1,
+            "marginTopUnitsValue": 1,
+            "marginBottomUnitsValue": 1,
+            "paddingLeftUnitsValue": 1,
+            "paddingRightUnitsValue": 1,
+            "paddingTopUnitsValue": 1,
+            "paddingBottomUnitsValue": 1,
+            "gapHorizontalUnitsValue": 1,
+            "gapVerticalUnitsValue": 1,
+            "name": "Canvas",
+            "parentId": "ht95TzhP1x"
+          }
+        },
+        {
+          "id": "Y8sboh3nur",
+          "type": "Shape",
+          "props": {
+            "x": 12,
+            "y": 12,
+            "name": "Tick Stroke",
+            "parentId": "ht95TzhP1x"
+          }
+        },
+        {
+          "id": "tD_CDrlf7c",
+          "type": "PointsPath",
+          "props": {
+            "name": "Original SVG centerline",
+            "parentId": "Y8sboh3nur"
+          }
+        },
+        {
+          "id": "qaOdal1Cf7",
+          "type": "StraightVertex",
+          "props": {
+            "x": 4,
+            "y": 26.085100173950195,
+            "parentId": "tD_CDrlf7c"
+          }
+        },
+        {
+          "id": "TAdMf-kBBk",
+          "type": "StraightVertex",
+          "props": {
+            "x": 15.764699935913086,
+            "y": 38,
+            "parentId": "tD_CDrlf7c"
+          }
+        },
+        {
+          "id": "t933yJ7p53",
+          "type": "StraightVertex",
+          "props": {
+            "x": 44,
+            "y": 10,
+            "parentId": "tD_CDrlf7c"
+          }
+        },
+        {
+          "id": "MKyBDuCm_W",
+          "type": "Stroke",
+          "props": {
+            "thickness": 6.599999904632568,
+            "cap": 1,
+            "join": 1,
+            "name": "Constant Width",
+            "parentId": "Y8sboh3nur"
+          }
+        },
+        {
+          "id": "T3IdS1owxd",
+          "type": "SolidColor",
+          "props": {
+            "colorValue": 4279081471,
+            "parentId": "MKyBDuCm_W"
+          }
+        },
+        {
+          "id": "oNxwviGCGS",
+          "type": "DataBindContext",
+          "props": {
+            "sourcePathIds": {
+              "$bytes": "AAA="
+            },
+            "propertyKey": 37
+          }
+        },
+        {
+          "id": "S340pfNskP",
+          "type": "TrimPath",
+          "props": {
+            "end": 9.999999747378752e-06,
+            "modeValue": 1,
+            "name": "Trace, Retract and Advance",
+            "parentId": "MKyBDuCm_W"
+          }
+        }
+      ],
+      "animations": [
+        {
+          "id": "mkfk7_6T7C",
+          "type": "LinearAnimation",
+          "props": {
+            "duration": 81,
+            "name": "tick"
+          },
+          "children": [
+            {
+              "id": "l0N-Z6KHMW",
+              "type": "KeyedObject",
+              "props": {
+                "objectId": "S340pfNskP"
+              },
+              "children": [
+                {
+                  "id": "Vr9I4z1aqk",
+                  "type": "KeyedProperty",
+                  "props": {
+                    "propertyKey": 115
+                  },
+                  "children": [
+                    {
+                      "id": "kjvh5fgoM5",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 9.999999747378752e-06,
+                        "interpolationType": 1
+                      }
+                    },
+                    {
+                      "id": "1ncZ6bTF_T",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 9.76189985522069e-05,
+                        "interpolationType": 1,
+                        "frame": 1
+                      }
+                    },
+                    {
+                      "id": "YGxcgqyrVy",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.0006889150245115161,
+                        "interpolationType": 1,
+                        "frame": 2
+                      }
+                    },
+                    {
+                      "id": "RQJIUoQy-D",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.0022282239515334368,
+                        "interpolationType": 1,
+                        "frame": 3
+                      }
+                    },
+                    {
+                      "id": "WbCdU4i7b0",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.00509771890938282,
+                        "interpolationType": 1,
+                        "frame": 4
+                      }
+                    },
+                    {
+                      "id": "6xt2ZOGCcW",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.009620233438909054,
+                        "interpolationType": 1,
+                        "frame": 5
+                      }
+                    },
+                    {
+                      "id": "X1kGgO_P2E",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.016062086448073387,
+                        "interpolationType": 1,
+                        "frame": 6
+                      }
+                    },
+                    {
+                      "id": "ArrHlAUzCM",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.024635909125208855,
+                        "interpolationType": 1,
+                        "frame": 7
+                      }
+                    },
+                    {
+                      "id": "e-6am38BIw",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.03550347313284874,
+                        "interpolationType": 1,
+                        "frame": 8
+                      }
+                    },
+                    {
+                      "id": "fq87B2oFJg",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.048778511583805084,
+                        "interpolationType": 1,
+                        "frame": 9
+                      }
+                    },
+                    {
+                      "id": "77cmnzjRaj",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.06452954560518265,
+                        "interpolationType": 1,
+                        "frame": 10
+                      }
+                    },
+                    {
+                      "id": "rP8qzTs0m1",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.08278270810842514,
+                        "interpolationType": 1,
+                        "frame": 11
+                      }
+                    },
+                    {
+                      "id": "KAZR31dhp_",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.1035245880484581,
+                        "interpolationType": 1,
+                        "frame": 12
+                      }
+                    },
+                    {
+                      "id": "fx-BayuL5t",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.12670502066612244,
+                        "interpolationType": 1,
+                        "frame": 13
+                      }
+                    },
+                    {
+                      "id": "XihBXIWFBF",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.15223994851112366,
+                        "interpolationType": 1,
+                        "frame": 14
+                      }
+                    },
+                    {
+                      "id": "DThFiSwKJC",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.1800142228603363,
+                        "interpolationType": 1,
+                        "frame": 15
+                      }
+                    },
+                    {
+                      "id": "GqD8X8rNZN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.20988444983959198,
+                        "interpolationType": 1,
+                        "frame": 16
+                      }
+                    },
+                    {
+                      "id": "QQ-JqucgLr",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.241681769490242,
+                        "interpolationType": 1,
+                        "frame": 17
+                      }
+                    },
+                    {
+                      "id": "KvSvqm3Fx0",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.2752147614955902,
+                        "interpolationType": 1,
+                        "frame": 18
+                      }
+                    },
+                    {
+                      "id": "WtaBoReTKS",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.310272216796875,
+                        "interpolationType": 1,
+                        "frame": 19
+                      }
+                    },
+                    {
+                      "id": "iaig791td4",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.346625953912735,
+                        "interpolationType": 1,
+                        "frame": 20
+                      }
+                    },
+                    {
+                      "id": "OAK8IJFv_U",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.3840336501598358,
+                        "interpolationType": 1,
+                        "frame": 21
+                      }
+                    },
+                    {
+                      "id": "njxHQ08UV3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.4222417175769806,
+                        "interpolationType": 1,
+                        "frame": 22
+                      }
+                    },
+                    {
+                      "id": "UyssESVMaw",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.4609880745410919,
+                        "interpolationType": 1,
+                        "frame": 23
+                      }
+                    },
+                    {
+                      "id": "u8E2hbXDXa",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.5000050067901611,
+                        "interpolationType": 1,
+                        "frame": 24
+                      }
+                    },
+                    {
+                      "id": "HCz_Fr2qCA",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.539021909236908,
+                        "interpolationType": 1,
+                        "frame": 25
+                      }
+                    },
+                    {
+                      "id": "p9tGtwT8ug",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.5777682662010193,
+                        "interpolationType": 1,
+                        "frame": 26
+                      }
+                    },
+                    {
+                      "id": "7KCLiQw-Fv",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.6159763336181641,
+                        "interpolationType": 1,
+                        "frame": 27
+                      }
+                    },
+                    {
+                      "id": "9MCkjMH30l",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.6533840894699097,
+                        "interpolationType": 1,
+                        "frame": 28
+                      }
+                    },
+                    {
+                      "id": "Wj1Upo_cvo",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.6897377967834473,
+                        "interpolationType": 1,
+                        "frame": 29
+                      }
+                    },
+                    {
+                      "id": "hMoMZP8v0R",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.7247952222824097,
+                        "interpolationType": 1,
+                        "frame": 30
+                      }
+                    },
+                    {
+                      "id": "uGPr5r1KRQ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.7583281993865967,
+                        "interpolationType": 1,
+                        "frame": 31
+                      }
+                    },
+                    {
+                      "id": "fFeEZHGNbo",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.7901255488395691,
+                        "interpolationType": 1,
+                        "frame": 32
+                      }
+                    },
+                    {
+                      "id": "M7VbZ6Od3r",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.8199957609176636,
+                        "interpolationType": 1,
+                        "frame": 33
+                      }
+                    },
+                    {
+                      "id": "7xR5LWMXsj",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.8477700352668762,
+                        "interpolationType": 1,
+                        "frame": 34
+                      }
+                    },
+                    {
+                      "id": "TIMVt3FdAb",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.8733049631118774,
+                        "interpolationType": 1,
+                        "frame": 35
+                      }
+                    },
+                    {
+                      "id": "JNaFflGkYz",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.8964853882789612,
+                        "interpolationType": 1,
+                        "frame": 36
+                      }
+                    },
+                    {
+                      "id": "ZG1DWyF0QI",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9172272682189941,
+                        "interpolationType": 1,
+                        "frame": 37
+                      }
+                    },
+                    {
+                      "id": "kzhO5xS6gs",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9354804754257202,
+                        "interpolationType": 1,
+                        "frame": 38
+                      }
+                    },
+                    {
+                      "id": "81n8ygoT7V",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9512314796447754,
+                        "interpolationType": 1,
+                        "frame": 39
+                      }
+                    },
+                    {
+                      "id": "iDX_uasmJl",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9645065069198608,
+                        "interpolationType": 1,
+                        "frame": 40
+                      }
+                    },
+                    {
+                      "id": "MhLasyD0wt",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9753741025924683,
+                        "interpolationType": 1,
+                        "frame": 41
+                      }
+                    },
+                    {
+                      "id": "Y7Y9JIRwnV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9839479327201843,
+                        "interpolationType": 1,
+                        "frame": 42
+                      }
+                    },
+                    {
+                      "id": "kVT6Z-GoQO",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9903897643089294,
+                        "interpolationType": 1,
+                        "frame": 43
+                      }
+                    },
+                    {
+                      "id": "g3IWD3X6fi",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9949122667312622,
+                        "interpolationType": 1,
+                        "frame": 44
+                      }
+                    },
+                    {
+                      "id": "H0uFIMv8aE",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9977817535400391,
+                        "interpolationType": 1,
+                        "frame": 45
+                      }
+                    },
+                    {
+                      "id": "tvuvvDuUnN",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9993211030960083,
+                        "interpolationType": 1,
+                        "frame": 46
+                      }
+                    },
+                    {
+                      "id": "yjrk7FU8lf",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9999123811721802,
+                        "interpolationType": 1,
+                        "frame": 47
+                      }
+                    },
+                    {
+                      "id": "Nn3hDuyr9l",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 48
+                      }
+                    },
+                    {
+                      "id": "Iel0R4RHvs",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9987158179283142,
+                        "interpolationType": 1,
+                        "frame": 49
+                      }
+                    },
+                    {
+                      "id": "hhGSP8WvIA",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9917187690734863,
+                        "interpolationType": 1,
+                        "frame": 50
+                      }
+                    },
+                    {
+                      "id": "H0ySrfSSjc",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9779834151268005,
+                        "interpolationType": 1,
+                        "frame": 51
+                      }
+                    },
+                    {
+                      "id": "H78O5rZLAJ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9599999785423279,
+                        "interpolationType": 1,
+                        "frame": 52
+                      }
+                    },
+                    {
+                      "id": "iqR702A8wu",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9420166015625,
+                        "interpolationType": 1,
+                        "frame": 53
+                      }
+                    },
+                    {
+                      "id": "GcGSL4vvSA",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9282812476158142,
+                        "interpolationType": 1,
+                        "frame": 54
+                      }
+                    },
+                    {
+                      "id": "Y-73SiyylC",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9212841987609863,
+                        "interpolationType": 1,
+                        "frame": 55
+                      }
+                    },
+                    {
+                      "id": "E7dR0oSJ_3",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9200000166893005,
+                        "interpolationType": 1,
+                        "frame": 56
+                      }
+                    },
+                    {
+                      "id": "w49psPjYWG",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9203234314918518,
+                        "interpolationType": 1,
+                        "frame": 57
+                      }
+                    },
+                    {
+                      "id": "uZkWAqbjMR",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9222821593284607,
+                        "interpolationType": 1,
+                        "frame": 58
+                      }
+                    },
+                    {
+                      "id": "pKdy1oQ42S",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9267424941062927,
+                        "interpolationType": 1,
+                        "frame": 59
+                      }
+                    },
+                    {
+                      "id": "M4-qA5Cqqt",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.933872401714325,
+                        "interpolationType": 1,
+                        "frame": 60
+                      }
+                    },
+                    {
+                      "id": "HK6LoeZGI9",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9432969689369202,
+                        "interpolationType": 1,
+                        "frame": 61
+                      }
+                    },
+                    {
+                      "id": "lOOfLDi7C4",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9542534947395325,
+                        "interpolationType": 1,
+                        "frame": 62
+                      }
+                    },
+                    {
+                      "id": "-lp7w0odlt",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9657465219497681,
+                        "interpolationType": 1,
+                        "frame": 63
+                      }
+                    },
+                    {
+                      "id": "NokYhfvh0c",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9767030477523804,
+                        "interpolationType": 1,
+                        "frame": 64
+                      }
+                    },
+                    {
+                      "id": "X4P5pC86Ai",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9861276149749756,
+                        "interpolationType": 1,
+                        "frame": 65
+                      }
+                    },
+                    {
+                      "id": "x1xvP0k_il",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9932575225830078,
+                        "interpolationType": 1,
+                        "frame": 66
+                      }
+                    },
+                    {
+                      "id": "5d6SJ2iL_V",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9977177977561951,
+                        "interpolationType": 1,
+                        "frame": 67
+                      }
+                    },
+                    {
+                      "id": "SUuNuUj244",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 0.9996765851974487,
+                        "interpolationType": 1,
+                        "frame": 68
+                      }
+                    },
+                    {
+                      "id": "wfwuj61339",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 69
+                      }
+                    },
+                    {
+                      "id": "4-bO1kCOmz",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 70
+                      }
+                    },
+                    {
+                      "id": "tEisEnW9ou",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 71
+                      }
+                    },
+                    {
+                      "id": "M7aij_Xh0x",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 72
+                      }
+                    },
+                    {
+                      "id": "e-WKRPNjEK",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 73
+                      }
+                    },
+                    {
+                      "id": "iAN4yrxv9n",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 74
+                      }
+                    },
+                    {
+                      "id": "rAa8Zfq3NB",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 75
+                      }
+                    },
+                    {
+                      "id": "uCJ7f5y3BQ",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 76
+                      }
+                    },
+                    {
+                      "id": "syWeschMhm",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 77
+                      }
+                    },
+                    {
+                      "id": "K4RDEuiLUf",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 78
+                      }
+                    },
+                    {
+                      "id": "87uAJkmoAR",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 79
+                      }
+                    },
+                    {
+                      "id": "vac1hFvYwV",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 80
+                      }
+                    },
+                    {
+                      "id": "7VKb_7Buxe",
+                      "type": "KeyFrameDouble",
+                      "props": {
+                        "value": 1,
+                        "interpolationType": 1,
+                        "frame": 81
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "stateMachines": [
+        {
+          "id": "mTuly11DYZ",
+          "type": "StateMachine",
+          "props": {
+            "name": "Tick"
+          },
+          "children": [
+            {
+              "id": "SM0A00ubnb",
+              "type": "StateMachineLayer",
+              "props": {
+                "name": "Play once"
+              },
+              "children": [
+                {
+                  "id": "vxd2wuMYoU",
+                  "type": "AnyState",
+                  "props": {}
+                },
+                {
+                  "id": "0RFMJ3etIn",
+                  "type": "ExitState",
+                  "props": {}
+                },
+                {
+                  "id": "gnKYnTf1XM",
+                  "type": "EntryState",
+                  "props": {},
+                  "children": [
+                    {
+                      "id": "i0qOlGnjL_",
+                      "type": "StateTransition",
+                      "props": {
+                        "stateToId": "cvD-9b_pTV"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "cvD-9b_pTV",
+                  "type": "AnimationState",
+                  "props": {
+                    "animationId": "mkfk7_6T7C",
+                    "flags": 2
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

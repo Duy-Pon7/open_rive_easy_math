@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Rive version="1" kind="fragment">
+  <Artboard name="Redo" width="72" height="72" clip="true" id="0:1" styleId="0:2" defaultStateMachineId="0:370">
+    <LayoutComponentStyle name="Canvas" id="0:2" />
+    <Node name="Redo Motion" x="36" y="36" id="0:3">
+      <Shape name="Redo Arrow 1" x="-24" y="-24" id="0:4">
+        <PointsPath name="Original SVG contour" isClosed="true" id="0:5">
+          <CubicDetachedVertex x="40.1444" y="4.69182" inRotation="-2.470782263208957" inDistance="3.800499112077252" outRotation="-1.5768308732031373" outDistance="1.2594229313459397" id="0:6" />
+          <CubicDetachedVertex x="40.8959" y="0.982247" inRotation="2.298744057964859" inDistance="1.3357102000692367" outRotation="-0.8423115840507968" outDistance="0.7938537675926222" id="0:7" />
+          <CubicDetachedVertex x="42.9635" y="0.00376983" inRotation="3.0998314603448027" inDistance="0.7937920850195024" outRotation="-0.04549862072907041" outDistance="1.1022406909217182" id="0:8" />
+          <CubicDetachedVertex x="45.6186" y="1.29108" inRotation="-2.2078102055982045" inDistance="1.102728003605605" outRotation="0.9337681856783765" outDistance="0.6859343700384176" id="0:9" />
+          <CubicDetachedVertex x="46.0937" y="3.0994" inRotation="-1.5734820857802934" inDistance="0.6702024171845402" outRotation="1.5681130390887759" outDistance="2.9814207331572637" id="0:10" />
+          <CubicDetachedVertex x="46.0869" y="12.0407" inRotation="-1.56140564030372" inDistance="2.9817214705770207" outRotation="1.5801938253653167" outDistance="2.0856920961637666" id="0:11" />
+          <CubicDetachedVertex x="42.5119" y="14.9861" inRotation="0.02828833994430431" inDistance="1.8879553490482766" outRotation="-3.132814082408889" outDistance="1.7884689122263169" id="0:12" />
+          <CubicDetachedVertex x="37.149" y="14.9842" inRotation="5.59096499472048e-05" inDistance="1.788600002795485" outRotation="-3.1415112071003173" outDistance="1.2278000040723265" id="0:13" />
+          <CubicDetachedVertex x="33.4329" y="14.8506" inRotation="0.1793074496101274" inDistance="1.2284959299891915" outRotation="-2.962287907692315" outDistance="2.3633900439834283" id="0:14" />
+          <CubicDetachedVertex x="32.0332" y="9.8257" inRotation="2.353276485233527" inDistance="2.253629616862542" outRotation="-0.7882866649031642" outDistance="1.4125011854508285" id="0:15" />
+          <CubicDetachedVertex x="35.8619" y="9.00616" inRotation="-3.1358534393851127" inDistance="1.3033214647200437" outRotation="-2.5272064178378293" outDistance="6.712294724049295" id="0:16" />
+          <CubicDetachedVertex x="16.7275" y="8.47183" inRotation="-0.5344086389064701" inDistance="6.645014513182046" outRotation="2.6088719001500227" outDistance="4.801675651155541" id="0:17" />
+          <CubicDetachedVertex x="8.42886" y="19.5589" inRotation="-1.323792168397824" inDistance="4.801633139880639" outRotation="1.8166934711278033" outDistance="4.768953327733454" id="0:18" />
+          <CubicDetachedVertex x="10.3987" y="33.1888" inRotation="-2.103757476135798" inDistance="4.769034959653789" outRotation="1.0317836331724122" outDistance="4.99815971133376" id="0:19" />
+          <CubicDetachedVertex x="21.7459" y="41.5158" inRotation="-2.895249189547782" inDistance="4.975817010300919" outRotation="0.25085856683111174" outDistance="1.2580782885019537" id="0:20" />
+          <CubicDetachedVertex x="25.4644" y="41.9459" inRotation="-3.1064280541237825" inDistance="1.2486719425053177" outRotation="0.03514809742630566" outDistance="4.385208439743771" id="0:21" />
+          <CubicDetachedVertex x="37.5597" y="37.6603" inRotation="2.420290903047649" inDistance="4.388194039693323" outRotation="-0.715145371102409" outDistance="1.1846390167472949" id="0:22" />
+          <CubicDetachedVertex x="40.4813" y="35.8557" inRotation="3.056197112922073" inDistance="1.2709312530581602" outRotation="-0.08536864385447865" outDistance="1.6665691284792299" id="0:23" />
+          <CubicDetachedVertex x="43.7634" y="38.6456" inRotation="-1.6586246946743486" inDistance="1.653071653014475" outRotation="1.4829497134517624" outDistance="1.6766652766727188" id="0:24" />
+          <CubicDetachedVertex x="41.0842" y="42.5435" inRotation="-0.6946956537210456" inDistance="1.5019878361691223" outRotation="2.453554614351513" outDistance="4.928326954454222" id="0:25" />
+          <CubicDetachedVertex x="27.6853" y="47.9355" inRotation="-0.07713915383978946" inDistance="4.928455993513586" outRotation="3.0684376035405605" outDistance="6.416762513916191" id="0:26" />
+          <CubicDetachedVertex x="10.1191" y="42.0942" inRotation="0.7152220610645557" inDistance="6.416736436070909" outRotation="-2.4281335548807523" outDistance="13.266190969888894" id="0:27" />
+          <CubicDetachedVertex x="7.82451" y="8.15827" inRotation="2.291904659253257" inDistance="13.170904693571508" outRotation="-0.8496877749609996" outDistance="5.9996726934142" id="0:28" />
+          <CubicDetachedVertex x="23.7145" y="0.0780882" inRotation="3.070966916170536" inDistance="6.014193148332906" outRotation="-0.06965804245510149" outDistance="1.308874203955447" id="0:29" />
+          <CubicDetachedVertex x="28.9432" y="0.16531" inRotation="-3.0172881508619445" inDistance="1.2750380171451416" outRotation="0.12433617046974231" outDistance="3.7689958512919612" id="0:30" />
+        </PointsPath>
+        <Fill id="0:31">
+          <SolidColor colorValue="FF0D99FF" id="0:32" />
+        </Fill>
+      </Shape>
+    </Node>
+    <StateMachine name="Redo" id="0:370">
+      <StateMachineLayer name="Play once" id="0:371">
+        <AnyState x="0" y="-150" id="0:372" />
+        <ExitState x="450" y="-150" id="0:373" />
+        <EntryState x="0" y="0" id="0:374">
+          <StateTransition stateToId="0:375" duration="0" id="0:376" />
+        </EntryState>
+        <AnimationState animationId="0:33" reset="true" x="240" y="0" id="0:375" />
+      </StateMachineLayer>
+    </StateMachine>
+    <LinearAnimation name="redo" fps="60" duration="81" loopValue="oneShot" id="0:33">
+      <KeyedObject objectId="0:3" id="0:34">
+        <KeyedProperty property="rotation" id="0:35">
+          <KeyFrameDouble frame="0" value="0.000000000" interpolationType="linear" id="0:36" />
+          <KeyFrameDouble frame="1" value="0.000550535" interpolationType="linear" id="0:37" />
+          <KeyFrameDouble frame="2" value="0.004265792" interpolationType="linear" id="0:38" />
+          <KeyFrameDouble frame="3" value="0.013937654" interpolationType="linear" id="0:39" />
+          <KeyFrameDouble frame="4" value="0.031967402" interpolationType="linear" id="0:40" />
+          <KeyFrameDouble frame="5" value="0.060383479" interpolationType="linear" id="0:41" />
+          <KeyFrameDouble frame="6" value="0.100859237" interpolationType="linear" id="0:42" />
+          <KeyFrameDouble frame="7" value="0.154730695" interpolationType="linear" id="0:43" />
+          <KeyFrameDouble frame="8" value="0.223014293" interpolationType="linear" id="0:44" />
+          <KeyFrameDouble frame="9" value="0.306424647" interpolationType="linear" id="0:45" />
+          <KeyFrameDouble frame="10" value="0.405392299" interpolationType="linear" id="0:46" />
+          <KeyFrameDouble frame="11" value="0.520081480" interpolationType="linear" id="0:47" />
+          <KeyFrameDouble frame="12" value="0.650407854" interpolationType="linear" id="0:48" />
+          <KeyFrameDouble frame="13" value="0.796056282" interpolationType="linear" id="0:49" />
+          <KeyFrameDouble frame="14" value="0.956498570" interpolationType="linear" id="0:50" />
+          <KeyFrameDouble frame="15" value="1.131011225" interpolationType="linear" id="0:51" />
+          <KeyFrameDouble frame="16" value="1.318693213" interpolationType="linear" id="0:52" />
+          <KeyFrameDouble frame="17" value="1.518483706" interpolationType="linear" id="0:53" />
+          <KeyFrameDouble frame="18" value="1.729179843" interpolationType="linear" id="0:54" />
+          <KeyFrameDouble frame="19" value="1.949454483" interpolationType="linear" id="0:55" />
+          <KeyFrameDouble frame="20" value="2.177873958" interpolationType="linear" id="0:56" />
+          <KeyFrameDouble frame="21" value="2.412915827" interpolationType="linear" id="0:57" />
+          <KeyFrameDouble frame="22" value="2.652986631" interpolationType="linear" id="0:58" />
+          <KeyFrameDouble frame="23" value="2.896439650" interpolationType="linear" id="0:59" />
+          <KeyFrameDouble frame="24" value="3.141592654" interpolationType="linear" id="0:60" />
+          <KeyFrameDouble frame="25" value="3.386745657" interpolationType="linear" id="0:61" />
+          <KeyFrameDouble frame="26" value="3.630198676" interpolationType="linear" id="0:62" />
+          <KeyFrameDouble frame="27" value="3.870269481" interpolationType="linear" id="0:63" />
+          <KeyFrameDouble frame="28" value="4.105311349" interpolationType="linear" id="0:64" />
+          <KeyFrameDouble frame="29" value="4.333730824" interpolationType="linear" id="0:65" />
+          <KeyFrameDouble frame="30" value="4.554005464" interpolationType="linear" id="0:66" />
+          <KeyFrameDouble frame="31" value="4.764701602" interpolationType="linear" id="0:67" />
+          <KeyFrameDouble frame="32" value="4.964492095" interpolationType="linear" id="0:68" />
+          <KeyFrameDouble frame="33" value="5.152174082" interpolationType="linear" id="0:69" />
+          <KeyFrameDouble frame="34" value="5.326686737" interpolationType="linear" id="0:70" />
+          <KeyFrameDouble frame="35" value="5.487129025" interpolationType="linear" id="0:71" />
+          <KeyFrameDouble frame="36" value="5.632777453" interpolationType="linear" id="0:72" />
+          <KeyFrameDouble frame="37" value="5.763103828" interpolationType="linear" id="0:73" />
+          <KeyFrameDouble frame="38" value="5.877793008" interpolationType="linear" id="0:74" />
+          <KeyFrameDouble frame="39" value="5.976760661" interpolationType="linear" id="0:75" />
+          <KeyFrameDouble frame="40" value="6.060171014" interpolationType="linear" id="0:76" />
+          <KeyFrameDouble frame="41" value="6.128454612" interpolationType="linear" id="0:77" />
+          <KeyFrameDouble frame="42" value="6.182326070" interpolationType="linear" id="0:78" />
+          <KeyFrameDouble frame="43" value="6.222801828" interpolationType="linear" id="0:79" />
+          <KeyFrameDouble frame="44" value="6.251217905" interpolationType="linear" id="0:80" />
+          <KeyFrameDouble frame="45" value="6.269247654" interpolationType="linear" id="0:81" />
+          <KeyFrameDouble frame="46" value="6.278919515" interpolationType="linear" id="0:82" />
+          <KeyFrameDouble frame="47" value="6.282634773" interpolationType="linear" id="0:83" />
+          <KeyFrameDouble frame="48" value="6.283185307" interpolationType="linear" id="0:84" />
+          <KeyFrameDouble frame="49" value="6.283185307" interpolationType="linear" id="0:85" />
+          <KeyFrameDouble frame="50" value="6.283185307" interpolationType="linear" id="0:86" />
+          <KeyFrameDouble frame="51" value="6.283185307" interpolationType="linear" id="0:87" />
+          <KeyFrameDouble frame="52" value="6.283185307" interpolationType="linear" id="0:88" />
+          <KeyFrameDouble frame="53" value="6.283185307" interpolationType="linear" id="0:89" />
+          <KeyFrameDouble frame="54" value="6.283185307" interpolationType="linear" id="0:90" />
+          <KeyFrameDouble frame="55" value="6.283185307" interpolationType="linear" id="0:91" />
+          <KeyFrameDouble frame="56" value="6.283185307" interpolationType="linear" id="0:92" />
+          <KeyFrameDouble frame="57" value="6.283185307" interpolationType="linear" id="0:93" />
+          <KeyFrameDouble frame="58" value="6.283185307" interpolationType="linear" id="0:94" />
+          <KeyFrameDouble frame="59" value="6.283185307" interpolationType="linear" id="0:95" />
+          <KeyFrameDouble frame="60" value="6.283185307" interpolationType="linear" id="0:96" />
+          <KeyFrameDouble frame="61" value="6.283185307" interpolationType="linear" id="0:97" />
+          <KeyFrameDouble frame="62" value="6.283185307" interpolationType="linear" id="0:98" />
+          <KeyFrameDouble frame="63" value="6.283185307" interpolationType="linear" id="0:99" />
+          <KeyFrameDouble frame="64" value="6.283185307" interpolationType="linear" id="0:100" />
+          <KeyFrameDouble frame="65" value="6.283185307" interpolationType="linear" id="0:101" />
+          <KeyFrameDouble frame="66" value="6.283185307" interpolationType="linear" id="0:102" />
+          <KeyFrameDouble frame="67" value="6.283185307" interpolationType="linear" id="0:103" />
+          <KeyFrameDouble frame="68" value="6.283185307" interpolationType="linear" id="0:104" />
+          <KeyFrameDouble frame="69" value="6.283185307" interpolationType="linear" id="0:105" />
+          <KeyFrameDouble frame="70" value="6.283185307" interpolationType="linear" id="0:106" />
+          <KeyFrameDouble frame="71" value="6.283185307" interpolationType="linear" id="0:107" />
+          <KeyFrameDouble frame="72" value="6.283185307" interpolationType="linear" id="0:108" />
+          <KeyFrameDouble frame="73" value="6.283185307" interpolationType="linear" id="0:109" />
+          <KeyFrameDouble frame="74" value="6.283185307" interpolationType="linear" id="0:110" />
+          <KeyFrameDouble frame="75" value="6.283185307" interpolationType="linear" id="0:111" />
+          <KeyFrameDouble frame="76" value="6.283185307" interpolationType="linear" id="0:112" />
+          <KeyFrameDouble frame="77" value="6.283185307" interpolationType="linear" id="0:113" />
+          <KeyFrameDouble frame="78" value="6.283185307" interpolationType="linear" id="0:114" />
+          <KeyFrameDouble frame="79" value="6.283185307" interpolationType="linear" id="0:115" />
+          <KeyFrameDouble frame="80" value="6.283185307" interpolationType="linear" id="0:116" />
+          <KeyFrameDouble frame="81" value="6.283185307" interpolationType="linear" id="0:117" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:3" id="0:118">
+        <KeyedProperty property="y" id="0:119">
+          <KeyFrameDouble frame="0" value="36.000000000" interpolationType="linear" id="0:120" />
+          <KeyFrameDouble frame="1" value="36.000000000" interpolationType="linear" id="0:121" />
+          <KeyFrameDouble frame="2" value="36.000000000" interpolationType="linear" id="0:122" />
+          <KeyFrameDouble frame="3" value="36.000000000" interpolationType="linear" id="0:123" />
+          <KeyFrameDouble frame="4" value="36.000000000" interpolationType="linear" id="0:124" />
+          <KeyFrameDouble frame="5" value="36.000000000" interpolationType="linear" id="0:125" />
+          <KeyFrameDouble frame="6" value="36.000000000" interpolationType="linear" id="0:126" />
+          <KeyFrameDouble frame="7" value="36.000000000" interpolationType="linear" id="0:127" />
+          <KeyFrameDouble frame="8" value="36.000000000" interpolationType="linear" id="0:128" />
+          <KeyFrameDouble frame="9" value="36.000000000" interpolationType="linear" id="0:129" />
+          <KeyFrameDouble frame="10" value="36.000000000" interpolationType="linear" id="0:130" />
+          <KeyFrameDouble frame="11" value="36.000000000" interpolationType="linear" id="0:131" />
+          <KeyFrameDouble frame="12" value="36.000000000" interpolationType="linear" id="0:132" />
+          <KeyFrameDouble frame="13" value="36.000000000" interpolationType="linear" id="0:133" />
+          <KeyFrameDouble frame="14" value="36.000000000" interpolationType="linear" id="0:134" />
+          <KeyFrameDouble frame="15" value="36.000000000" interpolationType="linear" id="0:135" />
+          <KeyFrameDouble frame="16" value="36.000000000" interpolationType="linear" id="0:136" />
+          <KeyFrameDouble frame="17" value="36.000000000" interpolationType="linear" id="0:137" />
+          <KeyFrameDouble frame="18" value="36.000000000" interpolationType="linear" id="0:138" />
+          <KeyFrameDouble frame="19" value="36.000000000" interpolationType="linear" id="0:139" />
+          <KeyFrameDouble frame="20" value="36.000000000" interpolationType="linear" id="0:140" />
+          <KeyFrameDouble frame="21" value="36.000000000" interpolationType="linear" id="0:141" />
+          <KeyFrameDouble frame="22" value="36.000000000" interpolationType="linear" id="0:142" />
+          <KeyFrameDouble frame="23" value="36.000000000" interpolationType="linear" id="0:143" />
+          <KeyFrameDouble frame="24" value="36.000000000" interpolationType="linear" id="0:144" />
+          <KeyFrameDouble frame="25" value="36.000000000" interpolationType="linear" id="0:145" />
+          <KeyFrameDouble frame="26" value="36.000000000" interpolationType="linear" id="0:146" />
+          <KeyFrameDouble frame="27" value="36.000000000" interpolationType="linear" id="0:147" />
+          <KeyFrameDouble frame="28" value="36.000000000" interpolationType="linear" id="0:148" />
+          <KeyFrameDouble frame="29" value="36.000000000" interpolationType="linear" id="0:149" />
+          <KeyFrameDouble frame="30" value="36.000000000" interpolationType="linear" id="0:150" />
+          <KeyFrameDouble frame="31" value="36.000000000" interpolationType="linear" id="0:151" />
+          <KeyFrameDouble frame="32" value="36.000000000" interpolationType="linear" id="0:152" />
+          <KeyFrameDouble frame="33" value="36.000000000" interpolationType="linear" id="0:153" />
+          <KeyFrameDouble frame="34" value="36.000000000" interpolationType="linear" id="0:154" />
+          <KeyFrameDouble frame="35" value="36.000000000" interpolationType="linear" id="0:155" />
+          <KeyFrameDouble frame="36" value="36.000000000" interpolationType="linear" id="0:156" />
+          <KeyFrameDouble frame="37" value="36.000000000" interpolationType="linear" id="0:157" />
+          <KeyFrameDouble frame="38" value="36.000000000" interpolationType="linear" id="0:158" />
+          <KeyFrameDouble frame="39" value="36.000000000" interpolationType="linear" id="0:159" />
+          <KeyFrameDouble frame="40" value="36.000000000" interpolationType="linear" id="0:160" />
+          <KeyFrameDouble frame="41" value="36.000000000" interpolationType="linear" id="0:161" />
+          <KeyFrameDouble frame="42" value="36.000000000" interpolationType="linear" id="0:162" />
+          <KeyFrameDouble frame="43" value="36.000000000" interpolationType="linear" id="0:163" />
+          <KeyFrameDouble frame="44" value="36.000000000" interpolationType="linear" id="0:164" />
+          <KeyFrameDouble frame="45" value="36.000000000" interpolationType="linear" id="0:165" />
+          <KeyFrameDouble frame="46" value="36.000000000" interpolationType="linear" id="0:166" />
+          <KeyFrameDouble frame="47" value="36.000000000" interpolationType="linear" id="0:167" />
+          <KeyFrameDouble frame="48" value="36.000000000" interpolationType="linear" id="0:168" />
+          <KeyFrameDouble frame="49" value="36.042592593" interpolationType="linear" id="0:169" />
+          <KeyFrameDouble frame="50" value="36.251851852" interpolationType="linear" id="0:170" />
+          <KeyFrameDouble frame="51" value="36.600000000" interpolationType="linear" id="0:171" />
+          <KeyFrameDouble frame="52" value="36.948148148" interpolationType="linear" id="0:172" />
+          <KeyFrameDouble frame="53" value="37.157407407" interpolationType="linear" id="0:173" />
+          <KeyFrameDouble frame="54" value="37.200000000" interpolationType="linear" id="0:174" />
+          <KeyFrameDouble frame="55" value="37.145795864" interpolationType="linear" id="0:175" />
+          <KeyFrameDouble frame="56" value="36.840867754" interpolationType="linear" id="0:176" />
+          <KeyFrameDouble frame="57" value="36.213580247" interpolationType="linear" id="0:177" />
+          <KeyFrameDouble frame="58" value="35.335568765" interpolationType="linear" id="0:178" />
+          <KeyFrameDouble frame="59" value="34.364431235" interpolationType="linear" id="0:179" />
+          <KeyFrameDouble frame="60" value="33.486419753" interpolationType="linear" id="0:180" />
+          <KeyFrameDouble frame="61" value="32.859132246" interpolationType="linear" id="0:181" />
+          <KeyFrameDouble frame="62" value="32.554204136" interpolationType="linear" id="0:182" />
+          <KeyFrameDouble frame="63" value="32.500000000" interpolationType="linear" id="0:183" />
+          <KeyFrameDouble frame="64" value="32.529960000" interpolationType="linear" id="0:184" />
+          <KeyFrameDouble frame="65" value="32.702720000" interpolationType="linear" id="0:185" />
+          <KeyFrameDouble frame="66" value="33.070780000" interpolationType="linear" id="0:186" />
+          <KeyFrameDouble frame="67" value="33.611040000" interpolationType="linear" id="0:187" />
+          <KeyFrameDouble frame="68" value="34.250000000" interpolationType="linear" id="0:188" />
+          <KeyFrameDouble frame="69" value="34.888960000" interpolationType="linear" id="0:189" />
+          <KeyFrameDouble frame="70" value="35.429220000" interpolationType="linear" id="0:190" />
+          <KeyFrameDouble frame="71" value="35.797280000" interpolationType="linear" id="0:191" />
+          <KeyFrameDouble frame="72" value="35.970040000" interpolationType="linear" id="0:192" />
+          <KeyFrameDouble frame="73" value="36.000000000" interpolationType="linear" id="0:193" />
+          <KeyFrameDouble frame="74" value="36.000000000" interpolationType="linear" id="0:194" />
+          <KeyFrameDouble frame="75" value="36.000000000" interpolationType="linear" id="0:195" />
+          <KeyFrameDouble frame="76" value="36.000000000" interpolationType="linear" id="0:196" />
+          <KeyFrameDouble frame="77" value="36.000000000" interpolationType="linear" id="0:197" />
+          <KeyFrameDouble frame="78" value="36.000000000" interpolationType="linear" id="0:198" />
+          <KeyFrameDouble frame="79" value="36.000000000" interpolationType="linear" id="0:199" />
+          <KeyFrameDouble frame="80" value="36.000000000" interpolationType="linear" id="0:200" />
+          <KeyFrameDouble frame="81" value="36.000000000" interpolationType="linear" id="0:201" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:3" id="0:202">
+        <KeyedProperty property="scaleX" id="0:203">
+          <KeyFrameDouble frame="0" value="1.000000000" interpolationType="linear" id="0:204" />
+          <KeyFrameDouble frame="1" value="1.000000000" interpolationType="linear" id="0:205" />
+          <KeyFrameDouble frame="2" value="1.000000000" interpolationType="linear" id="0:206" />
+          <KeyFrameDouble frame="3" value="1.000000000" interpolationType="linear" id="0:207" />
+          <KeyFrameDouble frame="4" value="1.000000000" interpolationType="linear" id="0:208" />
+          <KeyFrameDouble frame="5" value="1.000000000" interpolationType="linear" id="0:209" />
+          <KeyFrameDouble frame="6" value="1.000000000" interpolationType="linear" id="0:210" />
+          <KeyFrameDouble frame="7" value="1.000000000" interpolationType="linear" id="0:211" />
+          <KeyFrameDouble frame="8" value="1.000000000" interpolationType="linear" id="0:212" />
+          <KeyFrameDouble frame="9" value="1.000000000" interpolationType="linear" id="0:213" />
+          <KeyFrameDouble frame="10" value="1.000000000" interpolationType="linear" id="0:214" />
+          <KeyFrameDouble frame="11" value="1.000000000" interpolationType="linear" id="0:215" />
+          <KeyFrameDouble frame="12" value="1.000000000" interpolationType="linear" id="0:216" />
+          <KeyFrameDouble frame="13" value="1.000000000" interpolationType="linear" id="0:217" />
+          <KeyFrameDouble frame="14" value="1.000000000" interpolationType="linear" id="0:218" />
+          <KeyFrameDouble frame="15" value="1.000000000" interpolationType="linear" id="0:219" />
+          <KeyFrameDouble frame="16" value="1.000000000" interpolationType="linear" id="0:220" />
+          <KeyFrameDouble frame="17" value="1.000000000" interpolationType="linear" id="0:221" />
+          <KeyFrameDouble frame="18" value="1.000000000" interpolationType="linear" id="0:222" />
+          <KeyFrameDouble frame="19" value="1.000000000" interpolationType="linear" id="0:223" />
+          <KeyFrameDouble frame="20" value="1.000000000" interpolationType="linear" id="0:224" />
+          <KeyFrameDouble frame="21" value="1.000000000" interpolationType="linear" id="0:225" />
+          <KeyFrameDouble frame="22" value="1.000000000" interpolationType="linear" id="0:226" />
+          <KeyFrameDouble frame="23" value="1.000000000" interpolationType="linear" id="0:227" />
+          <KeyFrameDouble frame="24" value="1.000000000" interpolationType="linear" id="0:228" />
+          <KeyFrameDouble frame="25" value="1.000000000" interpolationType="linear" id="0:229" />
+          <KeyFrameDouble frame="26" value="1.000000000" interpolationType="linear" id="0:230" />
+          <KeyFrameDouble frame="27" value="1.000000000" interpolationType="linear" id="0:231" />
+          <KeyFrameDouble frame="28" value="1.000000000" interpolationType="linear" id="0:232" />
+          <KeyFrameDouble frame="29" value="1.000000000" interpolationType="linear" id="0:233" />
+          <KeyFrameDouble frame="30" value="1.000000000" interpolationType="linear" id="0:234" />
+          <KeyFrameDouble frame="31" value="1.000000000" interpolationType="linear" id="0:235" />
+          <KeyFrameDouble frame="32" value="1.000000000" interpolationType="linear" id="0:236" />
+          <KeyFrameDouble frame="33" value="1.000000000" interpolationType="linear" id="0:237" />
+          <KeyFrameDouble frame="34" value="1.000000000" interpolationType="linear" id="0:238" />
+          <KeyFrameDouble frame="35" value="1.000000000" interpolationType="linear" id="0:239" />
+          <KeyFrameDouble frame="36" value="1.000000000" interpolationType="linear" id="0:240" />
+          <KeyFrameDouble frame="37" value="1.000000000" interpolationType="linear" id="0:241" />
+          <KeyFrameDouble frame="38" value="1.000000000" interpolationType="linear" id="0:242" />
+          <KeyFrameDouble frame="39" value="1.000000000" interpolationType="linear" id="0:243" />
+          <KeyFrameDouble frame="40" value="1.000000000" interpolationType="linear" id="0:244" />
+          <KeyFrameDouble frame="41" value="1.000000000" interpolationType="linear" id="0:245" />
+          <KeyFrameDouble frame="42" value="1.000000000" interpolationType="linear" id="0:246" />
+          <KeyFrameDouble frame="43" value="1.000000000" interpolationType="linear" id="0:247" />
+          <KeyFrameDouble frame="44" value="1.000000000" interpolationType="linear" id="0:248" />
+          <KeyFrameDouble frame="45" value="1.000000000" interpolationType="linear" id="0:249" />
+          <KeyFrameDouble frame="46" value="1.000000000" interpolationType="linear" id="0:250" />
+          <KeyFrameDouble frame="47" value="1.000000000" interpolationType="linear" id="0:251" />
+          <KeyFrameDouble frame="48" value="1.000000000" interpolationType="linear" id="0:252" />
+          <KeyFrameDouble frame="49" value="1.003194444" interpolationType="linear" id="0:253" />
+          <KeyFrameDouble frame="50" value="1.018888889" interpolationType="linear" id="0:254" />
+          <KeyFrameDouble frame="51" value="1.045000000" interpolationType="linear" id="0:255" />
+          <KeyFrameDouble frame="52" value="1.071111111" interpolationType="linear" id="0:256" />
+          <KeyFrameDouble frame="53" value="1.086805556" interpolationType="linear" id="0:257" />
+          <KeyFrameDouble frame="54" value="1.090000000" interpolationType="linear" id="0:258" />
+          <KeyFrameDouble frame="55" value="1.088616065" interpolationType="linear" id="0:259" />
+          <KeyFrameDouble frame="56" value="1.080830666" interpolationType="linear" id="0:260" />
+          <KeyFrameDouble frame="57" value="1.064814815" interpolationType="linear" id="0:261" />
+          <KeyFrameDouble frame="58" value="1.042397500" interpolationType="linear" id="0:262" />
+          <KeyFrameDouble frame="59" value="1.017602500" interpolationType="linear" id="0:263" />
+          <KeyFrameDouble frame="60" value="0.995185185" interpolationType="linear" id="0:264" />
+          <KeyFrameDouble frame="61" value="0.979169334" interpolationType="linear" id="0:265" />
+          <KeyFrameDouble frame="62" value="0.971383935" interpolationType="linear" id="0:266" />
+          <KeyFrameDouble frame="63" value="0.970000000" interpolationType="linear" id="0:267" />
+          <KeyFrameDouble frame="64" value="0.970256800" interpolationType="linear" id="0:268" />
+          <KeyFrameDouble frame="65" value="0.971737600" interpolationType="linear" id="0:269" />
+          <KeyFrameDouble frame="66" value="0.974892400" interpolationType="linear" id="0:270" />
+          <KeyFrameDouble frame="67" value="0.979523200" interpolationType="linear" id="0:271" />
+          <KeyFrameDouble frame="68" value="0.985000000" interpolationType="linear" id="0:272" />
+          <KeyFrameDouble frame="69" value="0.990476800" interpolationType="linear" id="0:273" />
+          <KeyFrameDouble frame="70" value="0.995107600" interpolationType="linear" id="0:274" />
+          <KeyFrameDouble frame="71" value="0.998262400" interpolationType="linear" id="0:275" />
+          <KeyFrameDouble frame="72" value="0.999743200" interpolationType="linear" id="0:276" />
+          <KeyFrameDouble frame="73" value="1.000000000" interpolationType="linear" id="0:277" />
+          <KeyFrameDouble frame="74" value="1.000000000" interpolationType="linear" id="0:278" />
+          <KeyFrameDouble frame="75" value="1.000000000" interpolationType="linear" id="0:279" />
+          <KeyFrameDouble frame="76" value="1.000000000" interpolationType="linear" id="0:280" />
+          <KeyFrameDouble frame="77" value="1.000000000" interpolationType="linear" id="0:281" />
+          <KeyFrameDouble frame="78" value="1.000000000" interpolationType="linear" id="0:282" />
+          <KeyFrameDouble frame="79" value="1.000000000" interpolationType="linear" id="0:283" />
+          <KeyFrameDouble frame="80" value="1.000000000" interpolationType="linear" id="0:284" />
+          <KeyFrameDouble frame="81" value="1.000000000" interpolationType="linear" id="0:285" />
+        </KeyedProperty>
+      </KeyedObject>
+      <KeyedObject objectId="0:3" id="0:286">
+        <KeyedProperty property="scaleY" id="0:287">
+          <KeyFrameDouble frame="0" value="1.000000000" interpolationType="linear" id="0:288" />
+          <KeyFrameDouble frame="1" value="1.000000000" interpolationType="linear" id="0:289" />
+          <KeyFrameDouble frame="2" value="1.000000000" interpolationType="linear" id="0:290" />
+          <KeyFrameDouble frame="3" value="1.000000000" interpolationType="linear" id="0:291" />
+          <KeyFrameDouble frame="4" value="1.000000000" interpolationType="linear" id="0:292" />
+          <KeyFrameDouble frame="5" value="1.000000000" interpolationType="linear" id="0:293" />
+          <KeyFrameDouble frame="6" value="1.000000000" interpolationType="linear" id="0:294" />
+          <KeyFrameDouble frame="7" value="1.000000000" interpolationType="linear" id="0:295" />
+          <KeyFrameDouble frame="8" value="1.000000000" interpolationType="linear" id="0:296" />
+          <KeyFrameDouble frame="9" value="1.000000000" interpolationType="linear" id="0:297" />
+          <KeyFrameDouble frame="10" value="1.000000000" interpolationType="linear" id="0:298" />
+          <KeyFrameDouble frame="11" value="1.000000000" interpolationType="linear" id="0:299" />
+          <KeyFrameDouble frame="12" value="1.000000000" interpolationType="linear" id="0:300" />
+          <KeyFrameDouble frame="13" value="1.000000000" interpolationType="linear" id="0:301" />
+          <KeyFrameDouble frame="14" value="1.000000000" interpolationType="linear" id="0:302" />
+          <KeyFrameDouble frame="15" value="1.000000000" interpolationType="linear" id="0:303" />
+          <KeyFrameDouble frame="16" value="1.000000000" interpolationType="linear" id="0:304" />
+          <KeyFrameDouble frame="17" value="1.000000000" interpolationType="linear" id="0:305" />
+          <KeyFrameDouble frame="18" value="1.000000000" interpolationType="linear" id="0:306" />
+          <KeyFrameDouble frame="19" value="1.000000000" interpolationType="linear" id="0:307" />
+          <KeyFrameDouble frame="20" value="1.000000000" interpolationType="linear" id="0:308" />
+          <KeyFrameDouble frame="21" value="1.000000000" interpolationType="linear" id="0:309" />
+          <KeyFrameDouble frame="22" value="1.000000000" interpolationType="linear" id="0:310" />
+          <KeyFrameDouble frame="23" value="1.000000000" interpolationType="linear" id="0:311" />
+          <KeyFrameDouble frame="24" value="1.000000000" interpolationType="linear" id="0:312" />
+          <KeyFrameDouble frame="25" value="1.000000000" interpolationType="linear" id="0:313" />
+          <KeyFrameDouble frame="26" value="1.000000000" interpolationType="linear" id="0:314" />
+          <KeyFrameDouble frame="27" value="1.000000000" interpolationType="linear" id="0:315" />
+          <KeyFrameDouble frame="28" value="1.000000000" interpolationType="linear" id="0:316" />
+          <KeyFrameDouble frame="29" value="1.000000000" interpolationType="linear" id="0:317" />
+          <KeyFrameDouble frame="30" value="1.000000000" interpolationType="linear" id="0:318" />
+          <KeyFrameDouble frame="31" value="1.000000000" interpolationType="linear" id="0:319" />
+          <KeyFrameDouble frame="32" value="1.000000000" interpolationType="linear" id="0:320" />
+          <KeyFrameDouble frame="33" value="1.000000000" interpolationType="linear" id="0:321" />
+          <KeyFrameDouble frame="34" value="1.000000000" interpolationType="linear" id="0:322" />
+          <KeyFrameDouble frame="35" value="1.000000000" interpolationType="linear" id="0:323" />
+          <KeyFrameDouble frame="36" value="1.000000000" interpolationType="linear" id="0:324" />
+          <KeyFrameDouble frame="37" value="1.000000000" interpolationType="linear" id="0:325" />
+          <KeyFrameDouble frame="38" value="1.000000000" interpolationType="linear" id="0:326" />
+          <KeyFrameDouble frame="39" value="1.000000000" interpolationType="linear" id="0:327" />
+          <KeyFrameDouble frame="40" value="1.000000000" interpolationType="linear" id="0:328" />
+          <KeyFrameDouble frame="41" value="1.000000000" interpolationType="linear" id="0:329" />
+          <KeyFrameDouble frame="42" value="1.000000000" interpolationType="linear" id="0:330" />
+          <KeyFrameDouble frame="43" value="1.000000000" interpolationType="linear" id="0:331" />
+          <KeyFrameDouble frame="44" value="1.000000000" interpolationType="linear" id="0:332" />
+          <KeyFrameDouble frame="45" value="1.000000000" interpolationType="linear" id="0:333" />
+          <KeyFrameDouble frame="46" value="1.000000000" interpolationType="linear" id="0:334" />
+          <KeyFrameDouble frame="47" value="1.000000000" interpolationType="linear" id="0:335" />
+          <KeyFrameDouble frame="48" value="1.000000000" interpolationType="linear" id="0:336" />
+          <KeyFrameDouble frame="49" value="0.996805556" interpolationType="linear" id="0:337" />
+          <KeyFrameDouble frame="50" value="0.981111111" interpolationType="linear" id="0:338" />
+          <KeyFrameDouble frame="51" value="0.955000000" interpolationType="linear" id="0:339" />
+          <KeyFrameDouble frame="52" value="0.928888889" interpolationType="linear" id="0:340" />
+          <KeyFrameDouble frame="53" value="0.913194444" interpolationType="linear" id="0:341" />
+          <KeyFrameDouble frame="54" value="0.910000000" interpolationType="linear" id="0:342" />
+          <KeyFrameDouble frame="55" value="0.911499263" interpolationType="linear" id="0:343" />
+          <KeyFrameDouble frame="56" value="0.919933445" interpolationType="linear" id="0:344" />
+          <KeyFrameDouble frame="57" value="0.937283951" interpolationType="linear" id="0:345" />
+          <KeyFrameDouble frame="58" value="0.961569375" interpolationType="linear" id="0:346" />
+          <KeyFrameDouble frame="59" value="0.988430625" interpolationType="linear" id="0:347" />
+          <KeyFrameDouble frame="60" value="1.012716049" interpolationType="linear" id="0:348" />
+          <KeyFrameDouble frame="61" value="1.030066555" interpolationType="linear" id="0:349" />
+          <KeyFrameDouble frame="62" value="1.038500737" interpolationType="linear" id="0:350" />
+          <KeyFrameDouble frame="63" value="1.040000000" interpolationType="linear" id="0:351" />
+          <KeyFrameDouble frame="64" value="1.039657600" interpolationType="linear" id="0:352" />
+          <KeyFrameDouble frame="65" value="1.037683200" interpolationType="linear" id="0:353" />
+          <KeyFrameDouble frame="66" value="1.033476800" interpolationType="linear" id="0:354" />
+          <KeyFrameDouble frame="67" value="1.027302400" interpolationType="linear" id="0:355" />
+          <KeyFrameDouble frame="68" value="1.020000000" interpolationType="linear" id="0:356" />
+          <KeyFrameDouble frame="69" value="1.012697600" interpolationType="linear" id="0:357" />
+          <KeyFrameDouble frame="70" value="1.006523200" interpolationType="linear" id="0:358" />
+          <KeyFrameDouble frame="71" value="1.002316800" interpolationType="linear" id="0:359" />
+          <KeyFrameDouble frame="72" value="1.000342400" interpolationType="linear" id="0:360" />
+          <KeyFrameDouble frame="73" value="1.000000000" interpolationType="linear" id="0:361" />
+          <KeyFrameDouble frame="74" value="1.000000000" interpolationType="linear" id="0:362" />
+          <KeyFrameDouble frame="75" value="1.000000000" interpolationType="linear" id="0:363" />
+          <KeyFrameDouble frame="76" value="1.000000000" interpolationType="linear" id="0:364" />
+          <KeyFrameDouble frame="77" value="1.000000000" interpolationType="linear" id="0:365" />
+          <KeyFrameDouble frame="78" value="1.000000000" interpolationType="linear" id="0:366" />
+          <KeyFrameDouble frame="79" value="1.000000000" interpolationType="linear" id="0:367" />
+          <KeyFrameDouble frame="80" value="1.000000000" interpolationType="linear" id="0:368" />
+          <KeyFrameDouble frame="81" value="1.000000000" interpolationType="linear" id="0:369" />
+        </KeyedProperty>
+      </KeyedObject>
+    </LinearAnimation>
+  </Artboard>
+</Rive>

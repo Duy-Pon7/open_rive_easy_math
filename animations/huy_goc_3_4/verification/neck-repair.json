@@ -1,0 +1,13 @@
+{
+  "project": "F0XLHGzC-mec",
+  "before_bytes": 59068,
+  "after_bytes": 59525,
+  "sha256": "2f264a284a0b9c896758a1ce5c9273a7a563c8bd0bd2d8d731786d345ff5d3a9",
+  "changes": [
+    "Separate stationary neck from rotating jaw",
+    "Round the shirt seam",
+    "Keep neck shadow behind jaw",
+    "Inset backing inside neck",
+    "Overlap shirt underneath neckline to eliminate alpha seams"
+  ]
+}

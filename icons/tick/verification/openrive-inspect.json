@@ -1,0 +1,106 @@
+{
+  "id": "jUQjdV7GU32J",
+  "name": "Tick - Trace, Retract and Advance",
+  "editor": "http://127.0.0.1:50829/editor/jUQjdV7GU32J",
+  "artboards": [
+    {
+      "id": "ht95TzhP1x",
+      "name": "Tick",
+      "width": 72,
+      "height": 72,
+      "events": [],
+      "children": [
+        {
+          "id": "Y8sboh3nur",
+          "type": "Shape",
+          "name": "Tick Stroke",
+          "x": 12,
+          "y": 12,
+          "stroke": "#0d99ff",
+          "children": [
+            {
+              "id": "tD_CDrlf7c",
+              "type": "PointsPath",
+              "name": "Original SVG centerline",
+              "x": 0,
+              "y": 0,
+              "vertices": [
+                {
+                  "id": "qaOdal1Cf7",
+                  "type": "StraightVertex",
+                  "x": 4,
+                  "y": 26.085100173950195
+                },
+                {
+                  "id": "TAdMf-kBBk",
+                  "type": "StraightVertex",
+                  "x": 15.764699935913086,
+                  "y": 38
+                },
+                {
+                  "id": "t933yJ7p53",
+                  "type": "StraightVertex",
+                  "x": 44,
+                  "y": 10
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timelines": [
+        {
+          "id": "mkfk7_6T7C",
+          "name": "tick",
+          "fps": 60,
+          "durationSeconds": 1.35,
+          "loop": "oneShot",
+          "keyed": [
+            "Trace, Retract and Advance.end"
+          ]
+        }
+      ],
+      "properties": [],
+      "stateMachines": [
+        {
+          "id": "mTuly11DYZ",
+          "name": "Tick",
+          "inputs": [],
+          "layers": [
+            {
+              "name": "Play once",
+              "states": [
+                {
+                  "id": "vxd2wuMYoU",
+                  "type": "AnyState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "0RFMJ3etIn",
+                  "type": "ExitState",
+                  "transitionsTo": []
+                },
+                {
+                  "id": "gnKYnTf1XM",
+                  "type": "EntryState",
+                  "transitionsTo": [
+                    "cvD-9b_pTV"
+                  ]
+                },
+                {
+                  "id": "cvD-9b_pTV",
+                  "type": "AnimationState",
+                  "timeline": "tick",
+                  "transitionsTo": []
+                }
+              ]
+            }
+          ],
+          "listeners": 0
+        }
+      ]
+    }
+  ],
+  "themeColors": [],
+  "themes": []
+}

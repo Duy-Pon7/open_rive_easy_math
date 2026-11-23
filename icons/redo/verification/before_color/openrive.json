@@ -1,0 +1,11 @@
+{
+  "project_id": "XbxOhpcFlJyA",
+  "editor_url": "http://127.0.0.1:50829/editor/XbxOhpcFlJyA",
+  "animation": "redo",
+  "state_machine": "Redo",
+  "duration_seconds": 1.35,
+  "reveal": "moving-head-with-growing-trail",
+  "icon_rotation_degrees": 0,
+  "end_motion": "rigid head retracts along arc, shortening trail, then advances to rest",
+  "head_deformation": false
+}

@@ -1,0 +1,23 @@
+{
+  "final_matches_original_svg": true,
+  "draws_first_leg_then_second": true,
+  "shortens_then_advances": true,
+  "returns_exactly_to_complete_tick": true,
+  "existing_stroke_stays_fixed": true,
+  "solid_stroke_during_drawing": true,
+  "holds_final_pose_5_seconds": true,
+  "state_machine_finishes_complete": true,
+  "never_clips": true,
+  "runtime": {
+    "original_rgba_mean_error": 0.0918906464334705,
+    "solid_areas": [
+      300,
+      904,
+      2709,
+      3636,
+      3364,
+      3517,
+      3636
+    ]
+  }
+}
